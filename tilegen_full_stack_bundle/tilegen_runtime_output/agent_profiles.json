@@ -1,0 +1,88 @@
+{
+  "npc": {
+    "name": "Seeker NPC",
+    "strategy": "weighted_shortest_path",
+    "base_passable": [
+      "bridge",
+      "courtyard",
+      "floor",
+      "ladder_tile",
+      "platform",
+      "rubble"
+    ],
+    "tile_costs": {
+      "floor": 1,
+      "platform": 1,
+      "bridge": 1,
+      "courtyard": 1,
+      "ladder_tile": 1,
+      "rubble": 2
+    },
+    "overlay_costs": {
+      "locked": 3,
+      "challenge": 2,
+      "rotate": 1,
+      "shift": 1
+    }
+  },
+  "turtle": {
+    "name": "Turtle Explorer",
+    "strategy": "local_wall_follower",
+    "base_passable": [
+      "bridge",
+      "courtyard",
+      "floor",
+      "ladder_tile",
+      "platform",
+      "rubble",
+      "water"
+    ],
+    "tile_costs": {
+      "floor": 1,
+      "platform": 1,
+      "bridge": 1,
+      "courtyard": 1,
+      "ladder_tile": 1,
+      "rubble": 2,
+      "water": 2
+    },
+    "overlay_costs": {
+      "locked": 2,
+      "challenge": 1,
+      "rotate": 1,
+      "shift": 1
+    }
+  },
+  "drone": {
+    "name": "Survey Drone",
+    "strategy": "weighted_shortest_path",
+    "base_passable": [
+      "abyss",
+      "bridge",
+      "courtyard",
+      "floor",
+      "ladder_tile",
+      "lava",
+      "platform",
+      "rubble",
+      "water"
+    ],
+    "tile_costs": {
+      "floor": 1,
+      "platform": 1,
+      "bridge": 1,
+      "courtyard": 1,
+      "ladder_tile": 1,
+      "rubble": 2,
+      "water": 1,
+      "abyss": 2,
+      "lava": 3
+    },
+    "overlay_costs": {
+      "locked": 1,
+      "challenge": 1,
+      "rotate": 1,
+      "shift": 1
+    }
+  }
+}

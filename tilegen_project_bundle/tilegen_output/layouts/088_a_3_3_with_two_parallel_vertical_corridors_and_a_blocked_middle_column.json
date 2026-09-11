@@ -1,0 +1,58 @@
+{
+  "id": 88,
+  "slug": "a_3_3_with_two_parallel_vertical_corridors_and_a_blocked_middle_column",
+  "name": "A 3\u00d73 with two parallel vertical corridors and a blocked middle column",
+  "template": "micro_matrix",
+  "size": {
+    "width": 3,
+    "height": 3
+  },
+  "theme": "micro",
+  "background": "wall",
+  "base_counts": {
+    "floor": 6,
+    "wall": 3
+  },
+  "overlay_counts": {},
+  "base_legend": [
+    "floor",
+    "wall"
+  ],
+  "overlay_legend": [
+    ""
+  ],
+  "base": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "overlay": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ]
+}

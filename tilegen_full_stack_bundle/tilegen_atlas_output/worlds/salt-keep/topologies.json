@@ -1,0 +1,2429 @@
+{
+  "physical.adjacency": {
+    "name": "physical.adjacency",
+    "directed": false,
+    "nodes": 34,
+    "edges": 67,
+    "adjacency": {
+      "plc_5ae18e30": {
+        "plc_5ae19862": 21.868,
+        "plc_5adea7a1": 29.691,
+        "plc_5ade9f22": 24.787
+      },
+      "plc_5ae19862": {
+        "plc_5ae18e30": 21.868,
+        "plc_5ae4acd2": 20.811,
+        "plc_5ae4a96c": 27.863
+      },
+      "plc_5ae4acd2": {
+        "plc_5ae19862": 20.811,
+        "plc_5ae4ab1f": 17.43,
+        "plc_5ae4a96c": 20.64
+      },
+      "plc_5adea7a1": {
+        "plc_5ae18e30": 29.691,
+        "plc_5adea43b": 21.698,
+        "plc_5adea0d5": 17.833
+      },
+      "plc_5ae4ab1f": {
+        "plc_5ae4acd2": 17.43,
+        "plc_5ae4a96c": 19.264,
+        "plc_5ae19f2e": 31.737
+      },
+      "plc_5adea43b": {
+        "plc_5adea7a1": 21.698,
+        "plc_5ae1a0e1": 18.746,
+        "plc_5adea954": 26.781
+      },
+      "plc_5adea0d5": {
+        "plc_5adea7a1": 17.833,
+        "plc_5ade9f22": 22.375,
+        "plc_5adea954": 30.874
+      },
+      "plc_5ae1a0e1": {
+        "plc_5adea43b": 18.746,
+        "plc_5adea954": 15.499
+      },
+      "plc_5ae4a96c": {
+        "plc_5ae19862": 27.863,
+        "plc_5ae4ab1f": 19.264,
+        "plc_5ae18fe3": 22.462,
+        "plc_5ae19f2e": 19.49,
+        "plc_5ae4acd2": 20.64
+      },
+      "plc_5ade9f22": {
+        "plc_5adea0d5": 22.375,
+        "plc_5ae18fe3": 23.354,
+        "plc_5ae19196": 29.294,
+        "plc_5ae19a15": 21.088,
+        "plc_5ae18e30": 24.787
+      },
+      "plc_5ae18fe3": {
+        "plc_5ae4a96c": 22.462,
+        "plc_5ade9f22": 23.354,
+        "plc_5ae19f2e": 29.809,
+        "plc_5ae19a15": 30.58,
+        "plc_5adea5ee": 23.007,
+        "plc_64414b54": 31.358
+      },
+      "plc_5adea954": {
+        "plc_5adea43b": 26.781,
+        "plc_5adea0d5": 30.874,
+        "plc_5ae1a0e1": 15.499,
+        "plc_5ae19196": 21.44,
+        "plc_64414122": 22.682
+      },
+      "plc_5ae19f2e": {
+        "plc_5ae4a96c": 19.49,
+        "plc_5ae18fe3": 29.809,
+        "plc_5adea5ee": 23.096,
+        "plc_5ae4ab1f": 31.737
+      },
+      "plc_5ae19196": {
+        "plc_5ade9f22": 29.294,
+        "plc_5ae19a15": 25.329,
+        "plc_5adea954": 21.44,
+        "plc_644138a3": 21.763
+      },
+      "plc_5ae19a15": {
+        "plc_5ade9f22": 21.088,
+        "plc_5ae19196": 25.329,
+        "plc_5ae18fe3": 30.58,
+        "plc_64414b54": 18.15,
+        "plc_644138a3": 22.633
+      },
+      "plc_5adea5ee": {
+        "plc_5ae19f2e": 23.096,
+        "plc_5ae18fe3": 23.007,
+        "plc_5ae196af": 22.569,
+        "plc_64414b54": 24.238,
+        "plc_5adeacba": 21.256
+      },
+      "plc_64414122": {
+        "plc_5adea954": 22.682,
+        "plc_644138a3": 29.31,
+        "plc_644136f0": 20.113
+      },
+      "plc_64414b54": {
+        "plc_5ae18fe3": 31.358,
+        "plc_5ae19a15": 18.15,
+        "plc_5adea5ee": 24.238,
+        "plc_644138a3": 32.192,
+        "plc_5adeacba": 25.708,
+        "plc_5adeae6d": 22.743
+      },
+      "plc_644138a3": {
+        "plc_5ae19196": 21.763,
+        "plc_5ae19a15": 22.633,
+        "plc_64414122": 29.31,
+        "plc_64414b54": 32.192,
+        "plc_64413a56": 23.582
+      },
+      "plc_5ae196af": {
+        "plc_5adea5ee": 22.569,
+        "plc_5adeacba": 23.71,
+        "plc_5ae19349": 25.74
+      },
+      "plc_5adeacba": {
+        "plc_5ae196af": 23.71,
+        "plc_64414b54": 25.708,
+        "plc_5adeae6d": 26.575,
+        "plc_5ae19349": 28.31,
+        "plc_5adeab07": 19.712,
+        "plc_5adea5ee": 21.256
+      },
+      "plc_64413a56": {
+        "plc_5adeae6d": 24.568,
+        "plc_644138a3": 23.582,
+        "plc_644136f0": 29.284,
+        "plc_64413f6f": 25.485,
+        "plc_5ae4ae85": 22.748
+      },
+      "plc_5adeae6d": {
+        "plc_64413a56": 24.568,
+        "plc_64414b54": 22.743,
+        "plc_5adeacba": 26.575,
+        "plc_5adeab07": 30.162,
+        "plc_5ae4ae85": 29.093,
+        "plc_5adea288": 32.89,
+        "plc_64414d07": 26.958
+      },
+      "plc_644136f0": {
+        "plc_64413a56": 29.284,
+        "plc_64413dbc": 19.29,
+        "plc_64413f6f": 23.248,
+        "plc_64414122": 20.113
+      },
+      "plc_5ae19349": {
+        "plc_5ae196af": 25.74,
+        "plc_5adeacba": 28.31,
+        "plc_5adeab07": 21.358,
+        "plc_5ae194fc": 23.409
+      },
+      "plc_64413dbc": {
+        "plc_644136f0": 19.29,
+        "plc_644142d5": 22.28
+      },
+      "plc_5adeab07": {
+        "plc_5ae19349": 21.358,
+        "plc_5adeacba": 19.712,
+        "plc_5adeae6d": 30.162,
+        "plc_5adea288": 19.215,
+        "plc_5ae194fc": 24.853
+      },
+      "plc_64413f6f": {
+        "plc_64413a56": 25.485,
+        "plc_644136f0": 23.248,
+        "plc_64413c09": 19.552,
+        "plc_644142d5": 21.768
+      },
+      "plc_5ae4ae85": {
+        "plc_5adeae6d": 29.093,
+        "plc_64413a56": 22.748,
+        "plc_64414d07": 18.183,
+        "plc_64413c09": 19.74
+      },
+      "plc_5adea288": {
+        "plc_5adeab07": 19.215,
+        "plc_5adeae6d": 32.89,
+        "plc_64414d07": 20.074,
+        "plc_5ae194fc": 26.39
+      },
+      "plc_64414d07": {
+        "plc_5ae4ae85": 18.183,
+        "plc_5adea288": 20.074,
+        "plc_5adeae6d": 26.958
+      },
+      "plc_64413c09": {
+        "plc_5ae4ae85": 19.74,
+        "plc_64413f6f": 19.552
+      },
+      "plc_5ae194fc": {
+        "plc_5ae19349": 23.409,
+        "plc_5adea288": 26.39,
+        "plc_5adeab07": 24.853
+      },
+      "plc_644142d5": {
+        "plc_64413f6f": 21.768,
+        "plc_64413dbc": 22.28
+      }
+    },
+    "meta": {}
+  },
+  "society.recognition": {
+    "name": "society.recognition",
+    "directed": true,
+    "nodes": 25,
+    "edges": 44,
+    "adjacency": {
+      "ent_06c840ba": {
+        "ent_0640529f": 0.644
+      },
+      "ent_0640529f": {
+        "ent_06c840ba": 0.651
+      },
+      "ent_06c83d54": {
+        "ent_06436043": 0.691
+      },
+      "ent_06436043": {
+        "ent_06c83d54": 0.767
+      },
+      "ent_06c83f07": {
+        "ent_0648bb88": 0.664
+      },
+      "ent_0648bb88": {
+        "ent_06c83f07": 0.746
+      },
+      "ent_06c83ba1": {
+        "ent_06c8383b": 0.731,
+        "ent_0648bd3b": 0.817,
+        "ent_06405e84": 0.789
+      },
+      "ent_06c8383b": {
+        "ent_06c83ba1": 0.925,
+        "ent_0648bd3b": 0.817,
+        "ent_06405e84": 0.632
+      },
+      "ent_0648bd3b": {
+        "ent_06c83ba1": 0.822,
+        "ent_06c8383b": 0.969,
+        "ent_06405e84": 0.697
+      },
+      "ent_06405e84": {
+        "ent_06c83ba1": 0.812,
+        "ent_06c8383b": 0.715,
+        "ent_0648bd3b": 0.858
+      },
+      "ent_06c83688": {
+        "ent_0648c407": 0.738
+      },
+      "ent_0648c407": {
+        "ent_06c83688": 0.686
+      },
+      "ent_06c83322": {
+        "ent_06436a75": 0.886,
+        "ent_0643765a": 0.917
+      },
+      "ent_06436a75": {
+        "ent_06c83322": 0.985,
+        "ent_0643765a": 0.833
+      },
+      "ent_0643765a": {
+        "ent_06c83322": 0.804,
+        "ent_06436a75": 0.994
+      },
+      "ent_06c834d5": {
+        "ent_0648c0a1": 0.703,
+        "ent_0648b4bc": 0.889,
+        "ent_06406037": 0.803
+      },
+      "ent_0648c0a1": {
+        "ent_06c834d5": 0.802,
+        "ent_0648b4bc": 0.809,
+        "ent_06406037": 0.822
+      },
+      "ent_0648b4bc": {
+        "ent_06c834d5": 0.924,
+        "ent_0648c0a1": 0.811,
+        "ent_06406037": 0.831
+      },
+      "ent_06406037": {
+        "ent_06c834d5": 0.851,
+        "ent_0648c0a1": 0.959,
+        "ent_0648b4bc": 0.974
+      },
+      "ent_0648c76d": {
+        "ent_0643655c": 0.808
+      },
+      "ent_0643655c": {
+        "ent_0648c76d": 0.631
+      },
+      "ent_06405605": {
+        "ent_064361f6": 0.872
+      },
+      "ent_064361f6": {
+        "ent_06405605": 0.691
+      },
+      "ent_06404f39": {
+        "ent_06435e90": 0.627
+      },
+      "ent_06435e90": {
+        "ent_06404f39": 0.686
+      }
+    },
+    "meta": {}
+  },
+  "perception.acoustic": {
+    "name": "perception.acoustic",
+    "directed": false,
+    "nodes": 34,
+    "edges": 67,
+    "adjacency": {
+      "plc_64413dbc": {
+        "plc_644136f0": 0.386,
+        "plc_644142d5": 0.143
+      },
+      "plc_644136f0": {
+        "plc_64413dbc": 0.386,
+        "plc_64413f6f": 0.092,
+        "plc_64414122": 0.115,
+        "plc_64413a56": 0.135
+      },
+      "plc_644142d5": {
+        "plc_64413dbc": 0.143,
+        "plc_64413f6f": 0.25
+      },
+      "plc_64413f6f": {
+        "plc_644142d5": 0.25,
+        "plc_644136f0": 0.092,
+        "plc_64413a56": 0.177,
+        "plc_64413c09": 0.207
+      },
+      "plc_64413a56": {
+        "plc_64413f6f": 0.177,
+        "plc_644136f0": 0.135,
+        "plc_644138a3": 0.072,
+        "plc_5ae4ae85": 0.244,
+        "plc_5adeae6d": 0.058
+      },
+      "plc_64413c09": {
+        "plc_64413f6f": 0.207,
+        "plc_5ae4ae85": 0.14
+      },
+      "plc_64414122": {
+        "plc_644136f0": 0.115,
+        "plc_644138a3": 0.053,
+        "plc_5adea954": 0.128
+      },
+      "plc_644138a3": {
+        "plc_64414122": 0.053,
+        "plc_5ae19a15": 0.252,
+        "plc_64413a56": 0.072,
+        "plc_64414b54": 0.13,
+        "plc_5ae19196": 0.225
+      },
+      "plc_5adea954": {
+        "plc_64414122": 0.128,
+        "plc_5adea0d5": 0.106,
+        "plc_5adea43b": 0.08,
+        "plc_5ae19196": 0.149,
+        "plc_5ae1a0e1": 0.472
+      },
+      "plc_5ae19a15": {
+        "plc_644138a3": 0.252,
+        "plc_64414b54": 0.171,
+        "plc_5ade9f22": 0.241,
+        "plc_5ae19196": 0.077,
+        "plc_5ae18fe3": 0.249
+      },
+      "plc_64414b54": {
+        "plc_644138a3": 0.13,
+        "plc_5ae19a15": 0.171,
+        "plc_5adeacba": 0.081,
+        "plc_5adea5ee": 0.148,
+        "plc_5adeae6d": 0.16,
+        "plc_5ae18fe3": 0.128
+      },
+      "plc_5ae19196": {
+        "plc_644138a3": 0.225,
+        "plc_5adea954": 0.149,
+        "plc_5ade9f22": 0.214,
+        "plc_5ae19a15": 0.077
+      },
+      "plc_5ae4ae85": {
+        "plc_64413a56": 0.244,
+        "plc_64413c09": 0.14,
+        "plc_64414d07": 0.054,
+        "plc_5adeae6d": 0.252
+      },
+      "plc_5adeae6d": {
+        "plc_64413a56": 0.058,
+        "plc_64414b54": 0.16,
+        "plc_64414d07": 0.248,
+        "plc_5adea288": 0.193,
+        "plc_5ae4ae85": 0.252,
+        "plc_5adeacba": 0.192,
+        "plc_5adeab07": 0.121
+      },
+      "plc_5adeacba": {
+        "plc_64414b54": 0.081,
+        "plc_5adeae6d": 0.192,
+        "plc_5ae19349": 0.163,
+        "plc_5adea5ee": 0.117,
+        "plc_5ae196af": 0.064,
+        "plc_5adeab07": 0.121
+      },
+      "plc_5adea5ee": {
+        "plc_64414b54": 0.148,
+        "plc_5adeacba": 0.117,
+        "plc_5ae196af": 0.103,
+        "plc_5ae19f2e": 0.056,
+        "plc_5ae18fe3": 0.226
+      },
+      "plc_5ae18fe3": {
+        "plc_64414b54": 0.128,
+        "plc_5adea5ee": 0.226,
+        "plc_5ade9f22": 0.058,
+        "plc_5ae19a15": 0.249,
+        "plc_5ae4a96c": 0.195,
+        "plc_5ae19f2e": 0.22
+      },
+      "plc_64414d07": {
+        "plc_5adea288": 0.104,
+        "plc_5ae4ae85": 0.054,
+        "plc_5adeae6d": 0.248
+      },
+      "plc_5adea288": {
+        "plc_64414d07": 0.104,
+        "plc_5adeae6d": 0.193,
+        "plc_5adeab07": 0.122,
+        "plc_5ae194fc": 0.151
+      },
+      "plc_5adeab07": {
+        "plc_5adeae6d": 0.121,
+        "plc_5adeacba": 0.121,
+        "plc_5adea288": 0.122,
+        "plc_5ae194fc": 0.223,
+        "plc_5ae19349": 0.234
+      },
+      "plc_5ae19349": {
+        "plc_5adeacba": 0.163,
+        "plc_5adeab07": 0.234,
+        "plc_5ae194fc": 0.061,
+        "plc_5ae196af": 0.149
+      },
+      "plc_5ae196af": {
+        "plc_5adeacba": 0.064,
+        "plc_5adea5ee": 0.103,
+        "plc_5ae19349": 0.149
+      },
+      "plc_5ae194fc": {
+        "plc_5adeab07": 0.223,
+        "plc_5adea288": 0.151,
+        "plc_5ae19349": 0.061
+      },
+      "plc_5adea0d5": {
+        "plc_5adea954": 0.106,
+        "plc_5adea7a1": 0.074,
+        "plc_5ade9f22": 0.17
+      },
+      "plc_5adea43b": {
+        "plc_5adea954": 0.08,
+        "plc_5adea7a1": 0.1,
+        "plc_5ae1a0e1": 0.442
+      },
+      "plc_5ae1a0e1": {
+        "plc_5adea954": 0.472,
+        "plc_5adea43b": 0.442
+      },
+      "plc_5adea7a1": {
+        "plc_5adea43b": 0.1,
+        "plc_5ae18e30": 0.087,
+        "plc_5adea0d5": 0.074
+      },
+      "plc_5ae18e30": {
+        "plc_5adea7a1": 0.087,
+        "plc_5ade9f22": 0.231,
+        "plc_5ae19862": 0.125
+      },
+      "plc_5ae19f2e": {
+        "plc_5adea5ee": 0.056,
+        "plc_5ae18fe3": 0.22,
+        "plc_5ae4ab1f": 0.22,
+        "plc_5ae4a96c": 0.076
+      },
+      "plc_5ade9f22": {
+        "plc_5adea0d5": 0.17,
+        "plc_5ae19a15": 0.241,
+        "plc_5ae18e30": 0.231,
+        "plc_5ae19196": 0.214,
+        "plc_5ae18fe3": 0.058
+      },
+      "plc_5ae19862": {
+        "plc_5ae18e30": 0.125,
+        "plc_5ae4acd2": 0.252,
+        "plc_5ae4a96c": 0.08
+      },
+      "plc_5ae4a96c": {
+        "plc_5ae18fe3": 0.195,
+        "plc_5ae19862": 0.08,
+        "plc_5ae19f2e": 0.076,
+        "plc_5ae4ab1f": 0.246,
+        "plc_5ae4acd2": 0.222
+      },
+      "plc_5ae4acd2": {
+        "plc_5ae19862": 0.252,
+        "plc_5ae4ab1f": 0.074,
+        "plc_5ae4a96c": 0.222
+      },
+      "plc_5ae4ab1f": {
+        "plc_5ae19f2e": 0.22,
+        "plc_5ae4acd2": 0.074,
+        "plc_5ae4a96c": 0.246
+      }
+    },
+    "meta": {}
+  },
+  "institutions.jurisdiction": {
+    "name": "institutions.jurisdiction",
+    "directed": false,
+    "nodes": 34,
+    "edges": 50,
+    "adjacency": {
+      "plc_64413dbc": {
+        "plc_644136f0": 1.0
+      },
+      "plc_644136f0": {
+        "plc_64413dbc": 1.0,
+        "plc_64414122": 1.0
+      },
+      "plc_64413f6f": {
+        "plc_644142d5": 1.0,
+        "plc_64413a56": 1.0,
+        "plc_64413c09": 1.0
+      },
+      "plc_644142d5": {
+        "plc_64413f6f": 1.0
+      },
+      "plc_64413a56": {
+        "plc_64413f6f": 1.0,
+        "plc_5ae4ae85": 1.0
+      },
+      "plc_64413c09": {
+        "plc_64413f6f": 1.0,
+        "plc_5ae4ae85": 1.0
+      },
+      "plc_64414122": {
+        "plc_644136f0": 1.0,
+        "plc_5adea954": 1.0
+      },
+      "plc_5adea954": {
+        "plc_64414122": 1.0,
+        "plc_5adea0d5": 1.0,
+        "plc_5adea43b": 1.0,
+        "plc_5ae1a0e1": 1.0
+      },
+      "plc_644138a3": {
+        "plc_5ae19a15": 1.0,
+        "plc_5ae19196": 1.0
+      },
+      "plc_5ae19a15": {
+        "plc_644138a3": 1.0,
+        "plc_5ade9f22": 1.0,
+        "plc_5ae19196": 1.0
+      },
+      "plc_5ae19196": {
+        "plc_644138a3": 1.0,
+        "plc_5ade9f22": 1.0,
+        "plc_5ae19a15": 1.0
+      },
+      "plc_5ae4ae85": {
+        "plc_64413a56": 1.0,
+        "plc_64413c09": 1.0
+      },
+      "plc_64414b54": {
+        "plc_5adeacba": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5adeae6d": 1.0,
+        "plc_5ae18fe3": 1.0
+      },
+      "plc_5adeacba": {
+        "plc_64414b54": 1.0,
+        "plc_5adeae6d": 1.0,
+        "plc_5ae19349": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5ae196af": 1.0,
+        "plc_5adeab07": 1.0
+      },
+      "plc_5adea5ee": {
+        "plc_64414b54": 1.0,
+        "plc_5adeacba": 1.0,
+        "plc_5ae196af": 1.0,
+        "plc_5ae19f2e": 1.0,
+        "plc_5ae18fe3": 1.0
+      },
+      "plc_5adeae6d": {
+        "plc_64414b54": 1.0,
+        "plc_64414d07": 1.0,
+        "plc_5adea288": 1.0,
+        "plc_5adeacba": 1.0,
+        "plc_5adeab07": 1.0
+      },
+      "plc_5ae18fe3": {
+        "plc_64414b54": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5ae4a96c": 1.0,
+        "plc_5ae19f2e": 1.0
+      },
+      "plc_64414d07": {
+        "plc_5adea288": 1.0,
+        "plc_5adeae6d": 1.0
+      },
+      "plc_5adea288": {
+        "plc_64414d07": 1.0,
+        "plc_5adeae6d": 1.0,
+        "plc_5adeab07": 1.0,
+        "plc_5ae194fc": 1.0
+      },
+      "plc_5adeab07": {
+        "plc_5adeae6d": 1.0,
+        "plc_5adeacba": 1.0,
+        "plc_5adea288": 1.0,
+        "plc_5ae194fc": 1.0,
+        "plc_5ae19349": 1.0
+      },
+      "plc_5ae19349": {
+        "plc_5adeacba": 1.0,
+        "plc_5adeab07": 1.0,
+        "plc_5ae194fc": 1.0,
+        "plc_5ae196af": 1.0
+      },
+      "plc_5ae196af": {
+        "plc_5adeacba": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5ae19349": 1.0
+      },
+      "plc_5ae194fc": {
+        "plc_5adeab07": 1.0,
+        "plc_5adea288": 1.0,
+        "plc_5ae19349": 1.0
+      },
+      "plc_5adea0d5": {
+        "plc_5adea954": 1.0,
+        "plc_5adea7a1": 1.0
+      },
+      "plc_5adea43b": {
+        "plc_5adea954": 1.0,
+        "plc_5adea7a1": 1.0,
+        "plc_5ae1a0e1": 1.0
+      },
+      "plc_5ae1a0e1": {
+        "plc_5adea954": 1.0,
+        "plc_5adea43b": 1.0
+      },
+      "plc_5adea7a1": {
+        "plc_5adea43b": 1.0,
+        "plc_5adea0d5": 1.0
+      },
+      "plc_5ae19f2e": {
+        "plc_5adea5ee": 1.0,
+        "plc_5ae18fe3": 1.0,
+        "plc_5ae4ab1f": 1.0,
+        "plc_5ae4a96c": 1.0
+      },
+      "plc_5ade9f22": {
+        "plc_5ae19a15": 1.0,
+        "plc_5ae18e30": 1.0,
+        "plc_5ae19196": 1.0
+      },
+      "plc_5ae18e30": {
+        "plc_5ade9f22": 1.0,
+        "plc_5ae19862": 1.0
+      },
+      "plc_5ae19862": {
+        "plc_5ae18e30": 1.0
+      },
+      "plc_5ae4a96c": {
+        "plc_5ae18fe3": 1.0,
+        "plc_5ae19f2e": 1.0,
+        "plc_5ae4ab1f": 1.0,
+        "plc_5ae4acd2": 1.0
+      },
+      "plc_5ae4ab1f": {
+        "plc_5ae19f2e": 1.0,
+        "plc_5ae4acd2": 1.0,
+        "plc_5ae4a96c": 1.0
+      },
+      "plc_5ae4acd2": {
+        "plc_5ae4ab1f": 1.0,
+        "plc_5ae4a96c": 1.0
+      }
+    },
+    "meta": {}
+  },
+  "traversal.walk": {
+    "name": "traversal.walk",
+    "directed": false,
+    "nodes": 31,
+    "edges": 55,
+    "adjacency": {
+      "plc_64413dbc": {
+        "plc_644136f0": 1.075,
+        "plc_644142d5": 1.0
+      },
+      "plc_644136f0": {
+        "plc_64413dbc": 1.075,
+        "plc_64413f6f": 1.075,
+        "plc_64414122": 1.075
+      },
+      "plc_644142d5": {
+        "plc_64413dbc": 1.0,
+        "plc_64413f6f": 1.0
+      },
+      "plc_64413f6f": {
+        "plc_644142d5": 1.0,
+        "plc_644136f0": 1.075
+      },
+      "plc_64414122": {
+        "plc_644136f0": 1.075,
+        "plc_644138a3": 1.0,
+        "plc_5adea954": 1.0
+      },
+      "plc_644138a3": {
+        "plc_64414122": 1.0,
+        "plc_5ae19a15": 1.071,
+        "plc_64414b54": 1.0,
+        "plc_5ae19196": 1.033
+      },
+      "plc_5adea954": {
+        "plc_64414122": 1.0,
+        "plc_5adea0d5": 1.059,
+        "plc_5adea43b": 1.0,
+        "plc_5ae19196": 1.033,
+        "plc_5ae1a0e1": 1.0
+      },
+      "plc_5ae19a15": {
+        "plc_644138a3": 1.071,
+        "plc_64414b54": 1.071,
+        "plc_5ade9f22": 1.071,
+        "plc_5ae19196": 1.071,
+        "plc_5ae18fe3": 1.071
+      },
+      "plc_64414b54": {
+        "plc_644138a3": 1.0,
+        "plc_5ae19a15": 1.071,
+        "plc_5adeacba": 1.159,
+        "plc_5adea5ee": 1.021,
+        "plc_5adeae6d": 1.033,
+        "plc_5ae18fe3": 1.096
+      },
+      "plc_5ae19196": {
+        "plc_644138a3": 1.033,
+        "plc_5adea954": 1.033,
+        "plc_5ade9f22": 1.033,
+        "plc_5ae19a15": 1.071
+      },
+      "plc_5adeacba": {
+        "plc_64414b54": 1.159,
+        "plc_5adeae6d": 1.159,
+        "plc_5ae19349": 1.087,
+        "plc_5adea5ee": 1.021,
+        "plc_5ae196af": 1.0,
+        "plc_5adeab07": 1.0
+      },
+      "plc_5adea5ee": {
+        "plc_64414b54": 1.021,
+        "plc_5adeacba": 1.021,
+        "plc_5ae196af": 1.0,
+        "plc_5ae19f2e": 1.1,
+        "plc_5ae18fe3": 1.096
+      },
+      "plc_5adeae6d": {
+        "plc_64414b54": 1.033,
+        "plc_64414d07": 1.033,
+        "plc_5adea288": 1.106,
+        "plc_5ae4ae85": 1.023,
+        "plc_5adeacba": 1.159,
+        "plc_5adeab07": 1.0
+      },
+      "plc_5ae18fe3": {
+        "plc_64414b54": 1.096,
+        "plc_5adea5ee": 1.096,
+        "plc_5ade9f22": 1.096,
+        "plc_5ae19a15": 1.071,
+        "plc_5ae19f2e": 1.1
+      },
+      "plc_64414d07": {
+        "plc_5adea288": 1.106,
+        "plc_5ae4ae85": 1.023,
+        "plc_5adeae6d": 1.033
+      },
+      "plc_5adea288": {
+        "plc_64414d07": 1.106,
+        "plc_5adeae6d": 1.106,
+        "plc_5adeab07": 1.106,
+        "plc_5ae194fc": 1.025
+      },
+      "plc_5ae4ae85": {
+        "plc_64414d07": 1.023,
+        "plc_5adeae6d": 1.023
+      },
+      "plc_5adeab07": {
+        "plc_5adeae6d": 1.0,
+        "plc_5adeacba": 1.0,
+        "plc_5adea288": 1.106,
+        "plc_5ae194fc": 1.025,
+        "plc_5ae19349": 1.087
+      },
+      "plc_5ae19349": {
+        "plc_5adeacba": 1.087,
+        "plc_5adeab07": 1.087,
+        "plc_5ae194fc": 1.025,
+        "plc_5ae196af": 1.0
+      },
+      "plc_5ae196af": {
+        "plc_5adeacba": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5ae19349": 1.0
+      },
+      "plc_5ae194fc": {
+        "plc_5adeab07": 1.025,
+        "plc_5adea288": 1.025,
+        "plc_5ae19349": 1.025
+      },
+      "plc_5adea0d5": {
+        "plc_5adea954": 1.059,
+        "plc_5adea7a1": 1.059,
+        "plc_5ade9f22": 1.133
+      },
+      "plc_5adea43b": {
+        "plc_5adea954": 1.0,
+        "plc_5adea7a1": 1.0,
+        "plc_5ae1a0e1": 1.0
+      },
+      "plc_5ae1a0e1": {
+        "plc_5adea954": 1.0,
+        "plc_5adea43b": 1.0
+      },
+      "plc_5adea7a1": {
+        "plc_5adea43b": 1.0,
+        "plc_5ae18e30": 1.002,
+        "plc_5adea0d5": 1.059
+      },
+      "plc_5ae18e30": {
+        "plc_5adea7a1": 1.002,
+        "plc_5ade9f22": 1.002,
+        "plc_5ae19862": 1.092
+      },
+      "plc_5ae19f2e": {
+        "plc_5adea5ee": 1.1,
+        "plc_5ae18fe3": 1.1,
+        "plc_5ae4ab1f": 1.0
+      },
+      "plc_5ade9f22": {
+        "plc_5adea0d5": 1.133,
+        "plc_5ae19a15": 1.071,
+        "plc_5ae18e30": 1.002,
+        "plc_5ae19196": 1.033,
+        "plc_5ae18fe3": 1.096
+      },
+      "plc_5ae19862": {
+        "plc_5ae18e30": 1.092,
+        "plc_5ae4acd2": 1.0
+      },
+      "plc_5ae4acd2": {
+        "plc_5ae19862": 1.0,
+        "plc_5ae4ab1f": 1.0
+      },
+      "plc_5ae4ab1f": {
+        "plc_5ae19f2e": 1.0,
+        "plc_5ae4acd2": 1.0
+      }
+    },
+    "meta": {}
+  },
+  "traversal.swim": {
+    "name": "traversal.swim",
+    "directed": false,
+    "nodes": 0,
+    "edges": 0,
+    "adjacency": {},
+    "meta": {}
+  },
+  "traversal.climb": {
+    "name": "traversal.climb",
+    "directed": false,
+    "nodes": 0,
+    "edges": 0,
+    "adjacency": {},
+    "meta": {}
+  },
+  "traversal.crawl": {
+    "name": "traversal.crawl",
+    "directed": false,
+    "nodes": 34,
+    "edges": 67,
+    "adjacency": {
+      "plc_64413dbc": {
+        "plc_644136f0": 1.0,
+        "plc_644142d5": 1.0
+      },
+      "plc_644136f0": {
+        "plc_64413dbc": 1.0,
+        "plc_64413f6f": 1.0,
+        "plc_64414122": 1.0,
+        "plc_64413a56": 1.0
+      },
+      "plc_644142d5": {
+        "plc_64413dbc": 1.0,
+        "plc_64413f6f": 1.0
+      },
+      "plc_64413f6f": {
+        "plc_644142d5": 1.0,
+        "plc_644136f0": 1.0,
+        "plc_64413a56": 1.0,
+        "plc_64413c09": 1.0
+      },
+      "plc_64413a56": {
+        "plc_64413f6f": 1.0,
+        "plc_644136f0": 1.0,
+        "plc_644138a3": 1.0,
+        "plc_5ae4ae85": 1.0,
+        "plc_5adeae6d": 1.0
+      },
+      "plc_64413c09": {
+        "plc_64413f6f": 1.0,
+        "plc_5ae4ae85": 1.0
+      },
+      "plc_64414122": {
+        "plc_644136f0": 1.0,
+        "plc_644138a3": 1.0,
+        "plc_5adea954": 1.0
+      },
+      "plc_644138a3": {
+        "plc_64414122": 1.0,
+        "plc_5ae19a15": 1.0,
+        "plc_64413a56": 1.0,
+        "plc_64414b54": 1.0,
+        "plc_5ae19196": 1.0
+      },
+      "plc_5adea954": {
+        "plc_64414122": 1.0,
+        "plc_5adea0d5": 1.0,
+        "plc_5adea43b": 1.0,
+        "plc_5ae19196": 1.0,
+        "plc_5ae1a0e1": 1.0
+      },
+      "plc_5ae19a15": {
+        "plc_644138a3": 1.0,
+        "plc_64414b54": 1.0,
+        "plc_5ade9f22": 1.0,
+        "plc_5ae19196": 1.0,
+        "plc_5ae18fe3": 1.0
+      },
+      "plc_64414b54": {
+        "plc_644138a3": 1.0,
+        "plc_5ae19a15": 1.0,
+        "plc_5adeacba": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5adeae6d": 1.0,
+        "plc_5ae18fe3": 1.0
+      },
+      "plc_5ae19196": {
+        "plc_644138a3": 1.0,
+        "plc_5adea954": 1.0,
+        "plc_5ade9f22": 1.0,
+        "plc_5ae19a15": 1.0
+      },
+      "plc_5ae4ae85": {
+        "plc_64413a56": 1.0,
+        "plc_64413c09": 1.0,
+        "plc_64414d07": 1.0,
+        "plc_5adeae6d": 1.0
+      },
+      "plc_5adeae6d": {
+        "plc_64413a56": 1.0,
+        "plc_64414b54": 1.0,
+        "plc_64414d07": 1.0,
+        "plc_5adea288": 1.0,
+        "plc_5ae4ae85": 1.0,
+        "plc_5adeacba": 1.0,
+        "plc_5adeab07": 1.0
+      },
+      "plc_5adeacba": {
+        "plc_64414b54": 1.0,
+        "plc_5adeae6d": 1.0,
+        "plc_5ae19349": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5ae196af": 1.0,
+        "plc_5adeab07": 1.0
+      },
+      "plc_5adea5ee": {
+        "plc_64414b54": 1.0,
+        "plc_5adeacba": 1.0,
+        "plc_5ae196af": 1.0,
+        "plc_5ae19f2e": 1.0,
+        "plc_5ae18fe3": 1.0
+      },
+      "plc_5ae18fe3": {
+        "plc_64414b54": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5ade9f22": 1.0,
+        "plc_5ae19a15": 1.0,
+        "plc_5ae4a96c": 1.0,
+        "plc_5ae19f2e": 1.0
+      },
+      "plc_64414d07": {
+        "plc_5adea288": 1.0,
+        "plc_5ae4ae85": 1.0,
+        "plc_5adeae6d": 1.0
+      },
+      "plc_5adea288": {
+        "plc_64414d07": 1.0,
+        "plc_5adeae6d": 1.0,
+        "plc_5adeab07": 1.0,
+        "plc_5ae194fc": 1.0
+      },
+      "plc_5adeab07": {
+        "plc_5adeae6d": 1.0,
+        "plc_5adeacba": 1.0,
+        "plc_5adea288": 1.0,
+        "plc_5ae194fc": 1.0,
+        "plc_5ae19349": 1.0
+      },
+      "plc_5ae19349": {
+        "plc_5adeacba": 1.0,
+        "plc_5adeab07": 1.0,
+        "plc_5ae194fc": 1.0,
+        "plc_5ae196af": 1.0
+      },
+      "plc_5ae196af": {
+        "plc_5adeacba": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5ae19349": 1.0
+      },
+      "plc_5ae194fc": {
+        "plc_5adeab07": 1.0,
+        "plc_5adea288": 1.0,
+        "plc_5ae19349": 1.0
+      },
+      "plc_5adea0d5": {
+        "plc_5adea954": 1.0,
+        "plc_5adea7a1": 1.0,
+        "plc_5ade9f22": 1.0
+      },
+      "plc_5adea43b": {
+        "plc_5adea954": 1.0,
+        "plc_5adea7a1": 1.0,
+        "plc_5ae1a0e1": 1.0
+      },
+      "plc_5ae1a0e1": {
+        "plc_5adea954": 1.0,
+        "plc_5adea43b": 1.0
+      },
+      "plc_5adea7a1": {
+        "plc_5adea43b": 1.0,
+        "plc_5ae18e30": 1.0,
+        "plc_5adea0d5": 1.0
+      },
+      "plc_5ae18e30": {
+        "plc_5adea7a1": 1.0,
+        "plc_5ade9f22": 1.0,
+        "plc_5ae19862": 1.0
+      },
+      "plc_5ae19f2e": {
+        "plc_5adea5ee": 1.0,
+        "plc_5ae18fe3": 1.0,
+        "plc_5ae4ab1f": 1.0,
+        "plc_5ae4a96c": 1.0
+      },
+      "plc_5ade9f22": {
+        "plc_5adea0d5": 1.0,
+        "plc_5ae19a15": 1.0,
+        "plc_5ae18e30": 1.0,
+        "plc_5ae19196": 1.0,
+        "plc_5ae18fe3": 1.0
+      },
+      "plc_5ae19862": {
+        "plc_5ae18e30": 1.0,
+        "plc_5ae4acd2": 1.0,
+        "plc_5ae4a96c": 1.0
+      },
+      "plc_5ae4a96c": {
+        "plc_5ae18fe3": 1.0,
+        "plc_5ae19862": 1.0,
+        "plc_5ae19f2e": 1.0,
+        "plc_5ae4ab1f": 1.0,
+        "plc_5ae4acd2": 1.0
+      },
+      "plc_5ae4acd2": {
+        "plc_5ae19862": 1.0,
+        "plc_5ae4ab1f": 1.0,
+        "plc_5ae4a96c": 1.0
+      },
+      "plc_5ae4ab1f": {
+        "plc_5ae19f2e": 1.0,
+        "plc_5ae4acd2": 1.0,
+        "plc_5ae4a96c": 1.0
+      }
+    },
+    "meta": {}
+  },
+  "traversal.fly": {
+    "name": "traversal.fly",
+    "directed": false,
+    "nodes": 34,
+    "edges": 67,
+    "adjacency": {
+      "plc_64413dbc": {
+        "plc_644136f0": 1.0,
+        "plc_644142d5": 1.0
+      },
+      "plc_644136f0": {
+        "plc_64413dbc": 1.0,
+        "plc_64413f6f": 1.0,
+        "plc_64414122": 1.0,
+        "plc_64413a56": 1.0
+      },
+      "plc_644142d5": {
+        "plc_64413dbc": 1.0,
+        "plc_64413f6f": 1.0
+      },
+      "plc_64413f6f": {
+        "plc_644142d5": 1.0,
+        "plc_644136f0": 1.0,
+        "plc_64413a56": 1.0,
+        "plc_64413c09": 1.0
+      },
+      "plc_64413a56": {
+        "plc_64413f6f": 1.0,
+        "plc_644136f0": 1.0,
+        "plc_644138a3": 1.0,
+        "plc_5ae4ae85": 1.0,
+        "plc_5adeae6d": 1.0
+      },
+      "plc_64413c09": {
+        "plc_64413f6f": 1.0,
+        "plc_5ae4ae85": 1.0
+      },
+      "plc_64414122": {
+        "plc_644136f0": 1.0,
+        "plc_644138a3": 1.0,
+        "plc_5adea954": 1.0
+      },
+      "plc_644138a3": {
+        "plc_64414122": 1.0,
+        "plc_5ae19a15": 1.0,
+        "plc_64413a56": 1.0,
+        "plc_64414b54": 1.0,
+        "plc_5ae19196": 1.0
+      },
+      "plc_5adea954": {
+        "plc_64414122": 1.0,
+        "plc_5adea0d5": 1.0,
+        "plc_5adea43b": 1.0,
+        "plc_5ae19196": 1.0,
+        "plc_5ae1a0e1": 1.0
+      },
+      "plc_5ae19a15": {
+        "plc_644138a3": 1.0,
+        "plc_64414b54": 1.0,
+        "plc_5ade9f22": 1.0,
+        "plc_5ae19196": 1.0,
+        "plc_5ae18fe3": 1.0
+      },
+      "plc_64414b54": {
+        "plc_644138a3": 1.0,
+        "plc_5ae19a15": 1.0,
+        "plc_5adeacba": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5adeae6d": 1.0,
+        "plc_5ae18fe3": 1.0
+      },
+      "plc_5ae19196": {
+        "plc_644138a3": 1.0,
+        "plc_5adea954": 1.0,
+        "plc_5ade9f22": 1.0,
+        "plc_5ae19a15": 1.0
+      },
+      "plc_5ae4ae85": {
+        "plc_64413a56": 1.0,
+        "plc_64413c09": 1.0,
+        "plc_64414d07": 1.0,
+        "plc_5adeae6d": 1.0
+      },
+      "plc_5adeae6d": {
+        "plc_64413a56": 1.0,
+        "plc_64414b54": 1.0,
+        "plc_64414d07": 1.0,
+        "plc_5adea288": 1.0,
+        "plc_5ae4ae85": 1.0,
+        "plc_5adeacba": 1.0,
+        "plc_5adeab07": 1.0
+      },
+      "plc_5adeacba": {
+        "plc_64414b54": 1.0,
+        "plc_5adeae6d": 1.0,
+        "plc_5ae19349": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5ae196af": 1.0,
+        "plc_5adeab07": 1.0
+      },
+      "plc_5adea5ee": {
+        "plc_64414b54": 1.0,
+        "plc_5adeacba": 1.0,
+        "plc_5ae196af": 1.0,
+        "plc_5ae19f2e": 1.0,
+        "plc_5ae18fe3": 1.0
+      },
+      "plc_5ae18fe3": {
+        "plc_64414b54": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5ade9f22": 1.0,
+        "plc_5ae19a15": 1.0,
+        "plc_5ae4a96c": 1.0,
+        "plc_5ae19f2e": 1.0
+      },
+      "plc_64414d07": {
+        "plc_5adea288": 1.0,
+        "plc_5ae4ae85": 1.0,
+        "plc_5adeae6d": 1.0
+      },
+      "plc_5adea288": {
+        "plc_64414d07": 1.0,
+        "plc_5adeae6d": 1.0,
+        "plc_5adeab07": 1.0,
+        "plc_5ae194fc": 1.0
+      },
+      "plc_5adeab07": {
+        "plc_5adeae6d": 1.0,
+        "plc_5adeacba": 1.0,
+        "plc_5adea288": 1.0,
+        "plc_5ae194fc": 1.0,
+        "plc_5ae19349": 1.0
+      },
+      "plc_5ae19349": {
+        "plc_5adeacba": 1.0,
+        "plc_5adeab07": 1.0,
+        "plc_5ae194fc": 1.0,
+        "plc_5ae196af": 1.0
+      },
+      "plc_5ae196af": {
+        "plc_5adeacba": 1.0,
+        "plc_5adea5ee": 1.0,
+        "plc_5ae19349": 1.0
+      },
+      "plc_5ae194fc": {
+        "plc_5adeab07": 1.0,
+        "plc_5adea288": 1.0,
+        "plc_5ae19349": 1.0
+      },
+      "plc_5adea0d5": {
+        "plc_5adea954": 1.0,
+        "plc_5adea7a1": 1.0,
+        "plc_5ade9f22": 1.0
+      },
+      "plc_5adea43b": {
+        "plc_5adea954": 1.0,
+        "plc_5adea7a1": 1.0,
+        "plc_5ae1a0e1": 1.0
+      },
+      "plc_5ae1a0e1": {
+        "plc_5adea954": 1.0,
+        "plc_5adea43b": 1.0
+      },
+      "plc_5adea7a1": {
+        "plc_5adea43b": 1.0,
+        "plc_5ae18e30": 1.0,
+        "plc_5adea0d5": 1.0
+      },
+      "plc_5ae18e30": {
+        "plc_5adea7a1": 1.0,
+        "plc_5ade9f22": 1.0,
+        "plc_5ae19862": 1.0
+      },
+      "plc_5ae19f2e": {
+        "plc_5adea5ee": 1.0,
+        "plc_5ae18fe3": 1.0,
+        "plc_5ae4ab1f": 1.0,
+        "plc_5ae4a96c": 1.0
+      },
+      "plc_5ade9f22": {
+        "plc_5adea0d5": 1.0,
+        "plc_5ae19a15": 1.0,
+        "plc_5ae18e30": 1.0,
+        "plc_5ae19196": 1.0,
+        "plc_5ae18fe3": 1.0
+      },
+      "plc_5ae19862": {
+        "plc_5ae18e30": 1.0,
+        "plc_5ae4acd2": 1.0,
+        "plc_5ae4a96c": 1.0
+      },
+      "plc_5ae4a96c": {
+        "plc_5ae18fe3": 1.0,
+        "plc_5ae19862": 1.0,
+        "plc_5ae19f2e": 1.0,
+        "plc_5ae4ab1f": 1.0,
+        "plc_5ae4acd2": 1.0
+      },
+      "plc_5ae4acd2": {
+        "plc_5ae19862": 1.0,
+        "plc_5ae4ab1f": 1.0,
+        "plc_5ae4a96c": 1.0
+      },
+      "plc_5ae4ab1f": {
+        "plc_5ae19f2e": 1.0,
+        "plc_5ae4acd2": 1.0,
+        "plc_5ae4a96c": 1.0
+      }
+    },
+    "meta": {}
+  },
+  "society.alliance": {
+    "name": "society.alliance",
+    "directed": false,
+    "nodes": 11,
+    "edges": 7,
+    "adjacency": {
+      "ent_06c839ee": {
+        "ent_0648c0a1": 0.843
+      },
+      "ent_0648c0a1": {
+        "ent_06c839ee": 0.843
+      },
+      "ent_06c83688": {
+        "ent_06405452": 0.196
+      },
+      "ent_06405452": {
+        "ent_06c83688": 0.196
+      },
+      "ent_06436043": {
+        "ent_0640529f": 0.48,
+        "ent_06436a75": 0.203
+      },
+      "ent_0640529f": {
+        "ent_06436043": 0.48
+      },
+      "ent_06435e90": {
+        "ent_06c83d54": 0.163
+      },
+      "ent_06c83d54": {
+        "ent_06435e90": 0.163,
+        "ent_064050ec": 0.143
+      },
+      "ent_064050ec": {
+        "ent_0643655c": 0.204,
+        "ent_06c83d54": 0.143
+      },
+      "ent_0643655c": {
+        "ent_064050ec": 0.204
+      },
+      "ent_06436a75": {
+        "ent_06436043": 0.203
+      }
+    },
+    "meta": {}
+  },
+  "society.rivalry": {
+    "name": "society.rivalry",
+    "directed": false,
+    "nodes": 11,
+    "edges": 6,
+    "adjacency": {
+      "ent_0648bb88": {
+        "ent_0648b4bc": 0.687
+      },
+      "ent_0648b4bc": {
+        "ent_0648bb88": 0.687
+      },
+      "ent_0648c76d": {
+        "ent_06c83f07": 0.472
+      },
+      "ent_06c83f07": {
+        "ent_0648c76d": 0.472,
+        "ent_06405452": 0.741
+      },
+      "ent_0643765a": {
+        "ent_06404a20": 0.172
+      },
+      "ent_06404a20": {
+        "ent_0643765a": 0.172
+      },
+      "ent_06436043": {
+        "ent_0648b66f": 0.34
+      },
+      "ent_0648b66f": {
+        "ent_06436043": 0.34
+      },
+      "ent_06405452": {
+        "ent_06c83f07": 0.741
+      },
+      "ent_06405605": {
+        "ent_0643670f": 0.136
+      },
+      "ent_0643670f": {
+        "ent_06405605": 0.136
+      }
+    },
+    "meta": {}
+  },
+  "circulation.public": {
+    "name": "circulation.public",
+    "directed": false,
+    "nodes": 26,
+    "edges": 47,
+    "adjacency": {
+      "plc_644136f0": {
+        "plc_64413f6f": 2.0,
+        "plc_64413a56": 1.287
+      },
+      "plc_64413f6f": {
+        "plc_644136f0": 2.0,
+        "plc_64413a56": 1.292
+      },
+      "plc_64413a56": {
+        "plc_644136f0": 1.287,
+        "plc_644138a3": 1.149,
+        "plc_64413f6f": 1.292,
+        "plc_5adeae6d": 1.282,
+        "plc_5ae4ae85": 1.287
+      },
+      "plc_644138a3": {
+        "plc_64413a56": 1.149,
+        "plc_64414b54": 1.167,
+        "plc_64414122": 1.209,
+        "plc_5ae19196": 1.163,
+        "plc_5ae19a15": 1.204
+      },
+      "plc_64414b54": {
+        "plc_644138a3": 1.167,
+        "plc_5adeae6d": 1.304,
+        "plc_5adeacba": 1.299,
+        "plc_5adea5ee": 1.303,
+        "plc_5ae18fe3": 1.302,
+        "plc_5ae19a15": 2.0
+      },
+      "plc_64414122": {
+        "plc_644138a3": 1.209
+      },
+      "plc_5adeae6d": {
+        "plc_5ae4ae85": 1.304,
+        "plc_64413a56": 1.282,
+        "plc_64414b54": 1.304,
+        "plc_5adeacba": 1.293,
+        "plc_5adeab07": 1.304,
+        "plc_5adea288": 2.0
+      },
+      "plc_5ae4ae85": {
+        "plc_5adeae6d": 1.304,
+        "plc_64413a56": 1.287
+      },
+      "plc_5adeacba": {
+        "plc_5ae19349": 1.172,
+        "plc_5ae196af": 2.0,
+        "plc_64414b54": 1.299,
+        "plc_5adeae6d": 1.293,
+        "plc_5adeab07": 1.299,
+        "plc_5adea5ee": 1.292
+      },
+      "plc_5ae19349": {
+        "plc_5adeacba": 1.172,
+        "plc_5adeab07": 1.18,
+        "plc_5ae194fc": 1.261,
+        "plc_5ae196af": 1.219
+      },
+      "plc_5ae196af": {
+        "plc_5adeacba": 2.0,
+        "plc_5adea5ee": 2.0,
+        "plc_5ae19349": 1.219
+      },
+      "plc_5adeab07": {
+        "plc_5adeacba": 1.299,
+        "plc_5ae19349": 1.18,
+        "plc_5adeae6d": 1.304,
+        "plc_5adea288": 2.0
+      },
+      "plc_5adea954": {
+        "plc_5ae19196": 2.0,
+        "plc_5adea0d5": 2.0
+      },
+      "plc_5ae19196": {
+        "plc_5adea954": 2.0,
+        "plc_5ade9f22": 1.304,
+        "plc_5ae19a15": 2.0,
+        "plc_644138a3": 1.163
+      },
+      "plc_5adea5ee": {
+        "plc_5adeacba": 1.292,
+        "plc_5ae196af": 2.0,
+        "plc_64414b54": 1.303,
+        "plc_5ae19f2e": 1.173,
+        "plc_5ae18fe3": 1.295
+      },
+      "plc_5ae19f2e": {
+        "plc_5adea5ee": 1.173,
+        "plc_5ae18fe3": 1.172,
+        "plc_5ae4ab1f": 1.096,
+        "plc_5ae4a96c": 1.16
+      },
+      "plc_5ae18fe3": {
+        "plc_5adea5ee": 1.295,
+        "plc_5ade9f22": 1.301,
+        "plc_5ae19a15": 2.0,
+        "plc_5ae4a96c": 1.28,
+        "plc_64414b54": 1.302,
+        "plc_5ae19f2e": 1.172
+      },
+      "plc_5adea288": {
+        "plc_5adeae6d": 2.0,
+        "plc_5adeab07": 2.0
+      },
+      "plc_5adea0d5": {
+        "plc_5adea954": 2.0,
+        "plc_5ade9f22": 2.0
+      },
+      "plc_5ade9f22": {
+        "plc_5ae19a15": 2.0,
+        "plc_5adea0d5": 2.0,
+        "plc_5ae19196": 1.304,
+        "plc_5ae18fe3": 1.301
+      },
+      "plc_5ae19a15": {
+        "plc_5ade9f22": 2.0,
+        "plc_5ae19196": 2.0,
+        "plc_5ae18fe3": 2.0,
+        "plc_644138a3": 1.204,
+        "plc_64414b54": 2.0
+      },
+      "plc_5ae194fc": {
+        "plc_5ae19349": 1.261
+      },
+      "plc_5ae4a96c": {
+        "plc_5ae18fe3": 1.28,
+        "plc_5ae19862": 2.0,
+        "plc_5ae19f2e": 1.16,
+        "plc_5ae4ab1f": 1.19,
+        "plc_5ae4acd2": 1.183
+      },
+      "plc_5ae19862": {
+        "plc_5ae4acd2": 1.24,
+        "plc_5ae4a96c": 2.0
+      },
+      "plc_5ae4acd2": {
+        "plc_5ae19862": 1.24,
+        "plc_5ae4ab1f": 1.117,
+        "plc_5ae4a96c": 1.183
+      },
+      "plc_5ae4ab1f": {
+        "plc_5ae19f2e": 1.096,
+        "plc_5ae4acd2": 1.117,
+        "plc_5ae4a96c": 1.19
+      }
+    },
+    "meta": {}
+  },
+  "circulation.service": {
+    "name": "circulation.service",
+    "directed": false,
+    "nodes": 30,
+    "edges": 51,
+    "adjacency": {
+      "plc_64413dbc": {
+        "plc_644142d5": 2.568,
+        "plc_644136f0": 3.249
+      },
+      "plc_644142d5": {
+        "plc_64413dbc": 2.568,
+        "plc_64413f6f": 3.118
+      },
+      "plc_64413f6f": {
+        "plc_644142d5": 3.118,
+        "plc_644136f0": 4.183,
+        "plc_64413a56": 2.0,
+        "plc_64413c09": 3.614
+      },
+      "plc_644136f0": {
+        "plc_64413dbc": 3.249,
+        "plc_64413f6f": 4.183,
+        "plc_64414122": 3.762,
+        "plc_64413a56": 2.0
+      },
+      "plc_64414122": {
+        "plc_644136f0": 3.762,
+        "plc_5adea954": 3.729
+      },
+      "plc_64413a56": {
+        "plc_644136f0": 2.0,
+        "plc_64413f6f": 2.0,
+        "plc_5adeae6d": 2.0,
+        "plc_5ae4ae85": 2.0
+      },
+      "plc_64413c09": {
+        "plc_64413f6f": 3.614,
+        "plc_5ae4ae85": 3.651
+      },
+      "plc_5adeae6d": {
+        "plc_5ae4ae85": 2.0,
+        "plc_64413a56": 2.0,
+        "plc_64414b54": 2.0,
+        "plc_64414d07": 3.695,
+        "plc_5adeacba": 2.0,
+        "plc_5adeab07": 2.0,
+        "plc_5adea288": 4.227
+      },
+      "plc_5ae4ae85": {
+        "plc_5adeae6d": 2.0,
+        "plc_64414d07": 3.651,
+        "plc_64413a56": 2.0,
+        "plc_64413c09": 3.651
+      },
+      "plc_64414b54": {
+        "plc_5adeae6d": 2.0,
+        "plc_5adeacba": 2.0,
+        "plc_5adea5ee": 2.0,
+        "plc_5ae18fe3": 2.0,
+        "plc_5ae19a15": 3.807
+      },
+      "plc_64414d07": {
+        "plc_5adeae6d": 3.695,
+        "plc_5adea288": 3.604,
+        "plc_5ae4ae85": 3.651
+      },
+      "plc_5adeacba": {
+        "plc_5ae196af": 3.897,
+        "plc_64414b54": 2.0,
+        "plc_5adeae6d": 2.0,
+        "plc_5adeab07": 2.0,
+        "plc_5adea5ee": 2.0
+      },
+      "plc_5ae196af": {
+        "plc_5adeacba": 3.897,
+        "plc_5adea5ee": 3.86
+      },
+      "plc_5adeab07": {
+        "plc_5ae194fc": 3.444,
+        "plc_5adeacba": 2.0,
+        "plc_5adeae6d": 2.0,
+        "plc_5adea288": 4.171
+      },
+      "plc_5ae194fc": {
+        "plc_5adeab07": 3.444,
+        "plc_5adea288": 3.401,
+        "plc_5ae19349": 2.0
+      },
+      "plc_5adea954": {
+        "plc_5ae19196": 4.237,
+        "plc_5ae1a0e1": 3.121,
+        "plc_64414122": 3.729,
+        "plc_5adea43b": 3.673,
+        "plc_5adea0d5": 3.826
+      },
+      "plc_5ae19196": {
+        "plc_5adea954": 4.237,
+        "plc_5ade9f22": 2.0,
+        "plc_5ae19a15": 3.844
+      },
+      "plc_5ae1a0e1": {
+        "plc_5adea954": 3.121,
+        "plc_5adea43b": 2.844
+      },
+      "plc_5adea7a1": {
+        "plc_5ae18e30": 3.11,
+        "plc_5adea43b": 3.343,
+        "plc_5adea0d5": 3.469
+      },
+      "plc_5ae18e30": {
+        "plc_5adea7a1": 3.11,
+        "plc_5ade9f22": 3.428,
+        "plc_5ae19862": 3.143
+      },
+      "plc_5adea5ee": {
+        "plc_5adeacba": 2.0,
+        "plc_5ae196af": 3.86,
+        "plc_64414b54": 2.0,
+        "plc_5ae18fe3": 2.0
+      },
+      "plc_5ae18fe3": {
+        "plc_5adea5ee": 2.0,
+        "plc_5ade9f22": 2.0,
+        "plc_5ae19a15": 3.87,
+        "plc_5ae4a96c": 2.0,
+        "plc_64414b54": 2.0
+      },
+      "plc_5adea43b": {
+        "plc_5ae1a0e1": 2.844,
+        "plc_5adea954": 3.673,
+        "plc_5adea7a1": 3.343
+      },
+      "plc_5adea288": {
+        "plc_64414d07": 3.604,
+        "plc_5adeae6d": 4.227,
+        "plc_5ae194fc": 3.401,
+        "plc_5adeab07": 4.171
+      },
+      "plc_5adea0d5": {
+        "plc_5adea954": 3.826,
+        "plc_5adea7a1": 3.469,
+        "plc_5ade9f22": 3.87
+      },
+      "plc_5ade9f22": {
+        "plc_5ae19a15": 3.814,
+        "plc_5adea0d5": 3.87,
+        "plc_5ae18e30": 3.428,
+        "plc_5ae19196": 2.0,
+        "plc_5ae18fe3": 2.0
+      },
+      "plc_5ae19a15": {
+        "plc_5ade9f22": 3.814,
+        "plc_5ae19196": 3.844,
+        "plc_5ae18fe3": 3.87,
+        "plc_64414b54": 3.807
+      },
+      "plc_5ae19349": {
+        "plc_5ae194fc": 2.0
+      },
+      "plc_5ae19862": {
+        "plc_5ae18e30": 3.143,
+        "plc_5ae4a96c": 4.019
+      },
+      "plc_5ae4a96c": {
+        "plc_5ae18fe3": 2.0,
+        "plc_5ae19862": 4.019
+      }
+    },
+    "meta": {}
+  },
+  "society.influence": {
+    "name": "society.influence",
+    "directed": true,
+    "nodes": 4,
+    "edges": 4,
+    "adjacency": {
+      "fac_74088fb1": {
+        "fac_74088c4b": 0.999,
+        "fac_74088a98": 0.929,
+        "fac_74088dfe": 0.726
+      },
+      "fac_74088dfe": {
+        "fac_74088a98": 0.796
+      }
+    },
+    "meta": {}
+  },
+  "logistics.supply": {
+    "name": "logistics.supply",
+    "directed": true,
+    "nodes": 27,
+    "edges": 48,
+    "adjacency": {
+      "plc_64413a56": {
+        "plc_5adeae6d": 2.0,
+        "plc_5ae4ae85": 2.0,
+        "plc_644136f0": 2.0,
+        "plc_64413f6f": 2.0,
+        "plc_5adeab07": 4.0,
+        "plc_5adeacba": 4.0
+      },
+      "plc_64413c09": {
+        "plc_64413f6f": 3.61,
+        "plc_5ae4ae85": 3.65,
+        "plc_5adeae6d": 5.65,
+        "plc_644142d5": 6.73,
+        "plc_64414d07": 7.3,
+        "plc_644136f0": 7.61
+      },
+      "plc_5ae4a96c": {
+        "plc_5ae18fe3": 2.0,
+        "plc_5ade9f22": 4.0,
+        "plc_5adea5ee": 4.0,
+        "plc_64414b54": 4.0,
+        "plc_5ae19862": 4.02,
+        "plc_5ae19a15": 5.87
+      },
+      "plc_644138a3": {
+        "plc_5ae19196": 2.91,
+        "plc_64414b54": 2.92,
+        "plc_5ae19a15": 3.01,
+        "plc_64414122": 3.02,
+        "plc_5adeae6d": 4.87,
+        "plc_5ae4ae85": 4.87
+      },
+      "plc_5ae19349": {
+        "plc_5ae194fc": 2.0,
+        "plc_5adeacba": 2.93,
+        "plc_5adeab07": 2.95,
+        "plc_5ae196af": 3.05,
+        "plc_5adea5ee": 4.93,
+        "plc_5adeae6d": 4.93
+      },
+      "plc_5ae19f2e": {
+        "plc_5ae18fe3": 2.93,
+        "plc_5adea5ee": 2.93,
+        "plc_5ade9f22": 4.93,
+        "plc_64414b54": 4.93,
+        "plc_5adeacba": 4.93,
+        "plc_5ae196af": 6.79
+      },
+      "plc_5ae4ab1f": {
+        "plc_5ae18fe3": 4.97,
+        "plc_5adea5ee": 5.67,
+        "plc_5ae19862": 5.89,
+        "plc_5ade9f22": 6.97,
+        "plc_64414b54": 6.97,
+        "plc_5adeacba": 7.67
+      },
+      "plc_5ae4acd2": {
+        "plc_5ae19862": 3.1,
+        "plc_5ae18fe3": 4.96,
+        "plc_5ae18e30": 6.24,
+        "plc_5ade9f22": 6.96,
+        "plc_5adea5ee": 6.96,
+        "plc_64414b54": 6.96
+      }
+    },
+    "meta": {}
+  },
+  "society.guard_patrol": {
+    "name": "society.guard_patrol",
+    "directed": true,
+    "nodes": 14,
+    "edges": 20,
+    "adjacency": {
+      "plc_5adeae6d": {
+        "plc_64413a56": 1.28,
+        "plc_644136f0": 2.44
+      },
+      "plc_64413a56": {
+        "plc_5adeacba": 1.29,
+        "plc_5ae19196": 1.16
+      },
+      "plc_5adeacba": {
+        "plc_5ae4ae85": 1.3
+      },
+      "plc_5ae4ae85": {
+        "plc_64414b54": 1.3,
+        "plc_64413f6f": 2.44
+      },
+      "plc_64414b54": {
+        "plc_5adeab07": 1.3,
+        "plc_5ae19a15": 1.2
+      },
+      "plc_5adeab07": {
+        "plc_5adea288": 2.0
+      },
+      "plc_5adea288": {
+        "plc_644138a3": 2.43
+      },
+      "plc_644138a3": {
+        "plc_5ae19349": 2.46,
+        "plc_64413a56": 1.15
+      },
+      "plc_5ae19349": {
+        "plc_644136f0": 2.57
+      },
+      "plc_644136f0": {
+        "plc_5adeae6d": 1.0,
+        "plc_5ae4ae85": 2.44
+      },
+      "plc_5ae19196": {
+        "plc_64414b54": 1.17
+      },
+      "plc_5ae19a15": {
+        "plc_64414122": 1.21
+      },
+      "plc_64414122": {
+        "plc_5adeae6d": 2.43
+      },
+      "plc_64413f6f": {
+        "plc_644138a3": 1.0
+      }
+    },
+    "meta": {}
+  },
+  "society.rumor": {
+    "name": "society.rumor",
+    "directed": false,
+    "nodes": 34,
+    "edges": 137,
+    "adjacency": {
+      "plc_64413dbc": {
+        "plc_644136f0": 0.773,
+        "plc_644142d5": 1.577,
+        "plc_64413f6f": 0.733,
+        "plc_64414122": 0.717
+      },
+      "plc_644136f0": {
+        "plc_64413dbc": 0.773,
+        "plc_64413f6f": 0.355,
+        "plc_64414122": 0.429,
+        "plc_64413a56": 0.658,
+        "plc_644142d5": 1.88,
+        "plc_644138a3": 0.474,
+        "plc_64413c09": 1.366
+      },
+      "plc_644142d5": {
+        "plc_64413dbc": 1.577,
+        "plc_64413f6f": 1.658,
+        "plc_64414122": 1.495,
+        "plc_644136f0": 1.88,
+        "plc_644138a3": 2.66,
+        "plc_64413a56": 2.174
+      },
+      "plc_64413f6f": {
+        "plc_644142d5": 1.658,
+        "plc_644136f0": 0.355,
+        "plc_64413a56": 0.638,
+        "plc_64413c09": 1.366,
+        "plc_64413dbc": 0.733,
+        "plc_64414122": 0.43
+      },
+      "plc_64413a56": {
+        "plc_64413f6f": 0.638,
+        "plc_644136f0": 0.658,
+        "plc_644138a3": 0.682,
+        "plc_5ae4ae85": 0.597,
+        "plc_5adeae6d": 0.711,
+        "plc_644142d5": 2.174,
+        "plc_64413c09": 1.366,
+        "plc_64414b54": 0.742,
+        "plc_64414d07": 0.911
+      },
+      "plc_64413c09": {
+        "plc_64413f6f": 1.366,
+        "plc_5ae4ae85": 1.366,
+        "plc_644136f0": 1.366,
+        "plc_644138a3": 1.366,
+        "plc_64413a56": 1.366,
+        "plc_64414b54": 1.429,
+        "plc_64414d07": 1.661,
+        "plc_5adeae6d": 1.385
+      },
+      "plc_64414122": {
+        "plc_644136f0": 0.429,
+        "plc_644138a3": 0.541,
+        "plc_5adea954": 0.424,
+        "plc_64413dbc": 0.717,
+        "plc_64413f6f": 0.43,
+        "plc_644142d5": 1.495
+      },
+      "plc_644138a3": {
+        "plc_64414122": 0.541,
+        "plc_5ae19a15": 1.605,
+        "plc_64413a56": 0.682,
+        "plc_64414b54": 0.484,
+        "plc_5ae19196": 0.451,
+        "plc_644142d5": 2.66,
+        "plc_644136f0": 0.474,
+        "plc_64413c09": 1.366
+      },
+      "plc_5adea954": {
+        "plc_64414122": 0.424,
+        "plc_5adea0d5": 0.349,
+        "plc_5adea43b": 0.835,
+        "plc_5ae19196": 0.335,
+        "plc_5ae1a0e1": 1.585,
+        "plc_5adeae6d": 0.347,
+        "plc_5adeacba": 0.351,
+        "plc_5adeab07": 0.335,
+        "plc_5adea7a1": 0.73,
+        "plc_5adea5ee": 0.342
+      },
+      "plc_5ae19a15": {
+        "plc_644138a3": 1.605,
+        "plc_64414b54": 1.321,
+        "plc_5ade9f22": 1.117,
+        "plc_5ae19196": 1.214,
+        "plc_5ae18fe3": 1.026,
+        "plc_5ae18e30": 1.297,
+        "plc_5ae19862": 1.109,
+        "plc_5ae194fc": 0.92,
+        "plc_5ae196af": 1.148,
+        "plc_5ae19f2e": 1.548
+      },
+      "plc_64414b54": {
+        "plc_644138a3": 0.484,
+        "plc_5ae19a15": 1.321,
+        "plc_5adeacba": 0.361,
+        "plc_5adea5ee": 0.347,
+        "plc_5adeae6d": 0.347,
+        "plc_5ae18fe3": 0.364,
+        "plc_64413a56": 0.742,
+        "plc_64413c09": 1.429,
+        "plc_64414d07": 0.855
+      },
+      "plc_5ae19196": {
+        "plc_644138a3": 0.451,
+        "plc_5adea954": 0.335,
+        "plc_5ade9f22": 0.36,
+        "plc_5ae19a15": 1.214,
+        "plc_5adea288": 0.348,
+        "plc_5adea0d5": 0.355,
+        "plc_5ae19349": 0.446,
+        "plc_5ae18e30": 1.789,
+        "plc_5ae18fe3": 0.351
+      },
+      "plc_5ae4ae85": {
+        "plc_64413a56": 0.597,
+        "plc_64413c09": 1.366,
+        "plc_64414d07": 0.761,
+        "plc_5adeae6d": 0.363,
+        "plc_5ae1a0e1": 1.587,
+        "plc_5ae4ab1f": 0.441,
+        "plc_5ae4a96c": 0.631,
+        "plc_5ae4acd2": 0.438
+      },
+      "plc_5adeae6d": {
+        "plc_64413a56": 0.711,
+        "plc_64414b54": 0.347,
+        "plc_64414d07": 0.862,
+        "plc_5adea288": 0.342,
+        "plc_5ae4ae85": 0.363,
+        "plc_5adeacba": 0.343,
+        "plc_5adeab07": 0.329,
+        "plc_64413c09": 1.385,
+        "plc_5adea954": 0.347
+      },
+      "plc_5adeacba": {
+        "plc_64414b54": 0.361,
+        "plc_5adeae6d": 0.343,
+        "plc_5ae19349": 0.473,
+        "plc_5adea5ee": 0.344,
+        "plc_5ae196af": 0.343,
+        "plc_5adeab07": 0.332,
+        "plc_64414d07": 0.847,
+        "plc_5adea954": 0.351,
+        "plc_5adea7a1": 0.73
+      },
+      "plc_5adea5ee": {
+        "plc_64414b54": 0.347,
+        "plc_5adeacba": 0.344,
+        "plc_5ae196af": 0.336,
+        "plc_5ae19f2e": 0.414,
+        "plc_5ae18fe3": 0.355,
+        "plc_5adeab07": 0.329,
+        "plc_5adea954": 0.342,
+        "plc_5adea7a1": 0.73,
+        "plc_5adea43b": 0.929,
+        "plc_5adea288": 0.339,
+        "plc_5adea0d5": 0.347
+      },
+      "plc_5ae18fe3": {
+        "plc_64414b54": 0.364,
+        "plc_5adea5ee": 0.355,
+        "plc_5ade9f22": 0.352,
+        "plc_5ae19a15": 1.026,
+        "plc_5ae4a96c": 0.719,
+        "plc_5ae19f2e": 0.432,
+        "plc_5ae19196": 0.351,
+        "plc_5ae19349": 0.468,
+        "plc_5ae18e30": 1.408,
+        "plc_5ae19862": 0.347,
+        "plc_5ae194fc": 1.022
+      },
+      "plc_64414d07": {
+        "plc_5adea288": 0.803,
+        "plc_5ae4ae85": 0.761,
+        "plc_5adeae6d": 0.862,
+        "plc_64413a56": 0.911,
+        "plc_64413c09": 1.661,
+        "plc_64414b54": 0.855,
+        "plc_5adeacba": 0.847,
+        "plc_5adeab07": 0.831
+      },
+      "plc_5adea288": {
+        "plc_64414d07": 0.803,
+        "plc_5adeae6d": 0.342,
+        "plc_5adeab07": 0.335,
+        "plc_5ae194fc": 1.195,
+        "plc_5adea7a1": 0.73,
+        "plc_5adea5ee": 0.339,
+        "plc_5adea43b": 0.887,
+        "plc_5adea0d5": 0.343,
+        "plc_5ade9f22": 0.359,
+        "plc_5ae19196": 0.348
+      },
+      "plc_5adeab07": {
+        "plc_5adeae6d": 0.329,
+        "plc_5adeacba": 0.332,
+        "plc_5adea288": 0.335,
+        "plc_5ae194fc": 1.259,
+        "plc_5ae19349": 0.458,
+        "plc_64414d07": 0.831,
+        "plc_5adea954": 0.335,
+        "plc_5adea7a1": 0.73,
+        "plc_5adea5ee": 0.329
+      },
+      "plc_5ae19349": {
+        "plc_5adeacba": 0.473,
+        "plc_5adeab07": 0.458,
+        "plc_5ae194fc": 1.637,
+        "plc_5ae196af": 0.455,
+        "plc_5adea0d5": 0.462,
+        "plc_5ade9f22": 0.459,
+        "plc_5ae19196": 0.446,
+        "plc_5ae18e30": 2.299,
+        "plc_5ae18fe3": 0.468,
+        "plc_5ae19862": 0.464
+      },
+      "plc_5ae196af": {
+        "plc_5adeacba": 0.343,
+        "plc_5adea5ee": 0.336,
+        "plc_5ae19349": 0.455,
+        "plc_5ae19862": 0.329,
+        "plc_5ae19a15": 1.148,
+        "plc_5ae194fc": 1.144,
+        "plc_5ae19f2e": 0.428,
+        "plc_5ae1a0e1": 1.669,
+        "plc_5ae4ab1f": 0.454
+      },
+      "plc_5ae194fc": {
+        "plc_5adeab07": 1.259,
+        "plc_5adea288": 1.195,
+        "plc_5ae19349": 1.637,
+        "plc_5ae18fe3": 1.022,
+        "plc_5ae19862": 1.105,
+        "plc_5ae19a15": 0.92,
+        "plc_5ae196af": 1.144,
+        "plc_5ae19f2e": 1.592,
+        "plc_5ae1a0e1": 1.244
+      },
+      "plc_5adea0d5": {
+        "plc_5adea954": 0.349,
+        "plc_5adea7a1": 0.73,
+        "plc_5ade9f22": 0.35,
+        "plc_5adea5ee": 0.347,
+        "plc_5adea43b": 0.864,
+        "plc_5adea288": 0.343,
+        "plc_5ae19196": 0.355,
+        "plc_5ae19349": 0.462
+      },
+      "plc_5adea43b": {
+        "plc_5adea954": 0.835,
+        "plc_5adea7a1": 1.035,
+        "plc_5ae1a0e1": 1.449,
+        "plc_5adea5ee": 0.929,
+        "plc_5adea288": 0.887,
+        "plc_5adea0d5": 0.864,
+        "plc_5ade9f22": 0.841
+      },
+      "plc_5ae1a0e1": {
+        "plc_5adea954": 1.585,
+        "plc_5adea43b": 1.449,
+        "plc_5ae194fc": 1.244,
+        "plc_5ae196af": 1.669,
+        "plc_5ae19f2e": 2.257,
+        "plc_5ae4ab1f": 2.732,
+        "plc_5ae4a96c": 1.949,
+        "plc_5ae4ae85": 1.587
+      },
+      "plc_5adea7a1": {
+        "plc_5adea43b": 1.035,
+        "plc_5ae18e30": 2.217,
+        "plc_5adea0d5": 0.73,
+        "plc_5adeacba": 0.73,
+        "plc_5adeab07": 0.73,
+        "plc_5adea954": 0.73,
+        "plc_5adea5ee": 0.73,
+        "plc_5adea288": 0.73
+      },
+      "plc_5ae18e30": {
+        "plc_5adea7a1": 2.217,
+        "plc_5ade9f22": 1.587,
+        "plc_5ae19862": 1.57,
+        "plc_5ae19196": 1.789,
+        "plc_5ae19349": 2.299,
+        "plc_5ae18fe3": 1.408,
+        "plc_5ae19a15": 1.297
+      },
+      "plc_5ae19f2e": {
+        "plc_5adea5ee": 0.414,
+        "plc_5ae18fe3": 0.432,
+        "plc_5ae4ab1f": 0.448,
+        "plc_5ae4a96c": 0.682,
+        "plc_5ae19a15": 1.548,
+        "plc_5ae194fc": 1.592,
+        "plc_5ae196af": 0.428,
+        "plc_5ae1a0e1": 2.257
+      },
+      "plc_5ade9f22": {
+        "plc_5adea0d5": 0.35,
+        "plc_5ae19a15": 1.117,
+        "plc_5ae18e30": 1.587,
+        "plc_5ae19196": 0.36,
+        "plc_5ae18fe3": 0.352,
+        "plc_5adea43b": 0.841,
+        "plc_5adea288": 0.359,
+        "plc_5ae19349": 0.459
+      },
+      "plc_5ae19862": {
+        "plc_5ae18e30": 1.57,
+        "plc_5ae4acd2": 0.467,
+        "plc_5ae4a96c": 0.712,
+        "plc_5ae19349": 0.464,
+        "plc_5ae18fe3": 0.347,
+        "plc_5ae19a15": 1.109,
+        "plc_5ae194fc": 1.105,
+        "plc_5ae196af": 0.329
+      },
+      "plc_5ae4a96c": {
+        "plc_5ae18fe3": 0.719,
+        "plc_5ae19862": 0.712,
+        "plc_5ae19f2e": 0.682,
+        "plc_5ae4ab1f": 0.729,
+        "plc_5ae4acd2": 0.702,
+        "plc_5ae1a0e1": 1.949,
+        "plc_5ae4ae85": 0.631
+      },
+      "plc_5ae4acd2": {
+        "plc_5ae19862": 0.467,
+        "plc_5ae4ab1f": 0.476,
+        "plc_5ae4a96c": 0.702,
+        "plc_5ae4ae85": 0.438
+      },
+      "plc_5ae4ab1f": {
+        "plc_5ae19f2e": 0.448,
+        "plc_5ae4acd2": 0.476,
+        "plc_5ae4a96c": 0.729,
+        "plc_5ae196af": 0.454,
+        "plc_5ae1a0e1": 2.732,
+        "plc_5ae4ae85": 0.441
+      }
+    },
+    "meta": {}
+  },
+  "ecology.routes": {
+    "name": "ecology.routes",
+    "directed": false,
+    "nodes": 30,
+    "edges": 53,
+    "adjacency": {
+      "plc_64413dbc": {
+        "plc_644136f0": 0.666,
+        "plc_644142d5": 0.72
+      },
+      "plc_644136f0": {
+        "plc_64413dbc": 0.666,
+        "plc_64413f6f": 0.675,
+        "plc_64414122": 0.662,
+        "plc_64413a56": 0.703
+      },
+      "plc_644142d5": {
+        "plc_64413dbc": 0.72,
+        "plc_64413f6f": 0.728
+      },
+      "plc_64413f6f": {
+        "plc_644142d5": 0.728,
+        "plc_644136f0": 0.675,
+        "plc_64413a56": 0.782,
+        "plc_64413c09": 0.926
+      },
+      "plc_64413a56": {
+        "plc_64413f6f": 0.782,
+        "plc_644136f0": 0.703,
+        "plc_5ae4ae85": 0.721,
+        "plc_5adeae6d": 0.792
+      },
+      "plc_64413c09": {
+        "plc_64413f6f": 0.926,
+        "plc_5ae4ae85": 0.865
+      },
+      "plc_64414122": {
+        "plc_644136f0": 0.662,
+        "plc_5adea954": 0.728
+      },
+      "plc_5adea954": {
+        "plc_64414122": 0.728,
+        "plc_5adea0d5": 0.699,
+        "plc_5adea43b": 0.712,
+        "plc_5ae19196": 0.789,
+        "plc_5ae1a0e1": 0.668
+      },
+      "plc_5ae4ae85": {
+        "plc_64413a56": 0.721,
+        "plc_64413c09": 0.865,
+        "plc_64414d07": 0.628,
+        "plc_5adeae6d": 0.703
+      },
+      "plc_5adeae6d": {
+        "plc_64413a56": 0.792,
+        "plc_64414b54": 0.819,
+        "plc_64414d07": 0.699,
+        "plc_5adea288": 0.629,
+        "plc_5ae4ae85": 0.703,
+        "plc_5adeacba": 0.818,
+        "plc_5adeab07": 0.708
+      },
+      "plc_64414b54": {
+        "plc_5ae19a15": 0.758,
+        "plc_5adeacba": 0.863,
+        "plc_5adea5ee": 0.74,
+        "plc_5adeae6d": 0.819,
+        "plc_5ae18fe3": 0.731
+      },
+      "plc_5ae19a15": {
+        "plc_64414b54": 0.758,
+        "plc_5ade9f22": 0.659,
+        "plc_5ae19196": 0.751,
+        "plc_5ae18fe3": 0.625
+      },
+      "plc_5adeacba": {
+        "plc_64414b54": 0.863,
+        "plc_5adeae6d": 0.818,
+        "plc_5adea5ee": 0.739,
+        "plc_5ae196af": 0.688,
+        "plc_5adeab07": 0.752
+      },
+      "plc_5adea5ee": {
+        "plc_64414b54": 0.74,
+        "plc_5adeacba": 0.739,
+        "plc_5ae196af": 0.566,
+        "plc_5ae19f2e": 0.915,
+        "plc_5ae18fe3": 0.607
+      },
+      "plc_5ae18fe3": {
+        "plc_64414b54": 0.731,
+        "plc_5adea5ee": 0.607,
+        "plc_5ade9f22": 0.633,
+        "plc_5ae19a15": 0.625,
+        "plc_5ae4a96c": 0.743,
+        "plc_5ae19f2e": 0.905
+      },
+      "plc_64414d07": {
+        "plc_5adea288": 0.554,
+        "plc_5ae4ae85": 0.628,
+        "plc_5adeae6d": 0.699
+      },
+      "plc_5adea288": {
+        "plc_64414d07": 0.554,
+        "plc_5adeae6d": 0.629,
+        "plc_5adeab07": 0.563,
+        "plc_5ae194fc": 0.536
+      },
+      "plc_5adeab07": {
+        "plc_5adeae6d": 0.708,
+        "plc_5adeacba": 0.752,
+        "plc_5adea288": 0.563,
+        "plc_5ae194fc": 0.615
+      },
+      "plc_5ae196af": {
+        "plc_5adeacba": 0.688,
+        "plc_5adea5ee": 0.566
+      },
+      "plc_5ae194fc": {
+        "plc_5adeab07": 0.615,
+        "plc_5adea288": 0.536
+      },
+      "plc_5adea0d5": {
+        "plc_5adea954": 0.699,
+        "plc_5adea7a1": 0.626,
+        "plc_5ade9f22": 0.67
+      },
+      "plc_5adea43b": {
+        "plc_5adea954": 0.712,
+        "plc_5adea7a1": 0.638,
+        "plc_5ae1a0e1": 0.653
+      },
+      "plc_5ae19196": {
+        "plc_5adea954": 0.789,
+        "plc_5ade9f22": 0.759,
+        "plc_5ae19a15": 0.751
+      },
+      "plc_5ae1a0e1": {
+        "plc_5adea954": 0.668,
+        "plc_5adea43b": 0.653
+      },
+      "plc_5adea7a1": {
+        "plc_5adea43b": 0.638,
+        "plc_5ae18e30": 0.597,
+        "plc_5adea0d5": 0.626
+      },
+      "plc_5ae18e30": {
+        "plc_5adea7a1": 0.597,
+        "plc_5ade9f22": 0.641,
+        "plc_5ae19862": 0.66
+      },
+      "plc_5ae19f2e": {
+        "plc_5adea5ee": 0.915,
+        "plc_5ae18fe3": 0.905,
+        "plc_5ae4a96c": 1.051
+      },
+      "plc_5ade9f22": {
+        "plc_5adea0d5": 0.67,
+        "plc_5ae19a15": 0.659,
+        "plc_5ae18e30": 0.641,
+        "plc_5ae19196": 0.759,
+        "plc_5ae18fe3": 0.633
+      },
+      "plc_5ae19862": {
+        "plc_5ae18e30": 0.66,
+        "plc_5ae4a96c": 0.797
+      },
+      "plc_5ae4a96c": {
+        "plc_5ae18fe3": 0.743,
+        "plc_5ae19862": 0.797,
+        "plc_5ae19f2e": 1.051
+      }
+    },
+    "meta": {}
+  },
+  "infrastructure.power": {
+    "name": "infrastructure.power",
+    "directed": true,
+    "nodes": 7,
+    "edges": 6,
+    "adjacency": {
+      "mch_gen_413dbc": {
+        "mch_pump_413a56": 1.0,
+        "mch_pump_413c09": 1.0,
+        "mch_pump_e4a96c": 1.0
+      },
+      "mch_pump_413a56": {
+        "mch_lift_413dbc": 1.0,
+        "mch_lift_413f6f": 1.0,
+        "mch_lift_414122": 1.0
+      }
+    },
+    "meta": {}
+  }
+}

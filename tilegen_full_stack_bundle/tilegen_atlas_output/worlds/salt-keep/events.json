@@ -1,0 +1,324 @@
+[
+  {
+    "seq": 0,
+    "time": 0,
+    "kind": "memory.recorded",
+    "place": "plc_5ae4acd2",
+    "event": "a fire"
+  },
+  {
+    "seq": 1,
+    "time": 0,
+    "kind": "memory.recorded",
+    "place": "plc_644136f0",
+    "event": "a death"
+  },
+  {
+    "seq": 2,
+    "time": 0,
+    "kind": "memory.recorded",
+    "place": "plc_64413c09",
+    "event": "a wedding"
+  },
+  {
+    "seq": 3,
+    "time": 0,
+    "kind": "memory.recorded",
+    "place": "plc_64413f6f",
+    "event": "a wedding"
+  },
+  {
+    "seq": 4,
+    "time": 0,
+    "kind": "labour.dispute",
+    "place": "plc_5ae1a0e1",
+    "grievance": 0.621
+  },
+  {
+    "seq": 5,
+    "time": 0,
+    "kind": "labour.dispute",
+    "place": "plc_64413f6f",
+    "grievance": 0.609
+  },
+  {
+    "seq": 6,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_64413dbc",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 7,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_64413f6f",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 8,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_64414122",
+    "stage": "riot"
+  },
+  {
+    "seq": 9,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_644142d5",
+    "stage": "open conflict"
+  },
+  {
+    "seq": 10,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_644136f0",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 11,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_644138a3",
+    "stage": "brawl"
+  },
+  {
+    "seq": 12,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_64413a56",
+    "stage": "riot"
+  },
+  {
+    "seq": 13,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_64413c09",
+    "stage": "open conflict"
+  },
+  {
+    "seq": 14,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_64414b54",
+    "stage": "riot"
+  },
+  {
+    "seq": 15,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_64414d07",
+    "stage": "open conflict"
+  },
+  {
+    "seq": 16,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5adeae6d",
+    "stage": "brawl"
+  },
+  {
+    "seq": 17,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5adeacba",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 18,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5adeab07",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 19,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5adea954",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 20,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5adea7a1",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 21,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5adea5ee",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 22,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5adea43b",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 23,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5adea288",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 24,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5adea0d5",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 25,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ade9f22",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 26,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae19196",
+    "stage": "riot"
+  },
+  {
+    "seq": 27,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae19349",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 28,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae18e30",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 29,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae18fe3",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 30,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae19862",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 31,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae19a15",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 32,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae194fc",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 33,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae196af",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 34,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae19f2e",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 35,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae1a0e1",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 36,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae4ab1f",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 37,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae4a96c",
+    "stage": "open conflict"
+  },
+  {
+    "seq": 38,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae4ae85",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 39,
+    "time": 0,
+    "kind": "violence.incident",
+    "place": "plc_5ae4acd2",
+    "stage": "reprisal"
+  },
+  {
+    "seq": 40,
+    "time": 0,
+    "kind": "director.scheduled",
+    "beat": "raid",
+    "place": "plc_5ae194fc"
+  },
+  {
+    "seq": 41,
+    "time": 0,
+    "kind": "director.scheduled",
+    "beat": "quarantine",
+    "place": "plc_5ae196af"
+  },
+  {
+    "seq": 42,
+    "time": 0,
+    "kind": "director.scheduled",
+    "beat": "escalate",
+    "place": "plc_644138a3"
+  },
+  {
+    "seq": 43,
+    "time": 0,
+    "kind": "director.scheduled",
+    "beat": "shortage",
+    "place": "plc_5ae18fe3"
+  },
+  {
+    "seq": 44,
+    "time": 0,
+    "kind": "director.scheduled",
+    "beat": "escalate",
+    "place": "plc_64413c09"
+  },
+  {
+    "seq": 45,
+    "time": 0,
+    "kind": "director.scheduled",
+    "beat": "quarantine",
+    "place": "plc_5adeae6d"
+  }
+]

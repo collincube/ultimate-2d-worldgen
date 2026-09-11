@@ -1,0 +1,5982 @@
+{
+  "recipe": {
+    "macro": "voronoi_kingdoms",
+    "structure": "reaction_diffusion",
+    "circulation": "river_delta",
+    "ornament": "truchet",
+    "symmetry": 0.72,
+    "organicity": 0.84,
+    "verticality": 0.3,
+    "erosion": 0.42,
+    "secret_density": 0.15,
+    "style": "obsidian_gold",
+    "seed": 93741,
+    "size": 128,
+    "name": "The Obsidian Salt Keep",
+    "features": []
+  },
+  "recipe_digest": "7b4ad324bbb3a673",
+  "features_run": [
+    "eco.identity",
+    "env.weather",
+    "plc.acoustic",
+    "prs.light",
+    "soc.sovereignty",
+    "top.gravity",
+    "top.traversal",
+    "eco.relationships",
+    "eco.circulation",
+    "plc.perceptual",
+    "soc.politics",
+    "soc.property",
+    "soc.ritual",
+    "eco.schedule",
+    "eco.logistics",
+    "soc.security",
+    "soc.diplomacy",
+    "nar.rumor",
+    "eco.ecology",
+    "env.aging",
+    "env.machines",
+    "eco.markets",
+    "env.health",
+    "soc.law",
+    "soc.surveillance",
+    "nar.memory",
+    "nar.transformation",
+    "plc.archaeology",
+    "nar.crisis",
+    "soc.labour",
+    "eco.scarcity",
+    "eco.contraband",
+    "plc.emotion",
+    "env.structure",
+    "nar.violence",
+    "nar.operations",
+    "nar.investigation",
+    "nar.chronicle",
+    "nar.director",
+    "exp.compiler"
+  ],
+  "identity": {
+    "population": 40,
+    "recognition_edges": 44,
+    "disguises": [
+      {
+        "entity": "ent_0648c5ba",
+        "alias": "Yael Bellhow",
+        "quality": 0.454
+      },
+      {
+        "entity": "ent_0648beee",
+        "alias": "Sabel Holt",
+        "quality": 0.661
+      },
+      {
+        "entity": "ent_06405e84",
+        "alias": "Imra Vane",
+        "quality": 0.576
+      }
+    ]
+  },
+  "weather": {
+    "seasons": [
+      "dry",
+      "storm",
+      "frost"
+    ],
+    "mean_exposure": 0.348,
+    "sheltered_places": [
+      "plc_64413dbc",
+      "plc_644142d5",
+      "plc_5ae18e30",
+      "plc_5ae19a15",
+      "plc_5ae194fc",
+      "plc_5ae1a0e1"
+    ]
+  },
+  "factions": {
+    "fac_74088c4b": {
+      "id": "fac_74088c4b",
+      "name": "the Salt Assembly",
+      "seat": "plc_5adeae6d",
+      "legitimacy": 0.447,
+      "militancy": 0.418,
+      "wealth": 0.216,
+      "territory": 15,
+      "members": 16
+    },
+    "fac_74088a98": {
+      "id": "fac_74088a98",
+      "name": "House Vareth",
+      "seat": "plc_64413a56",
+      "legitimacy": 0.409,
+      "militancy": 0.344,
+      "wealth": 0.679,
+      "territory": 5,
+      "members": 9
+    },
+    "fac_74088fb1": {
+      "id": "fac_74088fb1",
+      "name": "the Ash Guild",
+      "seat": "plc_64414122",
+      "legitimacy": 0.652,
+      "militancy": 0.689,
+      "wealth": 0.085,
+      "territory": 8,
+      "members": 11
+    },
+    "fac_74088dfe": {
+      "id": "fac_74088dfe",
+      "name": "the Quiet Order",
+      "seat": "plc_644138a3",
+      "legitimacy": 0.705,
+      "militancy": 0.705,
+      "wealth": 0.359,
+      "territory": 6,
+      "members": 4
+    }
+  },
+  "frames": [
+    {
+      "id": "frame.default",
+      "gravity": [
+        0,
+        1
+      ],
+      "cells": 16384
+    }
+  ],
+  "traversal": {
+    "walk": {
+      "nodes": 31,
+      "edges": 55
+    },
+    "swim": {
+      "nodes": 0,
+      "edges": 0
+    },
+    "climb": {
+      "nodes": 0,
+      "edges": 0
+    },
+    "crawl": {
+      "nodes": 34,
+      "edges": 67
+    },
+    "fly": {
+      "nodes": 34,
+      "edges": 67
+    }
+  },
+  "relationships": {
+    "count": 13,
+    "model": "Starting alliances and rivalries; cooperation ranges from -1 to 1.",
+    "pairs": [
+      {
+        "a": "ent_06c839ee",
+        "b": "ent_0648c0a1",
+        "kind": "alliance",
+        "cooperation": 0.843
+      },
+      {
+        "a": "ent_0648bb88",
+        "b": "ent_0648b4bc",
+        "kind": "rivalry",
+        "cooperation": -0.687
+      },
+      {
+        "a": "ent_06c83688",
+        "b": "ent_06405452",
+        "kind": "alliance",
+        "cooperation": 0.196
+      },
+      {
+        "a": "ent_0648c76d",
+        "b": "ent_06c83f07",
+        "kind": "rivalry",
+        "cooperation": -0.472
+      },
+      {
+        "a": "ent_06436043",
+        "b": "ent_0640529f",
+        "kind": "alliance",
+        "cooperation": 0.48
+      },
+      {
+        "a": "ent_06435e90",
+        "b": "ent_06c83d54",
+        "kind": "alliance",
+        "cooperation": 0.163
+      },
+      {
+        "a": "ent_0643765a",
+        "b": "ent_06404a20",
+        "kind": "rivalry",
+        "cooperation": -0.172
+      },
+      {
+        "a": "ent_064050ec",
+        "b": "ent_0643655c",
+        "kind": "alliance",
+        "cooperation": 0.204
+      },
+      {
+        "a": "ent_06436043",
+        "b": "ent_0648b66f",
+        "kind": "rivalry",
+        "cooperation": -0.34
+      },
+      {
+        "a": "ent_06436a75",
+        "b": "ent_06436043",
+        "kind": "alliance",
+        "cooperation": 0.203
+      },
+      {
+        "a": "ent_06405452",
+        "b": "ent_06c83f07",
+        "kind": "rivalry",
+        "cooperation": -0.741
+      },
+      {
+        "a": "ent_06c83d54",
+        "b": "ent_064050ec",
+        "kind": "alliance",
+        "cooperation": 0.143
+      },
+      {
+        "a": "ent_06405605",
+        "b": "ent_0643670f",
+        "kind": "rivalry",
+        "cooperation": -0.136
+      }
+    ]
+  },
+  "circulation_scores": {
+    "plc_64413dbc": 0.6206884659826756,
+    "plc_64413f6f": 0.7581485524773597,
+    "plc_64414122": 0.7046616449952126,
+    "plc_644142d5": 0.6004083263338543,
+    "plc_644136f0": 0.7636993795633316,
+    "plc_644138a3": 0.9499879419803618,
+    "plc_64413a56": 0.7899694174528122,
+    "plc_64413c09": 0.6885102421045303,
+    "plc_64414b54": 0.7639113679528236,
+    "plc_64414d07": 0.6884960025548935,
+    "plc_5adeae6d": 0.7702516987919807,
+    "plc_5adeacba": 0.7762278527021409,
+    "plc_5adeab07": 0.7638861328363418,
+    "plc_5adea954": 0.7589663982391357,
+    "plc_5adea7a1": 0.7051924765110016,
+    "plc_5adea5ee": 0.7712415769696235,
+    "plc_5adea43b": 0.6965592369437218,
+    "plc_5adea288": 0.756566697359085,
+    "plc_5adea0d5": 0.7183379337191582,
+    "plc_5ade9f22": 0.764894312620163,
+    "plc_5ae19196": 0.7690363362431527,
+    "plc_5ae19349": 0.9304463326931001,
+    "plc_5ae18e30": 0.6517038634978235,
+    "plc_5ae18fe3": 0.7725902587175368,
+    "plc_5ae19862": 0.712009158730507,
+    "plc_5ae19a15": 0.7106745168566704,
+    "plc_5ae194fc": 0.655434250459075,
+    "plc_5ae196af": 0.7105982944369317,
+    "plc_5ae19f2e": 0.9339151978492737,
+    "plc_5ae1a0e1": 0.6002767101104837,
+    "plc_5ae4ab1f": 0.8901971280574799,
+    "plc_5ae4a96c": 0.7903668582439423,
+    "plc_5ae4ae85": 0.7636365845799447,
+    "plc_5ae4acd2": 0.9004886746406555
+  },
+  "perception": [
+    {
+      "observer_place": "plc_64413dbc",
+      "at": [
+        120,
+        95
+      ],
+      "visible_cells": 155,
+      "audible_cells": 4394,
+      "heard_but_unseen": 4286,
+      "visible_places": [
+        "plc_64413dbc",
+        "plc_644142d5",
+        "plc_644136f0"
+      ]
+    },
+    {
+      "observer_place": "plc_64413f6f",
+      "at": [
+        102,
+        102
+      ],
+      "visible_cells": 577,
+      "audible_cells": 4394,
+      "heard_but_unseen": 4248,
+      "visible_places": [
+        "plc_64413f6f",
+        "plc_644136f0",
+        "plc_64413a56",
+        "plc_64413c09",
+        "plc_5ae4ae85"
+      ]
+    },
+    {
+      "observer_place": "plc_64414122",
+      "at": [
+        114,
+        60
+      ],
+      "visible_cells": 480,
+      "audible_cells": 4394,
+      "heard_but_unseen": 3971,
+      "visible_places": [
+        "plc_64414122",
+        "plc_644136f0",
+        "plc_644138a3",
+        "plc_5adea954",
+        "plc_5ae19196"
+      ]
+    }
+  ],
+  "politics": {
+    "influence_edges": 4,
+    "conspiracies": [
+      {
+        "id": "cns_0",
+        "plotters": [
+          "fac_74088c4b",
+          "fac_74088a98"
+        ],
+        "target": "fac_74088dfe",
+        "goal": "recover an artifact",
+        "secrecy": 0.608,
+        "exposure_risk": 0.389
+      },
+      {
+        "id": "cns_1",
+        "plotters": [
+          "fac_74088dfe",
+          "fac_74088fb1"
+        ],
+        "target": "fac_74088a98",
+        "goal": "rescue a scout",
+        "secrecy": 0.707,
+        "exposure_risk": 0.23
+      }
+    ],
+    "leverage": {
+      "fac_74088c4b": 0.25,
+      "fac_74088a98": 0.25,
+      "fac_74088fb1": 1.0,
+      "fac_74088dfe": 0.5
+    }
+  },
+  "property": {
+    "titles": {
+      "plc_64413dbc": {
+        "owner": "ent_06435e90",
+        "tenure": "occupied",
+        "heir": "ent_064361f6",
+        "access": [
+          "ent_06435e90"
+        ]
+      },
+      "plc_64413f6f": {
+        "owner": "ent_06c839ee",
+        "tenure": "freehold",
+        "heir": "ent_06c83f07",
+        "access": [
+          "ent_06c839ee"
+        ]
+      },
+      "plc_64414122": {
+        "owner": "ent_06404a20",
+        "tenure": "occupied",
+        "heir": "ent_0648b4bc",
+        "access": [
+          "ent_06404a20"
+        ]
+      },
+      "plc_644142d5": {
+        "owner": "ent_06436043",
+        "tenure": "freehold",
+        "heir": "ent_0640529f",
+        "access": [
+          "ent_06436043"
+        ]
+      },
+      "plc_644136f0": {
+        "owner": "ent_0648bd3b",
+        "tenure": "occupied",
+        "heir": "ent_06404a20",
+        "access": [
+          "ent_0648bd3b"
+        ]
+      },
+      "plc_644138a3": {
+        "owner": "ent_0648c5ba",
+        "tenure": "grant",
+        "heir": "ent_06405e84",
+        "access": [
+          "ent_0648c5ba"
+        ]
+      },
+      "plc_64413a56": {
+        "owner": "ent_064361f6",
+        "tenure": "lease",
+        "heir": "ent_06436a75",
+        "access": [
+          "ent_064361f6"
+        ]
+      },
+      "plc_64413c09": {
+        "owner": "ent_06405605",
+        "tenure": "freehold",
+        "heir": "ent_064368c2",
+        "access": [
+          "ent_06405605"
+        ]
+      },
+      "plc_64414b54": {
+        "owner": "ent_06404d86",
+        "tenure": "disputed",
+        "heir": "ent_0648beee",
+        "access": [
+          "ent_06404d86",
+          "ent_06c83f07"
+        ]
+      },
+      "plc_64414d07": {
+        "owner": "ent_0648bb88",
+        "tenure": "lease",
+        "heir": "ent_06c839ee",
+        "access": [
+          "ent_0648bb88",
+          "ent_06405e84"
+        ]
+      },
+      "plc_5adeae6d": {
+        "owner": "ent_06436a75",
+        "tenure": "lease",
+        "heir": "ent_06c83688",
+        "access": [
+          "ent_06436a75"
+        ]
+      },
+      "plc_5adeacba": {
+        "owner": "ent_06436a75",
+        "tenure": "disputed",
+        "heir": "ent_0643780d",
+        "access": [
+          "ent_06436a75"
+        ]
+      },
+      "plc_5adeab07": {
+        "owner": "ent_0648c407",
+        "tenure": "occupied",
+        "heir": "ent_0643780d",
+        "access": [
+          "ent_0648c407"
+        ]
+      },
+      "plc_5adea954": {
+        "owner": "ent_06c8426d",
+        "tenure": "grant",
+        "heir": "ent_0648beee",
+        "access": [
+          "ent_06c8426d"
+        ]
+      },
+      "plc_5adea7a1": {
+        "owner": "ent_0648c5ba",
+        "tenure": "disputed",
+        "heir": "ent_06c834d5",
+        "access": [
+          "ent_0648c5ba"
+        ]
+      },
+      "plc_5adea5ee": {
+        "owner": "ent_06c83688",
+        "tenure": "occupied",
+        "heir": "ent_06435e90",
+        "access": [
+          "ent_06c83688"
+        ]
+      },
+      "plc_5adea43b": {
+        "owner": "ent_0643765a",
+        "tenure": "lease",
+        "heir": "ent_0648b66f",
+        "access": [
+          "ent_0643765a",
+          "ent_064050ec"
+        ]
+      },
+      "plc_5adea288": {
+        "owner": "ent_064363a9",
+        "tenure": "disputed",
+        "heir": "ent_06436043",
+        "access": [
+          "ent_064363a9"
+        ]
+      },
+      "plc_5adea0d5": {
+        "owner": "ent_064361f6",
+        "tenure": "grant",
+        "heir": "ent_0648bd3b",
+        "access": [
+          "ent_064361f6"
+        ]
+      },
+      "plc_5ade9f22": {
+        "owner": "ent_06c83322",
+        "tenure": "freehold",
+        "heir": "ent_0648c0a1",
+        "access": [
+          "ent_06c83322",
+          "ent_0648c5ba"
+        ]
+      },
+      "plc_5ae19196": {
+        "owner": "ent_06c834d5",
+        "tenure": "disputed",
+        "heir": "ent_06404f39",
+        "access": [
+          "ent_06c834d5"
+        ]
+      },
+      "plc_5ae19349": {
+        "owner": "ent_064050ec",
+        "tenure": "lease",
+        "heir": "ent_064363a9",
+        "access": [
+          "ent_064050ec"
+        ]
+      },
+      "plc_5ae18e30": {
+        "owner": "ent_06c83d54",
+        "tenure": "freehold",
+        "heir": null,
+        "access": [
+          "ent_06c83d54",
+          "ent_0648bb88"
+        ]
+      },
+      "plc_5ae18fe3": {
+        "owner": "ent_0643655c",
+        "tenure": "disputed",
+        "heir": "ent_064363a9",
+        "access": [
+          "ent_0643655c"
+        ]
+      },
+      "plc_5ae19862": {
+        "owner": "ent_06c834d5",
+        "tenure": "lease",
+        "heir": "ent_0648c5ba",
+        "access": [
+          "ent_06c834d5"
+        ]
+      },
+      "plc_5ae19a15": {
+        "owner": "ent_06405605",
+        "tenure": "freehold",
+        "heir": "ent_0648b66f",
+        "access": [
+          "ent_06405605"
+        ]
+      },
+      "plc_5ae194fc": {
+        "owner": "ent_0648c0a1",
+        "tenure": "disputed",
+        "heir": "ent_06c839ee",
+        "access": [
+          "ent_0648c0a1"
+        ]
+      },
+      "plc_5ae196af": {
+        "owner": "ent_06435e90",
+        "tenure": "freehold",
+        "heir": "ent_0648c407",
+        "access": [
+          "ent_06435e90"
+        ]
+      },
+      "plc_5ae19f2e": {
+        "owner": "ent_06404bd3",
+        "tenure": "occupied",
+        "heir": "ent_064361f6",
+        "access": [
+          "ent_06404bd3"
+        ]
+      },
+      "plc_5ae1a0e1": {
+        "owner": "ent_06405452",
+        "tenure": "freehold",
+        "heir": "ent_06c840ba",
+        "access": [
+          "ent_06405452"
+        ]
+      },
+      "plc_5ae4ab1f": {
+        "owner": "ent_0648c0a1",
+        "tenure": "freehold",
+        "heir": "ent_06406037",
+        "access": [
+          "ent_0648c0a1"
+        ]
+      },
+      "plc_5ae4a96c": {
+        "owner": "ent_0648c76d",
+        "tenure": "freehold",
+        "heir": "ent_0648b4bc",
+        "access": [
+          "ent_0648c76d"
+        ]
+      },
+      "plc_5ae4ae85": {
+        "owner": "ent_06436043",
+        "tenure": "disputed",
+        "heir": "ent_06c83688",
+        "access": [
+          "ent_06436043"
+        ]
+      },
+      "plc_5ae4acd2": {
+        "owner": "ent_0643780d",
+        "tenure": "freehold",
+        "heir": "ent_06405452",
+        "access": [
+          "ent_0643780d"
+        ]
+      }
+    },
+    "disputes": [
+      {
+        "place": "plc_64414b54",
+        "claimants": [
+          "ent_06404d86",
+          "ent_0648beee"
+        ]
+      },
+      {
+        "place": "plc_5adeacba",
+        "claimants": [
+          "ent_06436a75",
+          "ent_0643780d"
+        ]
+      },
+      {
+        "place": "plc_5adea7a1",
+        "claimants": [
+          "ent_0648c5ba",
+          "ent_06c834d5"
+        ]
+      },
+      {
+        "place": "plc_5adea288",
+        "claimants": [
+          "ent_064363a9",
+          "ent_06436043"
+        ]
+      },
+      {
+        "place": "plc_5ae19196",
+        "claimants": [
+          "ent_06c834d5",
+          "ent_06404f39"
+        ]
+      },
+      {
+        "place": "plc_5ae18fe3",
+        "claimants": [
+          "ent_0643655c",
+          "ent_064363a9"
+        ]
+      },
+      {
+        "place": "plc_5ae194fc",
+        "claimants": [
+          "ent_0648c0a1",
+          "ent_06c839ee"
+        ]
+      },
+      {
+        "place": "plc_5ae4ae85",
+        "claimants": [
+          "ent_06436043",
+          "ent_06c83688"
+        ]
+      }
+    ],
+    "total_titles": 34
+  },
+  "ritual": {
+    "centre": "plc_5adeae6d",
+    "calendar": [
+      {
+        "feast": "Salt Vigil",
+        "phase": 0.0,
+        "observance": "fast",
+        "attendance": 0.732
+      },
+      {
+        "feast": "Ashfall",
+        "phase": 0.2,
+        "observance": "procession",
+        "attendance": 0.49
+      },
+      {
+        "feast": "the Long Silence",
+        "phase": 0.4,
+        "observance": "assembly",
+        "attendance": 0.63
+      },
+      {
+        "feast": "Founders Rite",
+        "phase": 0.6,
+        "observance": "lantern ceremony",
+        "attendance": 0.772
+      },
+      {
+        "feast": "the Reckoning",
+        "phase": 0.8,
+        "observance": "silence",
+        "attendance": 0.507
+      }
+    ],
+    "procession": [
+      "plc_5adeae6d",
+      "plc_64414b54",
+      "plc_64413a56",
+      "plc_5adeacba",
+      "plc_64414d07",
+      "plc_5ae4ae85",
+      "plc_5adeab07",
+      "plc_5adea288"
+    ],
+    "orthodoxy": 0.775
+  },
+  "schedule": {
+    "plc_64413dbc": {
+      "dawn": 0.082,
+      "morning": 0.201,
+      "midday": 0.271,
+      "dusk": 0.321,
+      "night": 0.29,
+      "deep night": 0.23
+    },
+    "plc_64413f6f": {
+      "dawn": 0.191,
+      "morning": 0.657,
+      "midday": 0.851,
+      "dusk": 0.788,
+      "night": 0.337,
+      "deep night": 0.199
+    },
+    "plc_64414122": {
+      "dawn": 0.12,
+      "morning": 0.478,
+      "midday": 0.626,
+      "dusk": 0.564,
+      "night": 0.458,
+      "deep night": 0.265
+    },
+    "plc_644142d5": {
+      "dawn": 0.025,
+      "morning": 0.0,
+      "midday": 0.037,
+      "dusk": 0.12,
+      "night": 0.222,
+      "deep night": 0.312
+    },
+    "plc_644136f0": {
+      "dawn": 0.204,
+      "morning": 0.754,
+      "midday": 0.761,
+      "dusk": 0.742,
+      "night": 0.416,
+      "deep night": 0.128
+    },
+    "plc_644138a3": {
+      "dawn": 0.251,
+      "morning": 0.521,
+      "midday": 0.838,
+      "dusk": 0.429,
+      "night": 0.118,
+      "deep night": 0.076
+    },
+    "plc_64413a56": {
+      "dawn": 0.426,
+      "morning": 0.57,
+      "midday": 0.277,
+      "dusk": 0.251,
+      "night": 0.09,
+      "deep night": 0.188
+    },
+    "plc_64413c09": {
+      "dawn": 0.182,
+      "morning": 0.225,
+      "midday": 0.12,
+      "dusk": 0.137,
+      "night": 0.058,
+      "deep night": 0.01
+    },
+    "plc_64414b54": {
+      "dawn": 0.151,
+      "morning": 0.67,
+      "midday": 0.928,
+      "dusk": 0.779,
+      "night": 0.367,
+      "deep night": 0.009
+    },
+    "plc_64414d07": {
+      "dawn": 0.052,
+      "morning": 0.24,
+      "midday": 0.284,
+      "dusk": 0.298,
+      "night": 0.286,
+      "deep night": 0.2
+    },
+    "plc_5adeae6d": {
+      "dawn": 0.219,
+      "morning": 0.819,
+      "midday": 0.956,
+      "dusk": 0.826,
+      "night": 0.35,
+      "deep night": 0.0
+    },
+    "plc_5adeacba": {
+      "dawn": 0.131,
+      "morning": 0.796,
+      "midday": 0.816,
+      "dusk": 0.819,
+      "night": 0.468,
+      "deep night": 0.021
+    },
+    "plc_5adeab07": {
+      "dawn": 0.182,
+      "morning": 0.804,
+      "midday": 0.876,
+      "dusk": 0.828,
+      "night": 0.425,
+      "deep night": 0.043
+    },
+    "plc_5adea954": {
+      "dawn": 0.182,
+      "morning": 0.743,
+      "midday": 0.887,
+      "dusk": 0.721,
+      "night": 0.416,
+      "deep night": 0.155
+    },
+    "plc_5adea7a1": {
+      "dawn": 0.086,
+      "morning": 0.28,
+      "midday": 0.385,
+      "dusk": 0.402,
+      "night": 0.215,
+      "deep night": 0.001
+    },
+    "plc_5adea5ee": {
+      "dawn": 0.245,
+      "morning": 0.764,
+      "midday": 0.916,
+      "dusk": 0.825,
+      "night": 0.358,
+      "deep night": 0.035
+    },
+    "plc_5adea43b": {
+      "dawn": 0.027,
+      "morning": 0.183,
+      "midday": 0.252,
+      "dusk": 0.288,
+      "night": 0.292,
+      "deep night": 0.214
+    },
+    "plc_5adea288": {
+      "dawn": 0.11,
+      "morning": 0.703,
+      "midday": 0.938,
+      "dusk": 0.832,
+      "night": 0.477,
+      "deep night": 0.086
+    },
+    "plc_5adea0d5": {
+      "dawn": 0.207,
+      "morning": 0.546,
+      "midday": 0.94,
+      "dusk": 0.824,
+      "night": 0.414,
+      "deep night": 0.116
+    },
+    "plc_5ade9f22": {
+      "dawn": 0.198,
+      "morning": 0.567,
+      "midday": 0.828,
+      "dusk": 0.755,
+      "night": 0.438,
+      "deep night": 0.147
+    },
+    "plc_5ae19196": {
+      "dawn": 0.233,
+      "morning": 0.735,
+      "midday": 0.877,
+      "dusk": 0.716,
+      "night": 0.395,
+      "deep night": 0.076
+    },
+    "plc_5ae19349": {
+      "dawn": 0.24,
+      "morning": 0.595,
+      "midday": 0.694,
+      "dusk": 0.519,
+      "night": 0.152,
+      "deep night": 0.048
+    },
+    "plc_5ae18e30": {
+      "dawn": 0.0,
+      "morning": 0.056,
+      "midday": 0.045,
+      "dusk": 0.134,
+      "night": 0.248,
+      "deep night": 0.289
+    },
+    "plc_5ae18fe3": {
+      "dawn": 0.13,
+      "morning": 0.727,
+      "midday": 0.804,
+      "dusk": 0.764,
+      "night": 0.448,
+      "deep night": 0.227
+    },
+    "plc_5ae19862": {
+      "dawn": 0.145,
+      "morning": 0.648,
+      "midday": 0.967,
+      "dusk": 0.843,
+      "night": 0.383,
+      "deep night": 0.154
+    },
+    "plc_5ae19a15": {
+      "dawn": 0.04,
+      "morning": 0.055,
+      "midday": 0.159,
+      "dusk": 0.175,
+      "night": 0.319,
+      "deep night": 0.432
+    },
+    "plc_5ae194fc": {
+      "dawn": 0.068,
+      "morning": 0.102,
+      "midday": 0.075,
+      "dusk": 0.166,
+      "night": 0.34,
+      "deep night": 0.541
+    },
+    "plc_5ae196af": {
+      "dawn": 0.192,
+      "morning": 0.672,
+      "midday": 0.893,
+      "dusk": 0.856,
+      "night": 0.453,
+      "deep night": 0.123
+    },
+    "plc_5ae19f2e": {
+      "dawn": 0.277,
+      "morning": 0.711,
+      "midday": 0.69,
+      "dusk": 0.568,
+      "night": 0.166,
+      "deep night": 0.051
+    },
+    "plc_5ae1a0e1": {
+      "dawn": 0.002,
+      "morning": 0.034,
+      "midday": 0.04,
+      "dusk": 0.15,
+      "night": 0.25,
+      "deep night": 0.328
+    },
+    "plc_5ae4ab1f": {
+      "dawn": 0.259,
+      "morning": 0.638,
+      "midday": 0.645,
+      "dusk": 0.588,
+      "night": 0.071,
+      "deep night": 0.069
+    },
+    "plc_5ae4a96c": {
+      "dawn": 0.324,
+      "morning": 0.46,
+      "midday": 0.265,
+      "dusk": 0.248,
+      "night": 0.183,
+      "deep night": 0.104
+    },
+    "plc_5ae4ae85": {
+      "dawn": 0.332,
+      "morning": 0.637,
+      "midday": 0.792,
+      "dusk": 0.76,
+      "night": 0.359,
+      "deep night": 0.154
+    },
+    "plc_5ae4acd2": {
+      "dawn": 0.289,
+      "morning": 0.623,
+      "midday": 0.727,
+      "dusk": 0.483,
+      "night": 0.141,
+      "deep night": 0.022
+    }
+  },
+  "logistics": {
+    "routes": [
+      {
+        "good": "water",
+        "from": "plc_64413a56",
+        "to": "plc_5adeae6d",
+        "cost": 2.0
+      },
+      {
+        "good": "water",
+        "from": "plc_64413a56",
+        "to": "plc_5ae4ae85",
+        "cost": 2.0
+      },
+      {
+        "good": "water",
+        "from": "plc_64413a56",
+        "to": "plc_644136f0",
+        "cost": 2.0
+      },
+      {
+        "good": "water",
+        "from": "plc_64413a56",
+        "to": "plc_64413f6f",
+        "cost": 2.0
+      },
+      {
+        "good": "water",
+        "from": "plc_64413a56",
+        "to": "plc_5adeab07",
+        "cost": 4.0
+      },
+      {
+        "good": "water",
+        "from": "plc_64413a56",
+        "to": "plc_5adeacba",
+        "cost": 4.0
+      },
+      {
+        "good": "water",
+        "from": "plc_64413c09",
+        "to": "plc_64413f6f",
+        "cost": 3.61
+      },
+      {
+        "good": "water",
+        "from": "plc_64413c09",
+        "to": "plc_5ae4ae85",
+        "cost": 3.65
+      },
+      {
+        "good": "water",
+        "from": "plc_64413c09",
+        "to": "plc_5adeae6d",
+        "cost": 5.65
+      },
+      {
+        "good": "water",
+        "from": "plc_64413c09",
+        "to": "plc_644142d5",
+        "cost": 6.73
+      },
+      {
+        "good": "water",
+        "from": "plc_64413c09",
+        "to": "plc_64414d07",
+        "cost": 7.3
+      },
+      {
+        "good": "water",
+        "from": "plc_64413c09",
+        "to": "plc_644136f0",
+        "cost": 7.61
+      },
+      {
+        "good": "water",
+        "from": "plc_5ae4a96c",
+        "to": "plc_5ae18fe3",
+        "cost": 2.0
+      },
+      {
+        "good": "water",
+        "from": "plc_5ae4a96c",
+        "to": "plc_5ade9f22",
+        "cost": 4.0
+      },
+      {
+        "good": "water",
+        "from": "plc_5ae4a96c",
+        "to": "plc_5adea5ee",
+        "cost": 4.0
+      },
+      {
+        "good": "water",
+        "from": "plc_5ae4a96c",
+        "to": "plc_64414b54",
+        "cost": 4.0
+      },
+      {
+        "good": "water",
+        "from": "plc_5ae4a96c",
+        "to": "plc_5ae19862",
+        "cost": 4.02
+      },
+      {
+        "good": "water",
+        "from": "plc_5ae4a96c",
+        "to": "plc_5ae19a15",
+        "cost": 5.87
+      },
+      {
+        "good": "grain",
+        "from": "plc_644138a3",
+        "to": "plc_5ae19196",
+        "cost": 2.91
+      },
+      {
+        "good": "grain",
+        "from": "plc_644138a3",
+        "to": "plc_64414b54",
+        "cost": 2.92
+      },
+      {
+        "good": "grain",
+        "from": "plc_644138a3",
+        "to": "plc_5ae19a15",
+        "cost": 3.01
+      },
+      {
+        "good": "grain",
+        "from": "plc_644138a3",
+        "to": "plc_64414122",
+        "cost": 3.02
+      },
+      {
+        "good": "grain",
+        "from": "plc_644138a3",
+        "to": "plc_5adeae6d",
+        "cost": 4.87
+      },
+      {
+        "good": "grain",
+        "from": "plc_644138a3",
+        "to": "plc_5ae4ae85",
+        "cost": 4.87
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae19349",
+        "to": "plc_5ae194fc",
+        "cost": 2.0
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae19349",
+        "to": "plc_5adeacba",
+        "cost": 2.93
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae19349",
+        "to": "plc_5adeab07",
+        "cost": 2.95
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae19349",
+        "to": "plc_5ae196af",
+        "cost": 3.05
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae19349",
+        "to": "plc_5adea5ee",
+        "cost": 4.93
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae19349",
+        "to": "plc_5adeae6d",
+        "cost": 4.93
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae19f2e",
+        "to": "plc_5ae18fe3",
+        "cost": 2.93
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae19f2e",
+        "to": "plc_5adea5ee",
+        "cost": 2.93
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae19f2e",
+        "to": "plc_5ade9f22",
+        "cost": 4.93
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae19f2e",
+        "to": "plc_64414b54",
+        "cost": 4.93
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae19f2e",
+        "to": "plc_5adeacba",
+        "cost": 4.93
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae19f2e",
+        "to": "plc_5ae196af",
+        "cost": 6.79
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae4ab1f",
+        "to": "plc_5ae18fe3",
+        "cost": 4.97
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae4ab1f",
+        "to": "plc_5adea5ee",
+        "cost": 5.67
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae4ab1f",
+        "to": "plc_5ae19862",
+        "cost": 5.89
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae4ab1f",
+        "to": "plc_5ade9f22",
+        "cost": 6.97
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae4ab1f",
+        "to": "plc_64414b54",
+        "cost": 6.97
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae4ab1f",
+        "to": "plc_5adeacba",
+        "cost": 7.67
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae4acd2",
+        "to": "plc_5ae19862",
+        "cost": 3.1
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae4acd2",
+        "to": "plc_5ae18fe3",
+        "cost": 4.96
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae4acd2",
+        "to": "plc_5ae18e30",
+        "cost": 6.24
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae4acd2",
+        "to": "plc_5ade9f22",
+        "cost": 6.96
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae4acd2",
+        "to": "plc_5adea5ee",
+        "cost": 6.96
+      },
+      {
+        "good": "grain",
+        "from": "plc_5ae4acd2",
+        "to": "plc_64414b54",
+        "cost": 6.96
+      },
+      {
+        "good": "medicine",
+        "from": "plc_644138a3",
+        "to": "plc_5ae19196",
+        "cost": 2.91
+      },
+      {
+        "good": "medicine",
+        "from": "plc_644138a3",
+        "to": "plc_64414b54",
+        "cost": 2.92
+      },
+      {
+        "good": "medicine",
+        "from": "plc_644138a3",
+        "to": "plc_5ae19a15",
+        "cost": 3.01
+      },
+      {
+        "good": "medicine",
+        "from": "plc_644138a3",
+        "to": "plc_64414122",
+        "cost": 3.02
+      },
+      {
+        "good": "medicine",
+        "from": "plc_644138a3",
+        "to": "plc_5adeae6d",
+        "cost": 4.87
+      },
+      {
+        "good": "medicine",
+        "from": "plc_644138a3",
+        "to": "plc_5ae4ae85",
+        "cost": 4.87
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae19349",
+        "to": "plc_5ae194fc",
+        "cost": 2.0
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae19349",
+        "to": "plc_5adeacba",
+        "cost": 2.93
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae19349",
+        "to": "plc_5adeab07",
+        "cost": 2.95
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae19349",
+        "to": "plc_5ae196af",
+        "cost": 3.05
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae19349",
+        "to": "plc_5adea5ee",
+        "cost": 4.93
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae19349",
+        "to": "plc_5adeae6d",
+        "cost": 4.93
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae19f2e",
+        "to": "plc_5ae18fe3",
+        "cost": 2.93
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae19f2e",
+        "to": "plc_5adea5ee",
+        "cost": 2.93
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae19f2e",
+        "to": "plc_5ade9f22",
+        "cost": 4.93
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae19f2e",
+        "to": "plc_64414b54",
+        "cost": 4.93
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae19f2e",
+        "to": "plc_5adeacba",
+        "cost": 4.93
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae19f2e",
+        "to": "plc_5ae196af",
+        "cost": 6.79
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae4ab1f",
+        "to": "plc_5ae18fe3",
+        "cost": 4.97
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae4ab1f",
+        "to": "plc_5adea5ee",
+        "cost": 5.67
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae4ab1f",
+        "to": "plc_5ae19862",
+        "cost": 5.89
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae4ab1f",
+        "to": "plc_5ade9f22",
+        "cost": 6.97
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae4ab1f",
+        "to": "plc_64414b54",
+        "cost": 6.97
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae4ab1f",
+        "to": "plc_5adeacba",
+        "cost": 7.67
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae4acd2",
+        "to": "plc_5ae19862",
+        "cost": 3.1
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae4acd2",
+        "to": "plc_5ae18fe3",
+        "cost": 4.96
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae4acd2",
+        "to": "plc_5ae18e30",
+        "cost": 6.24
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae4acd2",
+        "to": "plc_5ade9f22",
+        "cost": 6.96
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae4acd2",
+        "to": "plc_5adea5ee",
+        "cost": 6.96
+      },
+      {
+        "good": "medicine",
+        "from": "plc_5ae4acd2",
+        "to": "plc_64414b54",
+        "cost": 6.96
+      }
+    ],
+    "sources": {
+      "grain": [
+        "plc_644138a3",
+        "plc_5ae19349",
+        "plc_5ae19f2e",
+        "plc_5ae4ab1f",
+        "plc_5ae4acd2"
+      ],
+      "medicine": [
+        "plc_644138a3",
+        "plc_5ae19349",
+        "plc_5ae19f2e",
+        "plc_5ae4ab1f",
+        "plc_5ae4acd2"
+      ],
+      "water": [
+        "plc_64413a56",
+        "plc_64413c09",
+        "plc_5ae4a96c"
+      ]
+    },
+    "goods": [
+      "water",
+      "grain",
+      "ore",
+      "fuel",
+      "cloth",
+      "medicine"
+    ]
+  },
+  "security": {
+    "posts": [
+      "plc_5adeae6d",
+      "plc_644138a3"
+    ],
+    "patrol_edges": 20
+  },
+  "diplomacy": {
+    "standings": {
+      "fac_74088c4b|fac_74088a98": {
+        "state": "hostile",
+        "trust": 0.26
+      },
+      "fac_74088c4b|fac_74088fb1": {
+        "state": "neutral",
+        "trust": 0.585
+      },
+      "fac_74088c4b|fac_74088dfe": {
+        "state": "neutral",
+        "trust": 0.439
+      },
+      "fac_74088a98|fac_74088fb1": {
+        "state": "alliance",
+        "trust": 0.989
+      },
+      "fac_74088a98|fac_74088dfe": {
+        "state": "neutral",
+        "trust": 0.431
+      },
+      "fac_74088fb1|fac_74088dfe": {
+        "state": "accord",
+        "trust": 0.874
+      }
+    },
+    "treaty_spaces": [
+      "plc_64413dbc",
+      "plc_64413f6f",
+      "plc_644142d5",
+      "plc_644136f0",
+      "plc_64413c09",
+      "plc_64414b54",
+      "plc_64414d07",
+      "plc_5adea5ee",
+      "plc_5ade9f22",
+      "plc_5ae19196",
+      "plc_5ae18e30",
+      "plc_5ae18fe3",
+      "plc_5ae19862",
+      "plc_5ae19a15",
+      "plc_5ae4ab1f",
+      "plc_5ae4a96c",
+      "plc_5ae4ae85",
+      "plc_5ae4acd2"
+    ],
+    "negotiations": [
+      {
+        "parties": [
+          "fac_74088c4b",
+          "fac_74088a98"
+        ],
+        "venue": "plc_5ade9f22",
+        "agenda": "ceasefire",
+        "odds": 0.26
+      }
+    ]
+  },
+  "ecology": {
+    "species": [
+      "rat",
+      "bat",
+      "moss",
+      "bird",
+      "beetle"
+    ],
+    "dominant": "bat",
+    "mean_suitability": {
+      "rat": 0.559,
+      "bat": 0.678,
+      "moss": 0.532,
+      "bird": 0.301,
+      "beetle": 0.523
+    }
+  },
+  "maintenance": {
+    "plc_64413dbc": 0.0,
+    "plc_64413f6f": 0.0,
+    "plc_64414122": 0.0,
+    "plc_644142d5": 0.0,
+    "plc_644136f0": 0.0,
+    "plc_644138a3": 0.0,
+    "plc_64413a56": 0.0,
+    "plc_64413c09": 0.126,
+    "plc_64414b54": 0.0,
+    "plc_64414d07": 0.0,
+    "plc_5adeae6d": 0.0,
+    "plc_5adeacba": 0.0,
+    "plc_5adeab07": 0.0,
+    "plc_5adea954": 0.0,
+    "plc_5adea7a1": 0.0,
+    "plc_5adea5ee": 0.0,
+    "plc_5adea43b": 0.0,
+    "plc_5adea288": 0.0,
+    "plc_5adea0d5": 0.0,
+    "plc_5ade9f22": 0.0,
+    "plc_5ae19196": 0.0,
+    "plc_5ae19349": 0.0,
+    "plc_5ae18e30": 0.0,
+    "plc_5ae18fe3": 0.0,
+    "plc_5ae19862": 0.0,
+    "plc_5ae19a15": 0.0,
+    "plc_5ae194fc": 0.0,
+    "plc_5ae196af": 0.0,
+    "plc_5ae19f2e": 0.0,
+    "plc_5ae1a0e1": 0.0,
+    "plc_5ae4ab1f": 0.0,
+    "plc_5ae4a96c": 0.0,
+    "plc_5ae4ae85": 0.0,
+    "plc_5ae4acd2": 0.0
+  },
+  "machines": {
+    "machines": [
+      {
+        "id": "mch_gen_413dbc",
+        "kind": "generator",
+        "place": "plc_64413dbc",
+        "requires": [],
+        "output": "power",
+        "condition": 0.66
+      },
+      {
+        "id": "mch_gen_413f6f",
+        "kind": "generator",
+        "place": "plc_64413f6f",
+        "requires": [],
+        "output": "power",
+        "condition": 1.0
+      },
+      {
+        "id": "mch_pump_413a56",
+        "kind": "pump",
+        "place": "plc_64413a56",
+        "requires": [
+          "mch_gen_413dbc"
+        ],
+        "output": "water pressure",
+        "condition": 0.98
+      },
+      {
+        "id": "mch_pump_413c09",
+        "kind": "pump",
+        "place": "plc_64413c09",
+        "requires": [
+          "mch_gen_413dbc"
+        ],
+        "output": "water pressure",
+        "condition": 0.81
+      },
+      {
+        "id": "mch_pump_e4a96c",
+        "kind": "pump",
+        "place": "plc_5ae4a96c",
+        "requires": [
+          "mch_gen_413dbc"
+        ],
+        "output": "water pressure",
+        "condition": 0.84
+      },
+      {
+        "id": "mch_lift_413dbc",
+        "kind": "lift",
+        "place": "plc_64413dbc",
+        "requires": [
+          "mch_pump_413a56"
+        ],
+        "output": "vertical access",
+        "condition": 0.76
+      },
+      {
+        "id": "mch_lift_413f6f",
+        "kind": "lift",
+        "place": "plc_64413f6f",
+        "requires": [
+          "mch_pump_413a56"
+        ],
+        "output": "vertical access",
+        "condition": 0.99
+      },
+      {
+        "id": "mch_lift_414122",
+        "kind": "lift",
+        "place": "plc_64414122",
+        "requires": [
+          "mch_pump_413a56"
+        ],
+        "output": "vertical access",
+        "condition": 0.83
+      }
+    ],
+    "cascade": {
+      "mch_gen_413dbc": [
+        "mch_lift_413dbc",
+        "mch_lift_413f6f",
+        "mch_lift_414122",
+        "mch_pump_413a56",
+        "mch_pump_413c09",
+        "mch_pump_e4a96c"
+      ],
+      "mch_gen_413f6f": []
+    }
+  },
+  "markets": {
+    "base_price": {
+      "water": 0.955,
+      "grain": 0.939,
+      "ore": 0.915,
+      "fuel": 0.835,
+      "cloth": 0.904,
+      "medicine": 0.734
+    },
+    "markets": [
+      "plc_64414b54",
+      "plc_5adeae6d",
+      "plc_5adeacba",
+      "plc_5adea5ee",
+      "plc_5ade9f22",
+      "plc_5ae18fe3",
+      "plc_5ae19862",
+      "plc_5ae196af",
+      "plc_5ae4ae85"
+    ],
+    "sample_prices": {
+      "plc_64413dbc": {
+        "water": 1.528,
+        "grain": 1.502,
+        "ore": 1.464,
+        "fuel": 1.336,
+        "cloth": 1.446,
+        "medicine": 1.174
+      },
+      "plc_64413f6f": {
+        "water": 1.265,
+        "grain": 1.244,
+        "ore": 1.212,
+        "fuel": 1.106,
+        "cloth": 1.197,
+        "medicine": 0.972
+      },
+      "plc_64414122": {
+        "water": 1.29,
+        "grain": 1.269,
+        "ore": 1.236,
+        "fuel": 1.128,
+        "cloth": 1.221,
+        "medicine": 0.992
+      },
+      "plc_644142d5": {
+        "water": 1.466,
+        "grain": 1.442,
+        "ore": 1.405,
+        "fuel": 1.282,
+        "cloth": 1.388,
+        "medicine": 1.127
+      },
+      "plc_644136f0": {
+        "water": 1.313,
+        "grain": 1.291,
+        "ore": 1.258,
+        "fuel": 1.148,
+        "cloth": 1.243,
+        "medicine": 1.009
+      },
+      "plc_644138a3": {
+        "water": 1.528,
+        "grain": 1.502,
+        "ore": 1.464,
+        "fuel": 1.336,
+        "cloth": 1.446,
+        "medicine": 1.174
+      }
+    }
+  },
+  "health": {
+    "hotspots": [
+      "plc_5adeae6d",
+      "plc_5ae196af"
+    ],
+    "quarantine_cordon": [
+      [
+        "plc_5adeae6d",
+        "plc_5adea288"
+      ],
+      [
+        "plc_5adeae6d",
+        "plc_5ae4ae85"
+      ],
+      [
+        "plc_5adeae6d",
+        "plc_5adeacba"
+      ],
+      [
+        "plc_5adeae6d",
+        "plc_64413a56"
+      ],
+      [
+        "plc_5adeae6d",
+        "plc_64414b54"
+      ],
+      [
+        "plc_5adeae6d",
+        "plc_5adeab07"
+      ],
+      [
+        "plc_5adeae6d",
+        "plc_64414d07"
+      ],
+      [
+        "plc_5ae196af",
+        "plc_5adeacba"
+      ],
+      [
+        "plc_5ae196af",
+        "plc_5adea5ee"
+      ],
+      [
+        "plc_5ae196af",
+        "plc_5ae19349"
+      ]
+    ],
+    "disease": "salt fever",
+    "mean_contamination": 0.035
+  },
+  "law": {
+    "codes": {
+      "fac_74088c4b": {
+        "faction": "the Salt Assembly",
+        "severity": {
+          "trespass": 0.236,
+          "theft": 0.4,
+          "smuggling": 0.392,
+          "assault": 0.716,
+          "sedition": 0.711,
+          "murder": 0.919,
+          "blasphemy": 0.359,
+          "fraud": 0.433
+        },
+        "due_process": 0.447
+      },
+      "fac_74088a98": {
+        "faction": "House Vareth",
+        "severity": {
+          "trespass": 0.13,
+          "theft": 0.341,
+          "smuggling": 0.481,
+          "assault": 0.617,
+          "sedition": 0.7,
+          "murder": 0.959,
+          "blasphemy": 0.366,
+          "fraud": 0.404
+        },
+        "due_process": 0.409
+      },
+      "fac_74088fb1": {
+        "faction": "the Ash Guild",
+        "severity": {
+          "trespass": 0.218,
+          "theft": 0.459,
+          "smuggling": 0.665,
+          "assault": 0.853,
+          "sedition": 0.9,
+          "murder": 1.0,
+          "blasphemy": 0.562,
+          "fraud": 0.452
+        },
+        "due_process": 0.652
+      },
+      "fac_74088dfe": {
+        "faction": "the Quiet Order",
+        "severity": {
+          "trespass": 0.148,
+          "theft": 0.41,
+          "smuggling": 0.637,
+          "assault": 0.82,
+          "sedition": 0.98,
+          "murder": 1.0,
+          "blasphemy": 0.593,
+          "fraud": 0.603
+        },
+        "due_process": 0.705
+      }
+    },
+    "offences": {
+      "trespass": 0.2,
+      "theft": 0.4,
+      "smuggling": 0.5,
+      "assault": 0.7,
+      "sedition": 0.8,
+      "murder": 1.0,
+      "blasphemy": 0.5,
+      "fraud": 0.45
+    },
+    "lawless_places": [
+      "plc_644142d5",
+      "plc_64413c09"
+    ]
+  },
+  "intelligence": {
+    "posts": [
+      {
+        "place": "plc_5adeae6d",
+        "at": [
+          56,
+          88
+        ],
+        "covers": 1128,
+        "operator": "watch"
+      },
+      {
+        "place": "plc_64413a56",
+        "at": [
+          81,
+          88
+        ],
+        "covers": 1182,
+        "operator": "informant"
+      },
+      {
+        "place": "plc_64414122",
+        "at": [
+          114,
+          60
+        ],
+        "covers": 896,
+        "operator": "clerk"
+      },
+      {
+        "place": "plc_644138a3",
+        "at": [
+          85,
+          65
+        ],
+        "covers": 1105,
+        "operator": "watch"
+      },
+      {
+        "place": "plc_5ae18fe3",
+        "at": [
+          39,
+          38
+        ],
+        "covers": 1095,
+        "operator": "informant"
+      },
+      {
+        "place": "plc_5ade9f22",
+        "at": [
+          62,
+          32
+        ],
+        "covers": 1165,
+        "operator": "clerk"
+      },
+      {
+        "place": "plc_5adeab07",
+        "at": [
+          28,
+          99
+        ],
+        "covers": 1138,
+        "operator": "watch"
+      },
+      {
+        "place": "plc_644136f0",
+        "at": [
+          109,
+          80
+        ],
+        "covers": 1008,
+        "operator": "informant"
+      }
+    ],
+    "blind_spots": [
+      "plc_64413dbc",
+      "plc_64413f6f",
+      "plc_644142d5",
+      "plc_64413c09",
+      "plc_64414d07",
+      "plc_5adea954",
+      "plc_5adea7a1",
+      "plc_5adea43b",
+      "plc_5ae19349",
+      "plc_5ae18e30",
+      "plc_5ae19862",
+      "plc_5ae19a15",
+      "plc_5ae194fc",
+      "plc_5ae196af",
+      "plc_5ae19f2e",
+      "plc_5ae1a0e1",
+      "plc_5ae4ab1f",
+      "plc_5ae4acd2"
+    ],
+    "secrets_known": [
+      "cns_0"
+    ]
+  },
+  "memories": [
+    {
+      "place": "plc_5ae4acd2",
+      "event": "a fire",
+      "age": 0.078,
+      "weight": 0.816
+    },
+    {
+      "place": "plc_644136f0",
+      "event": "a death",
+      "age": 0.578,
+      "weight": 0.666
+    },
+    {
+      "place": "plc_64413c09",
+      "event": "a wedding",
+      "age": 0.712,
+      "weight": 0.471
+    },
+    {
+      "place": "plc_64413f6f",
+      "event": "a wedding",
+      "age": 0.789,
+      "weight": 0.968
+    }
+  ],
+  "transformations": [
+    {
+      "kind": "breach",
+      "at": [
+        127,
+        80
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        123,
+        83
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        94,
+        20
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        47,
+        0
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        66,
+        110
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        0,
+        74
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        95,
+        127
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        43,
+        88
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        77,
+        9
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        51,
+        40
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        98,
+        35
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        124,
+        0
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        84,
+        52
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        38,
+        51
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        44,
+        53
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        38,
+        0
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        89,
+        103
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        16,
+        108
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        15,
+        99
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        127,
+        50
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        21,
+        69
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        15,
+        101
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        29,
+        127
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        87,
+        102
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        19,
+        63
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        113,
+        110
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        127,
+        77
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        1,
+        80
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        6,
+        34
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    },
+    {
+      "kind": "breach",
+      "at": [
+        99,
+        41
+      ],
+      "difficulty": 1.0,
+      "effect": "connects two regions permanently"
+    }
+  ],
+  "build_phases": {
+    "occupation": [
+      "plc_64413dbc",
+      "plc_64413f6f",
+      "plc_64414122",
+      "plc_644142d5",
+      "plc_644136f0",
+      "plc_644138a3",
+      "plc_64413c09",
+      "plc_64414b54",
+      "plc_64414d07",
+      "plc_5adeae6d",
+      "plc_5adeacba",
+      "plc_5adeab07",
+      "plc_5adea954",
+      "plc_5adea43b",
+      "plc_5adea288",
+      "plc_5ade9f22",
+      "plc_5ae19349",
+      "plc_5ae18e30",
+      "plc_5ae18fe3",
+      "plc_5ae19862",
+      "plc_5ae19a15",
+      "plc_5ae194fc",
+      "plc_5ae196af",
+      "plc_5ae19f2e",
+      "plc_5ae1a0e1",
+      "plc_5ae4ab1f",
+      "plc_5ae4a96c",
+      "plc_5ae4acd2"
+    ],
+    "expansion": [
+      "plc_64413a56",
+      "plc_5adea7a1",
+      "plc_5adea5ee",
+      "plc_5adea0d5",
+      "plc_5ae19196",
+      "plc_5ae4ae85"
+    ]
+  },
+  "build_order": [
+    "foundation",
+    "expansion",
+    "occupation",
+    "decline",
+    "reuse"
+  ],
+  "crises": {
+    "fire": {
+      "danger_places": [
+        "plc_644142d5",
+        "plc_5ae18e30",
+        "plc_5ae19a15",
+        "plc_5ae194fc",
+        "plc_5ae1a0e1"
+      ],
+      "refuge_places": [
+        "plc_64413dbc",
+        "plc_64413f6f",
+        "plc_64414122",
+        "plc_644136f0",
+        "plc_644138a3",
+        "plc_64413a56",
+        "plc_64413c09",
+        "plc_64414b54",
+        "plc_64414d07",
+        "plc_5adeae6d",
+        "plc_5adeacba",
+        "plc_5adeab07",
+        "plc_5adea954",
+        "plc_5adea7a1",
+        "plc_5adea5ee",
+        "plc_5adea43b",
+        "plc_5adea288",
+        "plc_5adea0d5",
+        "plc_5ade9f22",
+        "plc_5ae19196",
+        "plc_5ae19349",
+        "plc_5ae18fe3",
+        "plc_5ae19862",
+        "plc_5ae196af",
+        "plc_5ae19f2e",
+        "plc_5ae4ab1f",
+        "plc_5ae4a96c",
+        "plc_5ae4ae85",
+        "plc_5ae4acd2"
+      ],
+      "mean_severity": 0.124
+    },
+    "flood": {
+      "danger_places": [
+        "plc_64413a56",
+        "plc_64413c09",
+        "plc_5ae4a96c"
+      ],
+      "refuge_places": [
+        "plc_64413dbc",
+        "plc_64413f6f",
+        "plc_64414122",
+        "plc_644142d5",
+        "plc_644138a3",
+        "plc_64414b54",
+        "plc_64414d07",
+        "plc_5adeae6d",
+        "plc_5adeab07",
+        "plc_5adea954",
+        "plc_5adea7a1",
+        "plc_5adea5ee",
+        "plc_5adea43b",
+        "plc_5adea0d5",
+        "plc_5ae19196",
+        "plc_5ae18e30",
+        "plc_5ae194fc",
+        "plc_5ae196af",
+        "plc_5ae1a0e1",
+        "plc_5ae4ab1f",
+        "plc_5ae4ae85",
+        "plc_5ae4acd2"
+      ],
+      "mean_severity": 0.123
+    },
+    "siege": {
+      "danger_places": [
+        "plc_644138a3",
+        "plc_64413a56",
+        "plc_64413c09",
+        "plc_5ae19349",
+        "plc_5ae19f2e",
+        "plc_5ae4ab1f",
+        "plc_5ae4a96c",
+        "plc_5ae4acd2"
+      ],
+      "refuge_places": [
+        "plc_64413dbc",
+        "plc_644142d5",
+        "plc_5ae18e30",
+        "plc_5ae194fc",
+        "plc_5ae1a0e1"
+      ],
+      "mean_severity": 0.348
+    },
+    "blackout": {
+      "danger_places": [
+        "plc_64413dbc",
+        "plc_64413f6f",
+        "plc_64414122",
+        "plc_644142d5",
+        "plc_644136f0",
+        "plc_64413a56",
+        "plc_64413c09",
+        "plc_64414b54",
+        "plc_64414d07",
+        "plc_5adeae6d",
+        "plc_5adeacba",
+        "plc_5adeab07",
+        "plc_5adea954",
+        "plc_5adea7a1",
+        "plc_5adea5ee",
+        "plc_5adea43b",
+        "plc_5adea288",
+        "plc_5adea0d5",
+        "plc_5ade9f22",
+        "plc_5ae19196",
+        "plc_5ae18e30",
+        "plc_5ae18fe3",
+        "plc_5ae19862",
+        "plc_5ae19a15",
+        "plc_5ae194fc",
+        "plc_5ae196af",
+        "plc_5ae1a0e1",
+        "plc_5ae4a96c",
+        "plc_5ae4ae85"
+      ],
+      "refuge_places": [],
+      "mean_severity": 0.751
+    },
+    "contagion": {
+      "danger_places": [],
+      "refuge_places": [],
+      "mean_severity": 0.369
+    }
+  },
+  "labour": {
+    "workforce": {
+      "plc_64414b54": {
+        "workers": 4,
+        "wage": 0.766,
+        "hazard": 0.351,
+        "grievance": 0.18,
+        "shift": "morning"
+      },
+      "plc_5adea43b": {
+        "workers": 3,
+        "wage": 0.475,
+        "hazard": 0.214,
+        "grievance": 0.527,
+        "shift": "dawn"
+      },
+      "plc_5ae18e30": {
+        "workers": 2,
+        "wage": 0.421,
+        "hazard": 0.157,
+        "grievance": 0.493,
+        "shift": "night"
+      },
+      "plc_5ae1a0e1": {
+        "workers": 3,
+        "wage": 0.254,
+        "hazard": 0.158,
+        "grievance": 0.621,
+        "shift": "dawn"
+      },
+      "plc_64413f6f": {
+        "workers": 2,
+        "wage": 0.223,
+        "hazard": 0.356,
+        "grievance": 0.609,
+        "shift": "night"
+      },
+      "plc_5adea954": {
+        "workers": 2,
+        "wage": 0.712,
+        "hazard": 0.361,
+        "grievance": 0.452,
+        "shift": "night"
+      },
+      "plc_5ade9f22": {
+        "workers": 2,
+        "wage": 0.347,
+        "hazard": 0.362,
+        "grievance": 0.473,
+        "shift": "night"
+      },
+      "plc_5ae194fc": {
+        "workers": 2,
+        "wage": 0.286,
+        "hazard": 0.216,
+        "grievance": 0.517,
+        "shift": "night"
+      },
+      "plc_644136f0": {
+        "workers": 2,
+        "wage": 0.606,
+        "hazard": 0.363,
+        "grievance": 0.436,
+        "shift": "night"
+      },
+      "plc_64413dbc": {
+        "workers": 2,
+        "wage": 0.598,
+        "hazard": 0.2,
+        "grievance": 0.461,
+        "shift": "night"
+      }
+    },
+    "disputes": [
+      {
+        "place": "plc_5ae1a0e1",
+        "kind": "strike",
+        "grievance": 0.621,
+        "demands": "wages"
+      },
+      {
+        "place": "plc_64413f6f",
+        "kind": "strike",
+        "grievance": 0.609,
+        "demands": "hours"
+      }
+    ],
+    "classes": [
+      "underclass",
+      "labouring",
+      "artisan",
+      "mercantile",
+      "patrician"
+    ]
+  },
+  "scarcity": {
+    "pressure_sample": {
+      "plc_64413dbc": 0.533,
+      "plc_64413f6f": 0.459,
+      "plc_64414122": 0.407,
+      "plc_644142d5": 0.338,
+      "plc_644136f0": 0.519,
+      "plc_644138a3": 0.672,
+      "plc_64413a56": 0.6,
+      "plc_64413c09": 0.422,
+      "plc_64414b54": 0.0,
+      "plc_64414d07": 0.451,
+      "plc_5adeae6d": 0.101,
+      "plc_5adeacba": 0.009,
+      "plc_5adeab07": 0.384,
+      "plc_5adea954": 0.817,
+      "plc_5adea7a1": 0.528,
+      "plc_5adea5ee": 0.0,
+      "plc_5adea43b": 0.509,
+      "plc_5adea288": 0.824,
+      "plc_5adea0d5": 0.808,
+      "plc_5ade9f22": 0.138,
+      "plc_5ae19196": 0.485,
+      "plc_5ae19349": 0.675,
+      "plc_5ae18e30": 0.256,
+      "plc_5ae18fe3": 0.0,
+      "plc_5ae19862": 0.211,
+      "plc_5ae19a15": 0.093,
+      "plc_5ae194fc": 0.098,
+      "plc_5ae196af": 0.361,
+      "plc_5ae19f2e": 0.71,
+      "plc_5ae1a0e1": 0.434,
+      "plc_5ae4ab1f": 0.678,
+      "plc_5ae4a96c": 0.564,
+      "plc_5ae4ae85": 0.249,
+      "plc_5ae4acd2": 0.681
+    },
+    "outages": [
+      {
+        "if_lost": "mch_gen_413dbc",
+        "machines_down": [
+          "mch_lift_413dbc",
+          "mch_lift_413f6f",
+          "mch_lift_414122",
+          "mch_pump_413a56",
+          "mch_pump_413c09",
+          "mch_pump_e4a96c"
+        ],
+        "utilities_lost": [
+          "water pressure",
+          "vertical access"
+        ]
+      },
+      {
+        "if_lost": "mch_gen_413f6f",
+        "machines_down": [],
+        "utilities_lost": [
+          "water pressure"
+        ]
+      }
+    ],
+    "rationing_threshold": 0.664
+  },
+  "contraband": {
+    "goods": [
+      "forbidden crystals",
+      "stolen power cells",
+      "forged writs",
+      "stolen relics",
+      "untaxed salt"
+    ],
+    "dens": [
+      "plc_64413dbc",
+      "plc_644142d5",
+      "plc_64413c09",
+      "plc_64414d07",
+      "plc_5adea7a1",
+      "plc_5adea43b",
+      "plc_5ae18e30",
+      "plc_5ae19a15",
+      "plc_5ae194fc",
+      "plc_5ae1a0e1"
+    ],
+    "routes": [
+      {
+        "from": "plc_64413dbc",
+        "to": "plc_644142d5",
+        "cost": 2.57
+      },
+      {
+        "from": "plc_64413dbc",
+        "to": "plc_64413c09",
+        "cost": 9.3
+      },
+      {
+        "from": "plc_64413dbc",
+        "to": "plc_64414d07",
+        "cost": 10.9
+      },
+      {
+        "from": "plc_64413dbc",
+        "to": "plc_5adea7a1",
+        "cost": 17.76
+      },
+      {
+        "from": "plc_64413dbc",
+        "to": "plc_5adea43b",
+        "cost": 14.41
+      },
+      {
+        "from": "plc_64413dbc",
+        "to": "plc_5ae18e30",
+        "cost": 16.68
+      },
+      {
+        "from": "plc_64413dbc",
+        "to": "plc_5ae19a15",
+        "cost": 13.06
+      },
+      {
+        "from": "plc_644142d5",
+        "to": "plc_64413dbc",
+        "cost": 2.57
+      },
+      {
+        "from": "plc_644142d5",
+        "to": "plc_64413c09",
+        "cost": 6.73
+      },
+      {
+        "from": "plc_644142d5",
+        "to": "plc_64414d07",
+        "cost": 10.77
+      },
+      {
+        "from": "plc_644142d5",
+        "to": "plc_5adea7a1",
+        "cost": 19.66
+      },
+      {
+        "from": "plc_644142d5",
+        "to": "plc_5adea43b",
+        "cost": 16.98
+      },
+      {
+        "from": "plc_644142d5",
+        "to": "plc_5ae18e30",
+        "cost": 16.55
+      },
+      {
+        "from": "plc_644142d5",
+        "to": "plc_5ae19a15",
+        "cost": 12.93
+      },
+      {
+        "from": "plc_64413c09",
+        "to": "plc_64413dbc",
+        "cost": 9.3
+      },
+      {
+        "from": "plc_64413c09",
+        "to": "plc_644142d5",
+        "cost": 6.73
+      },
+      {
+        "from": "plc_64413c09",
+        "to": "plc_64414d07",
+        "cost": 7.3
+      },
+      {
+        "from": "plc_64413c09",
+        "to": "plc_5adea7a1",
+        "cost": 18.19
+      },
+      {
+        "from": "plc_64413c09",
+        "to": "plc_5adea43b",
+        "cost": 18.78
+      },
+      {
+        "from": "plc_64413c09",
+        "to": "plc_5ae18e30",
+        "cost": 15.08
+      },
+      {
+        "from": "plc_64413c09",
+        "to": "plc_5ae19a15",
+        "cost": 11.46
+      },
+      {
+        "from": "plc_64414d07",
+        "to": "plc_64413dbc",
+        "cost": 10.9
+      },
+      {
+        "from": "plc_64414d07",
+        "to": "plc_644142d5",
+        "cost": 10.77
+      },
+      {
+        "from": "plc_64414d07",
+        "to": "plc_64413c09",
+        "cost": 7.3
+      },
+      {
+        "from": "plc_64414d07",
+        "to": "plc_5adea7a1",
+        "cost": 16.23
+      },
+      {
+        "from": "plc_64414d07",
+        "to": "plc_5adea43b",
+        "cost": 18.81
+      },
+      {
+        "from": "plc_64414d07",
+        "to": "plc_5ae18e30",
+        "cost": 13.12
+      },
+      {
+        "from": "plc_64414d07",
+        "to": "plc_5ae19a15",
+        "cost": 9.5
+      },
+      {
+        "from": "plc_5adea7a1",
+        "to": "plc_64413dbc",
+        "cost": 17.76
+      },
+      {
+        "from": "plc_5adea7a1",
+        "to": "plc_644142d5",
+        "cost": 19.66
+      },
+      {
+        "from": "plc_5adea7a1",
+        "to": "plc_64413c09",
+        "cost": 18.19
+      },
+      {
+        "from": "plc_5adea7a1",
+        "to": "plc_64414d07",
+        "cost": 16.23
+      },
+      {
+        "from": "plc_5adea7a1",
+        "to": "plc_5adea43b",
+        "cost": 3.34
+      },
+      {
+        "from": "plc_5adea7a1",
+        "to": "plc_5ae18e30",
+        "cost": 3.11
+      },
+      {
+        "from": "plc_5adea7a1",
+        "to": "plc_5ae19a15",
+        "cost": 10.35
+      },
+      {
+        "from": "plc_5adea43b",
+        "to": "plc_64413dbc",
+        "cost": 14.41
+      },
+      {
+        "from": "plc_5adea43b",
+        "to": "plc_644142d5",
+        "cost": 16.98
+      },
+      {
+        "from": "plc_5adea43b",
+        "to": "plc_64413c09",
+        "cost": 18.78
+      },
+      {
+        "from": "plc_5adea43b",
+        "to": "plc_64414d07",
+        "cost": 18.81
+      },
+      {
+        "from": "plc_5adea43b",
+        "to": "plc_5adea7a1",
+        "cost": 3.34
+      }
+    ]
+  },
+  "pacing": {
+    "calmest": [
+      {
+        "place": "plc_644138a3",
+        "dread": 0.331,
+        "awe": 0.63,
+        "safety": 0.714
+      },
+      {
+        "place": "plc_5ae19f2e",
+        "dread": 0.339,
+        "awe": 0.55,
+        "safety": 0.456
+      },
+      {
+        "place": "plc_5ae19349",
+        "dread": 0.359,
+        "awe": 0.522,
+        "safety": 0.494
+      },
+      {
+        "place": "plc_5ae4ab1f",
+        "dread": 0.365,
+        "awe": 0.481,
+        "safety": 0.453
+      },
+      {
+        "place": "plc_5ae4acd2",
+        "dread": 0.438,
+        "awe": 0.517,
+        "safety": 0.467
+      }
+    ],
+    "most_suspenseful": [
+      {
+        "place": "plc_5ae18e30",
+        "dread": 0.713,
+        "awe": 0.317,
+        "safety": 0.047
+      },
+      {
+        "place": "plc_64413f6f",
+        "dread": 0.726,
+        "awe": 0.399,
+        "safety": 0.31
+      },
+      {
+        "place": "plc_64413dbc",
+        "dread": 0.729,
+        "awe": 0.257,
+        "safety": 0.109
+      },
+      {
+        "place": "plc_644142d5",
+        "dread": 0.737,
+        "awe": 0.282,
+        "safety": 0.042
+      },
+      {
+        "place": "plc_5ae1a0e1",
+        "dread": 0.749,
+        "awe": 0.195,
+        "safety": 0.047
+      }
+    ],
+    "contrast": 0.418
+  },
+  "structure": {
+    "failures": [],
+    "fire_paths": {
+      "danger_places": [
+        "plc_644142d5",
+        "plc_5ae18e30",
+        "plc_5ae19a15",
+        "plc_5ae194fc",
+        "plc_5ae1a0e1"
+      ],
+      "refuge_places": [
+        "plc_64413dbc",
+        "plc_64413f6f",
+        "plc_64414122",
+        "plc_644136f0",
+        "plc_644138a3",
+        "plc_64413a56",
+        "plc_64413c09",
+        "plc_64414b54",
+        "plc_64414d07",
+        "plc_5adeae6d",
+        "plc_5adeacba",
+        "plc_5adeab07",
+        "plc_5adea954",
+        "plc_5adea7a1",
+        "plc_5adea5ee",
+        "plc_5adea43b",
+        "plc_5adea288",
+        "plc_5adea0d5",
+        "plc_5ade9f22",
+        "plc_5ae19196",
+        "plc_5ae19349",
+        "plc_5ae18fe3",
+        "plc_5ae19862",
+        "plc_5ae196af",
+        "plc_5ae19f2e",
+        "plc_5ae4ab1f",
+        "plc_5ae4a96c",
+        "plc_5ae4ae85",
+        "plc_5ae4acd2"
+      ],
+      "mean_severity": 0.124
+    },
+    "mean_load": 0.047
+  },
+  "violence": {
+    "ladder": [
+      "calm",
+      "friction",
+      "brawl",
+      "riot",
+      "reprisal",
+      "open conflict"
+    ],
+    "incidents": [
+      {
+        "place": "plc_64413dbc",
+        "stage": "reprisal",
+        "threat": 0.826,
+        "de_escalation": "amnesty",
+        "collateral": 0.604
+      },
+      {
+        "place": "plc_64413f6f",
+        "stage": "reprisal",
+        "threat": 0.768,
+        "de_escalation": "amnesty",
+        "collateral": 0.287
+      },
+      {
+        "place": "plc_64414122",
+        "stage": "riot",
+        "threat": 0.632,
+        "de_escalation": "concession",
+        "collateral": 0.205
+      },
+      {
+        "place": "plc_644142d5",
+        "stage": "open conflict",
+        "threat": 0.875,
+        "de_escalation": "occupation",
+        "collateral": 0.799
+      },
+      {
+        "place": "plc_644136f0",
+        "stage": "reprisal",
+        "threat": 0.677,
+        "de_escalation": "amnesty",
+        "collateral": 0.333
+      },
+      {
+        "place": "plc_644138a3",
+        "stage": "brawl",
+        "threat": 0.399,
+        "de_escalation": "arbitration",
+        "collateral": 0.19
+      },
+      {
+        "place": "plc_64413a56",
+        "stage": "riot",
+        "threat": 0.585,
+        "de_escalation": "concession",
+        "collateral": 0.198
+      },
+      {
+        "place": "plc_64413c09",
+        "stage": "open conflict",
+        "threat": 0.858,
+        "de_escalation": "occupation",
+        "collateral": 0.78
+      },
+      {
+        "place": "plc_64414b54",
+        "stage": "riot",
+        "threat": 0.611,
+        "de_escalation": "concession",
+        "collateral": 0.155
+      },
+      {
+        "place": "plc_64414d07",
+        "stage": "open conflict",
+        "threat": 0.843,
+        "de_escalation": "occupation",
+        "collateral": 0.524
+      },
+      {
+        "place": "plc_5adeae6d",
+        "stage": "brawl",
+        "threat": 0.484,
+        "de_escalation": "arbitration",
+        "collateral": 0.123
+      },
+      {
+        "place": "plc_5adeacba",
+        "stage": "reprisal",
+        "threat": 0.681,
+        "de_escalation": "amnesty",
+        "collateral": 0.074
+      },
+      {
+        "place": "plc_5adeab07",
+        "stage": "reprisal",
+        "threat": 0.684,
+        "de_escalation": "amnesty",
+        "collateral": 0.616
+      },
+      {
+        "place": "plc_5adea954",
+        "stage": "reprisal",
+        "threat": 0.739,
+        "de_escalation": "amnesty",
+        "collateral": 0.052
+      },
+      {
+        "place": "plc_5adea7a1",
+        "stage": "reprisal",
+        "threat": 0.75,
+        "de_escalation": "amnesty",
+        "collateral": 0.581
+      },
+      {
+        "place": "plc_5adea5ee",
+        "stage": "reprisal",
+        "threat": 0.8,
+        "de_escalation": "amnesty",
+        "collateral": 0.351
+      },
+      {
+        "place": "plc_5adea43b",
+        "stage": "reprisal",
+        "threat": 0.742,
+        "de_escalation": "amnesty",
+        "collateral": 0.501
+      },
+      {
+        "place": "plc_5adea288",
+        "stage": "reprisal",
+        "threat": 0.71,
+        "de_escalation": "amnesty",
+        "collateral": 0.015
+      },
+      {
+        "place": "plc_5adea0d5",
+        "stage": "reprisal",
+        "threat": 0.741,
+        "de_escalation": "amnesty",
+        "collateral": 0.537
+      },
+      {
+        "place": "plc_5ade9f22",
+        "stage": "reprisal",
+        "threat": 0.774,
+        "de_escalation": "amnesty",
+        "collateral": 0.319
+      },
+      {
+        "place": "plc_5ae19196",
+        "stage": "riot",
+        "threat": 0.666,
+        "de_escalation": "concession",
+        "collateral": 0.075
+      },
+      {
+        "place": "plc_5ae19349",
+        "stage": "reprisal",
+        "threat": 0.673,
+        "de_escalation": "amnesty",
+        "collateral": 0.544
+      },
+      {
+        "place": "plc_5ae18e30",
+        "stage": "reprisal",
+        "threat": 0.828,
+        "de_escalation": "amnesty",
+        "collateral": 0.153
+      },
+      {
+        "place": "plc_5ae18fe3",
+        "stage": "reprisal",
+        "threat": 0.83,
+        "de_escalation": "amnesty",
+        "collateral": 0.397
+      },
+      {
+        "place": "plc_5ae19862",
+        "stage": "reprisal",
+        "threat": 0.805,
+        "de_escalation": "amnesty",
+        "collateral": 0.339
+      },
+      {
+        "place": "plc_5ae19a15",
+        "stage": "reprisal",
+        "threat": 0.703,
+        "de_escalation": "amnesty",
+        "collateral": 0.168
+      },
+      {
+        "place": "plc_5ae194fc",
+        "stage": "reprisal",
+        "threat": 0.826,
+        "de_escalation": "amnesty",
+        "collateral": 0.195
+      },
+      {
+        "place": "plc_5ae196af",
+        "stage": "reprisal",
+        "threat": 0.786,
+        "de_escalation": "amnesty",
+        "collateral": 0.49
+      },
+      {
+        "place": "plc_5ae19f2e",
+        "stage": "reprisal",
+        "threat": 0.741,
+        "de_escalation": "amnesty",
+        "collateral": 0.643
+      },
+      {
+        "place": "plc_5ae1a0e1",
+        "stage": "reprisal",
+        "threat": 0.775,
+        "de_escalation": "amnesty",
+        "collateral": 0.023
+      },
+      {
+        "place": "plc_5ae4ab1f",
+        "stage": "reprisal",
+        "threat": 0.77,
+        "de_escalation": "amnesty",
+        "collateral": 0.226
+      },
+      {
+        "place": "plc_5ae4a96c",
+        "stage": "open conflict",
+        "threat": 0.834,
+        "de_escalation": "occupation",
+        "collateral": 0.736
+      },
+      {
+        "place": "plc_5ae4ae85",
+        "stage": "reprisal",
+        "threat": 0.674,
+        "de_escalation": "amnesty",
+        "collateral": 0.608
+      },
+      {
+        "place": "plc_5ae4acd2",
+        "stage": "reprisal",
+        "threat": 0.777,
+        "de_escalation": "amnesty",
+        "collateral": 0.189
+      }
+    ],
+    "mean_threat": 0.695
+  },
+  "operations": {
+    "contracts": [
+      {
+        "id": "op_000",
+        "kind": "item recovery",
+        "target_place": "plc_64413dbc",
+        "client": "fac_74088c4b",
+        "steps": [
+          {
+            "step": "approach",
+            "place": "plc_64413dbc",
+            "risk": 0.0
+          },
+          {
+            "step": "reach the objective",
+            "place": "plc_64413dbc",
+            "contact": "ent_06435e90"
+          },
+          {
+            "step": "recover the lost artifact",
+            "place": "plc_64413dbc",
+            "risk": 0.0
+          },
+          {
+            "step": "return to the entrance",
+            "place": "plc_64413dbc"
+          }
+        ],
+        "contingency": {
+          "if_seen": "plc_5adeae6d",
+          "fallback": "return to the entrance"
+        },
+        "payout": 0.446
+      },
+      {
+        "id": "op_001",
+        "kind": "NPC rescue",
+        "target_place": "plc_64413f6f",
+        "client": "fac_74088a98",
+        "steps": [
+          {
+            "step": "approach",
+            "place": "plc_64413f6f",
+            "risk": 0.003
+          },
+          {
+            "step": "reach the objective",
+            "place": "plc_64413f6f",
+            "contact": "ent_06c839ee"
+          },
+          {
+            "step": "rescue the stranded explorer",
+            "place": "plc_64413f6f",
+            "risk": 0.003
+          },
+          {
+            "step": "return to the entrance",
+            "place": "plc_64413f6f"
+          }
+        ],
+        "contingency": {
+          "if_seen": "plc_644138a3",
+          "fallback": "return to the entrance"
+        },
+        "payout": 0.403
+      },
+      {
+        "id": "op_002",
+        "kind": "disable mechanism",
+        "target_place": "plc_64414122",
+        "client": "fac_74088fb1",
+        "steps": [
+          {
+            "step": "approach",
+            "place": "plc_644142d5",
+            "risk": 0.0
+          },
+          {
+            "step": "reach the objective",
+            "place": "plc_64414122",
+            "contact": "ent_06404a20"
+          },
+          {
+            "step": "disable the barrier mechanism",
+            "place": "plc_64414122",
+            "risk": 0.014
+          },
+          {
+            "step": "return to the entrance",
+            "place": "plc_644142d5"
+          }
+        ],
+        "contingency": {
+          "if_seen": "plc_5adeae6d",
+          "fallback": "return to the entrance"
+        },
+        "payout": 0.677
+      },
+      {
+        "id": "op_003",
+        "kind": "dungeon exploration",
+        "target_place": "plc_644142d5",
+        "client": "fac_74088dfe",
+        "steps": [
+          {
+            "step": "approach",
+            "place": "plc_64413c09",
+            "risk": 0.0
+          },
+          {
+            "step": "reach the objective",
+            "place": "plc_644142d5",
+            "contact": "ent_06436043"
+          },
+          {
+            "step": "explore the dungeon chamber",
+            "place": "plc_644142d5",
+            "risk": 0.0
+          },
+          {
+            "step": "return to the entrance",
+            "place": "plc_64413c09"
+          }
+        ],
+        "contingency": {
+          "if_seen": "plc_644138a3",
+          "fallback": "return to the entrance"
+        },
+        "payout": 0.468
+      },
+      {
+        "id": "op_004",
+        "kind": "item recovery",
+        "target_place": "plc_644136f0",
+        "client": "fac_74088c4b",
+        "steps": [
+          {
+            "step": "approach",
+            "place": "plc_64414d07",
+            "risk": 0.0
+          },
+          {
+            "step": "reach the objective",
+            "place": "plc_644136f0",
+            "contact": "ent_0648bd3b"
+          },
+          {
+            "step": "recover the lost artifact",
+            "place": "plc_644136f0",
+            "risk": 0.029
+          },
+          {
+            "step": "return to the entrance",
+            "place": "plc_64414d07"
+          }
+        ],
+        "contingency": {
+          "if_seen": "plc_5adeae6d",
+          "fallback": "return to the entrance"
+        },
+        "payout": 0.756
+      },
+      {
+        "id": "op_005",
+        "kind": "NPC rescue",
+        "target_place": "plc_644138a3",
+        "client": "fac_74088a98",
+        "steps": [
+          {
+            "step": "approach",
+            "place": "plc_5adea954",
+            "risk": 0.0
+          },
+          {
+            "step": "reach the objective",
+            "place": "plc_644138a3",
+            "contact": "ent_0648c5ba"
+          },
+          {
+            "step": "rescue the stranded explorer",
+            "place": "plc_644138a3",
+            "risk": 0.999
+          },
+          {
+            "step": "return to the entrance",
+            "place": "plc_5adea954"
+          }
+        ],
+        "contingency": {
+          "if_seen": "plc_644138a3",
+          "fallback": "return to the entrance"
+        },
+        "payout": 0.922
+      }
+    ]
+  },
+  "investigations": {
+    "model": "Seeded quest hooks with assigned NPCs and location-based clue quality.",
+    "clues": [
+      {
+        "id": "clue_0000",
+        "place": "plc_64413dbc",
+        "kind": "trace",
+        "npc": "ent_06404f39",
+        "quality": 0.24
+      },
+      {
+        "id": "clue_0001",
+        "place": "plc_64413dbc",
+        "kind": "witness",
+        "npc": "ent_06404f39",
+        "quality": 0.011
+      },
+      {
+        "id": "clue_0002",
+        "place": "plc_64413dbc",
+        "kind": "object",
+        "npc": "ent_06404f39",
+        "quality": 0.72
+      },
+      {
+        "id": "clue_0003",
+        "place": "plc_64413f6f",
+        "kind": "trace",
+        "npc": "ent_06406037",
+        "quality": 0.193
+      },
+      {
+        "id": "clue_0004",
+        "place": "plc_64413f6f",
+        "kind": "witness",
+        "npc": "ent_06406037",
+        "quality": 0.024
+      },
+      {
+        "id": "clue_0005",
+        "place": "plc_64413f6f",
+        "kind": "object",
+        "npc": "ent_06406037",
+        "quality": 0.58
+      },
+      {
+        "id": "clue_0006",
+        "place": "plc_64414122",
+        "kind": "trace",
+        "npc": "ent_0648beee",
+        "quality": 0.206
+      },
+      {
+        "id": "clue_0007",
+        "place": "plc_64414122",
+        "kind": "witness",
+        "npc": "ent_0648beee",
+        "quality": 0.16
+      },
+      {
+        "id": "clue_0008",
+        "place": "plc_64414122",
+        "kind": "object",
+        "npc": "ent_0648beee",
+        "quality": 0.617
+      },
+      {
+        "id": "clue_0009",
+        "place": "plc_644142d5",
+        "kind": "trace",
+        "npc": "ent_06404d86",
+        "quality": 0.255
+      },
+      {
+        "id": "clue_0010",
+        "place": "plc_644142d5",
+        "kind": "witness",
+        "npc": "ent_06404d86",
+        "quality": 0.0
+      },
+      {
+        "id": "clue_0011",
+        "place": "plc_644142d5",
+        "kind": "object",
+        "npc": "ent_06404d86",
+        "quality": 0.765
+      },
+      {
+        "id": "clue_0012",
+        "place": "plc_644136f0",
+        "kind": "trace",
+        "npc": "ent_0643655c",
+        "quality": 0.191
+      },
+      {
+        "id": "clue_0013",
+        "place": "plc_644136f0",
+        "kind": "witness",
+        "npc": "ent_0643655c",
+        "quality": 0.214
+      },
+      {
+        "id": "clue_0014",
+        "place": "plc_644136f0",
+        "kind": "object",
+        "npc": "ent_0643655c",
+        "quality": 0.574
+      },
+      {
+        "id": "clue_0015",
+        "place": "plc_644138a3",
+        "kind": "trace",
+        "npc": "ent_06404bd3",
+        "quality": 0.154
+      },
+      {
+        "id": "clue_0016",
+        "place": "plc_644138a3",
+        "kind": "witness",
+        "npc": "ent_06404bd3",
+        "quality": 0.295
+      },
+      {
+        "id": "clue_0017",
+        "place": "plc_644138a3",
+        "kind": "object",
+        "npc": "ent_06404bd3",
+        "quality": 0.461
+      },
+      {
+        "id": "clue_0018",
+        "place": "plc_64413a56",
+        "kind": "trace",
+        "npc": "ent_06c834d5",
+        "quality": 0.184
+      },
+      {
+        "id": "clue_0019",
+        "place": "plc_64413a56",
+        "kind": "witness",
+        "npc": "ent_06c834d5",
+        "quality": 0.316
+      },
+      {
+        "id": "clue_0020",
+        "place": "plc_64413a56",
+        "kind": "object",
+        "npc": "ent_06c834d5",
+        "quality": 0.551
+      },
+      {
+        "id": "clue_0021",
+        "place": "plc_64413c09",
+        "kind": "trace",
+        "npc": "ent_06406037",
+        "quality": 0.187
+      },
+      {
+        "id": "clue_0022",
+        "place": "plc_64413c09",
+        "kind": "witness",
+        "npc": "ent_06406037",
+        "quality": 0.0
+      },
+      {
+        "id": "clue_0023",
+        "place": "plc_64413c09",
+        "kind": "object",
+        "npc": "ent_06406037",
+        "quality": 0.561
+      },
+      {
+        "id": "clue_0024",
+        "place": "plc_64414b54",
+        "kind": "trace",
+        "npc": "ent_0643765a",
+        "quality": 0.195
+      },
+      {
+        "id": "clue_0025",
+        "place": "plc_64414b54",
+        "kind": "witness",
+        "npc": "ent_0643765a",
+        "quality": 0.052
+      },
+      {
+        "id": "clue_0026",
+        "place": "plc_64414b54",
+        "kind": "object",
+        "npc": "ent_0643765a",
+        "quality": 0.585
+      },
+      {
+        "id": "clue_0027",
+        "place": "plc_64414d07",
+        "kind": "trace",
+        "npc": "ent_06404bd3",
+        "quality": 0.236
+      },
+      {
+        "id": "clue_0028",
+        "place": "plc_64414d07",
+        "kind": "witness",
+        "npc": "ent_06404bd3",
+        "quality": 0.014
+      },
+      {
+        "id": "clue_0029",
+        "place": "plc_64414d07",
+        "kind": "object",
+        "npc": "ent_06404bd3",
+        "quality": 0.708
+      },
+      {
+        "id": "clue_0030",
+        "place": "plc_5adeae6d",
+        "kind": "trace",
+        "npc": "ent_0648beee",
+        "quality": 0.186
+      },
+      {
+        "id": "clue_0031",
+        "place": "plc_5adeae6d",
+        "kind": "witness",
+        "npc": "ent_0648beee",
+        "quality": 0.202
+      },
+      {
+        "id": "clue_0032",
+        "place": "plc_5adeae6d",
+        "kind": "object",
+        "npc": "ent_0648beee",
+        "quality": 0.558
+      },
+      {
+        "id": "clue_0033",
+        "place": "plc_5adeacba",
+        "kind": "trace",
+        "npc": "ent_0648c5ba",
+        "quality": 0.185
+      },
+      {
+        "id": "clue_0034",
+        "place": "plc_5adeacba",
+        "kind": "witness",
+        "npc": "ent_0648c5ba",
+        "quality": 0.082
+      },
+      {
+        "id": "clue_0035",
+        "place": "plc_5adeacba",
+        "kind": "object",
+        "npc": "ent_0648c5ba",
+        "quality": 0.556
+      },
+      {
+        "id": "clue_0036",
+        "place": "plc_5adeab07",
+        "kind": "trace",
+        "npc": "ent_06c834d5",
+        "quality": 0.189
+      },
+      {
+        "id": "clue_0037",
+        "place": "plc_5adeab07",
+        "kind": "witness",
+        "npc": "ent_06c834d5",
+        "quality": 0.145
+      },
+      {
+        "id": "clue_0038",
+        "place": "plc_5adeab07",
+        "kind": "object",
+        "npc": "ent_06c834d5",
+        "quality": 0.568
+      },
+      {
+        "id": "clue_0039",
+        "place": "plc_5adea954",
+        "kind": "trace",
+        "npc": "ent_0643670f",
+        "quality": 0.192
+      },
+      {
+        "id": "clue_0040",
+        "place": "plc_5adea954",
+        "kind": "witness",
+        "npc": "ent_0643670f",
+        "quality": 0.016
+      },
+      {
+        "id": "clue_0041",
+        "place": "plc_5adea954",
+        "kind": "object",
+        "npc": "ent_0643670f",
+        "quality": 0.575
+      },
+      {
+        "id": "clue_0042",
+        "place": "plc_5adea7a1",
+        "kind": "trace",
+        "npc": "ent_0648c407",
+        "quality": 0.231
+      },
+      {
+        "id": "clue_0043",
+        "place": "plc_5adea7a1",
+        "kind": "witness",
+        "npc": "ent_0648c407",
+        "quality": 0.0
+      },
+      {
+        "id": "clue_0044",
+        "place": "plc_5adea7a1",
+        "kind": "object",
+        "npc": "ent_0648c407",
+        "quality": 0.693
+      },
+      {
+        "id": "clue_0045",
+        "place": "plc_5adea5ee",
+        "kind": "trace",
+        "npc": "ent_0648beee",
+        "quality": 0.187
+      },
+      {
+        "id": "clue_0046",
+        "place": "plc_5adea5ee",
+        "kind": "witness",
+        "npc": "ent_0648beee",
+        "quality": 0.034
+      },
+      {
+        "id": "clue_0047",
+        "place": "plc_5adea5ee",
+        "kind": "object",
+        "npc": "ent_0648beee",
+        "quality": 0.561
+      },
+      {
+        "id": "clue_0048",
+        "place": "plc_5adea43b",
+        "kind": "trace",
+        "npc": "ent_06c8426d",
+        "quality": 0.236
+      },
+      {
+        "id": "clue_0049",
+        "place": "plc_5adea43b",
+        "kind": "witness",
+        "npc": "ent_06c8426d",
+        "quality": 0.0
+      },
+      {
+        "id": "clue_0050",
+        "place": "plc_5adea43b",
+        "kind": "object",
+        "npc": "ent_06c8426d",
+        "quality": 0.708
+      },
+      {
+        "id": "clue_0051",
+        "place": "plc_5adea288",
+        "kind": "trace",
+        "npc": "ent_0643670f",
+        "quality": 0.19
+      },
+      {
+        "id": "clue_0052",
+        "place": "plc_5adea288",
+        "kind": "witness",
+        "npc": "ent_0643670f",
+        "quality": 0.082
+      },
+      {
+        "id": "clue_0053",
+        "place": "plc_5adea288",
+        "kind": "object",
+        "npc": "ent_0643670f",
+        "quality": 0.569
+      },
+      {
+        "id": "clue_0054",
+        "place": "plc_5adea0d5",
+        "kind": "trace",
+        "npc": "ent_06436043",
+        "quality": 0.189
+      },
+      {
+        "id": "clue_0055",
+        "place": "plc_5adea0d5",
+        "kind": "witness",
+        "npc": "ent_06436043",
+        "quality": 0.044
+      },
+      {
+        "id": "clue_0056",
+        "place": "plc_5adea0d5",
+        "kind": "object",
+        "npc": "ent_06436043",
+        "quality": 0.567
+      },
+      {
+        "id": "clue_0057",
+        "place": "plc_5ade9f22",
+        "kind": "trace",
+        "npc": "ent_06405452",
+        "quality": 0.191
+      },
+      {
+        "id": "clue_0058",
+        "place": "plc_5ade9f22",
+        "kind": "witness",
+        "npc": "ent_06405452",
+        "quality": 0.171
+      },
+      {
+        "id": "clue_0059",
+        "place": "plc_5ade9f22",
+        "kind": "object",
+        "npc": "ent_06405452",
+        "quality": 0.574
+      }
+    ],
+    "quests": [
+      {
+        "id": "inq_000",
+        "place": "plc_64413dbc",
+        "npc": "ent_06404f39",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0000",
+          "clue_0001",
+          "clue_0002"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_001",
+        "place": "plc_64413f6f",
+        "npc": "ent_06406037",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0003",
+          "clue_0004",
+          "clue_0005"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_002",
+        "place": "plc_64414122",
+        "npc": "ent_0648beee",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0006",
+          "clue_0007",
+          "clue_0008"
+        ],
+        "uses_disguise": true
+      },
+      {
+        "id": "inq_003",
+        "place": "plc_644142d5",
+        "npc": "ent_06404d86",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0009",
+          "clue_0010",
+          "clue_0011"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_004",
+        "place": "plc_644136f0",
+        "npc": "ent_0643655c",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0012",
+          "clue_0013",
+          "clue_0014"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_005",
+        "place": "plc_644138a3",
+        "npc": "ent_06404bd3",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0015",
+          "clue_0016",
+          "clue_0017"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_006",
+        "place": "plc_64413a56",
+        "npc": "ent_06c834d5",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0018",
+          "clue_0019",
+          "clue_0020"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_007",
+        "place": "plc_64413c09",
+        "npc": "ent_06406037",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0021",
+          "clue_0022",
+          "clue_0023"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_008",
+        "place": "plc_64414b54",
+        "npc": "ent_0643765a",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0024",
+          "clue_0025",
+          "clue_0026"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_009",
+        "place": "plc_64414d07",
+        "npc": "ent_06404bd3",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0027",
+          "clue_0028",
+          "clue_0029"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_010",
+        "place": "plc_5adeae6d",
+        "npc": "ent_0648beee",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0030",
+          "clue_0031",
+          "clue_0032"
+        ],
+        "uses_disguise": true
+      },
+      {
+        "id": "inq_011",
+        "place": "plc_5adeacba",
+        "npc": "ent_0648c5ba",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0033",
+          "clue_0034",
+          "clue_0035"
+        ],
+        "uses_disguise": true
+      },
+      {
+        "id": "inq_012",
+        "place": "plc_5adeab07",
+        "npc": "ent_06c834d5",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0036",
+          "clue_0037",
+          "clue_0038"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_013",
+        "place": "plc_5adea954",
+        "npc": "ent_0643670f",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0039",
+          "clue_0040",
+          "clue_0041"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_014",
+        "place": "plc_5adea7a1",
+        "npc": "ent_0648c407",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0042",
+          "clue_0043",
+          "clue_0044"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_015",
+        "place": "plc_5adea5ee",
+        "npc": "ent_0648beee",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0045",
+          "clue_0046",
+          "clue_0047"
+        ],
+        "uses_disguise": true
+      },
+      {
+        "id": "inq_016",
+        "place": "plc_5adea43b",
+        "npc": "ent_06c8426d",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0048",
+          "clue_0049",
+          "clue_0050"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_017",
+        "place": "plc_5adea288",
+        "npc": "ent_0643670f",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0051",
+          "clue_0052",
+          "clue_0053"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_018",
+        "place": "plc_5adea0d5",
+        "npc": "ent_06436043",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0054",
+          "clue_0055",
+          "clue_0056"
+        ],
+        "uses_disguise": false
+      },
+      {
+        "id": "inq_019",
+        "place": "plc_5ade9f22",
+        "npc": "ent_06405452",
+        "objective": "find the missing traveller",
+        "clue_ids": [
+          "clue_0057",
+          "clue_0058",
+          "clue_0059"
+        ],
+        "uses_disguise": false
+      }
+    ]
+  },
+  "chronicle": {
+    "nodes": [
+      {
+        "id": "evt_0000",
+        "kind": "founding",
+        "text": "The Salt Assembly took its seat and claimed 15 places.",
+        "place": "plc_5adeae6d"
+      },
+      {
+        "id": "evt_0001",
+        "kind": "founding",
+        "text": "House Vareth took its seat and claimed 5 places.",
+        "place": "plc_64413a56"
+      },
+      {
+        "id": "evt_0002",
+        "kind": "founding",
+        "text": "The Ash Guild took its seat and claimed 8 places.",
+        "place": "plc_64414122"
+      },
+      {
+        "id": "evt_0003",
+        "kind": "founding",
+        "text": "The Quiet Order took its seat and claimed 6 places.",
+        "place": "plc_644138a3"
+      },
+      {
+        "id": "evt_0004",
+        "kind": "dispute",
+        "text": "Workers at High Quarter Ruin (122, 29) requested changes to wages.",
+        "place": "plc_5ae1a0e1"
+      },
+      {
+        "id": "evt_0005",
+        "kind": "dispute",
+        "text": "Workers at North Ward Hall (102, 102) requested changes to hours.",
+        "place": "plc_64413f6f"
+      },
+      {
+        "id": "evt_0006",
+        "kind": "violence",
+        "text": "Reprisal at North Ward Hall (121, 95); suggested response: amnesty.",
+        "place": "plc_64413dbc"
+      },
+      {
+        "id": "evt_0007",
+        "kind": "violence",
+        "text": "Reprisal at North Ward Hall (102, 102); suggested response: amnesty.",
+        "place": "plc_64413f6f"
+      },
+      {
+        "id": "evt_0008",
+        "kind": "violence",
+        "text": "Riot at High Quarter Hall (114, 61); suggested response: concession.",
+        "place": "plc_64414122"
+      },
+      {
+        "id": "evt_0009",
+        "kind": "violence",
+        "text": "Open Conflict at North Ward Ruin (118, 117); suggested response: occupation.",
+        "place": "plc_644142d5"
+      },
+      {
+        "id": "evt_0010",
+        "kind": "violence",
+        "text": "Reprisal at North Ward Hall (109, 80); suggested response: amnesty.",
+        "place": "plc_644136f0"
+      },
+      {
+        "id": "evt_0011",
+        "kind": "violence",
+        "text": "Brawl at West Ward Garden (85, 65); suggested response: arbitration.",
+        "place": "plc_644138a3"
+      },
+      {
+        "id": "evt_0012",
+        "kind": "violence",
+        "text": "Riot at West Ward Cistern (81, 89); suggested response: concession.",
+        "place": "plc_64413a56"
+      },
+      {
+        "id": "evt_0013",
+        "kind": "violence",
+        "text": "Open Conflict at South Ward Cistern (93, 120); suggested response: occupation.",
+        "place": "plc_64413c09"
+      },
+      {
+        "id": "evt_0014",
+        "kind": "quest_hook",
+        "text": "Clues at North Ward Hall (121, 95) offer a quest to find the missing traveller.",
+        "place": "plc_64413dbc"
+      },
+      {
+        "id": "evt_0015",
+        "kind": "quest_hook",
+        "text": "Clues at North Ward Hall (102, 102) offer a quest to find the missing traveller.",
+        "place": "plc_64413f6f"
+      },
+      {
+        "id": "evt_0016",
+        "kind": "quest_hook",
+        "text": "Clues at High Quarter Hall (114, 61) offer a quest to find the missing traveller.",
+        "place": "plc_64414122"
+      },
+      {
+        "id": "evt_0017",
+        "kind": "quest_hook",
+        "text": "Clues at North Ward Ruin (118, 117) offer a quest to find the missing traveller.",
+        "place": "plc_644142d5"
+      },
+      {
+        "id": "evt_0018",
+        "kind": "quest_hook",
+        "text": "Clues at North Ward Hall (109, 80) offer a quest to find the missing traveller.",
+        "place": "plc_644136f0"
+      },
+      {
+        "id": "evt_0019",
+        "kind": "quest_hook",
+        "text": "Clues at West Ward Garden (85, 65) offer a quest to find the missing traveller.",
+        "place": "plc_644138a3"
+      }
+    ],
+    "edges": [
+      {
+        "from": "evt_0002",
+        "to": "evt_0004"
+      },
+      {
+        "from": "evt_0001",
+        "to": "evt_0005"
+      },
+      {
+        "from": "evt_0005",
+        "to": "evt_0007"
+      },
+      {
+        "from": "evt_0002",
+        "to": "evt_0008"
+      },
+      {
+        "from": "evt_0003",
+        "to": "evt_0011"
+      },
+      {
+        "from": "evt_0001",
+        "to": "evt_0012"
+      },
+      {
+        "from": "evt_0006",
+        "to": "evt_0014"
+      },
+      {
+        "from": "evt_0005",
+        "to": "evt_0015"
+      },
+      {
+        "from": "evt_0007",
+        "to": "evt_0015"
+      },
+      {
+        "from": "evt_0002",
+        "to": "evt_0016"
+      },
+      {
+        "from": "evt_0008",
+        "to": "evt_0016"
+      },
+      {
+        "from": "evt_0009",
+        "to": "evt_0017"
+      },
+      {
+        "from": "evt_0010",
+        "to": "evt_0018"
+      },
+      {
+        "from": "evt_0003",
+        "to": "evt_0019"
+      },
+      {
+        "from": "evt_0011",
+        "to": "evt_0019"
+      }
+    ],
+    "roots": [
+      "evt_0000",
+      "evt_0001",
+      "evt_0002",
+      "evt_0003",
+      "evt_0006",
+      "evt_0009",
+      "evt_0010",
+      "evt_0013"
+    ],
+    "prose": [
+      "The Salt Assembly took its seat and claimed 15 places.",
+      "House Vareth took its seat and claimed 5 places.",
+      "The Ash Guild took its seat and claimed 8 places.",
+      "The Quiet Order took its seat and claimed 6 places.",
+      "Workers at High Quarter Ruin (122, 29) requested changes to wages.",
+      "Workers at North Ward Hall (102, 102) requested changes to hours.",
+      "Reprisal at North Ward Hall (121, 95); suggested response: amnesty.",
+      "Reprisal at North Ward Hall (102, 102); suggested response: amnesty.",
+      "Riot at High Quarter Hall (114, 61); suggested response: concession.",
+      "Open Conflict at North Ward Ruin (118, 117); suggested response: occupation.",
+      "Reprisal at North Ward Hall (109, 80); suggested response: amnesty.",
+      "Brawl at West Ward Garden (85, 65); suggested response: arbitration.",
+      "Riot at West Ward Cistern (81, 89); suggested response: concession.",
+      "Open Conflict at South Ward Cistern (93, 120); suggested response: occupation.",
+      "Clues at North Ward Hall (121, 95) offer a quest to find the missing traveller.",
+      "Clues at North Ward Hall (102, 102) offer a quest to find the missing traveller.",
+      "Clues at High Quarter Hall (114, 61) offer a quest to find the missing traveller.",
+      "Clues at North Ward Ruin (118, 117) offer a quest to find the missing traveller.",
+      "Clues at North Ward Hall (109, 80) offer a quest to find the missing traveller.",
+      "Clues at West Ward Garden (85, 65) offer a quest to find the missing traveller."
+    ]
+  },
+  "director": {
+    "initial_threat": 0.695,
+    "selection": "seeded choice within encounter categories",
+    "target_curve": [
+      0.25,
+      0.4,
+      0.55,
+      0.35,
+      0.7,
+      0.5
+    ],
+    "candidate_beats": 55,
+    "schedule": [
+      {
+        "phase": 0,
+        "target_tension": 0.25,
+        "beat": "raid",
+        "place": "plc_5ae194fc",
+        "reason": "the watch moves on the den"
+      },
+      {
+        "phase": 1,
+        "target_tension": 0.4,
+        "beat": "quarantine",
+        "place": "plc_5ae196af",
+        "reason": "guards close a hazardous area"
+      },
+      {
+        "phase": 2,
+        "target_tension": 0.55,
+        "beat": "escalate",
+        "place": "plc_644138a3",
+        "reason": "a combat encounter starts"
+      },
+      {
+        "phase": 3,
+        "target_tension": 0.35,
+        "beat": "shortage",
+        "place": "plc_5ae18fe3",
+        "reason": "supply fails to arrive"
+      },
+      {
+        "phase": 4,
+        "target_tension": 0.7,
+        "beat": "escalate",
+        "place": "plc_64413c09",
+        "reason": "a combat encounter starts"
+      },
+      {
+        "phase": 5,
+        "target_tension": 0.5,
+        "beat": "quarantine",
+        "place": "plc_5adeae6d",
+        "reason": "guards close a hazardous area"
+      }
+    ],
+    "chronicle_size": 20
+  },
+  "manifest": {
+    "schema": "2.0.0",
+    "world": {
+      "name": "The Obsidian Salt Keep",
+      "seed": 93741,
+      "size": [
+        128,
+        128
+      ],
+      "places": 34,
+      "fields": [
+        "accumulation",
+        "age",
+        "allocation_pressure",
+        "awe",
+        "border_tension",
+        "contamination",
+        "contested",
+        "control",
+        "crisis_blackout",
+        "crisis_contagion",
+        "crisis_fire",
+        "crisis_flood",
+        "crisis_siege",
+        "crowding",
+        "dread",
+        "elevation",
+        "enforcement",
+        "era",
+        "exposure",
+        "gravity_x",
+        "gravity_y",
+        "guard_attention",
+        "habitat",
+        "habitat_bat",
+        "habitat_beetle",
+        "habitat_bird",
+        "habitat_moss",
+        "habitat_rat",
+        "light",
+        "load",
+        "market_access",
+        "melancholy",
+        "memory",
+        "observed",
+        "price_level",
+        "privacy",
+        "region",
+        "rumor_reach",
+        "sacred_intensity",
+        "safety",
+        "shadow",
+        "smuggling_risk",
+        "sound_pressure",
+        "structural_stress",
+        "structure",
+        "temperature",
+        "tension",
+        "threat",
+        "wear",
+        "wind"
+      ],
+      "topologies": {
+        "circulation.public": 47,
+        "circulation.service": 51,
+        "ecology.routes": 53,
+        "infrastructure.power": 6,
+        "institutions.jurisdiction": 50,
+        "logistics.supply": 48,
+        "perception.acoustic": 67,
+        "physical.adjacency": 67,
+        "society.alliance": 7,
+        "society.guard_patrol": 20,
+        "society.influence": 4,
+        "society.recognition": 44,
+        "society.rivalry": 6,
+        "society.rumor": 137,
+        "traversal.climb": 0,
+        "traversal.crawl": 67,
+        "traversal.fly": 67,
+        "traversal.swim": 0,
+        "traversal.walk": 55
+      },
+      "entities": 40,
+      "factions": 4,
+      "events": 46,
+      "findings": 0
+    },
+    "recipe": {
+      "macro": "voronoi_kingdoms",
+      "structure": "reaction_diffusion",
+      "circulation": "river_delta",
+      "ornament": "truchet",
+      "symmetry": 0.72,
+      "organicity": 0.84,
+      "verticality": 0.3,
+      "erosion": 0.42,
+      "secret_density": 0.15,
+      "style": "obsidian_gold",
+      "seed": 93741,
+      "size": 128,
+      "name": "The Obsidian Salt Keep",
+      "features": []
+    },
+    "recipe_digest": "7b4ad324bbb3a673",
+    "features": [
+      {
+        "id": "plc.acoustic",
+        "number": 21,
+        "name": "Acoustic Map",
+        "context": "Place Semantics",
+        "part": "II",
+        "consumes": [
+          "places"
+        ],
+        "produces": [
+          "fields.sound_pressure",
+          "topology.perception.acoustic"
+        ],
+        "ran": true
+      },
+      {
+        "id": "prs.light",
+        "number": 22,
+        "name": "Light Map",
+        "context": "Presentation & Style",
+        "part": "II",
+        "consumes": [
+          "places"
+        ],
+        "produces": [
+          "fields.light",
+          "fields.shadow"
+        ],
+        "ran": true
+      },
+      {
+        "id": "eco.circulation",
+        "number": 23,
+        "name": "Social Circulation Map",
+        "context": "Ecology & Inhabitants",
+        "part": "II",
+        "consumes": [
+          "places",
+          "fields.light"
+        ],
+        "produces": [
+          "topology.circulation.public",
+          "topology.circulation.service",
+          "fields.privacy"
+        ],
+        "ran": true
+      },
+      {
+        "id": "eco.schedule",
+        "number": 24,
+        "name": "Schedule Map",
+        "context": "Ecology & Inhabitants",
+        "part": "II",
+        "consumes": [
+          "places",
+          "topology.circulation.public"
+        ],
+        "produces": [
+          "artifacts.schedule",
+          "fields.crowding"
+        ],
+        "ran": true
+      },
+      {
+        "id": "eco.logistics",
+        "number": 25,
+        "name": "Logistics Map",
+        "context": "Economy & Logistics",
+        "part": "II",
+        "consumes": [
+          "places",
+          "topology.circulation.service"
+        ],
+        "produces": [
+          "topology.logistics.supply",
+          "fields.market_access",
+          "artifacts.logistics"
+        ],
+        "ran": true
+      },
+      {
+        "id": "soc.security",
+        "number": 26,
+        "name": "Security Map",
+        "context": "Society & Institutions",
+        "part": "II",
+        "consumes": [
+          "places",
+          "fields.light",
+          "topology.circulation.public"
+        ],
+        "produces": [
+          "topology.society.guard_patrol",
+          "fields.guard_attention"
+        ],
+        "ran": true
+      },
+      {
+        "id": "nar.rumor",
+        "number": 27,
+        "name": "Rumor and Knowledge Map",
+        "context": "Incidents & Narrative",
+        "part": "II",
+        "consumes": [
+          "places",
+          "artifacts.schedule"
+        ],
+        "produces": [
+          "topology.society.rumor",
+          "fields.rumor_reach"
+        ],
+        "ran": true
+      },
+      {
+        "id": "eco.ecology",
+        "number": 28,
+        "name": "Ecological Map",
+        "context": "Ecology & Inhabitants",
+        "part": "II",
+        "consumes": [
+          "places",
+          "fields.light",
+          "fields.crowding"
+        ],
+        "produces": [
+          "fields.habitat",
+          "topology.ecology.routes",
+          "artifacts.ecology"
+        ],
+        "ran": true
+      },
+      {
+        "id": "env.weather",
+        "number": 29,
+        "name": "Weather Map",
+        "context": "Environment & Infrastructure",
+        "part": "II",
+        "consumes": [
+          "places"
+        ],
+        "produces": [
+          "fields.temperature",
+          "fields.exposure",
+          "fields.wind",
+          "artifacts.weather"
+        ],
+        "ran": true
+      },
+      {
+        "id": "env.aging",
+        "number": 30,
+        "name": "Material-Aging Map",
+        "context": "Environment & Infrastructure",
+        "part": "II",
+        "consumes": [
+          "places",
+          "fields.crowding",
+          "fields.exposure"
+        ],
+        "produces": [
+          "fields.wear",
+          "fields.age",
+          "artifacts.maintenance"
+        ],
+        "ran": true
+      },
+      {
+        "id": "nar.transformation",
+        "number": 31,
+        "name": "Transformation Map",
+        "context": "Incidents & Narrative",
+        "part": "II",
+        "consumes": [
+          "places",
+          "fields.wear"
+        ],
+        "produces": [
+          "artifacts.transformations",
+          "fields.structural_stress"
+        ],
+        "ran": true
+      },
+      {
+        "id": "nar.memory",
+        "number": 32,
+        "name": "Memory Map",
+        "context": "Incidents & Narrative",
+        "part": "II",
+        "consumes": [
+          "places",
+          "topology.society.rumor"
+        ],
+        "produces": [
+          "fields.memory",
+          "artifacts.memories"
+        ],
+        "ran": true
+      },
+      {
+        "id": "top.traversal",
+        "number": 33,
+        "name": "Traversal-Verb Map",
+        "context": "Topology & Traversal",
+        "part": "II",
+        "consumes": [
+          "places"
+        ],
+        "produces": [
+          "topology.traversal"
+        ],
+        "ran": true
+      },
+      {
+        "id": "top.gravity",
+        "number": 34,
+        "name": "Gravity and Orientation Map",
+        "context": "Topology & Traversal",
+        "part": "II",
+        "consumes": [
+          "places"
+        ],
+        "produces": [
+          "fields.gravity_x",
+          "fields.gravity_y",
+          "artifacts.frames"
+        ],
+        "ran": true
+      },
+      {
+        "id": "plc.perceptual",
+        "number": 35,
+        "name": "Perceptual Map",
+        "context": "Place Semantics",
+        "part": "II",
+        "consumes": [
+          "places",
+          "fields.light",
+          "fields.sound_pressure"
+        ],
+        "produces": [
+          "artifacts.perception"
+        ],
+        "ran": true
+      },
+      {
+        "id": "env.machines",
+        "number": 36,
+        "name": "Mechanical Infrastructure Map",
+        "context": "Environment & Infrastructure",
+        "part": "II",
+        "consumes": [
+          "places",
+          "topology.logistics.supply"
+        ],
+        "produces": [
+          "topology.infrastructure.power",
+          "artifacts.machines"
+        ],
+        "ran": true
+      },
+      {
+        "id": "nar.crisis",
+        "number": 37,
+        "name": "Crisis Map",
+        "context": "Incidents & Narrative",
+        "part": "II",
+        "consumes": [
+          "places",
+          "fields.exposure",
+          "artifacts.machines"
+        ],
+        "produces": [
+          "artifacts.crises"
+        ],
+        "ran": true
+      },
+      {
+        "id": "plc.emotion",
+        "number": 38,
+        "name": "Emotional Topology",
+        "context": "Place Semantics",
+        "part": "II",
+        "consumes": [
+          "places",
+          "fields.light",
+          "fields.sound_pressure",
+          "fields.memory"
+        ],
+        "produces": [
+          "fields.dread",
+          "fields.awe",
+          "fields.safety",
+          "artifacts.pacing"
+        ],
+        "ran": true
+      },
+      {
+        "id": "plc.archaeology",
+        "number": 39,
+        "name": "Architectural Archaeology",
+        "context": "Place Semantics",
+        "part": "II",
+        "consumes": [
+          "places",
+          "fields.age"
+        ],
+        "produces": [
+          "fields.era",
+          "artifacts.build_phases"
+        ],
+        "ran": true
+      },
+      {
+        "id": "exp.compiler",
+        "number": 40,
+        "name": "World Compiler",
+        "context": "Export & Runtime Integration",
+        "part": "II",
+        "consumes": [
+          "places"
+        ],
+        "produces": [
+          "artifacts.manifest"
+        ],
+        "ran": true
+      },
+      {
+        "id": "soc.sovereignty",
+        "number": 41,
+        "name": "Faction Territories",
+        "context": "Society & Institutions",
+        "part": "III",
+        "consumes": [
+          "places"
+        ],
+        "produces": [
+          "fields.control",
+          "artifacts.factions",
+          "topology.institutions.jurisdiction"
+        ],
+        "ran": true
+      },
+      {
+        "id": "soc.politics",
+        "number": 42,
+        "name": "Faction Influence and Rivalries",
+        "context": "Society & Institutions",
+        "part": "III",
+        "consumes": [
+          "artifacts.factions"
+        ],
+        "produces": [
+          "artifacts.politics",
+          "topology.society.influence"
+        ],
+        "ran": true
+      },
+      {
+        "id": "soc.law",
+        "number": 43,
+        "name": "Town Rules and Guard Responses",
+        "context": "Society & Institutions",
+        "part": "III",
+        "consumes": [
+          "artifacts.factions",
+          "fields.guard_attention"
+        ],
+        "produces": [
+          "artifacts.law",
+          "fields.enforcement"
+        ],
+        "ran": true
+      },
+      {
+        "id": "eco.markets",
+        "number": 44,
+        "name": "Shops, Trading, and Prices",
+        "context": "Economy & Logistics",
+        "part": "III",
+        "consumes": [
+          "artifacts.logistics",
+          "fields.market_access"
+        ],
+        "produces": [
+          "artifacts.markets",
+          "fields.price_level"
+        ],
+        "ran": true
+      },
+      {
+        "id": "soc.labour",
+        "number": 45,
+        "name": "NPC Work and Wages",
+        "context": "Society & Institutions",
+        "part": "III",
+        "consumes": [
+          "artifacts.markets",
+          "artifacts.schedule"
+        ],
+        "produces": [
+          "artifacts.labour"
+        ],
+        "ran": true
+      },
+      {
+        "id": "soc.property",
+        "number": 46,
+        "name": "Buildings, Ownership, and Succession",
+        "context": "Society & Institutions",
+        "part": "III",
+        "consumes": [
+          "artifacts.factions"
+        ],
+        "produces": [
+          "artifacts.property"
+        ],
+        "ran": true
+      },
+      {
+        "id": "eco.contraband",
+        "number": 47,
+        "name": "Smuggler NPCs and Hidden Shops",
+        "context": "Economy & Logistics",
+        "part": "III",
+        "consumes": [
+          "fields.enforcement",
+          "fields.privacy",
+          "artifacts.markets"
+        ],
+        "produces": [
+          "artifacts.contraband",
+          "fields.smuggling_risk"
+        ],
+        "ran": true
+      },
+      {
+        "id": "eco.identity",
+        "number": 48,
+        "name": "NPC Reputation and Disguises",
+        "context": "Ecology & Inhabitants",
+        "part": "III",
+        "consumes": [
+          "places"
+        ],
+        "produces": [
+          "artifacts.identity"
+        ],
+        "ran": true
+      },
+      {
+        "id": "eco.relationships",
+        "number": 49,
+        "name": "NPC Alliances, Rivalries, and Cooperation",
+        "context": "Ecology & Inhabitants",
+        "part": "III",
+        "consumes": [
+          "artifacts.identity"
+        ],
+        "produces": [
+          "artifacts.relationships",
+          "topology.society.alliance",
+          "topology.society.rivalry"
+        ],
+        "ran": true
+      },
+      {
+        "id": "soc.ritual",
+        "number": 50,
+        "name": "Fantasy Customs and Faction Traditions",
+        "context": "Society & Institutions",
+        "part": "III",
+        "consumes": [
+          "places",
+          "artifacts.factions"
+        ],
+        "produces": [
+          "artifacts.ritual",
+          "fields.sacred_intensity"
+        ],
+        "ran": true
+      },
+      {
+        "id": "soc.surveillance",
+        "number": 51,
+        "name": "Guard Vision and Stealth Detection",
+        "context": "Society & Institutions",
+        "part": "III",
+        "consumes": [
+          "artifacts.perception",
+          "fields.guard_attention",
+          "artifacts.politics"
+        ],
+        "produces": [
+          "artifacts.intelligence",
+          "fields.observed"
+        ],
+        "ran": true
+      },
+      {
+        "id": "soc.diplomacy",
+        "number": 52,
+        "name": "Faction Alliances and Negotiations",
+        "context": "Society & Institutions",
+        "part": "III",
+        "consumes": [
+          "artifacts.factions",
+          "artifacts.politics"
+        ],
+        "produces": [
+          "artifacts.diplomacy"
+        ],
+        "ran": true
+      },
+      {
+        "id": "nar.violence",
+        "number": 53,
+        "name": "Combat Encounters and Alert Levels",
+        "context": "Incidents & Narrative",
+        "part": "III",
+        "consumes": [
+          "artifacts.diplomacy",
+          "fields.enforcement",
+          "artifacts.labour"
+        ],
+        "produces": [
+          "artifacts.violence",
+          "fields.threat"
+        ],
+        "ran": true
+      },
+      {
+        "id": "nar.investigation",
+        "number": 54,
+        "name": "Clues and Investigation Quest Hooks",
+        "context": "Incidents & Narrative",
+        "part": "III",
+        "consumes": [
+          "artifacts.violence",
+          "artifacts.identity",
+          "fields.observed"
+        ],
+        "produces": [
+          "artifacts.investigations"
+        ],
+        "ran": true
+      },
+      {
+        "id": "env.health",
+        "number": 55,
+        "name": "Settlement Health and Environmental Hazards",
+        "context": "Environment & Infrastructure",
+        "part": "III",
+        "consumes": [
+          "fields.crowding",
+          "artifacts.logistics"
+        ],
+        "produces": [
+          "artifacts.health",
+          "fields.contamination"
+        ],
+        "ran": true
+      },
+      {
+        "id": "eco.scarcity",
+        "number": 56,
+        "name": "Settlement Supplies and Resources",
+        "context": "Economy & Logistics",
+        "part": "III",
+        "consumes": [
+          "artifacts.machines",
+          "artifacts.markets"
+        ],
+        "produces": [
+          "artifacts.scarcity",
+          "fields.allocation_pressure"
+        ],
+        "ran": true
+      },
+      {
+        "id": "env.structure",
+        "number": 57,
+        "name": "Building Durability and Damage",
+        "context": "Environment & Infrastructure",
+        "part": "III",
+        "consumes": [
+          "fields.structural_stress",
+          "artifacts.crises"
+        ],
+        "produces": [
+          "artifacts.structure",
+          "fields.load"
+        ],
+        "ran": true
+      },
+      {
+        "id": "nar.operations",
+        "number": 58,
+        "name": "Quest Objectives and Dungeon Missions",
+        "context": "Incidents & Narrative",
+        "part": "III",
+        "consumes": [
+          "artifacts.property",
+          "artifacts.intelligence",
+          "fields.smuggling_risk",
+          "artifacts.security"
+        ],
+        "produces": [
+          "artifacts.operations"
+        ],
+        "ran": true
+      },
+      {
+        "id": "nar.chronicle",
+        "number": 59,
+        "name": "World Event History",
+        "context": "Incidents & Narrative",
+        "part": "III",
+        "consumes": [
+          "artifacts.violence",
+          "artifacts.investigations",
+          "artifacts.labour"
+        ],
+        "produces": [
+          "artifacts.chronicle"
+        ],
+        "ran": true
+      },
+      {
+        "id": "nar.director",
+        "number": 60,
+        "name": "Encounter and Quest Director",
+        "context": "Incidents & Narrative",
+        "part": "III",
+        "consumes": [
+          "artifacts.chronicle",
+          "fields.threat",
+          "artifacts.crises",
+          "artifacts.operations"
+        ],
+        "produces": [
+          "artifacts.director"
+        ],
+        "ran": true
+      }
+    ],
+    "fields": {
+      "accumulation": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.1369,
+        "hash": "c68a9b703b38"
+      },
+      "age": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0145,
+        "max": 0.7984,
+        "mean": 0.4129,
+        "hash": "16c4771507b5",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "allocation_pressure": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.824,
+        "mean": 0.3722,
+        "hash": "6af30825afb1",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "awe": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.9516,
+        "mean": 0.3798,
+        "hash": "30c6a527ed8d",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "border_tension": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.3054,
+        "hash": "54b81edae332"
+      },
+      "contamination": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.5315,
+        "mean": 0.0346,
+        "hash": "009bd46191ba",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "contested": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.97,
+        "mean": 0.7776,
+        "hash": "451c9f198fcc",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "control": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6069,
+        "hash": "82e8ea4cec7a",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "crisis_blackout": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.15,
+        "max": 1.0,
+        "mean": 0.7513,
+        "hash": "6689d922ec58",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "crisis_contagion": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0001,
+        "max": 0.5315,
+        "mean": 0.3689,
+        "hash": "359f2fea4c02",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "crisis_fire": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.1239,
+        "hash": "1929faa1a207",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "crisis_flood": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.1234,
+        "hash": "6d8a211c535b",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "crisis_siege": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.3476,
+        "hash": "d5368c8472eb",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "crowding": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.5315,
+        "mean": 0.3645,
+        "hash": "807425546e91",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "dread": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.8122,
+        "mean": 0.538,
+        "hash": "c64c1fb82af0",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "elevation": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.5138,
+        "hash": "ec6efd1a0fa3"
+      },
+      "enforcement": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.897,
+        "mean": 0.3108,
+        "hash": "3a1d63581ddd",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "era": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.25,
+        "max": 0.75,
+        "mean": 0.4249,
+        "hash": "65dbf3a3a506",
+        "units": "era index normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "exposure": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.3476,
+        "hash": "d5368c8472eb",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "gravity_x": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": -1.0,
+        "max": 1.0,
+        "mean": -0.0055,
+        "hash": "799b88bdf5b4",
+        "units": "unit vector",
+        "range": [
+          -1,
+          1
+        ]
+      },
+      "gravity_y": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": -1.0,
+        "max": 1.0,
+        "mean": 0.9002,
+        "hash": "631bf80c9b0b",
+        "units": "unit vector",
+        "range": [
+          -1,
+          1
+        ]
+      },
+      "guard_attention": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.2127,
+        "hash": "3e198dbfbd1c",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "habitat": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6784,
+        "hash": "db498309a8e7",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "habitat_bat": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.6784,
+        "hash": "db498309a8e7",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "habitat_beetle": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.8973,
+        "mean": 0.5226,
+        "hash": "0283eb57cf69",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "habitat_bird": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.8507,
+        "mean": 0.3006,
+        "hash": "f4800f05299c",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "habitat_moss": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.5323,
+        "hash": "dabb91c23d33",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "habitat_rat": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.9643,
+        "mean": 0.5593,
+        "hash": "95f390726713",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "light": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.85,
+        "mean": 0.2487,
+        "hash": "22e8a1f72be5",
+        "units": "relative",
+        "range": [
+          0,
+          1
+        ]
+      },
+      "load": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.0465,
+        "hash": "be324b321413",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "market_access": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.2831,
+        "hash": "a6750804e1ff",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "melancholy": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.6434,
+        "mean": 0.4372,
+        "hash": "25bf21cce7cc",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "memory": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.4383,
+        "hash": "9723d5fbbecc",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "observed": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.1217,
+        "hash": "01463704b04f",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "price_level": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.5,
+        "max": 1.0,
+        "mean": 0.819,
+        "hash": "c4322755af68",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "privacy": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.02,
+        "max": 0.7599,
+        "mean": 0.2354,
+        "hash": "ac02d488c86f",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "region": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 33.0,
+        "mean": 15.9724,
+        "hash": "92241e90751b"
+      },
+      "rumor_reach": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.9209,
+        "hash": "536cda8cb8c6",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "sacred_intensity": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.4524,
+        "hash": "072a629c6cbb",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "safety": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.7749,
+        "mean": 0.2802,
+        "hash": "e57e55d231d2",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "shadow": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.15,
+        "max": 1.0,
+        "mean": 0.7513,
+        "hash": "6689d922ec58",
+        "units": "relative",
+        "range": [
+          0,
+          1
+        ]
+      },
+      "smuggling_risk": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.0856,
+        "hash": "470bdf30de13",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "sound_pressure": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.787,
+        "hash": "71c3a52afae7",
+        "units": "relative",
+        "range": [
+          0,
+          1
+        ]
+      },
+      "structural_stress": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.75,
+        "mean": 0.0591,
+        "hash": "83870526aa26",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "structure": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.4493,
+        "hash": "1e9a7b15e776"
+      },
+      "temperature": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.5132,
+        "mean": 0.275,
+        "hash": "9909ec6e0e91",
+        "units": "normalised 0=frozen 1=scorching",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "tension": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.8734,
+        "mean": 0.5894,
+        "hash": "a9af3149dbb2",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "threat": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.3976,
+        "max": 0.886,
+        "mean": 0.6952,
+        "hash": "aeb7361becc5",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "wear": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 0.5424,
+        "mean": 0.318,
+        "hash": "c2f5a2569a7c",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      },
+      "wind": {
+        "shape": [
+          128,
+          128
+        ],
+        "min": 0.0,
+        "max": 1.0,
+        "mean": 0.1006,
+        "hash": "0ec849e0a22e",
+        "units": "normalised",
+        "range": [
+          0.0,
+          1.0
+        ]
+      }
+    },
+    "topologies": {
+      "circulation.public": {
+        "nodes": 26,
+        "edges": 47,
+        "directed": false
+      },
+      "circulation.service": {
+        "nodes": 30,
+        "edges": 51,
+        "directed": false
+      },
+      "ecology.routes": {
+        "nodes": 30,
+        "edges": 53,
+        "directed": false
+      },
+      "infrastructure.power": {
+        "nodes": 7,
+        "edges": 6,
+        "directed": true
+      },
+      "institutions.jurisdiction": {
+        "nodes": 34,
+        "edges": 50,
+        "directed": false
+      },
+      "logistics.supply": {
+        "nodes": 27,
+        "edges": 48,
+        "directed": true
+      },
+      "perception.acoustic": {
+        "nodes": 34,
+        "edges": 67,
+        "directed": false
+      },
+      "physical.adjacency": {
+        "nodes": 34,
+        "edges": 67,
+        "directed": false
+      },
+      "society.alliance": {
+        "nodes": 11,
+        "edges": 7,
+        "directed": false
+      },
+      "society.guard_patrol": {
+        "nodes": 14,
+        "edges": 20,
+        "directed": true
+      },
+      "society.influence": {
+        "nodes": 4,
+        "edges": 4,
+        "directed": true
+      },
+      "society.recognition": {
+        "nodes": 25,
+        "edges": 44,
+        "directed": true
+      },
+      "society.rivalry": {
+        "nodes": 11,
+        "edges": 6,
+        "directed": false
+      },
+      "society.rumor": {
+        "nodes": 34,
+        "edges": 137,
+        "directed": false
+      },
+      "traversal.climb": {
+        "nodes": 0,
+        "edges": 0,
+        "directed": false
+      },
+      "traversal.crawl": {
+        "nodes": 34,
+        "edges": 67,
+        "directed": false
+      },
+      "traversal.fly": {
+        "nodes": 34,
+        "edges": 67,
+        "directed": false
+      },
+      "traversal.swim": {
+        "nodes": 0,
+        "edges": 0,
+        "directed": false
+      },
+      "traversal.walk": {
+        "nodes": 31,
+        "edges": 55,
+        "directed": false
+      }
+    },
+    "places": 34,
+    "warnings": []
+  }
+}

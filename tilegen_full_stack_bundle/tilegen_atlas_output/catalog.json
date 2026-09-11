@@ -1,0 +1,1868 @@
+[
+  {
+    "id": 101,
+    "slug": "crystalline_provinces_partitioned_by_contested_borders",
+    "name": "Crystalline provinces partitioned by contested borders",
+    "template": "voronoi_kingdoms",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "border_tension",
+      "elevation",
+      "region"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": 36,
+    "base_counts": {
+      "wall": 1167,
+      "rubble": 581,
+      "water": 1091,
+      "floor": 3951,
+      "courtyard": 2426
+    },
+    "overlay_counts": {
+      "door": 360
+    },
+    "tile_json": "layouts/101_crystalline_provinces_partitioned_by_contested_borders.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/101_crystalline_provinces_partitioned_by_contested_borders.png",
+      "architectural_blueprint": "renders/architectural_blueprint/101_crystalline_provinces_partitioned_by_contested_borders.png",
+      "parchment_ink": "renders/parchment_ink/101_crystalline_provinces_partitioned_by_contested_borders.png",
+      "obsidian_gold": "renders/obsidian_gold/101_crystalline_provinces_partitioned_by_contested_borders.png",
+      "neon_circuit": "renders/neon_circuit/101_crystalline_provinces_partitioned_by_contested_borders.png",
+      "satellite_topographic": "renders/satellite_topographic/101_crystalline_provinces_partitioned_by_contested_borders.png"
+    }
+  },
+  {
+    "id": 102,
+    "slug": "a_dense_ward_city_of_small_irregular_districts",
+    "name": "A dense ward city of small irregular districts",
+    "template": "voronoi_kingdoms",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "border_tension",
+      "elevation",
+      "region"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": 158,
+    "base_counts": {
+      "wall": 1690,
+      "floor": 4028,
+      "water": 766,
+      "courtyard": 1861,
+      "rubble": 871
+    },
+    "overlay_counts": {
+      "door": 1455
+    },
+    "tile_json": "layouts/102_a_dense_ward_city_of_small_irregular_districts.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/102_a_dense_ward_city_of_small_irregular_districts.png",
+      "architectural_blueprint": "renders/architectural_blueprint/102_a_dense_ward_city_of_small_irregular_districts.png",
+      "parchment_ink": "renders/parchment_ink/102_a_dense_ward_city_of_small_irregular_districts.png",
+      "obsidian_gold": "renders/obsidian_gold/102_a_dense_ward_city_of_small_irregular_districts.png",
+      "neon_circuit": "renders/neon_circuit/102_a_dense_ward_city_of_small_irregular_districts.png",
+      "satellite_topographic": "renders/satellite_topographic/102_a_dense_ward_city_of_small_irregular_districts.png"
+    }
+  },
+  {
+    "id": 103,
+    "slug": "great_estates_divided_by_lake_and_rampart",
+    "name": "Great estates divided by lake and rampart",
+    "template": "voronoi_kingdoms",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "border_tension",
+      "elevation",
+      "region"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": 30,
+    "base_counts": {
+      "wall": 2301,
+      "courtyard": 1616,
+      "water": 1406,
+      "floor": 2906,
+      "rubble": 987
+    },
+    "overlay_counts": {
+      "door": 304
+    },
+    "tile_json": "layouts/103_great_estates_divided_by_lake_and_rampart.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/103_great_estates_divided_by_lake_and_rampart.png",
+      "architectural_blueprint": "renders/architectural_blueprint/103_great_estates_divided_by_lake_and_rampart.png",
+      "parchment_ink": "renders/parchment_ink/103_great_estates_divided_by_lake_and_rampart.png",
+      "obsidian_gold": "renders/obsidian_gold/103_great_estates_divided_by_lake_and_rampart.png",
+      "neon_circuit": "renders/neon_circuit/103_great_estates_divided_by_lake_and_rampart.png",
+      "satellite_topographic": "renders/satellite_topographic/103_great_estates_divided_by_lake_and_rampart.png"
+    }
+  },
+  {
+    "id": 104,
+    "slug": "a_spiral_of_wards_seeded_on_a_golden_angle",
+    "name": "A spiral of wards seeded on a golden angle",
+    "template": "voronoi_kingdoms",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "border_tension",
+      "elevation",
+      "region"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": 70,
+    "base_counts": {
+      "wall": 1479,
+      "floor": 4607,
+      "courtyard": 1608,
+      "rubble": 1216,
+      "water": 306
+    },
+    "overlay_counts": {
+      "door": 630
+    },
+    "tile_json": "layouts/104_a_spiral_of_wards_seeded_on_a_golden_angle.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/104_a_spiral_of_wards_seeded_on_a_golden_angle.png",
+      "architectural_blueprint": "renders/architectural_blueprint/104_a_spiral_of_wards_seeded_on_a_golden_angle.png",
+      "parchment_ink": "renders/parchment_ink/104_a_spiral_of_wards_seeded_on_a_golden_angle.png",
+      "obsidian_gold": "renders/obsidian_gold/104_a_spiral_of_wards_seeded_on_a_golden_angle.png",
+      "neon_circuit": "renders/neon_circuit/104_a_spiral_of_wards_seeded_on_a_golden_angle.png",
+      "satellite_topographic": "renders/satellite_topographic/104_a_spiral_of_wards_seeded_on_a_golden_angle.png"
+    }
+  },
+  {
+    "id": 105,
+    "slug": "a_coral_labyrinth_grown_from_chemical_bloom",
+    "name": "A coral labyrinth grown from chemical bloom",
+    "template": "reaction_diffusion",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "chemistry",
+      "corruption",
+      "moisture"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4900,
+      "floor": 3879,
+      "courtyard": 437
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/105_a_coral_labyrinth_grown_from_chemical_bloom.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/105_a_coral_labyrinth_grown_from_chemical_bloom.png",
+      "architectural_blueprint": "renders/architectural_blueprint/105_a_coral_labyrinth_grown_from_chemical_bloom.png",
+      "parchment_ink": "renders/parchment_ink/105_a_coral_labyrinth_grown_from_chemical_bloom.png",
+      "obsidian_gold": "renders/obsidian_gold/105_a_coral_labyrinth_grown_from_chemical_bloom.png",
+      "neon_circuit": "renders/neon_circuit/105_a_coral_labyrinth_grown_from_chemical_bloom.png",
+      "satellite_topographic": "renders/satellite_topographic/105_a_coral_labyrinth_grown_from_chemical_bloom.png"
+    }
+  },
+  {
+    "id": 106,
+    "slug": "fingerprint_corridors_of_a_living_archive",
+    "name": "Fingerprint corridors of a living archive",
+    "template": "reaction_diffusion",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "chemistry",
+      "corruption",
+      "moisture"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 5431,
+      "courtyard": 554,
+      "floor": 3231
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/106_fingerprint_corridors_of_a_living_archive.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/106_fingerprint_corridors_of_a_living_archive.png",
+      "architectural_blueprint": "renders/architectural_blueprint/106_fingerprint_corridors_of_a_living_archive.png",
+      "parchment_ink": "renders/parchment_ink/106_fingerprint_corridors_of_a_living_archive.png",
+      "obsidian_gold": "renders/obsidian_gold/106_fingerprint_corridors_of_a_living_archive.png",
+      "neon_circuit": "renders/neon_circuit/106_fingerprint_corridors_of_a_living_archive.png",
+      "satellite_topographic": "renders/satellite_topographic/106_fingerprint_corridors_of_a_living_archive.png"
+    }
+  },
+  {
+    "id": 107,
+    "slug": "a_mitotic_warren_of_dividing_chambers",
+    "name": "A mitotic warren of dividing chambers",
+    "template": "reaction_diffusion",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "chemistry",
+      "corruption",
+      "moisture"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4638,
+      "courtyard": 1981,
+      "floor": 2597
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/107_a_mitotic_warren_of_dividing_chambers.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/107_a_mitotic_warren_of_dividing_chambers.png",
+      "architectural_blueprint": "renders/architectural_blueprint/107_a_mitotic_warren_of_dividing_chambers.png",
+      "parchment_ink": "renders/parchment_ink/107_a_mitotic_warren_of_dividing_chambers.png",
+      "obsidian_gold": "renders/obsidian_gold/107_a_mitotic_warren_of_dividing_chambers.png",
+      "neon_circuit": "renders/neon_circuit/107_a_mitotic_warren_of_dividing_chambers.png",
+      "satellite_topographic": "renders/satellite_topographic/107_a_mitotic_warren_of_dividing_chambers.png"
+    }
+  },
+  {
+    "id": 108,
+    "slug": "worm_cast_tunnels_in_soft_chemical_stone",
+    "name": "Worm-cast tunnels in soft chemical stone",
+    "template": "reaction_diffusion",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "chemistry",
+      "corruption",
+      "moisture"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 5142,
+      "floor": 3724,
+      "courtyard": 350
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/108_worm_cast_tunnels_in_soft_chemical_stone.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/108_worm_cast_tunnels_in_soft_chemical_stone.png",
+      "architectural_blueprint": "renders/architectural_blueprint/108_worm_cast_tunnels_in_soft_chemical_stone.png",
+      "parchment_ink": "renders/parchment_ink/108_worm_cast_tunnels_in_soft_chemical_stone.png",
+      "obsidian_gold": "renders/obsidian_gold/108_worm_cast_tunnels_in_soft_chemical_stone.png",
+      "neon_circuit": "renders/neon_circuit/108_worm_cast_tunnels_in_soft_chemical_stone.png",
+      "satellite_topographic": "renders/satellite_topographic/108_worm_cast_tunnels_in_soft_chemical_stone.png"
+    }
+  },
+  {
+    "id": 109,
+    "slug": "a_chemical_garden_of_pools_and_planting_beds",
+    "name": "A chemical garden of pools and planting beds",
+    "template": "reaction_diffusion",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "chemistry",
+      "corruption",
+      "moisture"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 2445,
+      "water": 935,
+      "floor": 3524,
+      "courtyard": 2312
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/109_a_chemical_garden_of_pools_and_planting_beds.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/109_a_chemical_garden_of_pools_and_planting_beds.png",
+      "architectural_blueprint": "renders/architectural_blueprint/109_a_chemical_garden_of_pools_and_planting_beds.png",
+      "parchment_ink": "renders/parchment_ink/109_a_chemical_garden_of_pools_and_planting_beds.png",
+      "obsidian_gold": "renders/obsidian_gold/109_a_chemical_garden_of_pools_and_planting_beds.png",
+      "neon_circuit": "renders/neon_circuit/109_a_chemical_garden_of_pools_and_planting_beds.png",
+      "satellite_topographic": "renders/satellite_topographic/109_a_chemical_garden_of_pools_and_planting_beds.png"
+    }
+  },
+  {
+    "id": 110,
+    "slug": "an_archipelago_precipitated_from_solution",
+    "name": "An archipelago precipitated from solution",
+    "template": "reaction_diffusion",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "chemistry",
+      "corruption",
+      "moisture"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 380,
+      "water": 7252,
+      "rubble": 543,
+      "floor": 1041
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/110_an_archipelago_precipitated_from_solution.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/110_an_archipelago_precipitated_from_solution.png",
+      "architectural_blueprint": "renders/architectural_blueprint/110_an_archipelago_precipitated_from_solution.png",
+      "parchment_ink": "renders/parchment_ink/110_an_archipelago_precipitated_from_solution.png",
+      "obsidian_gold": "renders/obsidian_gold/110_an_archipelago_precipitated_from_solution.png",
+      "neon_circuit": "renders/neon_circuit/110_an_archipelago_precipitated_from_solution.png",
+      "satellite_topographic": "renders/satellite_topographic/110_an_archipelago_precipitated_from_solution.png"
+    }
+  },
+  {
+    "id": 111,
+    "slug": "a_folded_corridor_system_grown_under_pressure",
+    "name": "A folded corridor system grown under pressure",
+    "template": "differential_growth",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "age",
+      "elevation"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 2524,
+      "floor": 6204,
+      "courtyard": 488
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/111_a_folded_corridor_system_grown_under_pressure.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/111_a_folded_corridor_system_grown_under_pressure.png",
+      "architectural_blueprint": "renders/architectural_blueprint/111_a_folded_corridor_system_grown_under_pressure.png",
+      "parchment_ink": "renders/parchment_ink/111_a_folded_corridor_system_grown_under_pressure.png",
+      "obsidian_gold": "renders/obsidian_gold/111_a_folded_corridor_system_grown_under_pressure.png",
+      "neon_circuit": "renders/neon_circuit/111_a_folded_corridor_system_grown_under_pressure.png",
+      "satellite_topographic": "renders/satellite_topographic/111_a_folded_corridor_system_grown_under_pressure.png"
+    }
+  },
+  {
+    "id": 112,
+    "slug": "convoluted_galleries_pressed_into_a_tight_shell",
+    "name": "Convoluted galleries pressed into a tight shell",
+    "template": "differential_growth",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "age",
+      "elevation"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 2577,
+      "floor": 6161,
+      "courtyard": 478
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/112_convoluted_galleries_pressed_into_a_tight_shell.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/112_convoluted_galleries_pressed_into_a_tight_shell.png",
+      "architectural_blueprint": "renders/architectural_blueprint/112_convoluted_galleries_pressed_into_a_tight_shell.png",
+      "parchment_ink": "renders/parchment_ink/112_convoluted_galleries_pressed_into_a_tight_shell.png",
+      "obsidian_gold": "renders/obsidian_gold/112_convoluted_galleries_pressed_into_a_tight_shell.png",
+      "neon_circuit": "renders/neon_circuit/112_convoluted_galleries_pressed_into_a_tight_shell.png",
+      "satellite_topographic": "renders/satellite_topographic/112_convoluted_galleries_pressed_into_a_tight_shell.png"
+    }
+  },
+  {
+    "id": 113,
+    "slug": "an_open_hall_veined_by_a_single_grown_wall",
+    "name": "An open hall veined by a single grown wall",
+    "template": "differential_growth",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "age",
+      "elevation"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 6417,
+      "floor": 2799
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/113_an_open_hall_veined_by_a_single_grown_wall.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/113_an_open_hall_veined_by_a_single_grown_wall.png",
+      "architectural_blueprint": "renders/architectural_blueprint/113_an_open_hall_veined_by_a_single_grown_wall.png",
+      "parchment_ink": "renders/parchment_ink/113_an_open_hall_veined_by_a_single_grown_wall.png",
+      "obsidian_gold": "renders/obsidian_gold/113_an_open_hall_veined_by_a_single_grown_wall.png",
+      "neon_circuit": "renders/neon_circuit/113_an_open_hall_veined_by_a_single_grown_wall.png",
+      "satellite_topographic": "renders/satellite_topographic/113_an_open_hall_veined_by_a_single_grown_wall.png"
+    }
+  },
+  {
+    "id": 114,
+    "slug": "a_knot_world_of_continuous_looping_circuits",
+    "name": "A knot world of continuous looping circuits",
+    "template": "truchet",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation"
+    ],
+    "recipe": null,
+    "loops": {
+      "count": 12,
+      "largest": 44
+    },
+    "regions": null,
+    "base_counts": {
+      "wall": 6128,
+      "floor": 3088
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/114_a_knot_world_of_continuous_looping_circuits.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/114_a_knot_world_of_continuous_looping_circuits.png",
+      "architectural_blueprint": "renders/architectural_blueprint/114_a_knot_world_of_continuous_looping_circuits.png",
+      "parchment_ink": "renders/parchment_ink/114_a_knot_world_of_continuous_looping_circuits.png",
+      "obsidian_gold": "renders/obsidian_gold/114_a_knot_world_of_continuous_looping_circuits.png",
+      "neon_circuit": "renders/neon_circuit/114_a_knot_world_of_continuous_looping_circuits.png",
+      "satellite_topographic": "renders/satellite_topographic/114_a_knot_world_of_continuous_looping_circuits.png"
+    }
+  },
+  {
+    "id": 115,
+    "slug": "a_fine_ritual_circuit_of_many_closed_loops",
+    "name": "A fine ritual circuit of many closed loops",
+    "template": "truchet",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation"
+    ],
+    "recipe": null,
+    "loops": {
+      "count": 31,
+      "largest": 21
+    },
+    "regions": null,
+    "base_counts": {
+      "wall": 4675,
+      "floor": 4541
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/115_a_fine_ritual_circuit_of_many_closed_loops.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/115_a_fine_ritual_circuit_of_many_closed_loops.png",
+      "architectural_blueprint": "renders/architectural_blueprint/115_a_fine_ritual_circuit_of_many_closed_loops.png",
+      "parchment_ink": "renders/parchment_ink/115_a_fine_ritual_circuit_of_many_closed_loops.png",
+      "obsidian_gold": "renders/obsidian_gold/115_a_fine_ritual_circuit_of_many_closed_loops.png",
+      "neon_circuit": "renders/neon_circuit/115_a_fine_ritual_circuit_of_many_closed_loops.png",
+      "satellite_topographic": "renders/satellite_topographic/115_a_fine_ritual_circuit_of_many_closed_loops.png"
+    }
+  },
+  {
+    "id": 116,
+    "slug": "broad_ceremonial_pipework_on_a_coarse_lattice",
+    "name": "Broad ceremonial pipework on a coarse lattice",
+    "template": "truchet",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation"
+    ],
+    "recipe": null,
+    "loops": {
+      "count": 8,
+      "largest": 21
+    },
+    "regions": null,
+    "base_counts": {
+      "wall": 5678,
+      "floor": 3538
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/116_broad_ceremonial_pipework_on_a_coarse_lattice.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/116_broad_ceremonial_pipework_on_a_coarse_lattice.png",
+      "architectural_blueprint": "renders/architectural_blueprint/116_broad_ceremonial_pipework_on_a_coarse_lattice.png",
+      "parchment_ink": "renders/parchment_ink/116_broad_ceremonial_pipework_on_a_coarse_lattice.png",
+      "obsidian_gold": "renders/obsidian_gold/116_broad_ceremonial_pipework_on_a_coarse_lattice.png",
+      "neon_circuit": "renders/neon_circuit/116_broad_ceremonial_pipework_on_a_coarse_lattice.png",
+      "satellite_topographic": "renders/satellite_topographic/116_broad_ceremonial_pipework_on_a_coarse_lattice.png"
+    }
+  },
+  {
+    "id": 117,
+    "slug": "a_river_basin_carved_by_its_own_drainage",
+    "name": "A river basin carved by its own drainage",
+    "template": "watershed",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "accumulation",
+      "elevation",
+      "moisture",
+      "slope"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "rubble": 875,
+      "water": 1714,
+      "floor": 4225,
+      "courtyard": 2047,
+      "wall": 351,
+      "bridge": 4
+    },
+    "overlay_counts": {
+      "door": 4
+    },
+    "tile_json": "layouts/117_a_river_basin_carved_by_its_own_drainage.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/117_a_river_basin_carved_by_its_own_drainage.png",
+      "architectural_blueprint": "renders/architectural_blueprint/117_a_river_basin_carved_by_its_own_drainage.png",
+      "parchment_ink": "renders/parchment_ink/117_a_river_basin_carved_by_its_own_drainage.png",
+      "obsidian_gold": "renders/obsidian_gold/117_a_river_basin_carved_by_its_own_drainage.png",
+      "neon_circuit": "renders/neon_circuit/117_a_river_basin_carved_by_its_own_drainage.png",
+      "satellite_topographic": "renders/satellite_topographic/117_a_river_basin_carved_by_its_own_drainage.png"
+    }
+  },
+  {
+    "id": 118,
+    "slug": "a_drowned_coast_of_estuaries_and_tidal_flats",
+    "name": "A drowned coast of estuaries and tidal flats",
+    "template": "watershed",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "accumulation",
+      "elevation",
+      "moisture",
+      "slope"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "floor": 2786,
+      "rubble": 850,
+      "courtyard": 889,
+      "wall": 1002,
+      "water": 3637,
+      "bridge": 52
+    },
+    "overlay_counts": {
+      "door": 4
+    },
+    "tile_json": "layouts/118_a_drowned_coast_of_estuaries_and_tidal_flats.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/118_a_drowned_coast_of_estuaries_and_tidal_flats.png",
+      "architectural_blueprint": "renders/architectural_blueprint/118_a_drowned_coast_of_estuaries_and_tidal_flats.png",
+      "parchment_ink": "renders/parchment_ink/118_a_drowned_coast_of_estuaries_and_tidal_flats.png",
+      "obsidian_gold": "renders/obsidian_gold/118_a_drowned_coast_of_estuaries_and_tidal_flats.png",
+      "neon_circuit": "renders/neon_circuit/118_a_drowned_coast_of_estuaries_and_tidal_flats.png",
+      "satellite_topographic": "renders/satellite_topographic/118_a_drowned_coast_of_estuaries_and_tidal_flats.png"
+    }
+  },
+  {
+    "id": 119,
+    "slug": "a_high_plateau_split_by_canyon_rivers",
+    "name": "A high plateau split by canyon rivers",
+    "template": "watershed",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "accumulation",
+      "elevation",
+      "moisture",
+      "slope"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "rubble": 806,
+      "floor": 4335,
+      "courtyard": 1999,
+      "water": 1482,
+      "wall": 585,
+      "bridge": 9
+    },
+    "overlay_counts": {
+      "door": 4
+    },
+    "tile_json": "layouts/119_a_high_plateau_split_by_canyon_rivers.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/119_a_high_plateau_split_by_canyon_rivers.png",
+      "architectural_blueprint": "renders/architectural_blueprint/119_a_high_plateau_split_by_canyon_rivers.png",
+      "parchment_ink": "renders/parchment_ink/119_a_high_plateau_split_by_canyon_rivers.png",
+      "obsidian_gold": "renders/obsidian_gold/119_a_high_plateau_split_by_canyon_rivers.png",
+      "neon_circuit": "renders/neon_circuit/119_a_high_plateau_split_by_canyon_rivers.png",
+      "satellite_topographic": "renders/satellite_topographic/119_a_high_plateau_split_by_canyon_rivers.png"
+    }
+  },
+  {
+    "id": 120,
+    "slug": "windswept_streets_following_an_invisible_current",
+    "name": "Windswept streets following an invisible current",
+    "template": "flow_field",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation",
+      "flow_x",
+      "flow_y"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4395,
+      "floor": 2864,
+      "platform": 1957
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/120_windswept_streets_following_an_invisible_current.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/120_windswept_streets_following_an_invisible_current.png",
+      "architectural_blueprint": "renders/architectural_blueprint/120_windswept_streets_following_an_invisible_current.png",
+      "parchment_ink": "renders/parchment_ink/120_windswept_streets_following_an_invisible_current.png",
+      "obsidian_gold": "renders/obsidian_gold/120_windswept_streets_following_an_invisible_current.png",
+      "neon_circuit": "renders/neon_circuit/120_windswept_streets_following_an_invisible_current.png",
+      "satellite_topographic": "renders/satellite_topographic/120_windswept_streets_following_an_invisible_current.png"
+    }
+  },
+  {
+    "id": 121,
+    "slug": "a_calligraphic_sprawl_of_braided_avenues",
+    "name": "A calligraphic sprawl of braided avenues",
+    "template": "flow_field",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation",
+      "flow_x",
+      "flow_y"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 3699,
+      "platform": 3076,
+      "floor": 2441
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/121_a_calligraphic_sprawl_of_braided_avenues.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/121_a_calligraphic_sprawl_of_braided_avenues.png",
+      "architectural_blueprint": "renders/architectural_blueprint/121_a_calligraphic_sprawl_of_braided_avenues.png",
+      "parchment_ink": "renders/parchment_ink/121_a_calligraphic_sprawl_of_braided_avenues.png",
+      "obsidian_gold": "renders/obsidian_gold/121_a_calligraphic_sprawl_of_braided_avenues.png",
+      "neon_circuit": "renders/neon_circuit/121_a_calligraphic_sprawl_of_braided_avenues.png",
+      "satellite_topographic": "renders/satellite_topographic/121_a_calligraphic_sprawl_of_braided_avenues.png"
+    }
+  },
+  {
+    "id": 122,
+    "slug": "terraced_architecture_stepped_along_contour_lines",
+    "name": "Terraced architecture stepped along contour lines",
+    "template": "contour_terraces",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation",
+      "terrace"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 1947,
+      "floor": 6676,
+      "water": 24,
+      "courtyard": 569
+    },
+    "overlay_counts": {
+      "stair": 26
+    },
+    "tile_json": "layouts/122_terraced_architecture_stepped_along_contour_lines.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/122_terraced_architecture_stepped_along_contour_lines.png",
+      "architectural_blueprint": "renders/architectural_blueprint/122_terraced_architecture_stepped_along_contour_lines.png",
+      "parchment_ink": "renders/parchment_ink/122_terraced_architecture_stepped_along_contour_lines.png",
+      "obsidian_gold": "renders/obsidian_gold/122_terraced_architecture_stepped_along_contour_lines.png",
+      "neon_circuit": "renders/neon_circuit/122_terraced_architecture_stepped_along_contour_lines.png",
+      "satellite_topographic": "renders/satellite_topographic/122_terraced_architecture_stepped_along_contour_lines.png"
+    }
+  },
+  {
+    "id": 123,
+    "slug": "a_stepped_ziggurat_of_many_shallow_terraces",
+    "name": "A stepped ziggurat of many shallow terraces",
+    "template": "contour_terraces",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation",
+      "terrace"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "water": 130,
+      "floor": 6972,
+      "wall": 1915,
+      "courtyard": 199
+    },
+    "overlay_counts": {
+      "stair": 26
+    },
+    "tile_json": "layouts/123_a_stepped_ziggurat_of_many_shallow_terraces.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/123_a_stepped_ziggurat_of_many_shallow_terraces.png",
+      "architectural_blueprint": "renders/architectural_blueprint/123_a_stepped_ziggurat_of_many_shallow_terraces.png",
+      "parchment_ink": "renders/parchment_ink/123_a_stepped_ziggurat_of_many_shallow_terraces.png",
+      "obsidian_gold": "renders/obsidian_gold/123_a_stepped_ziggurat_of_many_shallow_terraces.png",
+      "neon_circuit": "renders/neon_circuit/123_a_stepped_ziggurat_of_many_shallow_terraces.png",
+      "satellite_topographic": "renders/satellite_topographic/123_a_stepped_ziggurat_of_many_shallow_terraces.png"
+    }
+  },
+  {
+    "id": 124,
+    "slug": "a_fractal_archipelago_linked_by_causeways",
+    "name": "A fractal archipelago linked by causeways",
+    "template": "archipelago",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation",
+      "moisture"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "water": 2786,
+      "rubble": 691,
+      "floor": 3960,
+      "courtyard": 799,
+      "bridge": 48,
+      "wall": 932
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/124_a_fractal_archipelago_linked_by_causeways.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/124_a_fractal_archipelago_linked_by_causeways.png",
+      "architectural_blueprint": "renders/architectural_blueprint/124_a_fractal_archipelago_linked_by_causeways.png",
+      "parchment_ink": "renders/parchment_ink/124_a_fractal_archipelago_linked_by_causeways.png",
+      "obsidian_gold": "renders/obsidian_gold/124_a_fractal_archipelago_linked_by_causeways.png",
+      "neon_circuit": "renders/neon_circuit/124_a_fractal_archipelago_linked_by_causeways.png",
+      "satellite_topographic": "renders/satellite_topographic/124_a_fractal_archipelago_linked_by_causeways.png"
+    }
+  },
+  {
+    "id": 125,
+    "slug": "a_scattered_reef_of_small_wooded_islets",
+    "name": "A scattered reef of small wooded islets",
+    "template": "archipelago",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation",
+      "moisture"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "water": 3443,
+      "rubble": 574,
+      "floor": 2959,
+      "wall": 1735,
+      "bridge": 47,
+      "courtyard": 458
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/125_a_scattered_reef_of_small_wooded_islets.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/125_a_scattered_reef_of_small_wooded_islets.png",
+      "architectural_blueprint": "renders/architectural_blueprint/125_a_scattered_reef_of_small_wooded_islets.png",
+      "parchment_ink": "renders/parchment_ink/125_a_scattered_reef_of_small_wooded_islets.png",
+      "obsidian_gold": "renders/obsidian_gold/125_a_scattered_reef_of_small_wooded_islets.png",
+      "neon_circuit": "renders/neon_circuit/125_a_scattered_reef_of_small_wooded_islets.png",
+      "satellite_topographic": "renders/satellite_topographic/125_a_scattered_reef_of_small_wooded_islets.png"
+    }
+  },
+  {
+    "id": 126,
+    "slug": "a_sunflower_city_of_spiral_districts",
+    "name": "A sunflower city of spiral districts",
+    "template": "phyllotaxis_city",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "radial",
+      "region"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 1717,
+      "floor": 5440,
+      "courtyard": 1176,
+      "rubble": 883
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/126_a_sunflower_city_of_spiral_districts.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/126_a_sunflower_city_of_spiral_districts.png",
+      "architectural_blueprint": "renders/architectural_blueprint/126_a_sunflower_city_of_spiral_districts.png",
+      "parchment_ink": "renders/parchment_ink/126_a_sunflower_city_of_spiral_districts.png",
+      "obsidian_gold": "renders/obsidian_gold/126_a_sunflower_city_of_spiral_districts.png",
+      "neon_circuit": "renders/neon_circuit/126_a_sunflower_city_of_spiral_districts.png",
+      "satellite_topographic": "renders/satellite_topographic/126_a_sunflower_city_of_spiral_districts.png"
+    }
+  },
+  {
+    "id": 127,
+    "slug": "crystal_caverns_grown_by_mineral_aggregation",
+    "name": "Crystal caverns grown by mineral aggregation",
+    "template": "dla_caverns",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "crystal"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 6622,
+      "courtyard": 204,
+      "floor": 1243,
+      "platform": 1147
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/127_crystal_caverns_grown_by_mineral_aggregation.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/127_crystal_caverns_grown_by_mineral_aggregation.png",
+      "architectural_blueprint": "renders/architectural_blueprint/127_crystal_caverns_grown_by_mineral_aggregation.png",
+      "parchment_ink": "renders/parchment_ink/127_crystal_caverns_grown_by_mineral_aggregation.png",
+      "obsidian_gold": "renders/obsidian_gold/127_crystal_caverns_grown_by_mineral_aggregation.png",
+      "neon_circuit": "renders/neon_circuit/127_crystal_caverns_grown_by_mineral_aggregation.png",
+      "satellite_topographic": "renders/satellite_topographic/127_crystal_caverns_grown_by_mineral_aggregation.png"
+    }
+  },
+  {
+    "id": 128,
+    "slug": "a_radial_temple_fractured_by_reaction_diffusion_gardens",
+    "name": "A radial temple fractured by reaction-diffusion gardens",
+    "template": "hybrid_morph",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "composite",
+      "elevation"
+    ],
+    "recipe": {
+      "macro": "radial",
+      "structure": "reaction_diffusion",
+      "op": "mask",
+      "expr": "norm((norm(invert(norm(radial(0.0,0.0))))*smoothstep(norm(norm(reaction_diffusion(coral,2000,1812439943))))))"
+    },
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 5059,
+      "courtyard": 454,
+      "floor": 2799,
+      "platform": 904
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/128_a_radial_temple_fractured_by_reaction_diffusion_gardens.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/128_a_radial_temple_fractured_by_reaction_diffusion_gardens.png",
+      "architectural_blueprint": "renders/architectural_blueprint/128_a_radial_temple_fractured_by_reaction_diffusion_gardens.png",
+      "parchment_ink": "renders/parchment_ink/128_a_radial_temple_fractured_by_reaction_diffusion_gardens.png",
+      "obsidian_gold": "renders/obsidian_gold/128_a_radial_temple_fractured_by_reaction_diffusion_gardens.png",
+      "neon_circuit": "renders/neon_circuit/128_a_radial_temple_fractured_by_reaction_diffusion_gardens.png",
+      "satellite_topographic": "renders/satellite_topographic/128_a_radial_temple_fractured_by_reaction_diffusion_gardens.png"
+    }
+  },
+  {
+    "id": 129,
+    "slug": "voronoi_wards_eaten_by_coral_growth",
+    "name": "Voronoi wards eaten by coral growth",
+    "template": "hybrid_morph",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "composite",
+      "elevation"
+    ],
+    "recipe": {
+      "macro": "voronoi",
+      "structure": "reaction_diffusion",
+      "op": "mul",
+      "expr": "norm((norm(norm(voronoi.border_tension))*norm(norm(reaction_diffusion(coral,2000,1793016454)))))"
+    },
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 3305,
+      "water": 843,
+      "floor": 3403,
+      "platform": 679,
+      "courtyard": 986
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/129_voronoi_wards_eaten_by_coral_growth.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/129_voronoi_wards_eaten_by_coral_growth.png",
+      "architectural_blueprint": "renders/architectural_blueprint/129_voronoi_wards_eaten_by_coral_growth.png",
+      "parchment_ink": "renders/parchment_ink/129_voronoi_wards_eaten_by_coral_growth.png",
+      "obsidian_gold": "renders/obsidian_gold/129_voronoi_wards_eaten_by_coral_growth.png",
+      "neon_circuit": "renders/neon_circuit/129_voronoi_wards_eaten_by_coral_growth.png",
+      "satellite_topographic": "renders/satellite_topographic/129_voronoi_wards_eaten_by_coral_growth.png"
+    }
+  },
+  {
+    "id": 130,
+    "slug": "a_river_delta_crossing_a_spiral_fortress",
+    "name": "A river delta crossing a spiral fortress",
+    "template": "hybrid_morph",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "composite",
+      "elevation"
+    ],
+    "recipe": {
+      "macro": "spiral",
+      "structure": "elevation",
+      "op": "blend",
+      "expr": "norm(blend(norm(spiral(4.0)),norm(norm(blend(norm(fbm(3.0,6,978208528)),norm(ridged(3.9000000000000004,4,978208559)),0.35))),0.5))"
+    },
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4118,
+      "water": 1036,
+      "floor": 2023,
+      "courtyard": 1153,
+      "platform": 886
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/130_a_river_delta_crossing_a_spiral_fortress.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/130_a_river_delta_crossing_a_spiral_fortress.png",
+      "architectural_blueprint": "renders/architectural_blueprint/130_a_river_delta_crossing_a_spiral_fortress.png",
+      "parchment_ink": "renders/parchment_ink/130_a_river_delta_crossing_a_spiral_fortress.png",
+      "obsidian_gold": "renders/obsidian_gold/130_a_river_delta_crossing_a_spiral_fortress.png",
+      "neon_circuit": "renders/neon_circuit/130_a_river_delta_crossing_a_spiral_fortress.png",
+      "satellite_topographic": "renders/satellite_topographic/130_a_river_delta_crossing_a_spiral_fortress.png"
+    }
+  },
+  {
+    "id": 131,
+    "slug": "phyllotaxis_districts_warped_by_a_flow_field",
+    "name": "Phyllotaxis districts warped by a flow field",
+    "template": "hybrid_morph",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "composite",
+      "elevation"
+    ],
+    "recipe": {
+      "macro": "phyllotaxis",
+      "structure": "fbm",
+      "op": "warp",
+      "expr": "norm(warp(norm(invert(norm(distance_to_points))),curl(norm(fbm(3.0,5,2140507233))),12.0))"
+    },
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 3983,
+      "water": 915,
+      "courtyard": 3070,
+      "platform": 905,
+      "floor": 343
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/131_phyllotaxis_districts_warped_by_a_flow_field.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/131_phyllotaxis_districts_warped_by_a_flow_field.png",
+      "architectural_blueprint": "renders/architectural_blueprint/131_phyllotaxis_districts_warped_by_a_flow_field.png",
+      "parchment_ink": "renders/parchment_ink/131_phyllotaxis_districts_warped_by_a_flow_field.png",
+      "obsidian_gold": "renders/obsidian_gold/131_phyllotaxis_districts_warped_by_a_flow_field.png",
+      "neon_circuit": "renders/neon_circuit/131_phyllotaxis_districts_warped_by_a_flow_field.png",
+      "satellite_topographic": "renders/satellite_topographic/131_phyllotaxis_districts_warped_by_a_flow_field.png"
+    }
+  },
+  {
+    "id": 132,
+    "slug": "a_grown_labyrinth_masked_by_a_fractal_island",
+    "name": "A grown labyrinth masked by a fractal island",
+    "template": "hybrid_morph",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "composite",
+      "elevation"
+    ],
+    "recipe": {
+      "macro": "growth",
+      "structure": "fractal",
+      "op": "mask",
+      "expr": "norm((norm(invert(norm(distance_to_polylines)))*smoothstep(norm(fractal(2.5,949644286)))))"
+    },
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 5053,
+      "courtyard": 3206,
+      "platform": 921,
+      "floor": 36
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/132_a_grown_labyrinth_masked_by_a_fractal_island.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/132_a_grown_labyrinth_masked_by_a_fractal_island.png",
+      "architectural_blueprint": "renders/architectural_blueprint/132_a_grown_labyrinth_masked_by_a_fractal_island.png",
+      "parchment_ink": "renders/parchment_ink/132_a_grown_labyrinth_masked_by_a_fractal_island.png",
+      "obsidian_gold": "renders/obsidian_gold/132_a_grown_labyrinth_masked_by_a_fractal_island.png",
+      "neon_circuit": "renders/neon_circuit/132_a_grown_labyrinth_masked_by_a_fractal_island.png",
+      "satellite_topographic": "renders/satellite_topographic/132_a_grown_labyrinth_masked_by_a_fractal_island.png"
+    }
+  },
+  {
+    "id": 133,
+    "slug": "ridged_badlands_cut_by_checkerboard_foundations",
+    "name": "Ridged badlands cut by checkerboard foundations",
+    "template": "hybrid_morph",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "composite",
+      "elevation"
+    ],
+    "recipe": {
+      "macro": "ridged",
+      "structure": "checker",
+      "op": "sub",
+      "expr": "norm((norm(ridged(3.0,5,1165169994))-norm(checker(8))))"
+    },
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 3668,
+      "platform": 699,
+      "floor": 2778,
+      "courtyard": 1089,
+      "lava": 982
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/133_ridged_badlands_cut_by_checkerboard_foundations.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/133_ridged_badlands_cut_by_checkerboard_foundations.png",
+      "architectural_blueprint": "renders/architectural_blueprint/133_ridged_badlands_cut_by_checkerboard_foundations.png",
+      "parchment_ink": "renders/parchment_ink/133_ridged_badlands_cut_by_checkerboard_foundations.png",
+      "obsidian_gold": "renders/obsidian_gold/133_ridged_badlands_cut_by_checkerboard_foundations.png",
+      "neon_circuit": "renders/neon_circuit/133_ridged_badlands_cut_by_checkerboard_foundations.png",
+      "satellite_topographic": "renders/satellite_topographic/133_ridged_badlands_cut_by_checkerboard_foundations.png"
+    }
+  },
+  {
+    "id": 134,
+    "slug": "standing_waves_frozen_into_a_voronoi_crust",
+    "name": "Standing waves frozen into a voronoi crust",
+    "template": "hybrid_morph",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "composite",
+      "elevation"
+    ],
+    "recipe": {
+      "macro": "waves",
+      "structure": "voronoi",
+      "op": "max",
+      "expr": "norm(max(norm(waves(5.0,0.00)),norm(norm(voronoi.border_tension))))"
+    },
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 3721,
+      "floor": 2956,
+      "courtyard": 872,
+      "platform": 710,
+      "water": 957
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/134_standing_waves_frozen_into_a_voronoi_crust.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/134_standing_waves_frozen_into_a_voronoi_crust.png",
+      "architectural_blueprint": "renders/architectural_blueprint/134_standing_waves_frozen_into_a_voronoi_crust.png",
+      "parchment_ink": "renders/parchment_ink/134_standing_waves_frozen_into_a_voronoi_crust.png",
+      "obsidian_gold": "renders/obsidian_gold/134_standing_waves_frozen_into_a_voronoi_crust.png",
+      "neon_circuit": "renders/neon_circuit/134_standing_waves_frozen_into_a_voronoi_crust.png",
+      "satellite_topographic": "renders/satellite_topographic/134_standing_waves_frozen_into_a_voronoi_crust.png"
+    }
+  },
+  {
+    "id": 135,
+    "slug": "a_drowned_quasicrystal_of_spiral_and_noise",
+    "name": "A drowned quasicrystal of spiral and noise",
+    "template": "hybrid_morph",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "composite",
+      "elevation"
+    ],
+    "recipe": {
+      "macro": "spiral",
+      "structure": "fractal",
+      "op": "mul",
+      "expr": "norm((norm(spiral(6.0))*norm(fractal(2.5,1925046053))))"
+    },
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 3987,
+      "abyss": 1017,
+      "courtyard": 1036,
+      "floor": 2304,
+      "platform": 872
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/135_a_drowned_quasicrystal_of_spiral_and_noise.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/135_a_drowned_quasicrystal_of_spiral_and_noise.png",
+      "architectural_blueprint": "renders/architectural_blueprint/135_a_drowned_quasicrystal_of_spiral_and_noise.png",
+      "parchment_ink": "renders/parchment_ink/135_a_drowned_quasicrystal_of_spiral_and_noise.png",
+      "obsidian_gold": "renders/obsidian_gold/135_a_drowned_quasicrystal_of_spiral_and_noise.png",
+      "neon_circuit": "renders/neon_circuit/135_a_drowned_quasicrystal_of_spiral_and_noise.png",
+      "satellite_topographic": "renders/satellite_topographic/135_a_drowned_quasicrystal_of_spiral_and_noise.png"
+    }
+  },
+  {
+    "id": 136,
+    "slug": "a_hilbert_archive_where_progress_is_near_yet_distant",
+    "name": "A Hilbert archive where progress is near yet distant",
+    "template": "space_filling",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "curve_position"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4384,
+      "courtyard": 620,
+      "floor": 4212
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/136_a_hilbert_archive_where_progress_is_near_yet_distant.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/136_a_hilbert_archive_where_progress_is_near_yet_distant.png",
+      "architectural_blueprint": "renders/architectural_blueprint/136_a_hilbert_archive_where_progress_is_near_yet_distant.png",
+      "parchment_ink": "renders/parchment_ink/136_a_hilbert_archive_where_progress_is_near_yet_distant.png",
+      "obsidian_gold": "renders/obsidian_gold/136_a_hilbert_archive_where_progress_is_near_yet_distant.png",
+      "neon_circuit": "renders/neon_circuit/136_a_hilbert_archive_where_progress_is_near_yet_distant.png",
+      "satellite_topographic": "renders/satellite_topographic/136_a_hilbert_archive_where_progress_is_near_yet_distant.png"
+    }
+  },
+  {
+    "id": 137,
+    "slug": "a_moore_circuit_closing_on_itself",
+    "name": "A Moore circuit closing on itself",
+    "template": "space_filling",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "curve_position"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4360,
+      "courtyard": 632,
+      "floor": 4224
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/137_a_moore_circuit_closing_on_itself.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/137_a_moore_circuit_closing_on_itself.png",
+      "architectural_blueprint": "renders/architectural_blueprint/137_a_moore_circuit_closing_on_itself.png",
+      "parchment_ink": "renders/parchment_ink/137_a_moore_circuit_closing_on_itself.png",
+      "obsidian_gold": "renders/obsidian_gold/137_a_moore_circuit_closing_on_itself.png",
+      "neon_circuit": "renders/neon_circuit/137_a_moore_circuit_closing_on_itself.png",
+      "satellite_topographic": "renders/satellite_topographic/137_a_moore_circuit_closing_on_itself.png"
+    }
+  },
+  {
+    "id": 138,
+    "slug": "a_gosper_flowsnake_of_hexagonal_wards",
+    "name": "A Gosper flowsnake of hexagonal wards",
+    "template": "space_filling",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "curve_position"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4194,
+      "floor": 4413,
+      "courtyard": 609
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/138_a_gosper_flowsnake_of_hexagonal_wards.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/138_a_gosper_flowsnake_of_hexagonal_wards.png",
+      "architectural_blueprint": "renders/architectural_blueprint/138_a_gosper_flowsnake_of_hexagonal_wards.png",
+      "parchment_ink": "renders/parchment_ink/138_a_gosper_flowsnake_of_hexagonal_wards.png",
+      "obsidian_gold": "renders/obsidian_gold/138_a_gosper_flowsnake_of_hexagonal_wards.png",
+      "neon_circuit": "renders/neon_circuit/138_a_gosper_flowsnake_of_hexagonal_wards.png",
+      "satellite_topographic": "renders/satellite_topographic/138_a_gosper_flowsnake_of_hexagonal_wards.png"
+    }
+  },
+  {
+    "id": 139,
+    "slug": "a_sierpinski_ascent_of_nested_triangles",
+    "name": "A Sierpinski ascent of nested triangles",
+    "template": "space_filling",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "curve_position"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 6804,
+      "courtyard": 574,
+      "floor": 1838
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/139_a_sierpinski_ascent_of_nested_triangles.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/139_a_sierpinski_ascent_of_nested_triangles.png",
+      "architectural_blueprint": "renders/architectural_blueprint/139_a_sierpinski_ascent_of_nested_triangles.png",
+      "parchment_ink": "renders/parchment_ink/139_a_sierpinski_ascent_of_nested_triangles.png",
+      "obsidian_gold": "renders/obsidian_gold/139_a_sierpinski_ascent_of_nested_triangles.png",
+      "neon_circuit": "renders/neon_circuit/139_a_sierpinski_ascent_of_nested_triangles.png",
+      "satellite_topographic": "renders/satellite_topographic/139_a_sierpinski_ascent_of_nested_triangles.png"
+    }
+  },
+  {
+    "id": 140,
+    "slug": "a_five_fold_temple_that_never_repeats",
+    "name": "A five-fold temple that never repeats",
+    "template": "quasicrystal",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "quasicrystal",
+      "sacred_intensity"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4931,
+      "courtyard": 809,
+      "floor": 3008,
+      "platform": 468
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/140_a_five_fold_temple_that_never_repeats.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/140_a_five_fold_temple_that_never_repeats.png",
+      "architectural_blueprint": "renders/architectural_blueprint/140_a_five_fold_temple_that_never_repeats.png",
+      "parchment_ink": "renders/parchment_ink/140_a_five_fold_temple_that_never_repeats.png",
+      "obsidian_gold": "renders/obsidian_gold/140_a_five_fold_temple_that_never_repeats.png",
+      "neon_circuit": "renders/neon_circuit/140_a_five_fold_temple_that_never_repeats.png",
+      "satellite_topographic": "renders/satellite_topographic/140_a_five_fold_temple_that_never_repeats.png"
+    }
+  },
+  {
+    "id": 141,
+    "slug": "a_seven_fold_reliquary_of_alien_order",
+    "name": "A seven-fold reliquary of alien order",
+    "template": "quasicrystal",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "quasicrystal",
+      "sacred_intensity"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 5256,
+      "platform": 608,
+      "floor": 2494,
+      "courtyard": 858
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/141_a_seven_fold_reliquary_of_alien_order.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/141_a_seven_fold_reliquary_of_alien_order.png",
+      "architectural_blueprint": "renders/architectural_blueprint/141_a_seven_fold_reliquary_of_alien_order.png",
+      "parchment_ink": "renders/parchment_ink/141_a_seven_fold_reliquary_of_alien_order.png",
+      "obsidian_gold": "renders/obsidian_gold/141_a_seven_fold_reliquary_of_alien_order.png",
+      "neon_circuit": "renders/neon_circuit/141_a_seven_fold_reliquary_of_alien_order.png",
+      "satellite_topographic": "renders/satellite_topographic/141_a_seven_fold_reliquary_of_alien_order.png"
+    }
+  },
+  {
+    "id": 142,
+    "slug": "a_root_world_branching_from_a_single_trunk",
+    "name": "A root world branching from a single trunk",
+    "template": "lsystem_roots",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "age",
+      "hierarchy"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 7213,
+      "platform": 460,
+      "floor": 1026,
+      "courtyard": 517
+    },
+    "overlay_counts": {
+      "hidden": 265
+    },
+    "tile_json": "layouts/142_a_root_world_branching_from_a_single_trunk.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/142_a_root_world_branching_from_a_single_trunk.png",
+      "architectural_blueprint": "renders/architectural_blueprint/142_a_root_world_branching_from_a_single_trunk.png",
+      "parchment_ink": "renders/parchment_ink/142_a_root_world_branching_from_a_single_trunk.png",
+      "obsidian_gold": "renders/obsidian_gold/142_a_root_world_branching_from_a_single_trunk.png",
+      "neon_circuit": "renders/neon_circuit/142_a_root_world_branching_from_a_single_trunk.png",
+      "satellite_topographic": "renders/satellite_topographic/142_a_root_world_branching_from_a_single_trunk.png"
+    }
+  },
+  {
+    "id": 143,
+    "slug": "a_vascular_canopy_of_arterial_corridors",
+    "name": "A vascular canopy of arterial corridors",
+    "template": "lsystem_roots",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "age",
+      "hierarchy"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 3708,
+      "courtyard": 4882,
+      "floor": 505,
+      "platform": 121
+    },
+    "overlay_counts": {
+      "hidden": 459
+    },
+    "tile_json": "layouts/143_a_vascular_canopy_of_arterial_corridors.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/143_a_vascular_canopy_of_arterial_corridors.png",
+      "architectural_blueprint": "renders/architectural_blueprint/143_a_vascular_canopy_of_arterial_corridors.png",
+      "parchment_ink": "renders/parchment_ink/143_a_vascular_canopy_of_arterial_corridors.png",
+      "obsidian_gold": "renders/obsidian_gold/143_a_vascular_canopy_of_arterial_corridors.png",
+      "neon_circuit": "renders/neon_circuit/143_a_vascular_canopy_of_arterial_corridors.png",
+      "satellite_topographic": "renders/satellite_topographic/143_a_vascular_canopy_of_arterial_corridors.png"
+    }
+  },
+  {
+    "id": 144,
+    "slug": "colliding_plates_raising_a_mountain_chain",
+    "name": "Colliding plates raising a mountain chain",
+    "template": "tectonic",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation",
+      "plate",
+      "slope",
+      "tectonic_stress"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "water": 1893,
+      "floor": 3458,
+      "courtyard": 1985,
+      "wall": 1045,
+      "bridge": 165,
+      "abyss": 506,
+      "rubble": 164
+    },
+    "overlay_counts": {
+      "door": 1
+    },
+    "tile_json": "layouts/144_colliding_plates_raising_a_mountain_chain.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/144_colliding_plates_raising_a_mountain_chain.png",
+      "architectural_blueprint": "renders/architectural_blueprint/144_colliding_plates_raising_a_mountain_chain.png",
+      "parchment_ink": "renders/parchment_ink/144_colliding_plates_raising_a_mountain_chain.png",
+      "obsidian_gold": "renders/obsidian_gold/144_colliding_plates_raising_a_mountain_chain.png",
+      "neon_circuit": "renders/neon_circuit/144_colliding_plates_raising_a_mountain_chain.png",
+      "satellite_topographic": "renders/satellite_topographic/144_colliding_plates_raising_a_mountain_chain.png"
+    }
+  },
+  {
+    "id": 145,
+    "slug": "a_rifted_continent_opening_along_its_faults",
+    "name": "A rifted continent opening along its faults",
+    "template": "tectonic",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation",
+      "plate",
+      "slope",
+      "tectonic_stress"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "floor": 3487,
+      "courtyard": 1155,
+      "wall": 1928,
+      "water": 1684,
+      "abyss": 432,
+      "lava": 10,
+      "bridge": 284,
+      "rubble": 236
+    },
+    "overlay_counts": {
+      "door": 3
+    },
+    "tile_json": "layouts/145_a_rifted_continent_opening_along_its_faults.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/145_a_rifted_continent_opening_along_its_faults.png",
+      "architectural_blueprint": "renders/architectural_blueprint/145_a_rifted_continent_opening_along_its_faults.png",
+      "parchment_ink": "renders/parchment_ink/145_a_rifted_continent_opening_along_its_faults.png",
+      "obsidian_gold": "renders/obsidian_gold/145_a_rifted_continent_opening_along_its_faults.png",
+      "neon_circuit": "renders/neon_circuit/145_a_rifted_continent_opening_along_its_faults.png",
+      "satellite_topographic": "renders/satellite_topographic/145_a_rifted_continent_opening_along_its_faults.png"
+    }
+  },
+  {
+    "id": 146,
+    "slug": "a_motherboard_megacity_of_traces_and_vias",
+    "name": "A motherboard megacity of traces and vias",
+    "template": "circuit_city",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "signal"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 5825,
+      "platform": 2321,
+      "floor": 913,
+      "courtyard": 157
+    },
+    "overlay_counts": {
+      "elevator": 36
+    },
+    "tile_json": "layouts/146_a_motherboard_megacity_of_traces_and_vias.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/146_a_motherboard_megacity_of_traces_and_vias.png",
+      "architectural_blueprint": "renders/architectural_blueprint/146_a_motherboard_megacity_of_traces_and_vias.png",
+      "parchment_ink": "renders/parchment_ink/146_a_motherboard_megacity_of_traces_and_vias.png",
+      "obsidian_gold": "renders/obsidian_gold/146_a_motherboard_megacity_of_traces_and_vias.png",
+      "neon_circuit": "renders/neon_circuit/146_a_motherboard_megacity_of_traces_and_vias.png",
+      "satellite_topographic": "renders/satellite_topographic/146_a_motherboard_megacity_of_traces_and_vias.png"
+    }
+  },
+  {
+    "id": 147,
+    "slug": "a_dense_logic_district_on_a_fine_pitch",
+    "name": "A dense logic district on a fine pitch",
+    "template": "circuit_city",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "signal"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4527,
+      "platform": 3557,
+      "floor": 978,
+      "courtyard": 154
+    },
+    "overlay_counts": {
+      "elevator": 38
+    },
+    "tile_json": "layouts/147_a_dense_logic_district_on_a_fine_pitch.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/147_a_dense_logic_district_on_a_fine_pitch.png",
+      "architectural_blueprint": "renders/architectural_blueprint/147_a_dense_logic_district_on_a_fine_pitch.png",
+      "parchment_ink": "renders/parchment_ink/147_a_dense_logic_district_on_a_fine_pitch.png",
+      "obsidian_gold": "renders/obsidian_gold/147_a_dense_logic_district_on_a_fine_pitch.png",
+      "neon_circuit": "renders/neon_circuit/147_a_dense_logic_district_on_a_fine_pitch.png",
+      "satellite_topographic": "renders/satellite_topographic/147_a_dense_logic_district_on_a_fine_pitch.png"
+    }
+  },
+  {
+    "id": 148,
+    "slug": "a_metro_network_inflated_into_districts",
+    "name": "A metro network inflated into districts",
+    "template": "transit_network",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "transit_access"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 7666,
+      "courtyard": 777,
+      "floor": 391,
+      "platform": 382
+    },
+    "overlay_counts": {
+      "door": 11,
+      "district": 2
+    },
+    "tile_json": "layouts/148_a_metro_network_inflated_into_districts.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/148_a_metro_network_inflated_into_districts.png",
+      "architectural_blueprint": "renders/architectural_blueprint/148_a_metro_network_inflated_into_districts.png",
+      "parchment_ink": "renders/parchment_ink/148_a_metro_network_inflated_into_districts.png",
+      "obsidian_gold": "renders/obsidian_gold/148_a_metro_network_inflated_into_districts.png",
+      "neon_circuit": "renders/neon_circuit/148_a_metro_network_inflated_into_districts.png",
+      "satellite_topographic": "renders/satellite_topographic/148_a_metro_network_inflated_into_districts.png"
+    }
+  },
+  {
+    "id": 149,
+    "slug": "chambers_joined_only_by_portals_that_should_not_meet",
+    "name": "Chambers joined only by portals that should not meet",
+    "template": "portal_maps",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "room"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 7914,
+      "floor": 1302
+    },
+    "overlay_counts": {
+      "elevator": 6,
+      "shift": 6,
+      "rotate": 6,
+      "teleport": 7
+    },
+    "tile_json": "layouts/149_chambers_joined_only_by_portals_that_should_not_meet.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/149_chambers_joined_only_by_portals_that_should_not_meet.png",
+      "architectural_blueprint": "renders/architectural_blueprint/149_chambers_joined_only_by_portals_that_should_not_meet.png",
+      "parchment_ink": "renders/parchment_ink/149_chambers_joined_only_by_portals_that_should_not_meet.png",
+      "obsidian_gold": "renders/obsidian_gold/149_chambers_joined_only_by_portals_that_should_not_meet.png",
+      "neon_circuit": "renders/neon_circuit/149_chambers_joined_only_by_portals_that_should_not_meet.png",
+      "satellite_topographic": "renders/satellite_topographic/149_chambers_joined_only_by_portals_that_should_not_meet.png"
+    }
+  },
+  {
+    "id": 150,
+    "slug": "an_eightfold_mandala_with_one_profaned_wedge",
+    "name": "An eightfold mandala with one profaned wedge",
+    "template": "mandala",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "mandala",
+      "sacred_intensity",
+      "symmetry_phase"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4333,
+      "floor": 3511,
+      "courtyard": 780,
+      "platform": 240,
+      "rubble": 352
+    },
+    "overlay_counts": {
+      "door": 24
+    },
+    "tile_json": "layouts/150_an_eightfold_mandala_with_one_profaned_wedge.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/150_an_eightfold_mandala_with_one_profaned_wedge.png",
+      "architectural_blueprint": "renders/architectural_blueprint/150_an_eightfold_mandala_with_one_profaned_wedge.png",
+      "parchment_ink": "renders/parchment_ink/150_an_eightfold_mandala_with_one_profaned_wedge.png",
+      "obsidian_gold": "renders/obsidian_gold/150_an_eightfold_mandala_with_one_profaned_wedge.png",
+      "neon_circuit": "renders/neon_circuit/150_an_eightfold_mandala_with_one_profaned_wedge.png",
+      "satellite_topographic": "renders/satellite_topographic/150_an_eightfold_mandala_with_one_profaned_wedge.png"
+    }
+  },
+  {
+    "id": 151,
+    "slug": "a_twelvefold_rosette_of_nested_ambulatories",
+    "name": "A twelvefold rosette of nested ambulatories",
+    "template": "mandala",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "mandala",
+      "sacred_intensity",
+      "symmetry_phase"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4146,
+      "courtyard": 1054,
+      "floor": 3554,
+      "rubble": 222,
+      "platform": 240
+    },
+    "overlay_counts": {
+      "door": 36
+    },
+    "tile_json": "layouts/151_a_twelvefold_rosette_of_nested_ambulatories.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/151_a_twelvefold_rosette_of_nested_ambulatories.png",
+      "architectural_blueprint": "renders/architectural_blueprint/151_a_twelvefold_rosette_of_nested_ambulatories.png",
+      "parchment_ink": "renders/parchment_ink/151_a_twelvefold_rosette_of_nested_ambulatories.png",
+      "obsidian_gold": "renders/obsidian_gold/151_a_twelvefold_rosette_of_nested_ambulatories.png",
+      "neon_circuit": "renders/neon_circuit/151_a_twelvefold_rosette_of_nested_ambulatories.png",
+      "satellite_topographic": "renders/satellite_topographic/151_a_twelvefold_rosette_of_nested_ambulatories.png"
+    }
+  },
+  {
+    "id": 152,
+    "slug": "a_level_in_the_shape_of_a_coiled_serpent",
+    "name": "A level in the shape of a coiled serpent",
+    "template": "silhouette",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "depth",
+      "silhouette"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 6621,
+      "floor": 2450,
+      "courtyard": 145
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/152_a_level_in_the_shape_of_a_coiled_serpent.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/152_a_level_in_the_shape_of_a_coiled_serpent.png",
+      "architectural_blueprint": "renders/architectural_blueprint/152_a_level_in_the_shape_of_a_coiled_serpent.png",
+      "parchment_ink": "renders/parchment_ink/152_a_level_in_the_shape_of_a_coiled_serpent.png",
+      "obsidian_gold": "renders/obsidian_gold/152_a_level_in_the_shape_of_a_coiled_serpent.png",
+      "neon_circuit": "renders/neon_circuit/152_a_level_in_the_shape_of_a_coiled_serpent.png",
+      "satellite_topographic": "renders/satellite_topographic/152_a_level_in_the_shape_of_a_coiled_serpent.png"
+    }
+  },
+  {
+    "id": 153,
+    "slug": "a_level_in_the_shape_of_a_skull",
+    "name": "A level in the shape of a skull",
+    "template": "silhouette",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "depth",
+      "silhouette"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 6358,
+      "floor": 2656,
+      "courtyard": 202
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/153_a_level_in_the_shape_of_a_skull.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/153_a_level_in_the_shape_of_a_skull.png",
+      "architectural_blueprint": "renders/architectural_blueprint/153_a_level_in_the_shape_of_a_skull.png",
+      "parchment_ink": "renders/parchment_ink/153_a_level_in_the_shape_of_a_skull.png",
+      "obsidian_gold": "renders/obsidian_gold/153_a_level_in_the_shape_of_a_skull.png",
+      "neon_circuit": "renders/neon_circuit/153_a_level_in_the_shape_of_a_skull.png",
+      "satellite_topographic": "renders/satellite_topographic/153_a_level_in_the_shape_of_a_skull.png"
+    }
+  },
+  {
+    "id": 154,
+    "slug": "a_level_in_the_shape_of_a_crown",
+    "name": "A level in the shape of a crown",
+    "template": "silhouette",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "depth",
+      "silhouette"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4869,
+      "floor": 3703,
+      "courtyard": 644
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/154_a_level_in_the_shape_of_a_crown.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/154_a_level_in_the_shape_of_a_crown.png",
+      "architectural_blueprint": "renders/architectural_blueprint/154_a_level_in_the_shape_of_a_crown.png",
+      "parchment_ink": "renders/parchment_ink/154_a_level_in_the_shape_of_a_crown.png",
+      "obsidian_gold": "renders/obsidian_gold/154_a_level_in_the_shape_of_a_crown.png",
+      "neon_circuit": "renders/neon_circuit/154_a_level_in_the_shape_of_a_crown.png",
+      "satellite_topographic": "renders/satellite_topographic/154_a_level_in_the_shape_of_a_crown.png"
+    }
+  },
+  {
+    "id": 155,
+    "slug": "a_level_in_the_shape_of_a_bound_sigil",
+    "name": "A level in the shape of a bound sigil",
+    "template": "silhouette",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "depth",
+      "silhouette"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 6273,
+      "floor": 2569,
+      "courtyard": 374
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/155_a_level_in_the_shape_of_a_bound_sigil.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/155_a_level_in_the_shape_of_a_bound_sigil.png",
+      "architectural_blueprint": "renders/architectural_blueprint/155_a_level_in_the_shape_of_a_bound_sigil.png",
+      "parchment_ink": "renders/parchment_ink/155_a_level_in_the_shape_of_a_bound_sigil.png",
+      "obsidian_gold": "renders/obsidian_gold/155_a_level_in_the_shape_of_a_bound_sigil.png",
+      "neon_circuit": "renders/neon_circuit/155_a_level_in_the_shape_of_a_bound_sigil.png",
+      "satellite_topographic": "renders/satellite_topographic/155_a_level_in_the_shape_of_a_bound_sigil.png"
+    }
+  }
+]

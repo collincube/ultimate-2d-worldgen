@@ -1,0 +1,541 @@
+[
+  {
+    "id": 101,
+    "name": "Crystalline provinces partitioned by contested borders",
+    "template": "voronoi_kingdoms",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 102,
+    "name": "A dense ward city of small irregular districts",
+    "template": "voronoi_kingdoms",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "district_size": 6,
+    "plaza_rate": 0.3,
+    "extra_gates": 0.4
+  },
+  {
+    "id": 103,
+    "name": "Great estates divided by lake and rampart",
+    "template": "voronoi_kingdoms",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "district_size": 14,
+    "lake_rate": 0.22,
+    "wall_thickness": 2,
+    "gate_width": 3
+  },
+  {
+    "id": 104,
+    "name": "A spiral of wards seeded on a golden angle",
+    "template": "voronoi_kingdoms",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "site_strategy": "phyllotaxis",
+    "sites": 70,
+    "relax": 0
+  },
+  {
+    "id": 105,
+    "name": "A coral labyrinth grown from chemical bloom",
+    "template": "reaction_diffusion",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "preset": "coral"
+  },
+  {
+    "id": 106,
+    "name": "Fingerprint corridors of a living archive",
+    "template": "reaction_diffusion",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "preset": "fingerprint",
+    "open_ratio": 0.42
+  },
+  {
+    "id": 107,
+    "name": "A mitotic warren of dividing chambers",
+    "template": "reaction_diffusion",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "preset": "mitosis",
+    "open_ratio": 0.5
+  },
+  {
+    "id": 108,
+    "name": "Worm-cast tunnels in soft chemical stone",
+    "template": "reaction_diffusion",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "preset": "worms",
+    "open_ratio": 0.44
+  },
+  {
+    "id": 109,
+    "name": "A chemical garden of pools and planting beds",
+    "template": "reaction_diffusion",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "preset": "coral",
+    "profile": "garden"
+  },
+  {
+    "id": 110,
+    "name": "An archipelago precipitated from solution",
+    "template": "reaction_diffusion",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "preset": "spots",
+    "profile": "islands"
+  },
+  {
+    "id": 111,
+    "name": "A folded corridor system grown under pressure",
+    "template": "differential_growth",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 112,
+    "name": "Convoluted galleries pressed into a tight shell",
+    "template": "differential_growth",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "steps": 280,
+    "repel_radius": 6.5,
+    "corridor_width": 3
+  },
+  {
+    "id": 113,
+    "name": "An open hall veined by a single grown wall",
+    "template": "differential_growth",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "invert": true,
+    "corridor_width": 2
+  },
+  {
+    "id": 114,
+    "name": "A knot world of continuous looping circuits",
+    "template": "truchet",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "cell": 16
+  },
+  {
+    "id": 115,
+    "name": "A fine ritual circuit of many closed loops",
+    "template": "truchet",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "cell": 12,
+    "target": "many_loops",
+    "corridor_width": 2,
+    "optimize": 400
+  },
+  {
+    "id": 116,
+    "name": "Broad ceremonial pipework on a coarse lattice",
+    "template": "truchet",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "cell": 22,
+    "corridor_width": 4,
+    "chamber_radius": 3
+  },
+  {
+    "id": 117,
+    "name": "A river basin carved by its own drainage",
+    "template": "watershed",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 118,
+    "name": "A drowned coast of estuaries and tidal flats",
+    "template": "watershed",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "sea_level": 0.48,
+    "river_quantile": 0.975
+  },
+  {
+    "id": 119,
+    "name": "A high plateau split by canyon rivers",
+    "template": "watershed",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "sea_level": 0.26,
+    "mountain_level": 0.7,
+    "scale": 2.2
+  },
+  {
+    "id": 120,
+    "name": "Windswept streets following an invisible current",
+    "template": "flow_field",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 121,
+    "name": "A calligraphic sprawl of braided avenues",
+    "template": "flow_field",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "scale": 3.2,
+    "spacing": 14,
+    "highway_rate": 0.18
+  },
+  {
+    "id": 122,
+    "name": "Terraced architecture stepped along contour lines",
+    "template": "contour_terraces",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 123,
+    "name": "A stepped ziggurat of many shallow terraces",
+    "template": "contour_terraces",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "levels": 11,
+    "dome_weight": 0.7
+  },
+  {
+    "id": 124,
+    "name": "A fractal archipelago linked by causeways",
+    "template": "archipelago",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 125,
+    "name": "A scattered reef of small wooded islets",
+    "template": "archipelago",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "sea_level": 0.5,
+    "scale": 3.4,
+    "min_island": 8
+  },
+  {
+    "id": 126,
+    "name": "A sunflower city of spiral districts",
+    "template": "phyllotaxis_city",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 127,
+    "name": "Crystal caverns grown by mineral aggregation",
+    "template": "dla_caverns",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 128,
+    "name": "A radial temple fractured by reaction-diffusion gardens",
+    "template": "hybrid_morph",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "macro": "radial",
+    "structure": "reaction_diffusion",
+    "op": "mask",
+    "k": 0.55
+  },
+  {
+    "id": 129,
+    "name": "Voronoi wards eaten by coral growth",
+    "template": "hybrid_morph",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "macro": "voronoi",
+    "structure": "reaction_diffusion",
+    "op": "mul"
+  },
+  {
+    "id": 130,
+    "name": "A river delta crossing a spiral fortress",
+    "template": "hybrid_morph",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "macro": "spiral",
+    "structure": "elevation",
+    "op": "blend",
+    "k": 0.5,
+    "hazard": "water"
+  },
+  {
+    "id": 131,
+    "name": "Phyllotaxis districts warped by a flow field",
+    "template": "hybrid_morph",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "macro": "phyllotaxis",
+    "structure": "fbm",
+    "op": "warp",
+    "k": 0.6
+  },
+  {
+    "id": 132,
+    "name": "A grown labyrinth masked by a fractal island",
+    "template": "hybrid_morph",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "macro": "growth",
+    "structure": "fractal",
+    "op": "mask",
+    "k": 0.45
+  },
+  {
+    "id": 133,
+    "name": "Ridged badlands cut by checkerboard foundations",
+    "template": "hybrid_morph",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "macro": "ridged",
+    "structure": "checker",
+    "op": "sub",
+    "hazard": "lava"
+  },
+  {
+    "id": 134,
+    "name": "Standing waves frozen into a voronoi crust",
+    "template": "hybrid_morph",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "macro": "waves",
+    "structure": "voronoi",
+    "op": "max",
+    "frequency": 5.0
+  },
+  {
+    "id": 135,
+    "name": "A drowned quasicrystal of spiral and noise",
+    "template": "hybrid_morph",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "macro": "spiral",
+    "structure": "fractal",
+    "op": "mul",
+    "turns": 6.0,
+    "hazard": "abyss"
+  },
+  {
+    "id": 136,
+    "name": "A Hilbert archive where progress is near yet distant",
+    "template": "space_filling",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "curve": "hilbert"
+  },
+  {
+    "id": 137,
+    "name": "A Moore circuit closing on itself",
+    "template": "space_filling",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "curve": "moore"
+  },
+  {
+    "id": 138,
+    "name": "A Gosper flowsnake of hexagonal wards",
+    "template": "space_filling",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "curve": "gosper"
+  },
+  {
+    "id": 139,
+    "name": "A Sierpinski ascent of nested triangles",
+    "template": "space_filling",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "curve": "sierpinski"
+  },
+  {
+    "id": 140,
+    "name": "A five-fold temple that never repeats",
+    "template": "quasicrystal",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "symmetry": 5
+  },
+  {
+    "id": 141,
+    "name": "A seven-fold reliquary of alien order",
+    "template": "quasicrystal",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "symmetry": 7,
+    "frequency": 26.0
+  },
+  {
+    "id": 142,
+    "name": "A root world branching from a single trunk",
+    "template": "lsystem_roots",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 143,
+    "name": "A vascular canopy of arterial corridors",
+    "template": "lsystem_roots",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "system": "vascular"
+  },
+  {
+    "id": 144,
+    "name": "Colliding plates raising a mountain chain",
+    "template": "tectonic",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 145,
+    "name": "A rifted continent opening along its faults",
+    "template": "tectonic",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "plate_size": 13,
+    "sea_level": 0.34
+  },
+  {
+    "id": 146,
+    "name": "A motherboard megacity of traces and vias",
+    "template": "circuit_city",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 147,
+    "name": "A dense logic district on a fine pitch",
+    "template": "circuit_city",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "pitch": 4,
+    "components": 14
+  },
+  {
+    "id": 148,
+    "name": "A metro network inflated into districts",
+    "template": "transit_network",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 149,
+    "name": "Chambers joined only by portals that should not meet",
+    "template": "portal_maps",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 150,
+    "name": "An eightfold mandala with one profaned wedge",
+    "template": "mandala",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "order": 8
+  },
+  {
+    "id": 151,
+    "name": "A twelvefold rosette of nested ambulatories",
+    "template": "mandala",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "order": 12,
+    "rings": 7
+  },
+  {
+    "id": 152,
+    "name": "A level in the shape of a coiled serpent",
+    "template": "silhouette",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "shape": "serpent"
+  },
+  {
+    "id": 153,
+    "name": "A level in the shape of a skull",
+    "template": "silhouette",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "shape": "skull"
+  },
+  {
+    "id": 154,
+    "name": "A level in the shape of a crown",
+    "template": "silhouette",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "shape": "crown"
+  },
+  {
+    "id": 155,
+    "name": "A level in the shape of a bound sigil",
+    "template": "silhouette",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "shape": "sigil"
+  }
+]

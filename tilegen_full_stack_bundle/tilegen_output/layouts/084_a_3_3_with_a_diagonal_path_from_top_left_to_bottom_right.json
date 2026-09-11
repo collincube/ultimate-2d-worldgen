@@ -1,0 +1,58 @@
+{
+  "id": 84,
+  "slug": "a_3_3_with_a_diagonal_path_from_top_left_to_bottom_right",
+  "name": "A 3\u00d73 with a diagonal path from top-left to bottom-right",
+  "template": "micro_matrix",
+  "size": {
+    "width": 3,
+    "height": 3
+  },
+  "theme": "micro",
+  "background": "wall",
+  "base_counts": {
+    "floor": 3,
+    "wall": 6
+  },
+  "overlay_counts": {},
+  "base_legend": [
+    "floor",
+    "wall"
+  ],
+  "overlay_legend": [
+    ""
+  ],
+  "base": [
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      1,
+      1,
+      0
+    ]
+  ],
+  "overlay": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ]
+}

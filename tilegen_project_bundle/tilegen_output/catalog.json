@@ -1,0 +1,1827 @@
+[
+  {
+    "id": 1,
+    "slug": "a_circular_hub_with_radiating_corridors_like_spokes",
+    "name": "A circular hub with radiating corridors like spokes",
+    "kind": "macro",
+    "template": "hub_spokes",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/001_a_circular_hub_with_radiating_corridors_like_spokes.png",
+    "tile_json": "layouts/001_a_circular_hub_with_radiating_corridors_like_spokes.json",
+    "base_counts": {
+      "wall": 3320,
+      "floor": 776
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 2,
+    "slug": "a_descending_spiral_tower_with_layered_platforms",
+    "name": "A descending spiral tower with layered platforms",
+    "kind": "macro",
+    "template": "spiral",
+    "theme": "tower",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/002_a_descending_spiral_tower_with_layered_platforms.png",
+    "tile_json": "layouts/002_a_descending_spiral_tower_with_layered_platforms.json",
+    "base_counts": {
+      "wall": 2911,
+      "floor": 842,
+      "platform": 343
+    },
+    "overlay_counts": {
+      "stair": 7
+    }
+  },
+  {
+    "id": 3,
+    "slug": "a_grid_like_labyrinth_of_uniform_square_rooms",
+    "name": "A grid-like labyrinth of uniform square rooms",
+    "kind": "macro",
+    "template": "grid_rooms",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/003_a_grid_like_labyrinth_of_uniform_square_rooms.png",
+    "tile_json": "layouts/003_a_grid_like_labyrinth_of_uniform_square_rooms.json",
+    "base_counts": {
+      "wall": 2892,
+      "floor": 1204
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 4,
+    "slug": "a_vertical_shaft_with_stacked_chambers_and_ladders",
+    "name": "A vertical shaft with stacked chambers and ladders",
+    "kind": "macro",
+    "template": "vertical_stack",
+    "theme": "shaft",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/004_a_vertical_shaft_with_stacked_chambers_and_ladders.png",
+    "tile_json": "layouts/004_a_vertical_shaft_with_stacked_chambers_and_ladders.json",
+    "base_counts": {
+      "wall": 3664,
+      "floor": 432
+    },
+    "overlay_counts": {
+      "ladder": 6
+    }
+  },
+  {
+    "id": 5,
+    "slug": "a_branching_cave_system_with_irregular_tunnels",
+    "name": "A branching cave system with irregular tunnels",
+    "kind": "macro",
+    "template": "branch_caves",
+    "theme": "cave",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/005_a_branching_cave_system_with_irregular_tunnels.png",
+    "tile_json": "layouts/005_a_branching_cave_system_with_irregular_tunnels.json",
+    "base_counts": {
+      "wall": 2936,
+      "floor": 1160
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 6,
+    "slug": "a_symmetrical_temple_with_mirrored_wings",
+    "name": "A symmetrical temple with mirrored wings",
+    "kind": "macro",
+    "template": "symmetrical_complex",
+    "theme": "temple",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/006_a_symmetrical_temple_with_mirrored_wings.png",
+    "tile_json": "layouts/006_a_symmetrical_temple_with_mirrored_wings.json",
+    "base_counts": {
+      "wall": 3682,
+      "floor": 414
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 7,
+    "slug": "a_multi_floor_fortress_with_central_courtyard",
+    "name": "A multi-floor fortress with central courtyard",
+    "kind": "macro",
+    "template": "fortress",
+    "theme": "fortress",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/007_a_multi_floor_fortress_with_central_courtyard.png",
+    "tile_json": "layouts/007_a_multi_floor_fortress_with_central_courtyard.json",
+    "base_counts": {
+      "wall": 1912,
+      "floor": 1824,
+      "courtyard": 360
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 8,
+    "slug": "a_narrow_linear_gauntlet_with_occasional_side_alcoves",
+    "name": "A narrow linear gauntlet with occasional side alcoves",
+    "kind": "macro",
+    "template": "linear_gauntlet",
+    "theme": "gauntlet",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/008_a_narrow_linear_gauntlet_with_occasional_side_alcoves.png",
+    "tile_json": "layouts/008_a_narrow_linear_gauntlet_with_occasional_side_alcoves.json",
+    "base_counts": {
+      "wall": 3716,
+      "floor": 380
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 9,
+    "slug": "a_maze_of_interlocking_loops_and_shortcuts",
+    "name": "A maze of interlocking loops and shortcuts",
+    "kind": "macro",
+    "template": "loops_network",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/009_a_maze_of_interlocking_loops_and_shortcuts.png",
+    "tile_json": "layouts/009_a_maze_of_interlocking_loops_and_shortcuts.json",
+    "base_counts": {
+      "wall": 2400,
+      "floor": 1696
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 10,
+    "slug": "a_tiered_pyramid_with_ascending_terraces",
+    "name": "A tiered pyramid with ascending terraces",
+    "kind": "macro",
+    "template": "pyramid_terraces",
+    "theme": "pyramid",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/010_a_tiered_pyramid_with_ascending_terraces.png",
+    "tile_json": "layouts/010_a_tiered_pyramid_with_ascending_terraces.json",
+    "base_counts": {
+      "wall": 2736,
+      "floor": 700,
+      "platform": 660
+    },
+    "overlay_counts": {
+      "stair": 4
+    }
+  },
+  {
+    "id": 11,
+    "slug": "a_submerged_ruin_with_interconnected_waterlogged_halls",
+    "name": "A submerged ruin with interconnected waterlogged halls",
+    "kind": "macro",
+    "template": "flooded",
+    "theme": "ruin",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/011_a_submerged_ruin_with_interconnected_waterlogged_halls.png",
+    "tile_json": "layouts/011_a_submerged_ruin_with_interconnected_waterlogged_halls.json",
+    "base_counts": {
+      "wall": 1180,
+      "water": 2076,
+      "floor": 831,
+      "rubble": 9
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 12,
+    "slug": "a_sprawling_underground_city_with_districts",
+    "name": "A sprawling underground city with districts",
+    "kind": "macro",
+    "template": "city",
+    "theme": "city",
+    "width": 72,
+    "height": 72,
+    "render_png": "renders/012_a_sprawling_underground_city_with_districts.png",
+    "tile_json": "layouts/012_a_sprawling_underground_city_with_districts.json",
+    "base_counts": {
+      "floor": 3669,
+      "platform": 612,
+      "wall": 903
+    },
+    "overlay_counts": {
+      "district": 9
+    }
+  },
+  {
+    "id": 13,
+    "slug": "a_collapsed_structure_with_fragmented_pathways",
+    "name": "A collapsed structure with fragmented pathways",
+    "kind": "macro",
+    "template": "fragmented",
+    "theme": "ruin",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/013_a_collapsed_structure_with_fragmented_pathways.png",
+    "tile_json": "layouts/013_a_collapsed_structure_with_fragmented_pathways.json",
+    "base_counts": {
+      "wall": 3488,
+      "floor": 576,
+      "rubble": 32
+    },
+    "overlay_counts": {
+      "collapse": 4
+    }
+  },
+  {
+    "id": 14,
+    "slug": "a_zigzagging_canyon_with_elevated_ledges",
+    "name": "A zigzagging canyon with elevated ledges",
+    "kind": "macro",
+    "template": "canyon",
+    "theme": "canyon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/014_a_zigzagging_canyon_with_elevated_ledges.png",
+    "tile_json": "layouts/014_a_zigzagging_canyon_with_elevated_ledges.json",
+    "base_counts": {
+      "wall": 3638,
+      "floor": 314,
+      "platform": 144
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 15,
+    "slug": "a_ring_shaped_corridor_encircling_a_core_chamber",
+    "name": "A ring-shaped corridor encircling a core chamber",
+    "kind": "macro",
+    "template": "ring_core",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/015_a_ring_shaped_corridor_encircling_a_core_chamber.png",
+    "tile_json": "layouts/015_a_ring_shaped_corridor_encircling_a_core_chamber.json",
+    "base_counts": {
+      "wall": 3724,
+      "floor": 372
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 16,
+    "slug": "a_layered_dungeon_where_floors_overlap_vertically",
+    "name": "A layered dungeon where floors overlap vertically",
+    "kind": "macro",
+    "template": "layered_overlap",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/016_a_layered_dungeon_where_floors_overlap_vertically.png",
+    "tile_json": "layouts/016_a_layered_dungeon_where_floors_overlap_vertically.json",
+    "base_counts": {
+      "wall": 2152,
+      "bridge": 265,
+      "floor": 838,
+      "platform": 841
+    },
+    "overlay_counts": {
+      "ladder": 3
+    }
+  },
+  {
+    "id": 17,
+    "slug": "a_modular_set_of_rooms_connected_by_rotating_passages",
+    "name": "A modular set of rooms connected by rotating passages",
+    "kind": "macro",
+    "template": "rotating_modular",
+    "theme": "modular",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/017_a_modular_set_of_rooms_connected_by_rotating_passages.png",
+    "tile_json": "layouts/017_a_modular_set_of_rooms_connected_by_rotating_passages.json",
+    "base_counts": {
+      "wall": 1980,
+      "floor": 2116
+    },
+    "overlay_counts": {
+      "rotate": 16
+    }
+  },
+  {
+    "id": 18,
+    "slug": "a_lattice_of_bridges_suspended_over_void",
+    "name": "A lattice of bridges suspended over void",
+    "kind": "macro",
+    "template": "bridge_lattice",
+    "theme": "void",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/018_a_lattice_of_bridges_suspended_over_void.png",
+    "tile_json": "layouts/018_a_lattice_of_bridges_suspended_over_void.json",
+    "base_counts": {
+      "abyss": 3471,
+      "platform": 284,
+      "bridge": 341
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 19,
+    "slug": "a_honeycomb_structure_of_hexagonal_chambers",
+    "name": "A honeycomb structure of hexagonal chambers",
+    "kind": "macro",
+    "template": "honeycomb",
+    "theme": "hive",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/019_a_honeycomb_structure_of_hexagonal_chambers.png",
+    "tile_json": "layouts/019_a_honeycomb_structure_of_hexagonal_chambers.json",
+    "base_counts": {
+      "wall": 2985,
+      "floor": 1111
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 20,
+    "slug": "a_castle_keep_with_concentric_defensive_layers",
+    "name": "A castle keep with concentric defensive layers",
+    "kind": "macro",
+    "template": "fortress",
+    "theme": "castle",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/020_a_castle_keep_with_concentric_defensive_layers.png",
+    "tile_json": "layouts/020_a_castle_keep_with_concentric_defensive_layers.json",
+    "base_counts": {
+      "wall": 2136,
+      "floor": 1960
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 21,
+    "slug": "a_narrow_shaft_with_branching_side_tunnels",
+    "name": "A narrow shaft with branching side tunnels",
+    "kind": "macro",
+    "template": "vertical_stack",
+    "theme": "mine",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/021_a_narrow_shaft_with_branching_side_tunnels.png",
+    "tile_json": "layouts/021_a_narrow_shaft_with_branching_side_tunnels.json",
+    "base_counts": {
+      "wall": 3519,
+      "floor": 577
+    },
+    "overlay_counts": {
+      "ladder": 7
+    }
+  },
+  {
+    "id": 22,
+    "slug": "a_multi_wing_complex_with_a_central_nexus",
+    "name": "A multi-wing complex with a central nexus",
+    "kind": "macro",
+    "template": "hub_spokes",
+    "theme": "complex",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/022_a_multi_wing_complex_with_a_central_nexus.png",
+    "tile_json": "layouts/022_a_multi_wing_complex_with_a_central_nexus.json",
+    "base_counts": {
+      "wall": 3299,
+      "floor": 797
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 23,
+    "slug": "a_diagonal_climb_across_staggered_platforms",
+    "name": "A diagonal climb across staggered platforms",
+    "kind": "macro",
+    "template": "diagonal_platforms",
+    "theme": "platform",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/023_a_diagonal_climb_across_staggered_platforms.png",
+    "tile_json": "layouts/023_a_diagonal_climb_across_staggered_platforms.json",
+    "base_counts": {
+      "abyss": 3826,
+      "platform": 227,
+      "floor": 43
+    },
+    "overlay_counts": {
+      "ladder": 7
+    }
+  },
+  {
+    "id": 24,
+    "slug": "a_flooded_labyrinth_with_alternating_dry_and_submerged_paths",
+    "name": "A flooded labyrinth with alternating dry and submerged paths",
+    "kind": "macro",
+    "template": "flooded",
+    "theme": "labyrinth",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/024_a_flooded_labyrinth_with_alternating_dry_and_submerged_paths.png",
+    "tile_json": "layouts/024_a_flooded_labyrinth_with_alternating_dry_and_submerged_paths.json",
+    "base_counts": {
+      "wall": 1170,
+      "water": 2139,
+      "floor": 233,
+      "bridge": 554
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 25,
+    "slug": "a_spiral_staircase_wrapping_a_hollow_core",
+    "name": "A spiral staircase wrapping a hollow core",
+    "kind": "macro",
+    "template": "spiral",
+    "theme": "tower",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/025_a_spiral_staircase_wrapping_a_hollow_core.png",
+    "tile_json": "layouts/025_a_spiral_staircase_wrapping_a_hollow_core.json",
+    "base_counts": {
+      "wall": 3088,
+      "floor": 895,
+      "abyss": 113
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 26,
+    "slug": "a_crisscrossing_network_of_tunnels_at_multiple_elevations",
+    "name": "A crisscrossing network of tunnels at multiple elevations",
+    "kind": "macro",
+    "template": "loops_network",
+    "theme": "caves",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/026_a_crisscrossing_network_of_tunnels_at_multiple_elevations.png",
+    "tile_json": "layouts/026_a_crisscrossing_network_of_tunnels_at_multiple_elevations.json",
+    "base_counts": {
+      "wall": 3077,
+      "floor": 831,
+      "bridge": 188
+    },
+    "overlay_counts": {
+      "ladder": 6
+    }
+  },
+  {
+    "id": 27,
+    "slug": "a_rectangular_grid_with_locked_intersections",
+    "name": "A rectangular grid with locked intersections",
+    "kind": "macro",
+    "template": "grid_rooms",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/027_a_rectangular_grid_with_locked_intersections.png",
+    "tile_json": "layouts/027_a_rectangular_grid_with_locked_intersections.json",
+    "base_counts": {
+      "wall": 2744,
+      "floor": 1352
+    },
+    "overlay_counts": {
+      "locked": 18
+    }
+  },
+  {
+    "id": 28,
+    "slug": "a_cavern_with_towering_pillars_forming_natural_corridors",
+    "name": "A cavern with towering pillars forming natural corridors",
+    "kind": "macro",
+    "template": "pillar_cavern",
+    "theme": "cave",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/028_a_cavern_with_towering_pillars_forming_natural_corridors.png",
+    "tile_json": "layouts/028_a_cavern_with_towering_pillars_forming_natural_corridors.json",
+    "base_counts": {
+      "wall": 2293,
+      "floor": 1803
+    },
+    "overlay_counts": {
+      "pillar": 19
+    }
+  },
+  {
+    "id": 29,
+    "slug": "a_descending_zigzag_staircase_with_landings",
+    "name": "A descending zigzag staircase with landings",
+    "kind": "macro",
+    "template": "zigzag_stairs",
+    "theme": "stair",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/029_a_descending_zigzag_staircase_with_landings.png",
+    "tile_json": "layouts/029_a_descending_zigzag_staircase_with_landings.json",
+    "base_counts": {
+      "wall": 3106,
+      "platform": 120,
+      "floor": 870
+    },
+    "overlay_counts": {
+      "stair": 6
+    }
+  },
+  {
+    "id": 30,
+    "slug": "a_central_arena_with_branching_challenge_rooms",
+    "name": "A central arena with branching challenge rooms",
+    "kind": "macro",
+    "template": "hub_spokes",
+    "theme": "arena",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/030_a_central_arena_with_branching_challenge_rooms.png",
+    "tile_json": "layouts/030_a_central_arena_with_branching_challenge_rooms.json",
+    "base_counts": {
+      "wall": 3451,
+      "floor": 645
+    },
+    "overlay_counts": {
+      "challenge": 6
+    }
+  },
+  {
+    "id": 31,
+    "slug": "a_mirrored_maze_where_paths_reflect_each_other",
+    "name": "A mirrored maze where paths reflect each other",
+    "kind": "macro",
+    "template": "symmetrical_complex",
+    "theme": "maze",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/031_a_mirrored_maze_where_paths_reflect_each_other.png",
+    "tile_json": "layouts/031_a_mirrored_maze_where_paths_reflect_each_other.json",
+    "base_counts": {
+      "wall": 2470,
+      "floor": 1626
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 32,
+    "slug": "a_tower_of_stacked_circular_arenas",
+    "name": "A tower of stacked circular arenas",
+    "kind": "macro",
+    "template": "stacked_arenas",
+    "theme": "tower",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/032_a_tower_of_stacked_circular_arenas.png",
+    "tile_json": "layouts/032_a_tower_of_stacked_circular_arenas.json",
+    "base_counts": {
+      "wall": 3631,
+      "floor": 465
+    },
+    "overlay_counts": {
+      "elevator": 1,
+      "ladder": 2
+    }
+  },
+  {
+    "id": 33,
+    "slug": "a_winding_cliffside_path_hugging_outer_walls",
+    "name": "A winding cliffside path hugging outer walls",
+    "kind": "macro",
+    "template": "canyon",
+    "theme": "cliff",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/033_a_winding_cliffside_path_hugging_outer_walls.png",
+    "tile_json": "layouts/033_a_winding_cliffside_path_hugging_outer_walls.json",
+    "base_counts": {
+      "wall": 1502,
+      "floor": 558,
+      "abyss": 2036
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 34,
+    "slug": "a_set_of_isolated_rooms_connected_by_teleport_nodes",
+    "name": "A set of isolated rooms connected by teleport nodes",
+    "kind": "macro",
+    "template": "teleport_rooms",
+    "theme": "arcane",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/034_a_set_of_isolated_rooms_connected_by_teleport_nodes.png",
+    "tile_json": "layouts/034_a_set_of_isolated_rooms_connected_by_teleport_nodes.json",
+    "base_counts": {
+      "abyss": 3696,
+      "floor": 400
+    },
+    "overlay_counts": {
+      "teleport": 5
+    }
+  },
+  {
+    "id": 35,
+    "slug": "a_branching_tree_like_structure_with_dead_ends",
+    "name": "A branching tree-like structure with dead ends",
+    "kind": "macro",
+    "template": "tree_deadends",
+    "theme": "roots",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/035_a_branching_tree_like_structure_with_dead_ends.png",
+    "tile_json": "layouts/035_a_branching_tree_like_structure_with_dead_ends.json",
+    "base_counts": {
+      "wall": 3227,
+      "floor": 869
+    },
+    "overlay_counts": {
+      "deadend": 22
+    }
+  },
+  {
+    "id": 36,
+    "slug": "a_fortress_wall_interior_with_patrol_corridors",
+    "name": "A fortress wall interior with patrol corridors",
+    "kind": "macro",
+    "template": "patrol_routes",
+    "theme": "fortress",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/036_a_fortress_wall_interior_with_patrol_corridors.png",
+    "tile_json": "layouts/036_a_fortress_wall_interior_with_patrol_corridors.json",
+    "base_counts": {
+      "wall": 2792,
+      "floor": 1304
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 37,
+    "slug": "a_subterranean_river_splitting_pathways",
+    "name": "A subterranean river splitting pathways",
+    "kind": "macro",
+    "template": "river_split",
+    "theme": "cave",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/037_a_subterranean_river_splitting_pathways.png",
+    "tile_json": "layouts/037_a_subterranean_river_splitting_pathways.json",
+    "base_counts": {
+      "wall": 3026,
+      "floor": 698,
+      "water": 267,
+      "bridge": 105
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 38,
+    "slug": "a_layered_dungeon_with_hidden_passages_between_floors",
+    "name": "A layered dungeon with hidden passages between floors",
+    "kind": "macro",
+    "template": "layered_overlap",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/038_a_layered_dungeon_with_hidden_passages_between_floors.png",
+    "tile_json": "layouts/038_a_layered_dungeon_with_hidden_passages_between_floors.json",
+    "base_counts": {
+      "wall": 2152,
+      "bridge": 265,
+      "floor": 838,
+      "platform": 841
+    },
+    "overlay_counts": {
+      "hidden": 3
+    }
+  },
+  {
+    "id": 39,
+    "slug": "a_circular_maze_with_concentric_rings",
+    "name": "A circular maze with concentric rings",
+    "kind": "macro",
+    "template": "ring_core",
+    "theme": "maze",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/039_a_circular_maze_with_concentric_rings.png",
+    "tile_json": "layouts/039_a_circular_maze_with_concentric_rings.json",
+    "base_counts": {
+      "wall": 3367,
+      "floor": 729
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 40,
+    "slug": "a_staggered_series_of_balconies_overlooking_a_void",
+    "name": "A staggered series of balconies overlooking a void",
+    "kind": "macro",
+    "template": "diagonal_platforms",
+    "theme": "void",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/040_a_staggered_series_of_balconies_overlooking_a_void.png",
+    "tile_json": "layouts/040_a_staggered_series_of_balconies_overlooking_a_void.json",
+    "base_counts": {
+      "abyss": 3658,
+      "platform": 438
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 41,
+    "slug": "a_compact_dungeon_with_dense_interconnected_shortcuts",
+    "name": "A compact dungeon with dense interconnected shortcuts",
+    "kind": "macro",
+    "template": "loops_network",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/041_a_compact_dungeon_with_dense_interconnected_shortcuts.png",
+    "tile_json": "layouts/041_a_compact_dungeon_with_dense_interconnected_shortcuts.json",
+    "base_counts": {
+      "wall": 3115,
+      "floor": 981
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 42,
+    "slug": "a_long_corridor_punctuated_by_gated_chambers",
+    "name": "A long corridor punctuated by gated chambers",
+    "kind": "macro",
+    "template": "linear_gauntlet",
+    "theme": "gauntlet",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/042_a_long_corridor_punctuated_by_gated_chambers.png",
+    "tile_json": "layouts/042_a_long_corridor_punctuated_by_gated_chambers.json",
+    "base_counts": {
+      "wall": 3704,
+      "floor": 392
+    },
+    "overlay_counts": {
+      "locked": 4
+    }
+  },
+  {
+    "id": 43,
+    "slug": "a_vertical_climb_through_broken_platforms",
+    "name": "A vertical climb through broken platforms",
+    "kind": "macro",
+    "template": "diagonal_platforms",
+    "theme": "platform",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/043_a_vertical_climb_through_broken_platforms.png",
+    "tile_json": "layouts/043_a_vertical_climb_through_broken_platforms.json",
+    "base_counts": {
+      "abyss": 3919,
+      "platform": 112,
+      "bridge": 65
+    },
+    "overlay_counts": {
+      "ladder": 8
+    }
+  },
+  {
+    "id": 44,
+    "slug": "a_dual_path_layout_that_reconverges_repeatedly",
+    "name": "A dual-path layout that reconverges repeatedly",
+    "kind": "macro",
+    "template": "loops_network",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/044_a_dual_path_layout_that_reconverges_repeatedly.png",
+    "tile_json": "layouts/044_a_dual_path_layout_that_reconverges_repeatedly.json",
+    "base_counts": {
+      "wall": 3222,
+      "floor": 874
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 45,
+    "slug": "a_central_shaft_with_radial_elevators",
+    "name": "A central shaft with radial elevators",
+    "kind": "macro",
+    "template": "hub_spokes",
+    "theme": "shaft",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/045_a_central_shaft_with_radial_elevators.png",
+    "tile_json": "layouts/045_a_central_shaft_with_radial_elevators.json",
+    "base_counts": {
+      "wall": 3551,
+      "floor": 545
+    },
+    "overlay_counts": {
+      "elevator": 8
+    }
+  },
+  {
+    "id": 46,
+    "slug": "a_series_of_puzzle_rooms_branching_from_a_hub",
+    "name": "A series of puzzle rooms branching from a hub",
+    "kind": "macro",
+    "template": "hub_spokes",
+    "theme": "puzzle",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/046_a_series_of_puzzle_rooms_branching_from_a_hub.png",
+    "tile_json": "layouts/046_a_series_of_puzzle_rooms_branching_from_a_hub.json",
+    "base_counts": {
+      "wall": 3526,
+      "floor": 570
+    },
+    "overlay_counts": {
+      "challenge": 5
+    }
+  },
+  {
+    "id": 47,
+    "slug": "a_looping_corridor_system_with_shifting_walls",
+    "name": "A looping corridor system with shifting walls",
+    "kind": "macro",
+    "template": "loops_network",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/047_a_looping_corridor_system_with_shifting_walls.png",
+    "tile_json": "layouts/047_a_looping_corridor_system_with_shifting_walls.json",
+    "base_counts": {
+      "wall": 2974,
+      "floor": 1122
+    },
+    "overlay_counts": {
+      "shift": 4
+    }
+  },
+  {
+    "id": 48,
+    "slug": "a_narrow_bridge_network_over_lava_or_abyss",
+    "name": "A narrow bridge network over lava or abyss",
+    "kind": "macro",
+    "template": "bridge_lattice",
+    "theme": "lava",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/048_a_narrow_bridge_network_over_lava_or_abyss.png",
+    "tile_json": "layouts/048_a_narrow_bridge_network_over_lava_or_abyss.json",
+    "base_counts": {
+      "lava": 3462,
+      "platform": 280,
+      "bridge": 354
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 49,
+    "slug": "a_collapsed_mine_with_slanted_tunnels",
+    "name": "A collapsed mine with slanted tunnels",
+    "kind": "macro",
+    "template": "branch_caves",
+    "theme": "mine",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/049_a_collapsed_mine_with_slanted_tunnels.png",
+    "tile_json": "layouts/049_a_collapsed_mine_with_slanted_tunnels.json",
+    "base_counts": {
+      "wall": 3444,
+      "floor": 648,
+      "rubble": 4
+    },
+    "overlay_counts": {
+      "collapse": 1
+    }
+  },
+  {
+    "id": 50,
+    "slug": "a_symmetrical_cross_shaped_layout_with_four_wings",
+    "name": "A symmetrical cross-shaped layout with four wings",
+    "kind": "macro",
+    "template": "symmetrical_complex",
+    "theme": "temple",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/050_a_symmetrical_cross_shaped_layout_with_four_wings.png",
+    "tile_json": "layouts/050_a_symmetrical_cross_shaped_layout_with_four_wings.json",
+    "base_counts": {
+      "wall": 3412,
+      "floor": 684
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 51,
+    "slug": "a_descending_funnel_shaped_cavern",
+    "name": "A descending funnel-shaped cavern",
+    "kind": "macro",
+    "template": "spiral",
+    "theme": "cave",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/051_a_descending_funnel_shaped_cavern.png",
+    "tile_json": "layouts/051_a_descending_funnel_shaped_cavern.json",
+    "base_counts": {
+      "wall": 2383,
+      "platform": 664,
+      "floor": 1003,
+      "abyss": 46
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 52,
+    "slug": "a_tiered_arena_with_surrounding_corridors",
+    "name": "A tiered arena with surrounding corridors",
+    "kind": "macro",
+    "template": "pyramid_terraces",
+    "theme": "arena",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/052_a_tiered_arena_with_surrounding_corridors.png",
+    "tile_json": "layouts/052_a_tiered_arena_with_surrounding_corridors.json",
+    "base_counts": {
+      "wall": 2713,
+      "floor": 1383
+    },
+    "overlay_counts": {
+      "stair": 3
+    }
+  },
+  {
+    "id": 53,
+    "slug": "a_rectangular_fortress_with_perimeter_hallways",
+    "name": "A rectangular fortress with perimeter hallways",
+    "kind": "macro",
+    "template": "fortress",
+    "theme": "fortress",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/053_a_rectangular_fortress_with_perimeter_hallways.png",
+    "tile_json": "layouts/053_a_rectangular_fortress_with_perimeter_hallways.json",
+    "base_counts": {
+      "wall": 2552,
+      "floor": 1544
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 54,
+    "slug": "a_winding_sewer_system_with_circular_junctions",
+    "name": "A winding sewer system with circular junctions",
+    "kind": "macro",
+    "template": "flooded",
+    "theme": "sewer",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/054_a_winding_sewer_system_with_circular_junctions.png",
+    "tile_json": "layouts/054_a_winding_sewer_system_with_circular_junctions.json",
+    "base_counts": {
+      "wall": 3475,
+      "water": 360,
+      "bridge": 118,
+      "floor": 143
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 55,
+    "slug": "a_multi_level_library_with_stacked_walkways",
+    "name": "A multi-level library with stacked walkways",
+    "kind": "macro",
+    "template": "library",
+    "theme": "library",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/055_a_multi_level_library_with_stacked_walkways.png",
+    "tile_json": "layouts/055_a_multi_level_library_with_stacked_walkways.json",
+    "base_counts": {
+      "wall": 1392,
+      "floor": 1586,
+      "ladder_tile": 292,
+      "bookshelf": 442,
+      "bridge": 384
+    },
+    "overlay_counts": {
+      "ladder": 2
+    }
+  },
+  {
+    "id": 56,
+    "slug": "a_dungeon_divided_into_quadrants_around_a_core",
+    "name": "A dungeon divided into quadrants around a core",
+    "kind": "macro",
+    "template": "quadrants_core",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/056_a_dungeon_divided_into_quadrants_around_a_core.png",
+    "tile_json": "layouts/056_a_dungeon_divided_into_quadrants_around_a_core.json",
+    "base_counts": {
+      "wall": 1728,
+      "floor": 2368
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 57,
+    "slug": "a_cascading_series_of_rooms_descending_like_steps",
+    "name": "A cascading series of rooms descending like steps",
+    "kind": "macro",
+    "template": "step_rooms",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/057_a_cascading_series_of_rooms_descending_like_steps.png",
+    "tile_json": "layouts/057_a_cascading_series_of_rooms_descending_like_steps.json",
+    "base_counts": {
+      "wall": 3700,
+      "floor": 396
+    },
+    "overlay_counts": {
+      "stair": 6
+    }
+  },
+  {
+    "id": 58,
+    "slug": "a_dense_cluster_of_small_interconnected_chambers",
+    "name": "A dense cluster of small interconnected chambers",
+    "kind": "macro",
+    "template": "dense_cluster",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/058_a_dense_cluster_of_small_interconnected_chambers.png",
+    "tile_json": "layouts/058_a_dense_cluster_of_small_interconnected_chambers.json",
+    "base_counts": {
+      "wall": 3034,
+      "floor": 1062
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 59,
+    "slug": "a_vertical_labyrinth_with_ladders_and_drop_shafts",
+    "name": "A vertical labyrinth with ladders and drop shafts",
+    "kind": "macro",
+    "template": "vertical_stack",
+    "theme": "shaft",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/059_a_vertical_labyrinth_with_ladders_and_drop_shafts.png",
+    "tile_json": "layouts/059_a_vertical_labyrinth_with_ladders_and_drop_shafts.json",
+    "base_counts": {
+      "wall": 3262,
+      "floor": 834
+    },
+    "overlay_counts": {
+      "ladder": 4,
+      "shaft": 4
+    }
+  },
+  {
+    "id": 60,
+    "slug": "a_circular_arena_surrounded_by_hidden_passages",
+    "name": "A circular arena surrounded by hidden passages",
+    "kind": "macro",
+    "template": "ring_core",
+    "theme": "arena",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/060_a_circular_arena_surrounded_by_hidden_passages.png",
+    "tile_json": "layouts/060_a_circular_arena_surrounded_by_hidden_passages.json",
+    "base_counts": {
+      "wall": 3431,
+      "floor": 665
+    },
+    "overlay_counts": {
+      "hidden": 2
+    }
+  },
+  {
+    "id": 61,
+    "slug": "a_chain_of_rooms_connected_by_narrow_chokepoints",
+    "name": "A chain of rooms connected by narrow chokepoints",
+    "kind": "macro",
+    "template": "linear_gauntlet",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/061_a_chain_of_rooms_connected_by_narrow_chokepoints.png",
+    "tile_json": "layouts/061_a_chain_of_rooms_connected_by_narrow_chokepoints.json",
+    "base_counts": {
+      "wall": 3658,
+      "floor": 438
+    },
+    "overlay_counts": {
+      "door": 4
+    }
+  },
+  {
+    "id": 62,
+    "slug": "a_spiraling_descent_around_a_central_pit",
+    "name": "A spiraling descent around a central pit",
+    "kind": "macro",
+    "template": "spiral",
+    "theme": "tower",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/062_a_spiraling_descent_around_a_central_pit.png",
+    "tile_json": "layouts/062_a_spiraling_descent_around_a_central_pit.json",
+    "base_counts": {
+      "wall": 2687,
+      "floor": 1050,
+      "platform": 210,
+      "abyss": 149
+    },
+    "overlay_counts": {
+      "stair": 6
+    }
+  },
+  {
+    "id": 63,
+    "slug": "a_multi_path_canyon_with_crossing_bridges",
+    "name": "A multi-path canyon with crossing bridges",
+    "kind": "macro",
+    "template": "canyon",
+    "theme": "canyon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/063_a_multi_path_canyon_with_crossing_bridges.png",
+    "tile_json": "layouts/063_a_multi_path_canyon_with_crossing_bridges.json",
+    "base_counts": {
+      "abyss": 3324,
+      "floor": 505,
+      "bridge": 267
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 64,
+    "slug": "a_fortress_interior_with_branching_guard_routes",
+    "name": "A fortress interior with branching guard routes",
+    "kind": "macro",
+    "template": "patrol_routes",
+    "theme": "fortress",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/064_a_fortress_interior_with_branching_guard_routes.png",
+    "tile_json": "layouts/064_a_fortress_interior_with_branching_guard_routes.json",
+    "base_counts": {
+      "wall": 2751,
+      "floor": 1345
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 65,
+    "slug": "a_maze_of_identical_corridors_with_subtle_variations",
+    "name": "A maze of identical corridors with subtle variations",
+    "kind": "macro",
+    "template": "identical_corridors",
+    "theme": "maze",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/065_a_maze_of_identical_corridors_with_subtle_variations.png",
+    "tile_json": "layouts/065_a_maze_of_identical_corridors_with_subtle_variations.json",
+    "base_counts": {
+      "wall": 2863,
+      "floor": 1233
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 66,
+    "slug": "a_stacked_set_of_platforms_forming_a_vertical_puzzle",
+    "name": "A stacked set of platforms forming a vertical puzzle",
+    "kind": "macro",
+    "template": "diagonal_platforms",
+    "theme": "platform",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/066_a_stacked_set_of_platforms_forming_a_vertical_puzzle.png",
+    "tile_json": "layouts/066_a_stacked_set_of_platforms_forming_a_vertical_puzzle.json",
+    "base_counts": {
+      "abyss": 3763,
+      "platform": 269,
+      "bridge": 64
+    },
+    "overlay_counts": {
+      "ladder": 9
+    }
+  },
+  {
+    "id": 67,
+    "slug": "a_central_hall_with_branching_wings_that_loop_back",
+    "name": "A central hall with branching wings that loop back",
+    "kind": "macro",
+    "template": "loops_network",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/067_a_central_hall_with_branching_wings_that_loop_back.png",
+    "tile_json": "layouts/067_a_central_hall_with_branching_wings_that_loop_back.json",
+    "base_counts": {
+      "wall": 2753,
+      "floor": 1343
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 68,
+    "slug": "a_dungeon_split_by_a_massive_chasm_with_crossings",
+    "name": "A dungeon split by a massive chasm with crossings",
+    "kind": "macro",
+    "template": "bridge_lattice",
+    "theme": "chasm",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/068_a_dungeon_split_by_a_massive_chasm_with_crossings.png",
+    "tile_json": "layouts/068_a_dungeon_split_by_a_massive_chasm_with_crossings.json",
+    "base_counts": {
+      "floor": 3441,
+      "abyss": 550,
+      "bridge": 105
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 69,
+    "slug": "a_series_of_concentric_chambers_decreasing_inward",
+    "name": "A series of concentric chambers decreasing inward",
+    "kind": "macro",
+    "template": "ring_core",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/069_a_series_of_concentric_chambers_decreasing_inward.png",
+    "tile_json": "layouts/069_a_series_of_concentric_chambers_decreasing_inward.json",
+    "base_counts": {
+      "wall": 3176,
+      "floor": 920
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 70,
+    "slug": "a_grid_of_rooms_with_rotating_or_shifting_connections",
+    "name": "A grid of rooms with rotating or shifting connections",
+    "kind": "macro",
+    "template": "rotating_modular",
+    "theme": "modular",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/070_a_grid_of_rooms_with_rotating_or_shifting_connections.png",
+    "tile_json": "layouts/070_a_grid_of_rooms_with_rotating_or_shifting_connections.json",
+    "base_counts": {
+      "wall": 2208,
+      "floor": 1888
+    },
+    "overlay_counts": {
+      "rotate": 25
+    }
+  },
+  {
+    "id": 71,
+    "slug": "a_tower_with_alternating_interior_and_exterior_paths",
+    "name": "A tower with alternating interior and exterior paths",
+    "kind": "macro",
+    "template": "alt_interior_exterior",
+    "theme": "tower",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/071_a_tower_with_alternating_interior_and_exterior_paths.png",
+    "tile_json": "layouts/071_a_tower_with_alternating_interior_and_exterior_paths.json",
+    "base_counts": {
+      "abyss": 3335,
+      "platform": 352,
+      "bridge": 80,
+      "floor": 329
+    },
+    "overlay_counts": {
+      "stair": 4
+    }
+  },
+  {
+    "id": 72,
+    "slug": "a_layered_cavern_with_natural_vertical_shafts",
+    "name": "A layered cavern with natural vertical shafts",
+    "kind": "macro",
+    "template": "branch_caves",
+    "theme": "cave",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/072_a_layered_cavern_with_natural_vertical_shafts.png",
+    "tile_json": "layouts/072_a_layered_cavern_with_natural_vertical_shafts.json",
+    "base_counts": {
+      "wall": 2671,
+      "floor": 1425
+    },
+    "overlay_counts": {
+      "shaft": 17
+    }
+  },
+  {
+    "id": 73,
+    "slug": "a_linear_descent_punctuated_by_branching_detours",
+    "name": "A linear descent punctuated by branching detours",
+    "kind": "macro",
+    "template": "linear_gauntlet",
+    "theme": "gauntlet",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/073_a_linear_descent_punctuated_by_branching_detours.png",
+    "tile_json": "layouts/073_a_linear_descent_punctuated_by_branching_detours.json",
+    "base_counts": {
+      "wall": 3578,
+      "floor": 518
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 74,
+    "slug": "a_ring_of_rooms_connected_by_diagonal_corridors",
+    "name": "A ring of rooms connected by diagonal corridors",
+    "kind": "macro",
+    "template": "ring_core",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/074_a_ring_of_rooms_connected_by_diagonal_corridors.png",
+    "tile_json": "layouts/074_a_ring_of_rooms_connected_by_diagonal_corridors.json",
+    "base_counts": {
+      "wall": 3286,
+      "floor": 810
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 75,
+    "slug": "a_network_of_tunnels_forming_overlapping_loops",
+    "name": "A network of tunnels forming overlapping loops",
+    "kind": "macro",
+    "template": "loops_network",
+    "theme": "caves",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/075_a_network_of_tunnels_forming_overlapping_loops.png",
+    "tile_json": "layouts/075_a_network_of_tunnels_forming_overlapping_loops.json",
+    "base_counts": {
+      "wall": 2765,
+      "floor": 1177,
+      "bridge": 154
+    },
+    "overlay_counts": {
+      "ladder": 6
+    }
+  },
+  {
+    "id": 76,
+    "slug": "a_fortress_with_multiple_entrances_converging_inward",
+    "name": "A fortress with multiple entrances converging inward",
+    "kind": "macro",
+    "template": "multi_entrance_converge",
+    "theme": "fortress",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/076_a_fortress_with_multiple_entrances_converging_inward.png",
+    "tile_json": "layouts/076_a_fortress_with_multiple_entrances_converging_inward.json",
+    "base_counts": {
+      "wall": 1946,
+      "floor": 2150
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 77,
+    "slug": "a_vertical_gauntlet_of_consecutive_challenge_rooms",
+    "name": "A vertical gauntlet of consecutive challenge rooms",
+    "kind": "macro",
+    "template": "vertical_stack",
+    "theme": "gauntlet",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/077_a_vertical_gauntlet_of_consecutive_challenge_rooms.png",
+    "tile_json": "layouts/077_a_vertical_gauntlet_of_consecutive_challenge_rooms.json",
+    "base_counts": {
+      "wall": 3580,
+      "floor": 516
+    },
+    "overlay_counts": {
+      "challenge": 7
+    }
+  },
+  {
+    "id": 78,
+    "slug": "a_staggered_maze_with_offset_pathways_between_levels",
+    "name": "A staggered maze with offset pathways between levels",
+    "kind": "macro",
+    "template": "layered_overlap",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/078_a_staggered_maze_with_offset_pathways_between_levels.png",
+    "tile_json": "layouts/078_a_staggered_maze_with_offset_pathways_between_levels.json",
+    "base_counts": {
+      "wall": 1938,
+      "floor": 1514,
+      "bridge": 138,
+      "platform": 506
+    },
+    "overlay_counts": {
+      "ladder": 7
+    }
+  },
+  {
+    "id": 79,
+    "slug": "a_central_chamber_with_hidden_radial_exits",
+    "name": "A central chamber with hidden radial exits",
+    "kind": "macro",
+    "template": "hub_spokes",
+    "theme": "dungeon",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/079_a_central_chamber_with_hidden_radial_exits.png",
+    "tile_json": "layouts/079_a_central_chamber_with_hidden_radial_exits.json",
+    "base_counts": {
+      "wall": 3803,
+      "floor": 293
+    },
+    "overlay_counts": {
+      "hidden": 4
+    }
+  },
+  {
+    "id": 80,
+    "slug": "a_fragmented_dungeon_of_floating_disconnected_rooms",
+    "name": "A fragmented dungeon of floating, disconnected rooms",
+    "kind": "macro",
+    "template": "fragmented",
+    "theme": "void",
+    "width": 64,
+    "height": 64,
+    "render_png": "renders/080_a_fragmented_dungeon_of_floating_disconnected_rooms.png",
+    "tile_json": "layouts/080_a_fragmented_dungeon_of_floating_disconnected_rooms.json",
+    "base_counts": {
+      "abyss": 3506,
+      "bridge": 334,
+      "floor": 256
+    },
+    "overlay_counts": {
+      "teleport": 7
+    }
+  },
+  {
+    "id": 81,
+    "slug": "a_3_3_grid_with_a_solid_border_and_a_single_open_center_tile",
+    "name": "A 3\u00d73 grid with a solid border and a single open center tile",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 3,
+    "height": 3,
+    "render_png": "renders/081_a_3_3_grid_with_a_solid_border_and_a_single_open_center_tile.png",
+    "tile_json": "layouts/081_a_3_3_grid_with_a_solid_border_and_a_single_open_center_tile.json",
+    "base_counts": {
+      "wall": 8,
+      "floor": 1
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 82,
+    "slug": "a_3_3_checkerboard_pattern_alternating_blocked_and_open_tiles",
+    "name": "A 3\u00d73 checkerboard pattern alternating blocked and open tiles",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 3,
+    "height": 3,
+    "render_png": "renders/082_a_3_3_checkerboard_pattern_alternating_blocked_and_open_tiles.png",
+    "tile_json": "layouts/082_a_3_3_checkerboard_pattern_alternating_blocked_and_open_tiles.json",
+    "base_counts": {
+      "wall": 5,
+      "floor": 4
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 83,
+    "slug": "a_3_3_room_where_all_edges_are_open_but_the_center_tile_is_blocked",
+    "name": "A 3\u00d73 room where all edges are open but the center tile is blocked",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 3,
+    "height": 3,
+    "render_png": "renders/083_a_3_3_room_where_all_edges_are_open_but_the_center_tile_is_blocked.png",
+    "tile_json": "layouts/083_a_3_3_room_where_all_edges_are_open_but_the_center_tile_is_blocked.json",
+    "base_counts": {
+      "floor": 8,
+      "wall": 1
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 84,
+    "slug": "a_3_3_with_a_diagonal_path_from_top_left_to_bottom_right",
+    "name": "A 3\u00d73 with a diagonal path from top-left to bottom-right",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 3,
+    "height": 3,
+    "render_png": "renders/084_a_3_3_with_a_diagonal_path_from_top_left_to_bottom_right.png",
+    "tile_json": "layouts/084_a_3_3_with_a_diagonal_path_from_top_left_to_bottom_right.json",
+    "base_counts": {
+      "floor": 3,
+      "wall": 6
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 85,
+    "slug": "a_3_3_where_only_the_four_corner_tiles_are_accessible",
+    "name": "A 3\u00d73 where only the four corner tiles are accessible",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 3,
+    "height": 3,
+    "render_png": "renders/085_a_3_3_where_only_the_four_corner_tiles_are_accessible.png",
+    "tile_json": "layouts/085_a_3_3_where_only_the_four_corner_tiles_are_accessible.json",
+    "base_counts": {
+      "floor": 4,
+      "wall": 5
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 86,
+    "slug": "a_3_3_with_a_plus_shaped_open_path_center_orthogonal_tiles",
+    "name": "A 3\u00d73 with a plus-shaped open path (center + orthogonal tiles)",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 3,
+    "height": 3,
+    "render_png": "renders/086_a_3_3_with_a_plus_shaped_open_path_center_orthogonal_tiles.png",
+    "tile_json": "layouts/086_a_3_3_with_a_plus_shaped_open_path_center_orthogonal_tiles.json",
+    "base_counts": {
+      "wall": 4,
+      "floor": 5
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 87,
+    "slug": "a_3_3_spiral_path_starting_at_an_outer_corner_and_ending_in_the_center",
+    "name": "A 3\u00d73 spiral path starting at an outer corner and ending in the center",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 3,
+    "height": 3,
+    "render_png": "renders/087_a_3_3_spiral_path_starting_at_an_outer_corner_and_ending_in_the_center.png",
+    "tile_json": "layouts/087_a_3_3_spiral_path_starting_at_an_outer_corner_and_ending_in_the_center.json",
+    "base_counts": {
+      "floor": 7,
+      "wall": 2
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 88,
+    "slug": "a_3_3_with_two_parallel_vertical_corridors_and_a_blocked_middle_column",
+    "name": "A 3\u00d73 with two parallel vertical corridors and a blocked middle column",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 3,
+    "height": 3,
+    "render_png": "renders/088_a_3_3_with_two_parallel_vertical_corridors_and_a_blocked_middle_column.png",
+    "tile_json": "layouts/088_a_3_3_with_two_parallel_vertical_corridors_and_a_blocked_middle_column.json",
+    "base_counts": {
+      "floor": 6,
+      "wall": 3
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 89,
+    "slug": "a_3_3_fully_open_except_for_one_random_obstacle_tile",
+    "name": "A 3\u00d73 fully open except for one random obstacle tile",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 3,
+    "height": 3,
+    "render_png": "renders/089_a_3_3_fully_open_except_for_one_random_obstacle_tile.png",
+    "tile_json": "layouts/089_a_3_3_fully_open_except_for_one_random_obstacle_tile.json",
+    "base_counts": {
+      "floor": 8,
+      "wall": 1
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 90,
+    "slug": "a_3_3_with_an_l_shaped_accessible_path_hugging_two_edges",
+    "name": "A 3\u00d73 with an L-shaped accessible path hugging two edges",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 3,
+    "height": 3,
+    "render_png": "renders/090_a_3_3_with_an_l_shaped_accessible_path_hugging_two_edges.png",
+    "tile_json": "layouts/090_a_3_3_with_an_l_shaped_accessible_path_hugging_two_edges.json",
+    "base_counts": {
+      "floor": 5,
+      "wall": 4
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 91,
+    "slug": "a_9_9_room_with_a_hollow_square_border_and_empty_interior",
+    "name": "A 9\u00d79 room with a hollow square border and empty interior",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 9,
+    "height": 9,
+    "render_png": "renders/091_a_9_9_room_with_a_hollow_square_border_and_empty_interior.png",
+    "tile_json": "layouts/091_a_9_9_room_with_a_hollow_square_border_and_empty_interior.json",
+    "base_counts": {
+      "wall": 32,
+      "floor": 49
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 92,
+    "slug": "a_9_9_grid_forming_a_spiral_corridor_winding_inward",
+    "name": "A 9\u00d79 grid forming a spiral corridor winding inward",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 9,
+    "height": 9,
+    "render_png": "renders/092_a_9_9_grid_forming_a_spiral_corridor_winding_inward.png",
+    "tile_json": "layouts/092_a_9_9_grid_forming_a_spiral_corridor_winding_inward.json",
+    "base_counts": {
+      "floor": 50,
+      "wall": 31
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 93,
+    "slug": "a_9_9_with_four_quadrants_separated_by_a_cross_shaped_wall",
+    "name": "A 9\u00d79 with four quadrants separated by a cross-shaped wall",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 9,
+    "height": 9,
+    "render_png": "renders/093_a_9_9_with_four_quadrants_separated_by_a_cross_shaped_wall.png",
+    "tile_json": "layouts/093_a_9_9_with_four_quadrants_separated_by_a_cross_shaped_wall.json",
+    "base_counts": {
+      "floor": 64,
+      "wall": 17
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 94,
+    "slug": "a_9_9_checkerboard_of_alternating_blocked_and_open_tiles",
+    "name": "A 9\u00d79 checkerboard of alternating blocked and open tiles",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 9,
+    "height": 9,
+    "render_png": "renders/094_a_9_9_checkerboard_of_alternating_blocked_and_open_tiles.png",
+    "tile_json": "layouts/094_a_9_9_checkerboard_of_alternating_blocked_and_open_tiles.json",
+    "base_counts": {
+      "wall": 41,
+      "floor": 40
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 95,
+    "slug": "a_9_9_with_concentric_square_rings_of_alternating_passability",
+    "name": "A 9\u00d79 with concentric square rings of alternating passability",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 9,
+    "height": 9,
+    "render_png": "renders/095_a_9_9_with_concentric_square_rings_of_alternating_passability.png",
+    "tile_json": "layouts/095_a_9_9_with_concentric_square_rings_of_alternating_passability.json",
+    "base_counts": {
+      "floor": 49,
+      "wall": 32
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 96,
+    "slug": "a_9_9_maze_with_a_single_winding_path_from_one_corner_to_the_opposite",
+    "name": "A 9\u00d79 maze with a single winding path from one corner to the opposite",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 9,
+    "height": 9,
+    "render_png": "renders/096_a_9_9_maze_with_a_single_winding_path_from_one_corner_to_the_opposite.png",
+    "tile_json": "layouts/096_a_9_9_maze_with_a_single_winding_path_from_one_corner_to_the_opposite.json",
+    "base_counts": {
+      "floor": 35,
+      "wall": 46
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 97,
+    "slug": "a_9_9_divided_into_narrow_vertical_stripes_of_alternating_accessibility",
+    "name": "A 9\u00d79 divided into narrow vertical stripes of alternating accessibility",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 9,
+    "height": 9,
+    "render_png": "renders/097_a_9_9_divided_into_narrow_vertical_stripes_of_alternating_accessibility.png",
+    "tile_json": "layouts/097_a_9_9_divided_into_narrow_vertical_stripes_of_alternating_accessibility.json",
+    "base_counts": {
+      "floor": 45,
+      "wall": 36
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 98,
+    "slug": "a_9_9_with_a_central_3_3_chamber_surrounded_by_a_ring_corridor",
+    "name": "A 9\u00d79 with a central 3\u00d73 chamber surrounded by a ring corridor",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 9,
+    "height": 9,
+    "render_png": "renders/098_a_9_9_with_a_central_3_3_chamber_surrounded_by_a_ring_corridor.png",
+    "tile_json": "layouts/098_a_9_9_with_a_central_3_3_chamber_surrounded_by_a_ring_corridor.json",
+    "base_counts": {
+      "wall": 44,
+      "floor": 37
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 99,
+    "slug": "a_9_9_with_scattered_obstacles_forming_irregular_clusters",
+    "name": "A 9\u00d79 with scattered obstacles forming irregular clusters",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 9,
+    "height": 9,
+    "render_png": "renders/099_a_9_9_with_scattered_obstacles_forming_irregular_clusters.png",
+    "tile_json": "layouts/099_a_9_9_with_scattered_obstacles_forming_irregular_clusters.json",
+    "base_counts": {
+      "floor": 62,
+      "wall": 19
+    },
+    "overlay_counts": {}
+  },
+  {
+    "id": 100,
+    "slug": "a_9_9_featuring_diagonal_barriers_creating_zigzag_traversal_paths",
+    "name": "A 9\u00d79 featuring diagonal barriers creating zigzag traversal paths",
+    "kind": "micro",
+    "template": "micro_matrix",
+    "theme": "micro",
+    "width": 9,
+    "height": 9,
+    "render_png": "renders/100_a_9_9_featuring_diagonal_barriers_creating_zigzag_traversal_paths.png",
+    "tile_json": "layouts/100_a_9_9_featuring_diagonal_barriers_creating_zigzag_traversal_paths.json",
+    "base_counts": {
+      "floor": 60,
+      "wall": 21
+    },
+    "overlay_counts": {}
+  }
+]

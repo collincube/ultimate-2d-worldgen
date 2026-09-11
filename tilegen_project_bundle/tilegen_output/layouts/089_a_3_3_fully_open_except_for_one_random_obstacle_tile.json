@@ -1,0 +1,58 @@
+{
+  "id": 89,
+  "slug": "a_3_3_fully_open_except_for_one_random_obstacle_tile",
+  "name": "A 3\u00d73 fully open except for one random obstacle tile",
+  "template": "micro_matrix",
+  "size": {
+    "width": 3,
+    "height": 3
+  },
+  "theme": "micro",
+  "background": "wall",
+  "base_counts": {
+    "floor": 8,
+    "wall": 1
+  },
+  "overlay_counts": {},
+  "base_legend": [
+    "floor",
+    "wall"
+  ],
+  "overlay_legend": [
+    ""
+  ],
+  "base": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "overlay": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ]
+}

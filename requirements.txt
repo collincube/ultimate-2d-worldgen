@@ -1,0 +1,4 @@
+# Existing runtime dependencies for the atlas; Python 3.11+.
+# Pillow is imported by the base engine even during headless generation.
+numpy>=1.24
+pillow>=10.0

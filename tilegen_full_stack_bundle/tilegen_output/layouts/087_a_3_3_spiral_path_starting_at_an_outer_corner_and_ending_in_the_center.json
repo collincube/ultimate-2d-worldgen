@@ -1,0 +1,58 @@
+{
+  "id": 87,
+  "slug": "a_3_3_spiral_path_starting_at_an_outer_corner_and_ending_in_the_center",
+  "name": "A 3\u00d73 spiral path starting at an outer corner and ending in the center",
+  "template": "micro_matrix",
+  "size": {
+    "width": 3,
+    "height": 3
+  },
+  "theme": "micro",
+  "background": "wall",
+  "base_counts": {
+    "floor": 7,
+    "wall": 2
+  },
+  "overlay_counts": {},
+  "base_legend": [
+    "floor",
+    "wall"
+  ],
+  "overlay_legend": [
+    ""
+  ],
+  "base": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0
+    ]
+  ],
+  "overlay": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ]
+}

@@ -1,0 +1,24 @@
+.DS_Store
+
+# Atlas per-style renders regenerate in ~45s via tilegen_atlas.py; the
+# contact sheets and style matrix are committed instead.
+tilegen_full_stack_bundle/tilegen_atlas_output/renders/
+
+__pycache__/
+*.pyc
+
+# Compiled world field stacks are derived data (~1.2MB each); rebuild with
+# `python tilegen_atlas.py --worlds-only`.
+tilegen_full_stack_bundle/tilegen_atlas_output/worlds/*/fields.npz
+
+# Local environments, verification scratch space, and OS/editor metadata.
+.local/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+Thumbs.db
+Desktop.ini
+._*
+*.swp

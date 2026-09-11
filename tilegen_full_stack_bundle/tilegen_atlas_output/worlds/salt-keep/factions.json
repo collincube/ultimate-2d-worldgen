@@ -1,0 +1,124 @@
+{
+  "fac_74088c4b": {
+    "id": "fac_74088c4b",
+    "name": "the Salt Assembly",
+    "seat": "plc_5adeae6d",
+    "legitimacy": 0.447,
+    "militancy": 0.418,
+    "wealth": 0.216,
+    "territory": [
+      "plc_64414b54",
+      "plc_64414d07",
+      "plc_5adeae6d",
+      "plc_5adeacba",
+      "plc_5adeab07",
+      "plc_5adea5ee",
+      "plc_5adea288",
+      "plc_5ae19349",
+      "plc_5ae18fe3",
+      "plc_5ae194fc",
+      "plc_5ae196af",
+      "plc_5ae19f2e",
+      "plc_5ae4ab1f",
+      "plc_5ae4a96c",
+      "plc_5ae4acd2"
+    ],
+    "members": [
+      "ent_06c8426d",
+      "ent_06c83d54",
+      "ent_06c83f07",
+      "ent_06c839ee",
+      "ent_06c83322",
+      "ent_0648c5ba",
+      "ent_0648bb88",
+      "ent_0648beee",
+      "ent_0648b66f",
+      "ent_06405605",
+      "ent_06404d86",
+      "ent_06436a75",
+      "ent_064361f6",
+      "ent_06436043",
+      "ent_0643780d",
+      "ent_0643765a"
+    ]
+  },
+  "fac_74088a98": {
+    "id": "fac_74088a98",
+    "name": "House Vareth",
+    "seat": "plc_64413a56",
+    "legitimacy": 0.409,
+    "militancy": 0.344,
+    "wealth": 0.679,
+    "territory": [
+      "plc_64413f6f",
+      "plc_644142d5",
+      "plc_64413a56",
+      "plc_64413c09",
+      "plc_5ae4ae85"
+    ],
+    "members": [
+      "ent_06c83ba1",
+      "ent_06c83688",
+      "ent_06c8383b",
+      "ent_0648c407",
+      "ent_0648bd3b",
+      "ent_06404bd3",
+      "ent_06404f39",
+      "ent_06405e84",
+      "ent_06435e90"
+    ]
+  },
+  "fac_74088fb1": {
+    "id": "fac_74088fb1",
+    "name": "the Ash Guild",
+    "seat": "plc_64414122",
+    "legitimacy": 0.652,
+    "militancy": 0.689,
+    "wealth": 0.085,
+    "territory": [
+      "plc_64413dbc",
+      "plc_64414122",
+      "plc_644136f0",
+      "plc_5adea954",
+      "plc_5adea7a1",
+      "plc_5adea43b",
+      "plc_5adea0d5",
+      "plc_5ae1a0e1"
+    ],
+    "members": [
+      "ent_06c840ba",
+      "ent_06c834d5",
+      "ent_0648c76d",
+      "ent_0648c0a1",
+      "ent_0648b4bc",
+      "ent_0640529f",
+      "ent_06405452",
+      "ent_06406037",
+      "ent_0643670f",
+      "ent_0643655c",
+      "ent_064363a9"
+    ]
+  },
+  "fac_74088dfe": {
+    "id": "fac_74088dfe",
+    "name": "the Quiet Order",
+    "seat": "plc_644138a3",
+    "legitimacy": 0.705,
+    "militancy": 0.705,
+    "wealth": 0.359,
+    "territory": [
+      "plc_644138a3",
+      "plc_5ade9f22",
+      "plc_5ae19196",
+      "plc_5ae18e30",
+      "plc_5ae19862",
+      "plc_5ae19a15"
+    ],
+    "members": [
+      "ent_0648c254",
+      "ent_064050ec",
+      "ent_06404a20",
+      "ent_064368c2"
+    ]
+  }
+}

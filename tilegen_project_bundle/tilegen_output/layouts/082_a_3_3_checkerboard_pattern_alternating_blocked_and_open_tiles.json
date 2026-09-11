@@ -1,0 +1,58 @@
+{
+  "id": 82,
+  "slug": "a_3_3_checkerboard_pattern_alternating_blocked_and_open_tiles",
+  "name": "A 3\u00d73 checkerboard pattern alternating blocked and open tiles",
+  "template": "micro_matrix",
+  "size": {
+    "width": 3,
+    "height": 3
+  },
+  "theme": "micro",
+  "background": "wall",
+  "base_counts": {
+    "wall": 5,
+    "floor": 4
+  },
+  "overlay_counts": {},
+  "base_legend": [
+    "wall",
+    "floor"
+  ],
+  "overlay_legend": [
+    ""
+  ],
+  "base": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "overlay": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ]
+}

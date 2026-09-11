@@ -1,0 +1,1556 @@
+{
+  "schema": "2.0.0",
+  "world": {
+    "name": "Obsidian Metropolis",
+    "seed": 7717,
+    "size": [
+      128,
+      128
+    ],
+    "places": 183,
+    "fields": [
+      "age",
+      "allocation_pressure",
+      "awe",
+      "contamination",
+      "contested",
+      "control",
+      "crisis_blackout",
+      "crisis_contagion",
+      "crisis_fire",
+      "crisis_flood",
+      "crisis_siege",
+      "crowding",
+      "dread",
+      "enforcement",
+      "era",
+      "exposure",
+      "gravity_x",
+      "gravity_y",
+      "guard_attention",
+      "habitat",
+      "habitat_bat",
+      "habitat_beetle",
+      "habitat_bird",
+      "habitat_moss",
+      "habitat_rat",
+      "light",
+      "load",
+      "market_access",
+      "melancholy",
+      "memory",
+      "observed",
+      "price_level",
+      "privacy",
+      "radial",
+      "region",
+      "rumor_reach",
+      "sacred_intensity",
+      "safety",
+      "shadow",
+      "smuggling_risk",
+      "sound_pressure",
+      "structural_stress",
+      "structure",
+      "temperature",
+      "tension",
+      "threat",
+      "wear",
+      "wind"
+    ],
+    "topologies": {
+      "circulation.public": 260,
+      "circulation.service": 280,
+      "ecology.routes": 344,
+      "infrastructure.power": 7,
+      "institutions.jurisdiction": 306,
+      "logistics.supply": 174,
+      "perception.acoustic": 395,
+      "physical.adjacency": 395,
+      "society.alliance": 38,
+      "society.guard_patrol": 142,
+      "society.influence": 29,
+      "society.recognition": 202,
+      "society.rivalry": 24,
+      "society.rumor": 842,
+      "traversal.climb": 5,
+      "traversal.crawl": 395,
+      "traversal.fly": 395,
+      "traversal.swim": 0,
+      "traversal.walk": 395
+    },
+    "entities": 188,
+    "factions": 8,
+    "events": 191,
+    "findings": 0
+  },
+  "recipe": {
+    "macro": "phyllotaxis_city",
+    "structure": "voronoi",
+    "circulation": "transit",
+    "ornament": "mandala",
+    "symmetry": 0.9,
+    "organicity": 0.15,
+    "verticality": 0.45,
+    "erosion": 0.25,
+    "secret_density": 0.1,
+    "style": "architectural_blueprint",
+    "seed": 7717,
+    "size": 128,
+    "name": "Obsidian Metropolis",
+    "features": []
+  },
+  "recipe_digest": "6da8e87faa162a0e",
+  "features": [
+    {
+      "id": "plc.acoustic",
+      "number": 21,
+      "name": "Acoustic Map",
+      "context": "Place Semantics",
+      "part": "II",
+      "consumes": [
+        "places"
+      ],
+      "produces": [
+        "fields.sound_pressure",
+        "topology.perception.acoustic"
+      ],
+      "ran": true
+    },
+    {
+      "id": "prs.light",
+      "number": 22,
+      "name": "Light Map",
+      "context": "Presentation & Style",
+      "part": "II",
+      "consumes": [
+        "places"
+      ],
+      "produces": [
+        "fields.light",
+        "fields.shadow"
+      ],
+      "ran": true
+    },
+    {
+      "id": "eco.circulation",
+      "number": 23,
+      "name": "Social Circulation Map",
+      "context": "Ecology & Inhabitants",
+      "part": "II",
+      "consumes": [
+        "places",
+        "fields.light"
+      ],
+      "produces": [
+        "topology.circulation.public",
+        "topology.circulation.service",
+        "fields.privacy"
+      ],
+      "ran": true
+    },
+    {
+      "id": "eco.schedule",
+      "number": 24,
+      "name": "Schedule Map",
+      "context": "Ecology & Inhabitants",
+      "part": "II",
+      "consumes": [
+        "places",
+        "topology.circulation.public"
+      ],
+      "produces": [
+        "artifacts.schedule",
+        "fields.crowding"
+      ],
+      "ran": true
+    },
+    {
+      "id": "eco.logistics",
+      "number": 25,
+      "name": "Logistics Map",
+      "context": "Economy & Logistics",
+      "part": "II",
+      "consumes": [
+        "places",
+        "topology.circulation.service"
+      ],
+      "produces": [
+        "topology.logistics.supply",
+        "fields.market_access",
+        "artifacts.logistics"
+      ],
+      "ran": true
+    },
+    {
+      "id": "soc.security",
+      "number": 26,
+      "name": "Security Map",
+      "context": "Society & Institutions",
+      "part": "II",
+      "consumes": [
+        "places",
+        "fields.light",
+        "topology.circulation.public"
+      ],
+      "produces": [
+        "topology.society.guard_patrol",
+        "fields.guard_attention"
+      ],
+      "ran": true
+    },
+    {
+      "id": "nar.rumor",
+      "number": 27,
+      "name": "Rumor and Knowledge Map",
+      "context": "Incidents & Narrative",
+      "part": "II",
+      "consumes": [
+        "places",
+        "artifacts.schedule"
+      ],
+      "produces": [
+        "topology.society.rumor",
+        "fields.rumor_reach"
+      ],
+      "ran": true
+    },
+    {
+      "id": "eco.ecology",
+      "number": 28,
+      "name": "Ecological Map",
+      "context": "Ecology & Inhabitants",
+      "part": "II",
+      "consumes": [
+        "places",
+        "fields.light",
+        "fields.crowding"
+      ],
+      "produces": [
+        "fields.habitat",
+        "topology.ecology.routes",
+        "artifacts.ecology"
+      ],
+      "ran": true
+    },
+    {
+      "id": "env.weather",
+      "number": 29,
+      "name": "Weather Map",
+      "context": "Environment & Infrastructure",
+      "part": "II",
+      "consumes": [
+        "places"
+      ],
+      "produces": [
+        "fields.temperature",
+        "fields.exposure",
+        "fields.wind",
+        "artifacts.weather"
+      ],
+      "ran": true
+    },
+    {
+      "id": "env.aging",
+      "number": 30,
+      "name": "Material-Aging Map",
+      "context": "Environment & Infrastructure",
+      "part": "II",
+      "consumes": [
+        "places",
+        "fields.crowding",
+        "fields.exposure"
+      ],
+      "produces": [
+        "fields.wear",
+        "fields.age",
+        "artifacts.maintenance"
+      ],
+      "ran": true
+    },
+    {
+      "id": "nar.transformation",
+      "number": 31,
+      "name": "Transformation Map",
+      "context": "Incidents & Narrative",
+      "part": "II",
+      "consumes": [
+        "places",
+        "fields.wear"
+      ],
+      "produces": [
+        "artifacts.transformations",
+        "fields.structural_stress"
+      ],
+      "ran": true
+    },
+    {
+      "id": "nar.memory",
+      "number": 32,
+      "name": "Memory Map",
+      "context": "Incidents & Narrative",
+      "part": "II",
+      "consumes": [
+        "places",
+        "topology.society.rumor"
+      ],
+      "produces": [
+        "fields.memory",
+        "artifacts.memories"
+      ],
+      "ran": true
+    },
+    {
+      "id": "top.traversal",
+      "number": 33,
+      "name": "Traversal-Verb Map",
+      "context": "Topology & Traversal",
+      "part": "II",
+      "consumes": [
+        "places"
+      ],
+      "produces": [
+        "topology.traversal"
+      ],
+      "ran": true
+    },
+    {
+      "id": "top.gravity",
+      "number": 34,
+      "name": "Gravity and Orientation Map",
+      "context": "Topology & Traversal",
+      "part": "II",
+      "consumes": [
+        "places"
+      ],
+      "produces": [
+        "fields.gravity_x",
+        "fields.gravity_y",
+        "artifacts.frames"
+      ],
+      "ran": true
+    },
+    {
+      "id": "plc.perceptual",
+      "number": 35,
+      "name": "Perceptual Map",
+      "context": "Place Semantics",
+      "part": "II",
+      "consumes": [
+        "places",
+        "fields.light",
+        "fields.sound_pressure"
+      ],
+      "produces": [
+        "artifacts.perception"
+      ],
+      "ran": true
+    },
+    {
+      "id": "env.machines",
+      "number": 36,
+      "name": "Mechanical Infrastructure Map",
+      "context": "Environment & Infrastructure",
+      "part": "II",
+      "consumes": [
+        "places",
+        "topology.logistics.supply"
+      ],
+      "produces": [
+        "topology.infrastructure.power",
+        "artifacts.machines"
+      ],
+      "ran": true
+    },
+    {
+      "id": "nar.crisis",
+      "number": 37,
+      "name": "Crisis Map",
+      "context": "Incidents & Narrative",
+      "part": "II",
+      "consumes": [
+        "places",
+        "fields.exposure",
+        "artifacts.machines"
+      ],
+      "produces": [
+        "artifacts.crises"
+      ],
+      "ran": true
+    },
+    {
+      "id": "plc.emotion",
+      "number": 38,
+      "name": "Emotional Topology",
+      "context": "Place Semantics",
+      "part": "II",
+      "consumes": [
+        "places",
+        "fields.light",
+        "fields.sound_pressure",
+        "fields.memory"
+      ],
+      "produces": [
+        "fields.dread",
+        "fields.awe",
+        "fields.safety",
+        "artifacts.pacing"
+      ],
+      "ran": true
+    },
+    {
+      "id": "plc.archaeology",
+      "number": 39,
+      "name": "Architectural Archaeology",
+      "context": "Place Semantics",
+      "part": "II",
+      "consumes": [
+        "places",
+        "fields.age"
+      ],
+      "produces": [
+        "fields.era",
+        "artifacts.build_phases"
+      ],
+      "ran": true
+    },
+    {
+      "id": "exp.compiler",
+      "number": 40,
+      "name": "World Compiler",
+      "context": "Export & Runtime Integration",
+      "part": "II",
+      "consumes": [
+        "places"
+      ],
+      "produces": [
+        "artifacts.manifest"
+      ],
+      "ran": true
+    },
+    {
+      "id": "soc.sovereignty",
+      "number": 41,
+      "name": "Faction Territories",
+      "context": "Society & Institutions",
+      "part": "III",
+      "consumes": [
+        "places"
+      ],
+      "produces": [
+        "fields.control",
+        "artifacts.factions",
+        "topology.institutions.jurisdiction"
+      ],
+      "ran": true
+    },
+    {
+      "id": "soc.politics",
+      "number": 42,
+      "name": "Faction Influence and Rivalries",
+      "context": "Society & Institutions",
+      "part": "III",
+      "consumes": [
+        "artifacts.factions"
+      ],
+      "produces": [
+        "artifacts.politics",
+        "topology.society.influence"
+      ],
+      "ran": true
+    },
+    {
+      "id": "soc.law",
+      "number": 43,
+      "name": "Town Rules and Guard Responses",
+      "context": "Society & Institutions",
+      "part": "III",
+      "consumes": [
+        "artifacts.factions",
+        "fields.guard_attention"
+      ],
+      "produces": [
+        "artifacts.law",
+        "fields.enforcement"
+      ],
+      "ran": true
+    },
+    {
+      "id": "eco.markets",
+      "number": 44,
+      "name": "Shops, Trading, and Prices",
+      "context": "Economy & Logistics",
+      "part": "III",
+      "consumes": [
+        "artifacts.logistics",
+        "fields.market_access"
+      ],
+      "produces": [
+        "artifacts.markets",
+        "fields.price_level"
+      ],
+      "ran": true
+    },
+    {
+      "id": "soc.labour",
+      "number": 45,
+      "name": "NPC Work and Wages",
+      "context": "Society & Institutions",
+      "part": "III",
+      "consumes": [
+        "artifacts.markets",
+        "artifacts.schedule"
+      ],
+      "produces": [
+        "artifacts.labour"
+      ],
+      "ran": true
+    },
+    {
+      "id": "soc.property",
+      "number": 46,
+      "name": "Buildings, Ownership, and Succession",
+      "context": "Society & Institutions",
+      "part": "III",
+      "consumes": [
+        "artifacts.factions"
+      ],
+      "produces": [
+        "artifacts.property"
+      ],
+      "ran": true
+    },
+    {
+      "id": "eco.contraband",
+      "number": 47,
+      "name": "Smuggler NPCs and Hidden Shops",
+      "context": "Economy & Logistics",
+      "part": "III",
+      "consumes": [
+        "fields.enforcement",
+        "fields.privacy",
+        "artifacts.markets"
+      ],
+      "produces": [
+        "artifacts.contraband",
+        "fields.smuggling_risk"
+      ],
+      "ran": true
+    },
+    {
+      "id": "eco.identity",
+      "number": 48,
+      "name": "NPC Reputation and Disguises",
+      "context": "Ecology & Inhabitants",
+      "part": "III",
+      "consumes": [
+        "places"
+      ],
+      "produces": [
+        "artifacts.identity"
+      ],
+      "ran": true
+    },
+    {
+      "id": "eco.relationships",
+      "number": 49,
+      "name": "NPC Alliances, Rivalries, and Cooperation",
+      "context": "Ecology & Inhabitants",
+      "part": "III",
+      "consumes": [
+        "artifacts.identity"
+      ],
+      "produces": [
+        "artifacts.relationships",
+        "topology.society.alliance",
+        "topology.society.rivalry"
+      ],
+      "ran": true
+    },
+    {
+      "id": "soc.ritual",
+      "number": 50,
+      "name": "Fantasy Customs and Faction Traditions",
+      "context": "Society & Institutions",
+      "part": "III",
+      "consumes": [
+        "places",
+        "artifacts.factions"
+      ],
+      "produces": [
+        "artifacts.ritual",
+        "fields.sacred_intensity"
+      ],
+      "ran": true
+    },
+    {
+      "id": "soc.surveillance",
+      "number": 51,
+      "name": "Guard Vision and Stealth Detection",
+      "context": "Society & Institutions",
+      "part": "III",
+      "consumes": [
+        "artifacts.perception",
+        "fields.guard_attention",
+        "artifacts.politics"
+      ],
+      "produces": [
+        "artifacts.intelligence",
+        "fields.observed"
+      ],
+      "ran": true
+    },
+    {
+      "id": "soc.diplomacy",
+      "number": 52,
+      "name": "Faction Alliances and Negotiations",
+      "context": "Society & Institutions",
+      "part": "III",
+      "consumes": [
+        "artifacts.factions",
+        "artifacts.politics"
+      ],
+      "produces": [
+        "artifacts.diplomacy"
+      ],
+      "ran": true
+    },
+    {
+      "id": "nar.violence",
+      "number": 53,
+      "name": "Combat Encounters and Alert Levels",
+      "context": "Incidents & Narrative",
+      "part": "III",
+      "consumes": [
+        "artifacts.diplomacy",
+        "fields.enforcement",
+        "artifacts.labour"
+      ],
+      "produces": [
+        "artifacts.violence",
+        "fields.threat"
+      ],
+      "ran": true
+    },
+    {
+      "id": "nar.investigation",
+      "number": 54,
+      "name": "Clues and Investigation Quest Hooks",
+      "context": "Incidents & Narrative",
+      "part": "III",
+      "consumes": [
+        "artifacts.violence",
+        "artifacts.identity",
+        "fields.observed"
+      ],
+      "produces": [
+        "artifacts.investigations"
+      ],
+      "ran": true
+    },
+    {
+      "id": "env.health",
+      "number": 55,
+      "name": "Settlement Health and Environmental Hazards",
+      "context": "Environment & Infrastructure",
+      "part": "III",
+      "consumes": [
+        "fields.crowding",
+        "artifacts.logistics"
+      ],
+      "produces": [
+        "artifacts.health",
+        "fields.contamination"
+      ],
+      "ran": true
+    },
+    {
+      "id": "eco.scarcity",
+      "number": 56,
+      "name": "Settlement Supplies and Resources",
+      "context": "Economy & Logistics",
+      "part": "III",
+      "consumes": [
+        "artifacts.machines",
+        "artifacts.markets"
+      ],
+      "produces": [
+        "artifacts.scarcity",
+        "fields.allocation_pressure"
+      ],
+      "ran": true
+    },
+    {
+      "id": "env.structure",
+      "number": 57,
+      "name": "Building Durability and Damage",
+      "context": "Environment & Infrastructure",
+      "part": "III",
+      "consumes": [
+        "fields.structural_stress",
+        "artifacts.crises"
+      ],
+      "produces": [
+        "artifacts.structure",
+        "fields.load"
+      ],
+      "ran": true
+    },
+    {
+      "id": "nar.operations",
+      "number": 58,
+      "name": "Quest Objectives and Dungeon Missions",
+      "context": "Incidents & Narrative",
+      "part": "III",
+      "consumes": [
+        "artifacts.property",
+        "artifacts.intelligence",
+        "fields.smuggling_risk",
+        "artifacts.security"
+      ],
+      "produces": [
+        "artifacts.operations"
+      ],
+      "ran": true
+    },
+    {
+      "id": "nar.chronicle",
+      "number": 59,
+      "name": "World Event History",
+      "context": "Incidents & Narrative",
+      "part": "III",
+      "consumes": [
+        "artifacts.violence",
+        "artifacts.investigations",
+        "artifacts.labour"
+      ],
+      "produces": [
+        "artifacts.chronicle"
+      ],
+      "ran": true
+    },
+    {
+      "id": "nar.director",
+      "number": 60,
+      "name": "Encounter and Quest Director",
+      "context": "Incidents & Narrative",
+      "part": "III",
+      "consumes": [
+        "artifacts.chronicle",
+        "fields.threat",
+        "artifacts.crises",
+        "artifacts.operations"
+      ],
+      "produces": [
+        "artifacts.director"
+      ],
+      "ran": true
+    }
+  ],
+  "fields": {
+    "age": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.7984,
+      "mean": 0.4535,
+      "hash": "ffa7bd82a615",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "allocation_pressure": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.879,
+      "mean": 0.4156,
+      "hash": "792068b716ff",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "awe": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.8891,
+      "mean": 0.2135,
+      "hash": "809e397cd753",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "contamination": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.5963,
+      "mean": 0.0435,
+      "hash": "7e9192265ece",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "contested": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.6485,
+      "hash": "92f293767846",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "control": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.5749,
+      "hash": "d27ad90340b8",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "crisis_blackout": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.1,
+      "max": 1.0,
+      "mean": 0.7339,
+      "hash": "325ea8224bfc",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "crisis_contagion": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.5963,
+      "mean": 0.3379,
+      "hash": "ba119d4a6c85",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "crisis_fire": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.042,
+      "hash": "dbcb25b96d81",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "crisis_flood": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "hash": "de2f256064a0",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "crisis_siege": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.286,
+      "hash": "450fdbe41f1f",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "crowding": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.5963,
+      "mean": 0.3273,
+      "hash": "2808fd0a546d",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "dread": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.9041,
+      "mean": 0.4861,
+      "hash": "cb57e4b1f7a4",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "enforcement": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.887,
+      "mean": 0.2645,
+      "hash": "6e4aff459f53",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "era": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.25,
+      "max": 0.75,
+      "mean": 0.4324,
+      "hash": "e639d4b2ce4e",
+      "units": "era index normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "exposure": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.286,
+      "hash": "450fdbe41f1f",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "gravity_x": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.0,
+      "mean": 0.0,
+      "hash": "de2f256064a0",
+      "units": "unit vector",
+      "range": [
+        -1,
+        1
+      ]
+    },
+    "gravity_y": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 1.0,
+      "max": 1.0,
+      "mean": 1.0,
+      "hash": "3513f7981d1e",
+      "units": "unit vector",
+      "range": [
+        -1,
+        1
+      ]
+    },
+    "guard_attention": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.1689,
+      "hash": "773da8cc1819",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "habitat": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4695,
+      "hash": "c02734722719",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "habitat_bat": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4695,
+      "hash": "c02734722719",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "habitat_beetle": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.8775,
+      "mean": 0.393,
+      "hash": "2db50f2fd72c",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "habitat_bird": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.8852,
+      "mean": 0.2894,
+      "hash": "385653f0af02",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "habitat_moss": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.3946,
+      "hash": "ec971682d317",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "habitat_rat": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4142,
+      "hash": "6603358ef774",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "light": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.9,
+      "mean": 0.2661,
+      "hash": "b593491dc5fa",
+      "units": "relative",
+      "range": [
+        0,
+        1
+      ]
+    },
+    "load": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.1772,
+      "hash": "bf46cc8fc343",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "market_access": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.1334,
+      "hash": "4a46b0bf5232",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "melancholy": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.6875,
+      "mean": 0.3428,
+      "hash": "94e2026ff24b",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "memory": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.556,
+      "hash": "de36c5a5f3c7",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "observed": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.034,
+      "hash": "8c95df366f50",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "price_level": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.4999,
+      "max": 1.0,
+      "mean": 0.7968,
+      "hash": "57e905afbba3",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "privacy": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0304,
+      "max": 0.9704,
+      "mean": 0.2378,
+      "hash": "285bff0fcf82",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "radial": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.5417,
+      "hash": "69fba91fdc3b"
+    },
+    "region": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 149.0,
+      "mean": 88.0819,
+      "hash": "d963a381d3a9"
+    },
+    "rumor_reach": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.7314,
+      "hash": "eaeda3308787",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "sacred_intensity": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.3727,
+      "hash": "d6a288665f95",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "safety": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.8019,
+      "mean": 0.263,
+      "hash": "42ffbe648003",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "shadow": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.1,
+      "max": 1.0,
+      "mean": 0.7339,
+      "hash": "325ea8224bfc",
+      "units": "relative",
+      "range": [
+        0,
+        1
+      ]
+    },
+    "smuggling_risk": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.0608,
+      "hash": "c3e828205b68",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "sound_pressure": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.1983,
+      "hash": "e435feb19376",
+      "units": "relative",
+      "range": [
+        0,
+        1
+      ]
+    },
+    "structural_stress": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.75,
+      "mean": 0.1837,
+      "hash": "25a531b4c802",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "structure": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.301,
+      "hash": "4f5fc328deca"
+    },
+    "temperature": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.165,
+      "max": 0.375,
+      "mean": 0.2688,
+      "hash": "825ec908f30b",
+      "units": "normalised 0=frozen 1=scorching",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "tension": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.9122,
+      "mean": 0.479,
+      "hash": "2426ccbff5dc",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "threat": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.4,
+      "max": 0.8996,
+      "mean": 0.6409,
+      "hash": "c03a9229876b",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "wear": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 0.5628,
+      "mean": 0.2781,
+      "hash": "288897de884b",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    },
+    "wind": {
+      "shape": [
+        128,
+        128
+      ],
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.1334,
+      "hash": "1273b24a2e71",
+      "units": "normalised",
+      "range": [
+        0.0,
+        1.0
+      ]
+    }
+  },
+  "topologies": {
+    "circulation.public": {
+      "nodes": 131,
+      "edges": 260,
+      "directed": false
+    },
+    "circulation.service": {
+      "nodes": 178,
+      "edges": 280,
+      "directed": false
+    },
+    "ecology.routes": {
+      "nodes": 167,
+      "edges": 344,
+      "directed": false
+    },
+    "infrastructure.power": {
+      "nodes": 8,
+      "edges": 7,
+      "directed": true
+    },
+    "institutions.jurisdiction": {
+      "nodes": 182,
+      "edges": 306,
+      "directed": false
+    },
+    "logistics.supply": {
+      "nodes": 116,
+      "edges": 174,
+      "directed": true
+    },
+    "perception.acoustic": {
+      "nodes": 183,
+      "edges": 395,
+      "directed": false
+    },
+    "physical.adjacency": {
+      "nodes": 183,
+      "edges": 395,
+      "directed": false
+    },
+    "society.alliance": {
+      "nodes": 67,
+      "edges": 38,
+      "directed": false
+    },
+    "society.guard_patrol": {
+      "nodes": 84,
+      "edges": 142,
+      "directed": true
+    },
+    "society.influence": {
+      "nodes": 8,
+      "edges": 29,
+      "directed": true
+    },
+    "society.recognition": {
+      "nodes": 127,
+      "edges": 202,
+      "directed": true
+    },
+    "society.rivalry": {
+      "nodes": 44,
+      "edges": 24,
+      "directed": false
+    },
+    "society.rumor": {
+      "nodes": 165,
+      "edges": 842,
+      "directed": false
+    },
+    "traversal.climb": {
+      "nodes": 6,
+      "edges": 5,
+      "directed": false
+    },
+    "traversal.crawl": {
+      "nodes": 183,
+      "edges": 395,
+      "directed": false
+    },
+    "traversal.fly": {
+      "nodes": 183,
+      "edges": 395,
+      "directed": false
+    },
+    "traversal.swim": {
+      "nodes": 0,
+      "edges": 0,
+      "directed": false
+    },
+    "traversal.walk": {
+      "nodes": 183,
+      "edges": 395,
+      "directed": false
+    }
+  },
+  "places": 183,
+  "warnings": []
+}

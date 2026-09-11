@@ -1,0 +1,58 @@
+{
+  "id": 90,
+  "slug": "a_3_3_with_an_l_shaped_accessible_path_hugging_two_edges",
+  "name": "A 3\u00d73 with an L-shaped accessible path hugging two edges",
+  "template": "micro_matrix",
+  "size": {
+    "width": 3,
+    "height": 3
+  },
+  "theme": "micro",
+  "background": "wall",
+  "base_counts": {
+    "floor": 5,
+    "wall": 4
+  },
+  "overlay_counts": {},
+  "base_legend": [
+    "floor",
+    "wall"
+  ],
+  "overlay_legend": [
+    ""
+  ],
+  "base": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      1
+    ]
+  ],
+  "overlay": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ]
+}

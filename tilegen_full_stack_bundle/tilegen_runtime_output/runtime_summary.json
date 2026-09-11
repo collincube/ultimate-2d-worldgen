@@ -1,0 +1,49 @@
+{
+  "layout_count": 100,
+  "module_count": 100,
+  "module_size": 16,
+  "module_slots": 4,
+  "agent_summary": {
+    "npc": {
+      "successes": 100,
+      "failures": 0,
+      "layouts": 100,
+      "avg_path_steps": 72.79
+    },
+    "turtle": {
+      "successes": 100,
+      "failures": 0,
+      "layouts": 100,
+      "avg_path_steps": 143.9
+    },
+    "drone": {
+      "successes": 100,
+      "failures": 0,
+      "layouts": 100,
+      "avg_path_steps": 80.29
+    }
+  },
+  "world_presets": [
+    {
+      "name": "tiny_fast",
+      "grid_w": 6,
+      "grid_h": 6,
+      "unique_states": false,
+      "attempts": 1
+    },
+    {
+      "name": "balanced",
+      "grid_w": 8,
+      "grid_h": 8,
+      "unique_states": false,
+      "attempts": 1
+    },
+    {
+      "name": "all100_unique",
+      "grid_w": 10,
+      "grid_h": 10,
+      "unique_states": true,
+      "attempts": 3
+    }
+  ]
+}

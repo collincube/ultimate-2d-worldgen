@@ -1,0 +1,58 @@
+{
+  "id": 86,
+  "slug": "a_3_3_with_a_plus_shaped_open_path_center_orthogonal_tiles",
+  "name": "A 3\u00d73 with a plus-shaped open path (center + orthogonal tiles)",
+  "template": "micro_matrix",
+  "size": {
+    "width": 3,
+    "height": 3
+  },
+  "theme": "micro",
+  "background": "wall",
+  "base_counts": {
+    "wall": 4,
+    "floor": 5
+  },
+  "overlay_counts": {},
+  "base_legend": [
+    "wall",
+    "floor"
+  ],
+  "overlay_legend": [
+    ""
+  ],
+  "base": [
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ]
+  ],
+  "overlay": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ]
+}

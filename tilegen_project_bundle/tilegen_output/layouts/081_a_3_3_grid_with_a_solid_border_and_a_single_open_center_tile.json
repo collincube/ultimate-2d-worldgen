@@ -1,0 +1,58 @@
+{
+  "id": 81,
+  "slug": "a_3_3_grid_with_a_solid_border_and_a_single_open_center_tile",
+  "name": "A 3\u00d73 grid with a solid border and a single open center tile",
+  "template": "micro_matrix",
+  "size": {
+    "width": 3,
+    "height": 3
+  },
+  "theme": "micro",
+  "background": "wall",
+  "base_counts": {
+    "wall": 8,
+    "floor": 1
+  },
+  "overlay_counts": {},
+  "base_legend": [
+    "wall",
+    "floor"
+  ],
+  "overlay_legend": [
+    ""
+  ],
+  "base": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ],
+  "overlay": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0
+    ]
+  ]
+}

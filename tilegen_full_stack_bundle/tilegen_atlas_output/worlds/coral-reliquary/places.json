@@ -1,0 +1,8191 @@
+[
+  {
+    "id": "plc_74701dc7",
+    "kind": "room",
+    "area": 56,
+    "centroid": [
+      51.4,
+      86.9
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "public",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47364f46",
+      "plc_4747dc02",
+      "plc_558e963e",
+      "plc_5a6b5c2e"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_74701c14",
+    "kind": "plaza",
+    "area": 86,
+    "centroid": [
+      99.4,
+      97.7
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "dark",
+      "den",
+      "lawless",
+      "loud",
+      "machine",
+      "public",
+      "seat of power",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55833415",
+      "plc_55833e47",
+      "plc_558e97f1",
+      "plc_5a7cbb09",
+      "plc_5a7cc022"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_7470212d",
+    "kind": "plaza",
+    "area": 96,
+    "centroid": [
+      96.6,
+      78.1
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "loud",
+      "machine",
+      "public",
+      "seat of power",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727e12c",
+      "plc_558941c5",
+      "plc_5a7fd492"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_74701f7a",
+    "kind": "plaza",
+    "area": 86,
+    "centroid": [
+      67.5,
+      107.7
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "loud",
+      "public",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af236",
+      "plc_5a684cd7",
+      "plc_5a7fd12c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_747016fb",
+    "kind": "room",
+    "area": 67,
+    "centroid": [
+      66.4,
+      17.3
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "market",
+      "public",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558e88a6",
+      "plc_5a6847be",
+      "plc_5a6b5562",
+      "plc_5a6b5715",
+      "plc_5a748001"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_74701548",
+    "kind": "room",
+    "area": 69,
+    "centroid": [
+      87.4,
+      14.0
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "disputed title",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727e492",
+      "plc_47335e85"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_74701a61",
+    "kind": "room",
+    "area": 50,
+    "centroid": [
+      94.4,
+      62.8
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contaminated",
+      "contested",
+      "disputed title",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55893cac",
+      "plc_55894012",
+      "plc_5a6b6147",
+      "plc_5a747c9b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "decline"
+    }
+  },
+  {
+    "id": "plc_747018ae",
+    "kind": "room",
+    "area": 51,
+    "centroid": [
+      44.5,
+      70.6
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "guard post",
+      "market",
+      "public",
+      "quiet",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47304d7b",
+      "plc_4747ddb5",
+      "plc_55862d55",
+      "plc_5591a748",
+      "plc_5591a8fb",
+      "plc_5591b32d",
+      "plc_5a851ed9"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_7470102f",
+    "kind": "room",
+    "area": 79,
+    "centroid": [
+      70.6,
+      50.3
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55802d3d",
+      "plc_55862323",
+      "plc_5a7486cd",
+      "plc_5a79c6e2"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_74700e7c",
+    "kind": "room",
+    "area": 46,
+    "centroid": [
+      58.7,
+      70.9
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "guard post",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47365cde",
+      "plc_4747ddb5",
+      "plc_5586283c",
+      "plc_5591b17a",
+      "plc_5a8840e1"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7fd12c",
+    "kind": "plaza",
+    "area": 105,
+    "centroid": [
+      77.9,
+      115.8
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "dark",
+      "disputed title",
+      "loud",
+      "public",
+      "seat of power",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47336704",
+      "plc_5a7cc1d5",
+      "plc_74701f7a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7fd2df",
+    "kind": "room",
+    "area": 45,
+    "centroid": [
+      80.9,
+      42.0
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "guard post",
+      "market",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472b069a",
+      "plc_472d29c0",
+      "plc_55801726",
+      "plc_55802824",
+      "plc_55862170",
+      "plc_5a79cf61"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7fd492",
+    "kind": "room",
+    "area": 52,
+    "centroid": [
+      88.5,
+      76.0
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "bright",
+      "contested",
+      "guard post",
+      "loud",
+      "market",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473968cf",
+      "plc_55893af9",
+      "plc_558941c5",
+      "plc_5591ae14",
+      "plc_7470212d"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7fd645",
+    "kind": "room",
+    "area": 74,
+    "centroid": [
+      118.7,
+      114.6
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "lawless",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727eb5e",
+      "plc_473055fa"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7fca60",
+    "kind": "room",
+    "area": 63,
+    "centroid": [
+      11.3,
+      83.8
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "dark",
+      "den",
+      "loud",
+      "market",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af083",
+      "plc_47364d93",
+      "plc_5a76c00a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7fcc13",
+    "kind": "plaza",
+    "area": 95,
+    "centroid": [
+      108.7,
+      51.4
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "contaminated",
+      "loud",
+      "machine",
+      "market",
+      "public",
+      "seat of power",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473974b4",
+      "plc_55862689",
+      "plc_5a7481b4",
+      "plc_5a76b78b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7fcdc6",
+    "kind": "room",
+    "area": 84,
+    "centroid": [
+      35.6,
+      91.8
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "bright",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55833262",
+      "plc_5a7cbe6f",
+      "plc_5a852e24"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7fcf79",
+    "kind": "room",
+    "area": 46,
+    "centroid": [
+      47.9,
+      118.3
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "market",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724cb09",
+      "plc_472af3e9",
+      "plc_472d3fd7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7fdec4",
+    "kind": "room",
+    "area": 56,
+    "centroid": [
+      77.2,
+      27.8
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contaminated",
+      "contested",
+      "market",
+      "public",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47305447",
+      "plc_55801726",
+      "plc_55802671",
+      "plc_5a683f3f"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7fe077",
+    "kind": "room",
+    "area": 56,
+    "centroid": [
+      44.2,
+      50.5
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724d022",
+      "plc_558c621a",
+      "plc_5a748367"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a884447",
+    "kind": "plaza",
+    "area": 87,
+    "centroid": [
+      16.5,
+      97.0
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "loud",
+      "public",
+      "seat of power",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47364d93",
+      "plc_5591a07c",
+      "plc_5a6b62fa",
+      "plc_5a852e24"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a884294",
+    "kind": "room",
+    "area": 53,
+    "centroid": [
+      104.4,
+      34.6
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472afab5",
+      "plc_472d390b",
+      "plc_47396203"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a8847ad",
+    "kind": "room",
+    "area": 75,
+    "centroid": [
+      44.9,
+      17.1
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "disputed title",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47304bc8",
+      "plc_473963b6",
+      "plc_5a684458"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a8845fa",
+    "kind": "plaza",
+    "area": 97,
+    "centroid": [
+      81.9,
+      104.0
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "disputed title",
+      "guard post",
+      "loud",
+      "machine",
+      "public",
+      "seat of power",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47304f2e",
+      "plc_47336c1d",
+      "plc_5574ccc7",
+      "plc_5574ce7a",
+      "plc_5583377b",
+      "plc_5a7cc1d5"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a883d7b",
+    "kind": "room",
+    "area": 44,
+    "centroid": [
+      12.5,
+      55.6
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "disputed title",
+      "market",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af59c",
+      "plc_472d418a",
+      "plc_5a852abe"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a883bc8",
+    "kind": "room",
+    "area": 39,
+    "centroid": [
+      78.8,
+      4.4
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47335e85",
+      "plc_474a1026",
+      "plc_558e9ebd"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a8840e1",
+    "kind": "room",
+    "area": 43,
+    "centroid": [
+      58.5,
+      65.6
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4747d1d0",
+      "plc_4747ddb5",
+      "plc_5a747e4e",
+      "plc_74700e7c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a883f2e",
+    "kind": "room",
+    "area": 52,
+    "centroid": [
+      4.8,
+      65.6
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "disputed title",
+      "public",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472d418a",
+      "plc_473057ad",
+      "plc_558935e0",
+      "plc_55893946"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a8836af",
+    "kind": "room",
+    "area": 50,
+    "centroid": [
+      60.1,
+      98.0
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "bright",
+      "contaminated",
+      "contested",
+      "disputed title",
+      "guard post",
+      "loud",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af236",
+      "plc_4747e7e7",
+      "plc_558335c8",
+      "plc_558e963e",
+      "plc_5a7cb5f0"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a8834fc",
+    "kind": "room",
+    "area": 57,
+    "centroid": [
+      117.0,
+      94.8
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "lawless",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47336a6a",
+      "plc_5591a22f",
+      "plc_5a79cdae"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a852abe",
+    "kind": "room",
+    "area": 55,
+    "centroid": [
+      17.0,
+      61.3
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "disputed title",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558935e0",
+      "plc_558c63cd",
+      "plc_5a6b64ad",
+      "plc_5a883d7b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a852c71",
+    "kind": "room",
+    "area": 72,
+    "centroid": [
+      26.9,
+      26.2
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "loud",
+      "market",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727e645",
+      "plc_4727ed11",
+      "plc_557ded34",
+      "plc_5a74851a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a852758",
+    "kind": "room",
+    "area": 51,
+    "centroid": [
+      35.5,
+      108.3
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "disputed title",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af902",
+      "plc_5a7cc53b",
+      "plc_5a85333d"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a85290b",
+    "kind": "room",
+    "area": 66,
+    "centroid": [
+      95.9,
+      22.0
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "public",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47396c35",
+      "plc_5a683d8c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a85318a",
+    "kind": "room",
+    "area": 55,
+    "centroid": [
+      15.3,
+      16.3
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727e645",
+      "plc_5a684971",
+      "plc_5a6b58c8"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a85333d",
+    "kind": "room",
+    "area": 59,
+    "centroid": [
+      34.8,
+      115.3
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "public",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472d3fd7",
+      "plc_5a852758"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a852e24",
+    "kind": "room",
+    "area": 68,
+    "centroid": [
+      26.6,
+      94.2
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5591a07c",
+      "plc_5a7fcdc6",
+      "plc_5a884447"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a852fd7",
+    "kind": "plaza",
+    "area": 99,
+    "centroid": [
+      26.2,
+      37.7
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "bright",
+      "disputed title",
+      "loud",
+      "machine",
+      "public",
+      "seat of power",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_557dd8d0",
+      "plc_5a747ae8",
+      "plc_5a76b93e"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a851d26",
+    "kind": "room",
+    "area": 50,
+    "centroid": [
+      59.0,
+      32.8
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contaminated",
+      "contested",
+      "disputed title",
+      "guard post",
+      "public",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724d1d5",
+      "plc_557deee7",
+      "plc_558e8a59",
+      "plc_5a76aba6",
+      "plc_5a76baf1"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a851ed9",
+    "kind": "room",
+    "area": 42,
+    "centroid": [
+      43.5,
+      64.6
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "public",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727ddc6",
+      "plc_4747ddb5",
+      "plc_558c621a",
+      "plc_747018ae"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a76baf1",
+    "kind": "room",
+    "area": 59,
+    "centroid": [
+      60.4,
+      39.6
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contaminated",
+      "contested",
+      "guard post",
+      "public",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_557deee7",
+      "plc_55802158",
+      "plc_55802b8a",
+      "plc_5a76aba6",
+      "plc_5a79d47a",
+      "plc_5a851d26"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a76b93e",
+    "kind": "room",
+    "area": 71,
+    "centroid": [
+      36.2,
+      40.1
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724ce6f",
+      "plc_4724d022",
+      "plc_5a852fd7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a76b78b",
+    "kind": "plaza",
+    "area": 86,
+    "centroid": [
+      109.7,
+      62.6
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "dark",
+      "den",
+      "disputed title",
+      "loud",
+      "market",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a6b6147",
+      "plc_5a746f03",
+      "plc_5a76be57",
+      "plc_5a7fcc13"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a76b5d8",
+    "kind": "room",
+    "area": 52,
+    "centroid": [
+      93.9,
+      40.8
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "dark",
+      "den",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472aeed0",
+      "plc_472afab5",
+      "plc_472d29c0"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a76c1bd",
+    "kind": "room",
+    "area": 36,
+    "centroid": [
+      119.4,
+      22.2
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "dark",
+      "den",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727e2df",
+      "plc_472d3abe",
+      "plc_472d433d"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a76c00a",
+    "kind": "room",
+    "area": 56,
+    "centroid": [
+      13.4,
+      76.1
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "dark",
+      "disputed title",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473057ad",
+      "plc_558935e0",
+      "plc_5a79c895",
+      "plc_5a7fca60"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a76be57",
+    "kind": "room",
+    "area": 61,
+    "centroid": [
+      111.2,
+      76.3
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "bright",
+      "contaminated",
+      "contested",
+      "loud",
+      "market",
+      "public",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727e12c",
+      "plc_47364be0",
+      "plc_473652ac",
+      "plc_5a76b78b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a76bca4",
+    "kind": "room",
+    "area": 58,
+    "centroid": [
+      26.2,
+      79.0
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4739671c",
+      "plc_55833c94",
+      "plc_5a79c895"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a76ad59",
+    "kind": "plaza",
+    "area": 86,
+    "centroid": [
+      72.5,
+      80.5
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contaminated",
+      "contested",
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47335cd2",
+      "plc_55894a44",
+      "plc_5591b17a",
+      "plc_5a7cc388"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a76aba6",
+    "kind": "room",
+    "area": 57,
+    "centroid": [
+      53.0,
+      31.3
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724c7a3",
+      "plc_5a76baf1",
+      "plc_5a851d26"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a747ae8",
+    "kind": "room",
+    "area": 68,
+    "centroid": [
+      16.2,
+      36.9
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724d388",
+      "plc_4727df79",
+      "plc_5a852fd7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a747c9b",
+    "kind": "room",
+    "area": 61,
+    "centroid": [
+      87.1,
+      57.0
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "bright",
+      "contaminated",
+      "contested",
+      "guard post",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47396050",
+      "plc_4747da4f",
+      "plc_55893cac",
+      "plc_55893e5f",
+      "plc_5a79c6e2",
+      "plc_74701a61"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a747e4e",
+    "kind": "room",
+    "area": 47,
+    "centroid": [
+      61.5,
+      60.0
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "guard post",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4747d1d0",
+      "plc_5586283c",
+      "plc_558629ef",
+      "plc_558c4c03",
+      "plc_558c4db6",
+      "plc_5a7486cd",
+      "plc_5a8840e1"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a748001",
+    "kind": "room",
+    "area": 49,
+    "centroid": [
+      66.9,
+      24.3
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "disputed title",
+      "public",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724d1d5",
+      "plc_55802671",
+      "plc_558e88a6",
+      "plc_558e8a59",
+      "plc_747016fb"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_5a7481b4",
+    "kind": "room",
+    "area": 44,
+    "centroid": [
+      100.7,
+      51.5
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472aeed0",
+      "plc_4747da4f",
+      "plc_5a7fcc13"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a748367",
+    "kind": "room",
+    "area": 50,
+    "centroid": [
+      50.6,
+      51.9
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "guard post",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_557dda83",
+      "plc_558c4c03",
+      "plc_558c4db6",
+      "plc_558c621a",
+      "plc_5a79d47a",
+      "plc_5a7fe077"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a74851a",
+    "kind": "room",
+    "area": 57,
+    "centroid": [
+      34.7,
+      27.8
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "disputed title",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473963b6",
+      "plc_5a852c71"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7486cd",
+    "kind": "room",
+    "area": 59,
+    "centroid": [
+      64.9,
+      54.9
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contaminated",
+      "contested",
+      "guard post",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55802158",
+      "plc_55802d3d",
+      "plc_558c4db6",
+      "plc_5a747e4e",
+      "plc_5a79c6e2",
+      "plc_7470102f"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a746d50",
+    "kind": "room",
+    "area": 39,
+    "centroid": [
+      77.7,
+      65.2
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55893793",
+      "plc_55893e5f",
+      "plc_55894a44",
+      "plc_5a79c6e2",
+      "plc_5a7cc388"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "decline"
+    }
+  },
+  {
+    "id": "plc_5a746f03",
+    "kind": "room",
+    "area": 73,
+    "centroid": [
+      116.3,
+      65.6
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "disputed title",
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727dc13",
+      "plc_5a76b78b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7cb7a3",
+    "kind": "room",
+    "area": 59,
+    "centroid": [
+      44.4,
+      99.1
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473368b7",
+      "plc_4747dc02",
+      "plc_4747e634",
+      "plc_55833ae1",
+      "plc_5a7cc53b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7cb5f0",
+    "kind": "room",
+    "area": 49,
+    "centroid": [
+      66.9,
+      94.2
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contaminated",
+      "contested",
+      "loud",
+      "public",
+      "remembered",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47335cd2",
+      "plc_558e963e",
+      "plc_5a7cb956",
+      "plc_5a8836af"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7cbb09",
+    "kind": "room",
+    "area": 45,
+    "centroid": [
+      93.4,
+      93.2
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "dark",
+      "den",
+      "lawless",
+      "loud",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473650f9",
+      "plc_74701c14"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7cb956",
+    "kind": "room",
+    "area": 64,
+    "centroid": [
+      73.9,
+      92.6
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "loud",
+      "public",
+      "remembered",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47336c1d",
+      "plc_5a7cb5f0"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7cbe6f",
+    "kind": "room",
+    "area": 66,
+    "centroid": [
+      38.8,
+      84.1
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "bright",
+      "disputed title",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4739671c",
+      "plc_5a7fcdc6"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7cbcbc",
+    "kind": "room",
+    "area": 54,
+    "centroid": [
+      7.4,
+      117.0
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4747d6e9",
+      "plc_5a79d2c7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7cc1d5",
+    "kind": "plaza",
+    "area": 113,
+    "centroid": [
+      89.4,
+      118.8
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "bright",
+      "contested",
+      "loud",
+      "public",
+      "sanctum",
+      "seat of power",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5574c5fb",
+      "plc_5a79d62d",
+      "plc_5a7fd12c",
+      "plc_5a8845fa"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b0dc",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7cc022",
+    "kind": "room",
+    "area": 44,
+    "centroid": [
+      103.7,
+      88.9
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "disputed title",
+      "lawless",
+      "loud",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47364be0",
+      "plc_558e97f1",
+      "plc_5591a22f",
+      "plc_74701c14"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7cc53b",
+    "kind": "room",
+    "area": 51,
+    "centroid": [
+      39.2,
+      102.9
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contaminated",
+      "contested",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a7cb7a3",
+      "plc_5a852758"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a7cc388",
+    "kind": "room",
+    "area": 35,
+    "centroid": [
+      73.4,
+      72.2
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "loud",
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558630bb",
+      "plc_55893793",
+      "plc_55894a44",
+      "plc_5a746d50",
+      "plc_5a76ad59"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a79d47a",
+    "kind": "room",
+    "area": 37,
+    "centroid": [
+      56.1,
+      47.2
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "public",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55802158",
+      "plc_55802b8a",
+      "plc_558c4db6",
+      "plc_5a748367",
+      "plc_5a76baf1"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a79d62d",
+    "kind": "room",
+    "area": 44,
+    "centroid": [
+      94.4,
+      111.5
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "contested",
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47304f2e",
+      "plc_5a7cc1d5"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b0dc",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a79d114",
+    "kind": "room",
+    "area": 48,
+    "centroid": [
+      6.1,
+      103.9
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472d3758",
+      "plc_5a79d2c7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a79d2c7",
+    "kind": "room",
+    "area": 43,
+    "centroid": [
+      7.1,
+      110.4
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "public",
+      "remembered",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a79d114",
+      "plc_5a7cbcbc"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a79cdae",
+    "kind": "room",
+    "area": 37,
+    "centroid": [
+      122.6,
+      98.4
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "lawless",
+      "remembered",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558c4f69",
+      "plc_5a8834fc"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_5a79cf61",
+    "kind": "room",
+    "area": 24,
+    "centroid": [
+      76.0,
+      39.0
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "market",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55801726",
+      "plc_55802824",
+      "plc_558029d7",
+      "plc_5a7fd2df"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a79ca48",
+    "kind": "room",
+    "area": 51,
+    "centroid": [
+      22.2,
+      47.8
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "loud",
+      "remembered",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af59c",
+      "plc_47396a82"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a79cbfb",
+    "kind": "room",
+    "area": 51,
+    "centroid": [
+      52.3,
+      107.5
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "disputed title",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724cb09",
+      "plc_473368b7",
+      "plc_4747e7e7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a79c6e2",
+    "kind": "room",
+    "area": 72,
+    "centroid": [
+      76.1,
+      57.3
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "guard post",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55893e5f",
+      "plc_5a746d50",
+      "plc_5a747c9b",
+      "plc_5a7486cd",
+      "plc_7470102f"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a79c895",
+    "kind": "room",
+    "area": 56,
+    "centroid": [
+      20.3,
+      75.0
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a76bca4",
+      "plc_5a76c00a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a6b64ad",
+    "kind": "room",
+    "area": 46,
+    "centroid": [
+      23.4,
+      64.5
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47336551",
+      "plc_558c63cd",
+      "plc_5a852abe"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a6b62fa",
+    "kind": "room",
+    "area": 74,
+    "centroid": [
+      17.8,
+      111.6
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "contaminated",
+      "loud",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473044fc",
+      "plc_473050e1",
+      "plc_47365e91",
+      "plc_5a884447"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a6b6147",
+    "kind": "room",
+    "area": 71,
+    "centroid": [
+      101.1,
+      65.1
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "disputed title",
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55894012",
+      "plc_5a76b78b",
+      "plc_74701a61"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a6b5f94",
+    "kind": "room",
+    "area": 52,
+    "centroid": [
+      83.6,
+      85.7
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473650f9",
+      "plc_473968cf"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a6b5de1",
+    "kind": "room",
+    "area": 36,
+    "centroid": [
+      121.5,
+      81.6
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "disputed title",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472d3c71",
+      "plc_473652ac"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a6b5c2e",
+    "kind": "room",
+    "area": 33,
+    "centroid": [
+      51.2,
+      81.2
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47365cde",
+      "plc_5591a8fb",
+      "plc_74701dc7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a6b5a7b",
+    "kind": "room",
+    "area": 66,
+    "centroid": [
+      54.6,
+      4.5
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "public",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473657c5",
+      "plc_5a6b5562"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a6b58c8",
+    "kind": "room",
+    "area": 55,
+    "centroid": [
+      20.2,
+      9.7
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "market",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47365612",
+      "plc_5a85318a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a6b5715",
+    "kind": "room",
+    "area": 20,
+    "centroid": [
+      67.2,
+      5.8
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "disputed title",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_557de9ce",
+      "plc_557deb81",
+      "plc_747016fb"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_5a6b5562",
+    "kind": "room",
+    "area": 57,
+    "centroid": [
+      61.7,
+      8.0
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "market",
+      "public",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a6847be",
+      "plc_5a6b5a7b",
+      "plc_747016fb"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a684b24",
+    "kind": "room",
+    "area": 51,
+    "centroid": [
+      103.7,
+      116.2
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "disputed title",
+      "lawless",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724c5f0",
+      "plc_4727eb5e"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a684cd7",
+    "kind": "room",
+    "area": 57,
+    "centroid": [
+      61.8,
+      115.1
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4733639e",
+      "plc_74701f7a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a684e8a",
+    "kind": "room",
+    "area": 46,
+    "centroid": [
+      5.3,
+      27.7
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727df79",
+      "plc_558024be"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a68503d",
+    "kind": "room",
+    "area": 55,
+    "centroid": [
+      31.7,
+      11.5
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "disputed title",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727ed11",
+      "plc_47304bc8"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a684458",
+    "kind": "room",
+    "area": 56,
+    "centroid": [
+      52.2,
+      17.4
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "public",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a6847be",
+      "plc_5a8847ad"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a68460b",
+    "kind": "room",
+    "area": 35,
+    "centroid": [
+      116.5,
+      4.3
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4736545f",
+      "plc_474a16f2",
+      "plc_474a18a5"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a6847be",
+    "kind": "room",
+    "area": 59,
+    "centroid": [
+      58.8,
+      18.0
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "garden",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "bright",
+      "contested",
+      "public",
+      "quiet",
+      "remembered",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a684458",
+      "plc_5a6b5562",
+      "plc_747016fb"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_5a684971",
+    "kind": "room",
+    "area": 37,
+    "centroid": [
+      8.8,
+      17.1
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473361eb",
+      "plc_5a85318a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a683d8c",
+    "kind": "room",
+    "area": 59,
+    "centroid": [
+      99.0,
+      14.1
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47305294",
+      "plc_5a85290b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5a683f3f",
+    "kind": "room",
+    "area": 38,
+    "centroid": [
+      77.9,
+      22.1
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727e492",
+      "plc_558e88a6",
+      "plc_5a7fdec4"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47305294",
+    "kind": "room",
+    "area": 44,
+    "centroid": [
+      105.7,
+      13.1
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contaminated",
+      "contested",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af74f",
+      "plc_5a683d8c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47305447",
+    "kind": "room",
+    "area": 59,
+    "centroid": [
+      84.7,
+      30.1
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "public",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472d29c0",
+      "plc_47396c35",
+      "plc_55801726",
+      "plc_5a7fdec4"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_473055fa",
+    "kind": "room",
+    "area": 35,
+    "centroid": [
+      122.8,
+      119.2
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "lawless",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4747d383",
+      "plc_5a7fd645"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_473057ad",
+    "kind": "room",
+    "area": 31,
+    "centroid": [
+      9.7,
+      70.7
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558935e0",
+      "plc_55893946",
+      "plc_5a76c00a",
+      "plc_5a883f2e"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47304bc8",
+    "kind": "room",
+    "area": 49,
+    "centroid": [
+      38.7,
+      12.4
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contaminated",
+      "contested",
+      "den",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a68503d",
+      "plc_5a8847ad"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47304d7b",
+    "kind": "room",
+    "area": 46,
+    "centroid": [
+      35.6,
+      68.6
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "public",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47336551",
+      "plc_558e92d8",
+      "plc_5591b32d",
+      "plc_747018ae"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47304f2e",
+    "kind": "room",
+    "area": 62,
+    "centroid": [
+      91.2,
+      105.0
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "contested",
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5574d02d",
+      "plc_5a79d62d",
+      "plc_5a8845fa"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_473050e1",
+    "kind": "room",
+    "area": 51,
+    "centroid": [
+      20.9,
+      119.2
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47336038",
+      "plc_5a6b62fa"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_473044fc",
+    "kind": "room",
+    "area": 12,
+    "centroid": [
+      15.1,
+      123.6
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "den",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5574c961",
+      "plc_5a6b62fa"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_473046af",
+    "kind": "room",
+    "area": 46,
+    "centroid": [
+      109.8,
+      105.8
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "dark",
+      "den",
+      "lawless",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724c5f0",
+      "plc_47336a6a",
+      "plc_5574cb14"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47336c1d",
+    "kind": "room",
+    "area": 48,
+    "centroid": [
+      78.6,
+      96.9
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "loud",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473650f9",
+      "plc_5a7cb956",
+      "plc_5a8845fa"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47336a6a",
+    "kind": "room",
+    "area": 51,
+    "centroid": [
+      113.0,
+      100.0
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "lawless",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473046af",
+      "plc_558e97f1",
+      "plc_5a8834fc"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_473368b7",
+    "kind": "room",
+    "area": 29,
+    "centroid": [
+      49.8,
+      102.5
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4747e634",
+      "plc_4747e7e7",
+      "plc_5a79cbfb",
+      "plc_5a7cb7a3"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47336704",
+    "kind": "room",
+    "area": 41,
+    "centroid": [
+      73.3,
+      122.3
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "loud",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_557de668",
+      "plc_5a7fd12c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47336551",
+    "kind": "room",
+    "area": 42,
+    "centroid": [
+      29.3,
+      66.2
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "public",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47304d7b",
+      "plc_5a6b64ad"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4733639e",
+    "kind": "room",
+    "area": 31,
+    "centroid": [
+      62.3,
+      120.8
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "loud",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472b084d",
+      "plc_5a684cd7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_473361eb",
+    "kind": "room",
+    "area": 32,
+    "centroid": [
+      3.7,
+      16.3
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "disputed title",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558e99a4",
+      "plc_5a684971"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47336038",
+    "kind": "room",
+    "area": 29,
+    "centroid": [
+      25.7,
+      122.9
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "dark",
+      "den",
+      "disputed title",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473050e1",
+      "plc_4747d536"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47335e85",
+    "kind": "room",
+    "area": 34,
+    "centroid": [
+      82.2,
+      10.1
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727e492",
+      "plc_474a1026",
+      "plc_558e9ebd",
+      "plc_5a883bc8",
+      "plc_74701548"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47335cd2",
+    "kind": "room",
+    "area": 54,
+    "centroid": [
+      65.1,
+      83.3
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contaminated",
+      "contested",
+      "loud",
+      "public",
+      "remembered",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47364f46",
+      "plc_558e963e",
+      "plc_5591b17a",
+      "plc_5a76ad59",
+      "plc_5a7cb5f0"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47364f46",
+    "kind": "room",
+    "area": 53,
+    "centroid": [
+      58.4,
+      85.2
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "guard post",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47335cd2",
+      "plc_47365cde",
+      "plc_558e963e",
+      "plc_5591b17a",
+      "plc_74701dc7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_473650f9",
+    "kind": "room",
+    "area": 51,
+    "centroid": [
+      87.8,
+      90.1
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "dark",
+      "loud",
+      "public",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47336c1d",
+      "plc_5583377b",
+      "plc_5a6b5f94",
+      "plc_5a7cbb09"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47364be0",
+    "kind": "room",
+    "area": 47,
+    "centroid": [
+      110.6,
+      83.4
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "contested",
+      "lawless",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5591a22f",
+      "plc_5a76be57",
+      "plc_5a7cc022"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47364d93",
+    "kind": "room",
+    "area": 40,
+    "centroid": [
+      14.2,
+      89.3
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "loud",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a7fca60",
+      "plc_5a884447"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47365612",
+    "kind": "room",
+    "area": 34,
+    "centroid": [
+      19.4,
+      3.7
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "market",
+      "private",
+      "quiet",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_474a11d9",
+      "plc_5a6b58c8"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_473657c5",
+    "kind": "room",
+    "area": 55,
+    "centroid": [
+      46.7,
+      4.3
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "public",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558c511c",
+      "plc_5a6b5a7b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_473652ac",
+    "kind": "room",
+    "area": 40,
+    "centroid": [
+      122.3,
+      76.2
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "disputed title",
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5591afc7",
+      "plc_5a6b5de1",
+      "plc_5a76be57"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_4736545f",
+    "kind": "room",
+    "area": 37,
+    "centroid": [
+      115.5,
+      9.7
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af74f",
+      "plc_5a68460b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47365cde",
+    "kind": "room",
+    "area": 43,
+    "centroid": [
+      54.5,
+      75.8
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "guard post",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47364f46",
+      "plc_4747ddb5",
+      "plc_55862d55",
+      "plc_5591a8fb",
+      "plc_5591b17a",
+      "plc_5a6b5c2e",
+      "plc_74700e7c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47365e91",
+    "kind": "room",
+    "area": 49,
+    "centroid": [
+      23.9,
+      106.2
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af902",
+      "plc_5a6b62fa"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_473968cf",
+    "kind": "room",
+    "area": 37,
+    "centroid": [
+      83.4,
+      80.0
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "loud",
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5591ae14",
+      "plc_5a6b5f94",
+      "plc_5a7fd492"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4739671c",
+    "kind": "room",
+    "area": 48,
+    "centroid": [
+      32.3,
+      80.4
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55833ffa",
+      "plc_55862f08",
+      "plc_5a76bca4",
+      "plc_5a7cbe6f"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47396c35",
+    "kind": "room",
+    "area": 52,
+    "centroid": [
+      91.5,
+      27.9
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "public",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472d29c0",
+      "plc_47305447",
+      "plc_5a85290b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47396a82",
+    "kind": "room",
+    "area": 61,
+    "centroid": [
+      28.3,
+      50.8
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727da60",
+      "plc_558c4a50",
+      "plc_5a79ca48"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47396203",
+    "kind": "room",
+    "area": 45,
+    "centroid": [
+      105.7,
+      27.6
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "disputed title",
+      "remembered",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47396569",
+      "plc_5a884294"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47396050",
+    "kind": "room",
+    "area": 44,
+    "centroid": [
+      85.1,
+      51.1
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472b069a",
+      "plc_5a747c9b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47396569",
+    "kind": "room",
+    "area": 32,
+    "centroid": [
+      109.8,
+      24.1
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "den",
+      "disputed title",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472d433d",
+      "plc_47396203"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_473963b6",
+    "kind": "room",
+    "area": 62,
+    "centroid": [
+      41.0,
+      24.7
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a74851a",
+      "plc_5a8847ad"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_47397667",
+    "kind": "room",
+    "area": 39,
+    "centroid": [
+      121.6,
+      46.8
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473974b4",
+      "plc_5580230b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_473974b4",
+    "kind": "room",
+    "area": 44,
+    "centroid": [
+      115.1,
+      47.0
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "disputed title",
+      "loud",
+      "public",
+      "remembered",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47397667",
+      "plc_5a7fcc13"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4724c5f0",
+    "kind": "room",
+    "area": 38,
+    "centroid": [
+      105.0,
+      109.5
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "den",
+      "lawless",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473046af",
+      "plc_5a684b24"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4724c7a3",
+    "kind": "room",
+    "area": 55,
+    "centroid": [
+      46.9,
+      32.4
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contaminated",
+      "public",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724ce6f",
+      "plc_5a76aba6"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4724c956",
+    "kind": "room",
+    "area": 35,
+    "centroid": [
+      114.7,
+      37.0
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724ccbc",
+      "plc_472d390b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_4724cb09",
+    "kind": "room",
+    "area": 43,
+    "centroid": [
+      50.8,
+      113.0
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "market",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a79cbfb",
+      "plc_5a7fcf79"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4724ccbc",
+    "kind": "room",
+    "area": 50,
+    "centroid": [
+      120.2,
+      34.0
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724c956",
+      "plc_472d3abe"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_4724ce6f",
+    "kind": "room",
+    "area": 41,
+    "centroid": [
+      42.2,
+      36.9
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "dark",
+      "den",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724c7a3",
+      "plc_5a76b93e"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4724d022",
+    "kind": "room",
+    "area": 45,
+    "centroid": [
+      40.8,
+      45.8
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a76b93e",
+      "plc_5a7fe077"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4724d1d5",
+    "kind": "room",
+    "area": 27,
+    "centroid": [
+      61.9,
+      28.3
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558e8a59",
+      "plc_5a748001",
+      "plc_5a851d26"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_4724d388",
+    "kind": "room",
+    "area": 49,
+    "centroid": [
+      11.2,
+      42.7
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "dark",
+      "den",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724d53b",
+      "plc_5a747ae8"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4724d53b",
+    "kind": "room",
+    "area": 47,
+    "centroid": [
+      4.4,
+      43.6
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724d388",
+      "plc_472d2b73",
+      "plc_472d418a",
+      "plc_558018d9"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4727df79",
+    "kind": "room",
+    "area": 44,
+    "centroid": [
+      11.6,
+      30.4
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a684e8a",
+      "plc_5a747ae8"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4727ddc6",
+    "kind": "room",
+    "area": 43,
+    "centroid": [
+      39.8,
+      59.7
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "public",
+      "remembered",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727da60",
+      "plc_558c621a",
+      "plc_5a851ed9"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4727dc13",
+    "kind": "room",
+    "area": 45,
+    "centroid": [
+      122.5,
+      60.6
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "loud",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55894bf7",
+      "plc_5a746f03"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4727da60",
+    "kind": "room",
+    "area": 58,
+    "centroid": [
+      34.3,
+      56.0
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "disputed title",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727ddc6",
+      "plc_47396a82"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4727e645",
+    "kind": "room",
+    "area": 57,
+    "centroid": [
+      18.9,
+      23.0
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a852c71",
+      "plc_5a85318a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4727e492",
+    "kind": "room",
+    "area": 37,
+    "centroid": [
+      82.0,
+      18.0
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contaminated",
+      "contested",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47335e85",
+      "plc_558e88a6",
+      "plc_5a683f3f",
+      "plc_74701548"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4727e2df",
+    "kind": "room",
+    "area": 33,
+    "centroid": [
+      121.9,
+      18.1
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "den",
+      "private",
+      "quiet",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558e9b57",
+      "plc_5a76c1bd"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4727e12c",
+    "kind": "room",
+    "area": 47,
+    "centroid": [
+      104.4,
+      76.3
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "contested",
+      "disputed title",
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a76be57",
+      "plc_7470212d"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4727ed11",
+    "kind": "room",
+    "area": 52,
+    "centroid": [
+      28.9,
+      18.7
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a68503d",
+      "plc_5a852c71"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4727eb5e",
+    "kind": "room",
+    "area": 67,
+    "centroid": [
+      110.5,
+      119.4
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "lawless",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5574cb14",
+      "plc_5a684b24",
+      "plc_5a7fd645"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472af902",
+    "kind": "room",
+    "area": 35,
+    "centroid": [
+      30.3,
+      104.9
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "den",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47365e91",
+      "plc_5a852758"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472afab5",
+    "kind": "room",
+    "area": 42,
+    "centroid": [
+      98.3,
+      36.7
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "dark",
+      "den",
+      "disputed title",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a76b5d8",
+      "plc_5a884294"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472af59c",
+    "kind": "room",
+    "area": 42,
+    "centroid": [
+      16.5,
+      50.6
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "disputed title",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558c4a50",
+      "plc_5a79ca48",
+      "plc_5a883d7b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472af74f",
+    "kind": "room",
+    "area": 29,
+    "centroid": [
+      111.0,
+      12.3
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "disputed title",
+      "private",
+      "quiet",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47305294",
+      "plc_4736545f"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472af236",
+    "kind": "room",
+    "area": 40,
+    "centroid": [
+      64.2,
+      102.4
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "loud",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a8836af",
+      "plc_74701f7a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472af3e9",
+    "kind": "room",
+    "area": 31,
+    "centroid": [
+      51.6,
+      122.5
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558e948b",
+      "plc_5a7fcf79"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472aeed0",
+    "kind": "room",
+    "area": 44,
+    "centroid": [
+      95.5,
+      47.8
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "bright",
+      "loud",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4747da4f",
+      "plc_5a7481b4",
+      "plc_5a76b5d8"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472af083",
+    "kind": "room",
+    "area": 27,
+    "centroid": [
+      5.6,
+      86.7
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "den",
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5583392e",
+      "plc_558341ad",
+      "plc_5591aaae",
+      "plc_5591ac61",
+      "plc_5a7fca60"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472b069a",
+    "kind": "room",
+    "area": 32,
+    "centroid": [
+      82.7,
+      46.7
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472d29c0",
+      "plc_47396050",
+      "plc_5a7fd2df"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472b084d",
+    "kind": "room",
+    "area": 25,
+    "centroid": [
+      65.5,
+      123.6
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "den",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4733639e",
+      "plc_557de668"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472d390b",
+    "kind": "room",
+    "area": 36,
+    "centroid": [
+      109.0,
+      37.9
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724c956",
+      "plc_557df24d",
+      "plc_5a884294"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472d3758",
+    "kind": "room",
+    "area": 42,
+    "centroid": [
+      3.8,
+      98.3
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "den",
+      "disputed title",
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5583392e",
+      "plc_5a79d114"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472d3c71",
+    "kind": "room",
+    "area": 35,
+    "centroid": [
+      123.9,
+      86.3
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "garden",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "bright",
+      "contested",
+      "remembered",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a6b5de1"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_472d3abe",
+    "kind": "room",
+    "area": 36,
+    "centroid": [
+      120.6,
+      27.7
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "dark",
+      "den",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724ccbc",
+      "plc_5a76c1bd"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_472d3fd7",
+    "kind": "room",
+    "area": 38,
+    "centroid": [
+      42.0,
+      117.3
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a7fcf79",
+      "plc_5a85333d"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472d3e24",
+    "kind": "room",
+    "area": 22,
+    "centroid": [
+      2.9,
+      3.2
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "market",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4747d89c",
+      "plc_558e9d0a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472d433d",
+    "kind": "room",
+    "area": 30,
+    "centroid": [
+      114.1,
+      22.1
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "den",
+      "private",
+      "quiet",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47396569",
+      "plc_5a76c1bd"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_472d418a",
+    "kind": "room",
+    "area": 36,
+    "centroid": [
+      7.6,
+      54.5
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "disputed title",
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724d53b",
+      "plc_5a883d7b",
+      "plc_5a883f2e"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472d2b73",
+    "kind": "room",
+    "area": 16,
+    "centroid": [
+      1.7,
+      53.0
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "disputed title",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724d53b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_472d29c0",
+    "kind": "room",
+    "area": 61,
+    "centroid": [
+      87.9,
+      39.2
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "guard post",
+      "market",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472b069a",
+      "plc_47305447",
+      "plc_47396c35",
+      "plc_557df09a",
+      "plc_5a76b5d8",
+      "plc_5a7fd2df"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4747d89c",
+    "kind": "room",
+    "area": 19,
+    "centroid": [
+      6.6,
+      3.0
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "market",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472d3e24",
+      "plc_474a138c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4747da4f",
+    "kind": "room",
+    "area": 35,
+    "centroid": [
+      96.8,
+      55.5
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "disputed title",
+      "loud",
+      "public",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472aeed0",
+      "plc_55862689",
+      "plc_5a747c9b",
+      "plc_5a7481b4"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4747dc02",
+    "kind": "room",
+    "area": 40,
+    "centroid": [
+      48.5,
+      91.2
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "disputed title",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a7cb7a3",
+      "plc_74701dc7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4747ddb5",
+    "kind": "room",
+    "area": 40,
+    "centroid": [
+      51.6,
+      65.5
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "guard post",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47365cde",
+      "plc_4747d1d0",
+      "plc_558c621a",
+      "plc_5a851ed9",
+      "plc_5a8840e1",
+      "plc_74700e7c",
+      "plc_747018ae"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4747d1d0",
+    "kind": "room",
+    "area": 23,
+    "centroid": [
+      55.1,
+      60.6
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4747ddb5",
+      "plc_558c4c03",
+      "plc_5a747e4e",
+      "plc_5a8840e1"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4747d383",
+    "kind": "room",
+    "area": 14,
+    "centroid": [
+      124.6,
+      122.8
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "lawless",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473055fa"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_4747d536",
+    "kind": "room",
+    "area": 35,
+    "centroid": [
+      32.4,
+      124.9
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "den",
+      "private",
+      "quiet",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47336038",
+      "plc_5574c7ae"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4747d6e9",
+    "kind": "room",
+    "area": 30,
+    "centroid": [
+      3.0,
+      120.9
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "den",
+      "market",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a7cbcbc"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4747e634",
+    "kind": "room",
+    "area": 16,
+    "centroid": [
+      51.2,
+      99.0
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473368b7",
+      "plc_5a7cb7a3"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_4747e7e7",
+    "kind": "room",
+    "area": 9,
+    "centroid": [
+      55.4,
+      100.4
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473368b7",
+      "plc_5a79cbfb",
+      "plc_5a8836af"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_474a18a5",
+    "kind": "room",
+    "area": 23,
+    "centroid": [
+      110.9,
+      2.3
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "disputed title",
+      "market",
+      "private",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558c52cf",
+      "plc_5a68460b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_474a16f2",
+    "kind": "room",
+    "area": 10,
+    "centroid": [
+      119.0,
+      2.0
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "disputed title",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a68460b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_474a153f",
+    "kind": "room",
+    "area": 9,
+    "centroid": [
+      125.3,
+      5.2
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "dark",
+      "den",
+      "disputed title",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558e9b57"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_474a138c",
+    "kind": "room",
+    "area": 17,
+    "centroid": [
+      10.4,
+      2.6
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "private",
+      "quiet",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4747d89c",
+      "plc_474a11d9"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_474a11d9",
+    "kind": "room",
+    "area": 17,
+    "centroid": [
+      14.6,
+      2.6
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47365612",
+      "plc_474a138c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_474a1026",
+    "kind": "room",
+    "area": 24,
+    "centroid": [
+      83.7,
+      2.7
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "disputed title",
+      "private",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47335e85",
+      "plc_474a0e73",
+      "plc_5a883bc8"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_474a0e73",
+    "kind": "room",
+    "area": 12,
+    "centroid": [
+      88.0,
+      2.5
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "loud",
+      "private",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_474a0cc0",
+      "plc_474a1026"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_474a0cc0",
+    "kind": "room",
+    "area": 12,
+    "centroid": [
+      91.0,
+      2.5
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "den",
+      "loud",
+      "private",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_474a0e73",
+      "plc_474a263d"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_474a263d",
+    "kind": "room",
+    "area": 12,
+    "centroid": [
+      94.0,
+      2.5
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "den",
+      "loud",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_474a0cc0",
+      "plc_474a248a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_474a248a",
+    "kind": "room",
+    "area": 12,
+    "centroid": [
+      97.0,
+      2.5
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "den",
+      "disputed title",
+      "loud",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_474a263d",
+      "plc_558c5635"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558c5635",
+    "kind": "room",
+    "area": 12,
+    "centroid": [
+      100.0,
+      2.5
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "den",
+      "private",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_474a248a",
+      "plc_558c5482"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558c5482",
+    "kind": "room",
+    "area": 12,
+    "centroid": [
+      103.0,
+      2.5
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "den",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558c52cf",
+      "plc_558c5635"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558c52cf",
+    "kind": "room",
+    "area": 14,
+    "centroid": [
+      106.3,
+      2.6
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "den",
+      "market",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_474a18a5",
+      "plc_558c5482"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558c511c",
+    "kind": "room",
+    "area": 36,
+    "centroid": [
+      37.0,
+      1.9
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "market",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473657c5",
+      "plc_557de81b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558c4f69",
+    "kind": "room",
+    "area": 15,
+    "centroid": [
+      124.4,
+      101.9
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "lawless",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a79cdae"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_558c4db6",
+    "kind": "room",
+    "area": 8,
+    "centroid": [
+      57.9,
+      53.2
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55802158",
+      "plc_5a747e4e",
+      "plc_5a748367",
+      "plc_5a7486cd",
+      "plc_5a79d47a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558c4c03",
+    "kind": "room",
+    "area": 26,
+    "centroid": [
+      53.5,
+      56.0
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "disputed title",
+      "quiet",
+      "remembered",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4747d1d0",
+      "plc_558c621a",
+      "plc_5a747e4e",
+      "plc_5a748367"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558c4a50",
+    "kind": "room",
+    "area": 9,
+    "centroid": [
+      22.2,
+      54.4
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af59c",
+      "plc_47396a82"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_558c63cd",
+    "kind": "room",
+    "area": 27,
+    "centroid": [
+      22.6,
+      58.1
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558624d6",
+      "plc_5a6b64ad",
+      "plc_5a852abe"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_558c621a",
+    "kind": "room",
+    "area": 34,
+    "centroid": [
+      46.9,
+      59.7
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "guard post",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727ddc6",
+      "plc_4747ddb5",
+      "plc_558c4c03",
+      "plc_5a748367",
+      "plc_5a7fe077",
+      "plc_5a851ed9"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55893cac",
+    "kind": "room",
+    "area": 26,
+    "centroid": [
+      87.8,
+      63.2
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55893e5f",
+      "plc_55894012",
+      "plc_5a747c9b",
+      "plc_74701a61"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55893e5f",
+    "kind": "room",
+    "area": 31,
+    "centroid": [
+      82.6,
+      63.8
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55893af9",
+      "plc_55893cac",
+      "plc_5a746d50",
+      "plc_5a747c9b",
+      "plc_5a79c6e2"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55894012",
+    "kind": "room",
+    "area": 22,
+    "centroid": [
+      92.3,
+      67.0
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "disputed title",
+      "loud",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55893cac",
+      "plc_5a6b6147",
+      "plc_74701a61"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558941c5",
+    "kind": "room",
+    "area": 8,
+    "centroid": [
+      92.0,
+      71.8
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "disputed title",
+      "loud",
+      "remembered",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55893af9",
+      "plc_5a7fd492",
+      "plc_7470212d"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558935e0",
+    "kind": "room",
+    "area": 30,
+    "centroid": [
+      13.4,
+      67.5
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473057ad",
+      "plc_5a76c00a",
+      "plc_5a852abe",
+      "plc_5a883f2e"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55893793",
+    "kind": "room",
+    "area": 17,
+    "centroid": [
+      71.9,
+      68.6
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "contested",
+      "den",
+      "loud",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a746d50",
+      "plc_5a7cc388"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55893946",
+    "kind": "room",
+    "area": 27,
+    "centroid": [
+      3.2,
+      71.6
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "disputed title",
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473057ad",
+      "plc_558341ad",
+      "plc_5a883f2e"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55893af9",
+    "kind": "room",
+    "area": 28,
+    "centroid": [
+      85.5,
+      70.9
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "garden",
+    "tags": [
+      "bright",
+      "contested",
+      "guard post",
+      "loud",
+      "public",
+      "underserved",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55893e5f",
+      "plc_558941c5",
+      "plc_55894a44",
+      "plc_5591ae14",
+      "plc_5a7fd492"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55894a44",
+    "kind": "room",
+    "area": 27,
+    "centroid": [
+      77.9,
+      71.8
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "guard post",
+      "loud",
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55893af9",
+      "plc_5591ae14",
+      "plc_5a746d50",
+      "plc_5a76ad59",
+      "plc_5a7cc388"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55894bf7",
+    "kind": "room",
+    "area": 18,
+    "centroid": [
+      124.4,
+      55.7
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "den",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727dc13",
+      "plc_5580230b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5591afc7",
+    "kind": "room",
+    "area": 16,
+    "centroid": [
+      124.9,
+      71.9
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "market",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473652ac"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_5591ae14",
+    "kind": "room",
+    "area": 21,
+    "centroid": [
+      80.9,
+      75.0
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "den",
+      "loud",
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473968cf",
+      "plc_55893af9",
+      "plc_55894a44",
+      "plc_5a7fd492"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5591b32d",
+    "kind": "room",
+    "area": 21,
+    "centroid": [
+      40.9,
+      73.9
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47304d7b",
+      "plc_558e92d8",
+      "plc_5591a748",
+      "plc_747018ae"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5591b17a",
+    "kind": "room",
+    "area": 50,
+    "centroid": [
+      63.0,
+      75.0
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "guard post",
+      "loud",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47335cd2",
+      "plc_47364f46",
+      "plc_47365cde",
+      "plc_55862ba2",
+      "plc_558630bb",
+      "plc_5a76ad59",
+      "plc_74700e7c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5591a8fb",
+    "kind": "room",
+    "area": 22,
+    "centroid": [
+      49.0,
+      76.3
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47365cde",
+      "plc_5591a748",
+      "plc_5a6b5c2e",
+      "plc_747018ae"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5591a748",
+    "kind": "room",
+    "area": 19,
+    "centroid": [
+      45.0,
+      77.8
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "market",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5591a8fb",
+      "plc_5591b32d",
+      "plc_747018ae"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5591ac61",
+    "kind": "room",
+    "area": 9,
+    "centroid": [
+      2.1,
+      84.8
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "dark",
+      "den",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af083",
+      "plc_5591aaae"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_5591aaae",
+    "kind": "room",
+    "area": 13,
+    "centroid": [
+      2.2,
+      88.8
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "den",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af083",
+      "plc_5591ac61"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_5591a22f",
+    "kind": "room",
+    "area": 21,
+    "centroid": [
+      110.1,
+      89.1
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "contested",
+      "dark",
+      "den",
+      "lawless",
+      "market",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47364be0",
+      "plc_558e97f1",
+      "plc_5a7cc022",
+      "plc_5a8834fc"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_5591a07c",
+    "kind": "room",
+    "area": 22,
+    "centroid": [
+      23.8,
+      90.1
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "bright",
+      "loud",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a852e24",
+      "plc_5a884447"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558e963e",
+    "kind": "room",
+    "area": 37,
+    "centroid": [
+      60.6,
+      91.7
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "disputed title",
+      "guard post",
+      "public",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47335cd2",
+      "plc_47364f46",
+      "plc_5a7cb5f0",
+      "plc_5a8836af",
+      "plc_74701dc7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_558e97f1",
+    "kind": "room",
+    "area": 25,
+    "centroid": [
+      106.8,
+      92.7
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "dark",
+      "den",
+      "lawless",
+      "loud",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47336a6a",
+      "plc_5591a22f",
+      "plc_5a7cc022",
+      "plc_74701c14"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558e92d8",
+    "kind": "room",
+    "area": 15,
+    "centroid": [
+      34.1,
+      72.5
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "den",
+      "disputed title",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47304d7b",
+      "plc_5591b32d"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_558e948b",
+    "kind": "room",
+    "area": 15,
+    "centroid": [
+      54.9,
+      124.7
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "den",
+      "disputed title",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472af3e9"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558e9d0a",
+    "kind": "room",
+    "area": 13,
+    "centroid": [
+      2.0,
+      7.1
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "market",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472d3e24",
+      "plc_558e99a4"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558e9ebd",
+    "kind": "room",
+    "area": 25,
+    "centroid": [
+      76.0,
+      8.4
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "private",
+      "remembered",
+      "unrest",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47335e85",
+      "plc_5a883bc8"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558e99a4",
+    "kind": "room",
+    "area": 14,
+    "centroid": [
+      2.0,
+      12.1
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "den",
+      "disputed title",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473361eb",
+      "plc_558e9d0a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558e9b57",
+    "kind": "room",
+    "area": 27,
+    "centroid": [
+      125.2,
+      12.7
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "dark",
+      "den",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727e2df",
+      "plc_474a153f"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_558e88a6",
+    "kind": "room",
+    "area": 26,
+    "centroid": [
+      74.1,
+      18.1
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "market",
+      "quiet",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4727e492",
+      "plc_5a683f3f",
+      "plc_5a748001",
+      "plc_747016fb"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558e8a59",
+    "kind": "room",
+    "area": 16,
+    "centroid": [
+      65.9,
+      29.7
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724d1d5",
+      "plc_557deee7",
+      "plc_55802671",
+      "plc_5a748001",
+      "plc_5a851d26"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_55802671",
+    "kind": "room",
+    "area": 36,
+    "centroid": [
+      69.4,
+      33.0
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "quiet",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55801726",
+      "plc_558029d7",
+      "plc_558e8a59",
+      "plc_5a748001",
+      "plc_5a7fdec4"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_558024be",
+    "kind": "room",
+    "area": 24,
+    "centroid": [
+      2.4,
+      32.1
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "dark",
+      "den",
+      "disputed title",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558018d9",
+      "plc_5a684e8a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_5580230b",
+    "kind": "room",
+    "area": 22,
+    "centroid": [
+      124.5,
+      50.8
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "den",
+      "disputed title",
+      "market",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47397667",
+      "plc_55894bf7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55802158",
+    "kind": "room",
+    "area": 32,
+    "centroid": [
+      60.5,
+      47.0
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contaminated",
+      "contested",
+      "public",
+      "quiet",
+      "remembered",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_558c4db6",
+      "plc_5a7486cd",
+      "plc_5a76baf1",
+      "plc_5a79d47a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55802d3d",
+    "kind": "room",
+    "area": 8,
+    "centroid": [
+      64.9,
+      48.0
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "den",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a7486cd",
+      "plc_7470102f"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55802b8a",
+    "kind": "room",
+    "area": 12,
+    "centroid": [
+      54.3,
+      43.6
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "blind spot",
+      "contested",
+      "disputed title",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a76baf1",
+      "plc_5a79d47a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558029d7",
+    "kind": "room",
+    "area": 7,
+    "centroid": [
+      69.9,
+      37.9
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "dark",
+      "private",
+      "quiet",
+      "remembered",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_55802671",
+      "plc_5a79cf61"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_55802824",
+    "kind": "room",
+    "area": 18,
+    "centroid": [
+      73.9,
+      41.6
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "den",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_5a79cf61",
+      "plc_5a7fd2df"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558018d9",
+    "kind": "room",
+    "area": 22,
+    "centroid": [
+      2.6,
+      37.7
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "hall",
+    "tags": [
+      "ancient fabric",
+      "blind spot",
+      "contested",
+      "den",
+      "disputed title",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_4724d53b",
+      "plc_558024be"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_55801726",
+    "kind": "room",
+    "area": 38,
+    "centroid": [
+      78.2,
+      34.8
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "garden",
+    "tags": [
+      "blind spot",
+      "bright",
+      "contested",
+      "guard post",
+      "public",
+      "quiet",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_47305447",
+      "plc_557df09a",
+      "plc_55802671",
+      "plc_5a79cf61",
+      "plc_5a7fd2df",
+      "plc_5a7fdec4"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_557de668",
+    "kind": "room",
+    "area": 16,
+    "centroid": [
+      69.2,
+      124.7
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "hall",
+    "tags": [
+      "contested",
+      "dark",
+      "den",
+      "loud",
+      "private",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_472b084d",
+      "plc_47336704"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_557de81b",
+    "kind": "corridor",
+    "area": 4,
+    "centroid": [
+      28.0,
+      1.5
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "circulation",
+    "tags": [
+      "bright",
+      "contested",
+      "private",
+      "quiet"
+    ],
+    "neighbours": [
+      "plc_558c511c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_557de9ce",
+    "kind": "corridor",
+    "area": 5,
+    "centroid": [
+      70.8,
+      1.4
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "contested",
+      "private"
+    ],
+    "neighbours": [
+      "plc_5a6b5715"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_557deb81",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      69.0,
+      10.5
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "contested",
+      "dark",
+      "private",
+      "quiet"
+    ],
+    "neighbours": [
+      "plc_5a6b5715"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_557ded34",
+    "kind": "corridor",
+    "area": 3,
+    "centroid": [
+      31.0,
+      32.0
+    ],
+    "stratum": 0,
+    "district": "inner core",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "bright",
+      "contested",
+      "loud",
+      "underserved"
+    ],
+    "neighbours": [
+      "plc_5a852c71"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_557deee7",
+    "kind": "corridor",
+    "area": 5,
+    "centroid": [
+      64.6,
+      34.8
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "contested",
+      "dark",
+      "private",
+      "quiet"
+    ],
+    "neighbours": [
+      "plc_558e8a59",
+      "plc_5a76baf1",
+      "plc_5a851d26"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_557df09a",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      84.5,
+      35.0
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "circulation",
+    "tags": [
+      "contested",
+      "private",
+      "quiet"
+    ],
+    "neighbours": [
+      "plc_472d29c0",
+      "plc_55801726"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_557df24d",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      103.5,
+      41.0
+    ],
+    "stratum": 0,
+    "district": "north ward",
+    "function": "circulation",
+    "tags": [
+      "dark",
+      "private"
+    ],
+    "neighbours": [
+      "plc_472d390b"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_557dd8d0",
+    "kind": "corridor",
+    "area": 3,
+    "centroid": [
+      30.0,
+      44.0
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "dark",
+      "loud",
+      "private"
+    ],
+    "neighbours": [
+      "plc_5a852fd7"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_557dda83",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      51.0,
+      46.5
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "circulation",
+    "tags": [
+      "dark",
+      "private"
+    ],
+    "neighbours": [
+      "plc_5a748367"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55862323",
+    "kind": "corridor",
+    "area": 3,
+    "centroid": [
+      73.0,
+      46.0
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "circulation",
+    "tags": [
+      "contested",
+      "private",
+      "quiet"
+    ],
+    "neighbours": [
+      "plc_7470102f"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55862170",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      78.0,
+      47.5
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "circulation",
+    "tags": [
+      "contested",
+      "dark",
+      "private",
+      "quiet"
+    ],
+    "neighbours": [
+      "plc_5a7fd2df"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55862689",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      104.0,
+      57.5
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "circulation",
+    "tags": [
+      "dark",
+      "loud",
+      "private"
+    ],
+    "neighbours": [
+      "plc_4747da4f",
+      "plc_5a7fcc13"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5abc3",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558624d6",
+    "kind": "corridor",
+    "area": 3,
+    "centroid": [
+      29.0,
+      59.0
+    ],
+    "stratum": 0,
+    "district": "east ward",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "contested",
+      "dark",
+      "private"
+    ],
+    "neighbours": [
+      "plc_558c63cd"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_558629ef",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      67.0,
+      60.5
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "circulation",
+    "tags": [
+      "contested",
+      "dark",
+      "private",
+      "quiet"
+    ],
+    "neighbours": [
+      "plc_5a747e4e"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b442",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5586283c",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      64.0,
+      66.5
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "circulation",
+    "tags": [
+      "contested",
+      "dark",
+      "private"
+    ],
+    "neighbours": [
+      "plc_5a747e4e",
+      "plc_74700e7c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55862d55",
+    "kind": "corridor",
+    "area": 3,
+    "centroid": [
+      49.7,
+      71.7
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "circulation",
+    "tags": [
+      "contested",
+      "dark",
+      "private"
+    ],
+    "neighbours": [
+      "plc_47365cde",
+      "plc_747018ae"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55862ba2",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      67.0,
+      71.5
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "contested",
+      "loud",
+      "private"
+    ],
+    "neighbours": [
+      "plc_5591b17a"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_558630bb",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      68.5,
+      73.0
+    ],
+    "stratum": 0,
+    "district": "outer ring",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "contested",
+      "dark",
+      "loud",
+      "private"
+    ],
+    "neighbours": [
+      "plc_5591b17a",
+      "plc_5a7cc388"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5aa10",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_55862f08",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      31.5,
+      75.0
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "dark",
+      "private",
+      "quiet"
+    ],
+    "neighbours": [
+      "plc_4739671c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_55833ffa",
+    "kind": "corridor",
+    "area": 4,
+    "centroid": [
+      36.5,
+      77.0
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "dark",
+      "private",
+      "quiet"
+    ],
+    "neighbours": [
+      "plc_4739671c"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_558341ad",
+    "kind": "corridor",
+    "area": 5,
+    "centroid": [
+      6.0,
+      80.0
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "dark",
+      "private"
+    ],
+    "neighbours": [
+      "plc_472af083",
+      "plc_55893946"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_55833c94",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      20.5,
+      81.0
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "circulation",
+    "tags": [
+      "dark",
+      "private"
+    ],
+    "neighbours": [
+      "plc_5a76bca4"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55833e47",
+    "kind": "corridor",
+    "area": 3,
+    "centroid": [
+      98.3,
+      90.3
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "dark",
+      "lawless",
+      "loud",
+      "private"
+    ],
+    "neighbours": [
+      "plc_74701c14"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_5583392e",
+    "kind": "corridor",
+    "area": 3,
+    "centroid": [
+      6.0,
+      92.0
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "dark",
+      "private"
+    ],
+    "neighbours": [
+      "plc_472af083",
+      "plc_472d3758"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_55833ae1",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      43.5,
+      94.0
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "circulation",
+    "tags": [
+      "contested",
+      "dark",
+      "private"
+    ],
+    "neighbours": [
+      "plc_5a7cb7a3"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_558335c8",
+    "kind": "corridor",
+    "area": 4,
+    "centroid": [
+      54.5,
+      96.0
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "circulation",
+    "tags": [
+      "ancient fabric",
+      "contested",
+      "private"
+    ],
+    "neighbours": [
+      "plc_5a8836af"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b28f",
+      "era": "expansion"
+    }
+  },
+  {
+    "id": "plc_5583377b",
+    "kind": "corridor",
+    "area": 7,
+    "centroid": [
+      84.9,
+      96.0
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "circulation",
+    "tags": [
+      "bright",
+      "contested",
+      "loud",
+      "underserved",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473650f9",
+      "plc_5a8845fa"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55833262",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      33.5,
+      98.0
+    ],
+    "stratum": 0,
+    "district": "south ward",
+    "function": "circulation",
+    "tags": [
+      "dark",
+      "private"
+    ],
+    "neighbours": [
+      "plc_5a7fcdc6"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_55833415",
+    "kind": "corridor",
+    "area": 3,
+    "centroid": [
+      100.7,
+      104.7
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "circulation",
+    "tags": [
+      "dark",
+      "lawless",
+      "loud",
+      "private"
+    ],
+    "neighbours": [
+      "plc_74701c14"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5574d02d",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      97.5,
+      107.0
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "circulation",
+    "tags": [
+      "contested",
+      "dark",
+      "loud",
+      "private"
+    ],
+    "neighbours": [
+      "plc_47304f2e"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5574ce7a",
+    "kind": "corridor",
+    "area": 4,
+    "centroid": [
+      86.2,
+      109.0
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "circulation",
+    "tags": [
+      "bright",
+      "contested",
+      "loud",
+      "underserved"
+    ],
+    "neighbours": [
+      "plc_5a8845fa"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5574ccc7",
+    "kind": "corridor",
+    "area": 2,
+    "centroid": [
+      82.0,
+      111.5
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "circulation",
+    "tags": [
+      "contested",
+      "dark",
+      "loud",
+      "private"
+    ],
+    "neighbours": [
+      "plc_5a8845fa"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b5f5",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5574cb14",
+    "kind": "corridor",
+    "area": 3,
+    "centroid": [
+      110.0,
+      112.0
+    ],
+    "stratum": 0,
+    "district": "low quarter",
+    "function": "circulation",
+    "tags": [
+      "dark",
+      "lawless",
+      "private"
+    ],
+    "neighbours": [
+      "plc_4727eb5e",
+      "plc_473046af"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5af29",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5574c961",
+    "kind": "corridor",
+    "area": 7,
+    "centroid": [
+      11.4,
+      125.7
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "circulation",
+    "tags": [
+      "blind spot",
+      "private",
+      "quiet",
+      "volatile"
+    ],
+    "neighbours": [
+      "plc_473044fc"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5574c7ae",
+    "kind": "corridor",
+    "area": 5,
+    "centroid": [
+      40.4,
+      125.6
+    ],
+    "stratum": 0,
+    "district": "west ward",
+    "function": "circulation",
+    "tags": [
+      "private",
+      "quiet"
+    ],
+    "neighbours": [
+      "plc_4747d536"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5ad76",
+      "era": "occupation"
+    }
+  },
+  {
+    "id": "plc_5574c5fb",
+    "kind": "corridor",
+    "area": 4,
+    "centroid": [
+      101.5,
+      126.0
+    ],
+    "stratum": 0,
+    "district": "high quarter",
+    "function": "circulation",
+    "tags": [
+      "bright",
+      "contested",
+      "loud",
+      "underserved"
+    ],
+    "neighbours": [
+      "plc_5a7cc1d5"
+    ],
+    "meta": {
+      "sovereign": "fac_59e5b0dc",
+      "era": "occupation"
+    }
+  }
+]

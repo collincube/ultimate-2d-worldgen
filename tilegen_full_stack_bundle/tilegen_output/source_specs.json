@@ -1,0 +1,1448 @@
+[
+  {
+    "background": "wall",
+    "hub_r": 7,
+    "id": 1,
+    "name": "A circular hub with radiating corridors like spokes",
+    "size": 64,
+    "spoke_len": 22,
+    "spokes": 8,
+    "template": "hub_spokes",
+    "terminal": "room",
+    "terminal_size": 7,
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "core": "chamber",
+    "core_r": 4,
+    "end_r": 7,
+    "id": 2,
+    "name": "A descending spiral tower with layered platforms",
+    "platform_count": 7,
+    "platform_overlay": "stair",
+    "platforms": true,
+    "size": 64,
+    "spiral_type": "circular",
+    "start_r": 24,
+    "template": "spiral",
+    "theme": "tower",
+    "turns": 3.3,
+    "width": 2
+  },
+  {
+    "background": "wall",
+    "cols": 4,
+    "connection_mode": "maze",
+    "gap_x": 4,
+    "gap_y": 4,
+    "id": 3,
+    "name": "A grid-like labyrinth of uniform square rooms",
+    "room_h": 8,
+    "room_w": 8,
+    "rows": 4,
+    "size": 64,
+    "template": "grid_rooms",
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "id": 4,
+    "name": "A vertical shaft with stacked chambers and ladders",
+    "room_h": 6,
+    "room_w": 10,
+    "rooms": 6,
+    "shaft_overlay": "ladder",
+    "shaft_w": 3,
+    "size": 64,
+    "template": "vertical_stack",
+    "theme": "shaft"
+  },
+  {
+    "angle": -1.5707963267948966,
+    "background": "wall",
+    "depth": 5,
+    "id": 5,
+    "length": 9,
+    "name": "A branching cave system with irregular tunnels",
+    "room_rate": 0.5,
+    "size": 64,
+    "spread": 1.1,
+    "start": [
+      32,
+      56
+    ],
+    "template": "branch_caves",
+    "theme": "cave",
+    "width": 3
+  },
+  {
+    "background": "wall",
+    "center_h": 10,
+    "center_w": 12,
+    "id": 6,
+    "name": "A symmetrical temple with mirrored wings",
+    "room_h": 6,
+    "room_w": 8,
+    "size": 64,
+    "template": "symmetrical_complex",
+    "theme": "temple",
+    "wing_rooms": 4
+  },
+  {
+    "background": "wall",
+    "courtyard": true,
+    "entrances": 4,
+    "id": 7,
+    "keep": 12,
+    "name": "A multi-floor fortress with central courtyard",
+    "rings": 3,
+    "size": 64,
+    "template": "fortress",
+    "theme": "fortress"
+  },
+  {
+    "background": "wall",
+    "corridor_w": 3,
+    "id": 8,
+    "name": "A narrow linear gauntlet with occasional side alcoves",
+    "offset": 8,
+    "room_h": 5,
+    "room_rate": 0.8,
+    "room_w": 6,
+    "size": 64,
+    "template": "linear_gauntlet",
+    "theme": "gauntlet"
+  },
+  {
+    "background": "wall",
+    "extra_loops": 0.35,
+    "id": 9,
+    "name": "A maze of interlocking loops and shortcuts",
+    "room_count": 12,
+    "size": 64,
+    "template": "loops_network",
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "id": 10,
+    "levels": 5,
+    "name": "A tiered pyramid with ascending terraces",
+    "size": 64,
+    "step": 5,
+    "template": "pyramid_terraces",
+    "terraces": true,
+    "th": 2,
+    "theme": "pyramid"
+  },
+  {
+    "background": "wall",
+    "id": 11,
+    "name": "A submerged ruin with interconnected waterlogged halls",
+    "room_count": 8,
+    "ruin": true,
+    "size": 64,
+    "template": "flooded",
+    "theme": "ruin",
+    "theme_variant": "ruin"
+  },
+  {
+    "background": "wall",
+    "district_cols": 3,
+    "district_rows": 3,
+    "id": 12,
+    "name": "A sprawling underground city with districts",
+    "size": 72,
+    "template": "city",
+    "theme": "city"
+  },
+  {
+    "background": "wall",
+    "collapsed": true,
+    "fragments": 9,
+    "id": 13,
+    "name": "A collapsed structure with fragmented pathways",
+    "size": 64,
+    "template": "fragmented",
+    "theme": "ruin"
+  },
+  {
+    "background": "wall",
+    "id": 14,
+    "mode": "zigzag",
+    "name": "A zigzagging canyon with elevated ledges",
+    "size": 64,
+    "template": "canyon",
+    "theme": "canyon",
+    "width": 5
+  },
+  {
+    "background": "wall",
+    "core": "chamber",
+    "core_w": 10,
+    "id": 15,
+    "name": "A ring-shaped corridor encircling a core chamber",
+    "radials": false,
+    "rings": 1,
+    "size": 64,
+    "start_r": 12,
+    "template": "ring_core",
+    "th": 3,
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "id": 16,
+    "name": "A layered dungeon where floors overlap vertically",
+    "size": 64,
+    "template": "layered_overlap",
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "cells": 4,
+    "id": 17,
+    "name": "A modular set of rooms connected by rotating passages",
+    "open_rate": 0.7,
+    "size": 64,
+    "template": "rotating_modular",
+    "theme": "modular"
+  },
+  {
+    "hazard": "abyss",
+    "id": 18,
+    "name": "A lattice of bridges suspended over void",
+    "size": 64,
+    "template": "bridge_lattice",
+    "theme": "void"
+  },
+  {
+    "background": "wall",
+    "id": 19,
+    "name": "A honeycomb structure of hexagonal chambers",
+    "r": 4,
+    "size": 64,
+    "template": "honeycomb",
+    "theme": "hive"
+  },
+  {
+    "background": "wall",
+    "courtyard": false,
+    "entrances": 4,
+    "id": 20,
+    "keep": 10,
+    "name": "A castle keep with concentric defensive layers",
+    "rings": 4,
+    "size": 64,
+    "template": "fortress",
+    "theme": "castle"
+  },
+  {
+    "background": "wall",
+    "branch_len": 10,
+    "id": 21,
+    "name": "A narrow shaft with branching side tunnels",
+    "narrow": true,
+    "room_h": 5,
+    "room_w": 8,
+    "rooms": 7,
+    "shaft_overlay": "ladder",
+    "side_branches": true,
+    "size": 64,
+    "template": "vertical_stack",
+    "theme": "mine"
+  },
+  {
+    "background": "wall",
+    "branch_rooms": true,
+    "hub_h": 10,
+    "hub_shape": "rect",
+    "hub_w": 10,
+    "id": 22,
+    "name": "A multi-wing complex with a central nexus",
+    "size": 64,
+    "spoke_len": 20,
+    "spokes": 6,
+    "template": "hub_spokes",
+    "terminal": "room",
+    "terminal_size": 8,
+    "theme": "complex"
+  },
+  {
+    "background": "abyss",
+    "count": 8,
+    "dx": 6,
+    "dy": 6,
+    "id": 23,
+    "ladders": true,
+    "name": "A diagonal climb across staggered platforms",
+    "size": 64,
+    "template": "diagonal_platforms",
+    "theme": "platform",
+    "void_bg": true
+  },
+  {
+    "alternating": true,
+    "background": "wall",
+    "id": 24,
+    "name": "A flooded labyrinth with alternating dry and submerged paths",
+    "room_count": 10,
+    "ruin": false,
+    "size": 64,
+    "template": "flooded",
+    "theme": "labyrinth"
+  },
+  {
+    "background": "wall",
+    "core": "void",
+    "core_r": 6,
+    "end_r": 8,
+    "id": 25,
+    "name": "A spiral staircase wrapping a hollow core",
+    "platforms": false,
+    "size": 64,
+    "spiral_type": "circular",
+    "start_r": 25,
+    "template": "spiral",
+    "theme": "tower",
+    "turns": 3.0,
+    "width": 2
+  },
+  {
+    "background": "wall",
+    "extra_loops": 0.3,
+    "id": 26,
+    "name": "A crisscrossing network of tunnels at multiple elevations",
+    "overlap": true,
+    "room_count": 10,
+    "size": 64,
+    "template": "loops_network",
+    "theme": "caves"
+  },
+  {
+    "background": "wall",
+    "cols": 5,
+    "gap_x": 4,
+    "gap_y": 4,
+    "id": 27,
+    "lock_rate": 0.7,
+    "locked_intersections": true,
+    "name": "A rectangular grid with locked intersections",
+    "room_h": 7,
+    "room_w": 7,
+    "rows": 4,
+    "size": 64,
+    "template": "grid_rooms",
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "id": 28,
+    "name": "A cavern with towering pillars forming natural corridors",
+    "pillars": 26,
+    "size": 64,
+    "template": "pillar_cavern",
+    "theme": "cave"
+  },
+  {
+    "background": "wall",
+    "id": 29,
+    "landings": true,
+    "name": "A descending zigzag staircase with landings",
+    "size": 64,
+    "template": "zigzag_stairs",
+    "theme": "stair"
+  },
+  {
+    "background": "wall",
+    "hub_r": 9,
+    "id": 30,
+    "name": "A central arena with branching challenge rooms",
+    "size": 64,
+    "spoke_len": 18,
+    "spokes": 6,
+    "template": "hub_spokes",
+    "term_overlay": "challenge",
+    "terminal": "room",
+    "terminal_size": 7,
+    "theme": "arena"
+  },
+  {
+    "background": "wall",
+    "id": 31,
+    "maze_wing": true,
+    "name": "A mirrored maze where paths reflect each other",
+    "size": 64,
+    "template": "symmetrical_complex",
+    "theme": "maze"
+  },
+  {
+    "background": "wall",
+    "id": 32,
+    "name": "A tower of stacked circular arenas",
+    "size": 64,
+    "template": "stacked_arenas",
+    "theme": "tower"
+  },
+  {
+    "background": "wall",
+    "id": 33,
+    "mode": "cliffside",
+    "name": "A winding cliffside path hugging outer walls",
+    "size": 64,
+    "template": "canyon",
+    "theme": "cliff"
+  },
+  {
+    "background": "abyss",
+    "id": 34,
+    "name": "A set of isolated rooms connected by teleport nodes",
+    "size": 64,
+    "template": "teleport_rooms",
+    "theme": "arcane"
+  },
+  {
+    "background": "wall",
+    "depth": 5,
+    "id": 35,
+    "length": 9,
+    "name": "A branching tree-like structure with dead ends",
+    "size": 64,
+    "template": "tree_deadends",
+    "theme": "roots"
+  },
+  {
+    "background": "wall",
+    "id": 36,
+    "name": "A fortress wall interior with patrol corridors",
+    "size": 64,
+    "template": "patrol_routes",
+    "theme": "fortress"
+  },
+  {
+    "background": "wall",
+    "id": 37,
+    "name": "A subterranean river splitting pathways",
+    "size": 64,
+    "template": "river_split",
+    "theme": "cave"
+  },
+  {
+    "background": "wall",
+    "hidden": true,
+    "id": 38,
+    "name": "A layered dungeon with hidden passages between floors",
+    "size": 64,
+    "template": "layered_overlap",
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "core": "chamber",
+    "core_w": 6,
+    "gap": 5,
+    "id": 39,
+    "maze_rings": true,
+    "name": "A circular maze with concentric rings",
+    "radial_count": 4,
+    "radials": true,
+    "rings": 3,
+    "size": 64,
+    "start_r": 8,
+    "template": "ring_core",
+    "th": 2,
+    "theme": "maze"
+  },
+  {
+    "background": "abyss",
+    "balconies": true,
+    "count": 0,
+    "id": 40,
+    "name": "A staggered series of balconies overlooking a void",
+    "size": 64,
+    "template": "diagonal_platforms",
+    "theme": "void",
+    "void_bg": true
+  },
+  {
+    "background": "wall",
+    "compact": true,
+    "extra_loops": 0.45,
+    "id": 41,
+    "name": "A compact dungeon with dense interconnected shortcuts",
+    "room_count": 14,
+    "size": 64,
+    "template": "loops_network",
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "gated": true,
+    "id": 42,
+    "name": "A long corridor punctuated by gated chambers",
+    "offset": 9,
+    "room_rate": 0.9,
+    "size": 64,
+    "template": "linear_gauntlet",
+    "theme": "gauntlet"
+  },
+  {
+    "background": "abyss",
+    "bridge_links": true,
+    "broken": true,
+    "count": 9,
+    "dx": 4,
+    "dy": 6,
+    "id": 43,
+    "name": "A vertical climb through broken platforms",
+    "size": 64,
+    "template": "diagonal_platforms",
+    "theme": "platform",
+    "void_bg": true
+  },
+  {
+    "background": "wall",
+    "dual_path": true,
+    "extra_loops": 0.15,
+    "id": 44,
+    "name": "A dual-path layout that reconverges repeatedly",
+    "room_count": 6,
+    "size": 64,
+    "template": "loops_network",
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "hub_r": 6,
+    "id": 45,
+    "name": "A central shaft with radial elevators",
+    "size": 64,
+    "spoke_len": 20,
+    "spokes": 8,
+    "template": "hub_spokes",
+    "term_overlay": "elevator",
+    "terminal": "alcove",
+    "theme": "shaft"
+  },
+  {
+    "background": "wall",
+    "hub_r": 7,
+    "id": 46,
+    "name": "A series of puzzle rooms branching from a hub",
+    "size": 64,
+    "spoke_len": 18,
+    "spokes": 5,
+    "template": "hub_spokes",
+    "term_overlay": "challenge",
+    "terminal": "room",
+    "terminal_size": 8,
+    "theme": "puzzle"
+  },
+  {
+    "background": "wall",
+    "extra_loops": 0.3,
+    "id": 47,
+    "name": "A looping corridor system with shifting walls",
+    "room_count": 10,
+    "shifting": true,
+    "size": 64,
+    "template": "loops_network",
+    "theme": "dungeon"
+  },
+  {
+    "hazard": "lava",
+    "id": 48,
+    "name": "A narrow bridge network over lava or abyss",
+    "size": 64,
+    "template": "bridge_lattice",
+    "theme": "lava",
+    "width": 1
+  },
+  {
+    "angle": -0.8,
+    "background": "wall",
+    "depth": 5,
+    "id": 49,
+    "length": 8,
+    "name": "A collapsed mine with slanted tunnels",
+    "rubble": true,
+    "size": 64,
+    "slanted": true,
+    "spread": 0.7,
+    "start": [
+      12,
+      52
+    ],
+    "template": "branch_caves",
+    "theme": "mine",
+    "width": 2
+  },
+  {
+    "background": "wall",
+    "cross": true,
+    "id": 50,
+    "mirror_y": false,
+    "name": "A symmetrical cross-shaped layout with four wings",
+    "size": 64,
+    "template": "symmetrical_complex",
+    "theme": "temple"
+  },
+  {
+    "background": "wall",
+    "core": "void",
+    "core_r": 4,
+    "end_r": 5,
+    "id": 51,
+    "name": "A descending funnel-shaped cavern",
+    "outer_platform_ring": [
+      24,
+      28
+    ],
+    "size": 64,
+    "spiral_type": "circular",
+    "start_r": 24,
+    "template": "spiral",
+    "theme": "cave",
+    "turns": 2.4,
+    "width": 4
+  },
+  {
+    "arena": true,
+    "arena_r": 9,
+    "background": "wall",
+    "id": 52,
+    "levels": 4,
+    "name": "A tiered arena with surrounding corridors",
+    "size": 64,
+    "step": 6,
+    "template": "pyramid_terraces",
+    "terraces": false,
+    "th": 2,
+    "theme": "arena"
+  },
+  {
+    "background": "wall",
+    "courtyard": false,
+    "entrances": 2,
+    "id": 53,
+    "keep": 10,
+    "name": "A rectangular fortress with perimeter hallways",
+    "perimeter_halls": true,
+    "rings": 2,
+    "size": 64,
+    "template": "fortress",
+    "theme": "fortress"
+  },
+  {
+    "background": "wall",
+    "id": 54,
+    "name": "A winding sewer system with circular junctions",
+    "size": 64,
+    "template": "flooded",
+    "theme": "sewer"
+  },
+  {
+    "background": "wall",
+    "id": 55,
+    "name": "A multi-level library with stacked walkways",
+    "size": 64,
+    "template": "library",
+    "theme": "library"
+  },
+  {
+    "background": "wall",
+    "id": 56,
+    "name": "A dungeon divided into quadrants around a core",
+    "size": 64,
+    "template": "quadrants_core",
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "dx": 6,
+    "dy": 6,
+    "id": 57,
+    "name": "A cascading series of rooms descending like steps",
+    "size": 64,
+    "steps": 7,
+    "template": "step_rooms",
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "id": 58,
+    "name": "A dense cluster of small interconnected chambers",
+    "room_count": 26,
+    "size": 64,
+    "template": "dense_cluster",
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "branch_len": 9,
+    "drop_shafts": true,
+    "id": 59,
+    "name": "A vertical labyrinth with ladders and drop shafts",
+    "rooms": 8,
+    "shaft_overlay": "ladder",
+    "side_branches": true,
+    "size": 64,
+    "template": "vertical_stack",
+    "theme": "shaft",
+    "vary_room": true
+  },
+  {
+    "background": "wall",
+    "core": "arena",
+    "core_r": 7,
+    "gap": 6,
+    "hidden": true,
+    "id": 60,
+    "name": "A circular arena surrounded by hidden passages",
+    "radial_count": 4,
+    "radials": true,
+    "rings": 2,
+    "size": 64,
+    "start_r": 10,
+    "template": "ring_core",
+    "th": 2,
+    "theme": "arena"
+  },
+  {
+    "background": "wall",
+    "chokepoints": true,
+    "id": 61,
+    "name": "A chain of rooms connected by narrow chokepoints",
+    "offset": 7,
+    "room_h": 6,
+    "room_rate": 1.0,
+    "room_w": 7,
+    "size": 64,
+    "template": "linear_gauntlet",
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "core": "void",
+    "core_r": 7,
+    "end_r": 9,
+    "id": 62,
+    "landings": true,
+    "name": "A spiraling descent around a central pit",
+    "size": 64,
+    "spiral_type": "circular",
+    "start_r": 24,
+    "template": "spiral",
+    "theme": "tower",
+    "turns": 3.8,
+    "width": 2
+  },
+  {
+    "background": "abyss",
+    "id": 63,
+    "mode": "bridged",
+    "name": "A multi-path canyon with crossing bridges",
+    "size": 64,
+    "template": "canyon",
+    "theme": "canyon"
+  },
+  {
+    "background": "wall",
+    "id": 64,
+    "interior_branches": true,
+    "name": "A fortress interior with branching guard routes",
+    "size": 64,
+    "template": "patrol_routes",
+    "theme": "fortress"
+  },
+  {
+    "background": "wall",
+    "id": 65,
+    "name": "A maze of identical corridors with subtle variations",
+    "size": 64,
+    "template": "identical_corridors",
+    "theme": "maze"
+  },
+  {
+    "background": "abyss",
+    "bridge_links": true,
+    "broken": false,
+    "count": 10,
+    "dx": 4,
+    "dy": 5,
+    "id": 66,
+    "ladders": true,
+    "name": "A stacked set of platforms forming a vertical puzzle",
+    "size": 64,
+    "template": "diagonal_platforms",
+    "theme": "platform",
+    "void_bg": true
+  },
+  {
+    "background": "wall",
+    "central_hall": true,
+    "id": 67,
+    "name": "A central hall with branching wings that loop back",
+    "room_count": 4,
+    "size": 64,
+    "template": "loops_network",
+    "theme": "dungeon"
+  },
+  {
+    "hazard": "abyss",
+    "id": 68,
+    "name": "A dungeon split by a massive chasm with crossings",
+    "size": 64,
+    "split": true,
+    "template": "bridge_lattice",
+    "theme": "chasm"
+  },
+  {
+    "background": "wall",
+    "core": "chamber",
+    "core_w": 6,
+    "gap": 6,
+    "id": 69,
+    "name": "A series of concentric chambers decreasing inward",
+    "radials": false,
+    "rings": 3,
+    "size": 64,
+    "start_r": 8,
+    "template": "ring_core",
+    "th": 3,
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "cells": 5,
+    "id": 70,
+    "name": "A grid of rooms with rotating or shifting connections",
+    "open_rate": 0.55,
+    "size": 64,
+    "template": "rotating_modular",
+    "theme": "modular"
+  },
+  {
+    "background": "abyss",
+    "id": 71,
+    "name": "A tower with alternating interior and exterior paths",
+    "size": 64,
+    "template": "alt_interior_exterior",
+    "theme": "tower"
+  },
+  {
+    "angle": -1.5707963267948966,
+    "background": "wall",
+    "depth": 4,
+    "id": 72,
+    "length": 8,
+    "name": "A layered cavern with natural vertical shafts",
+    "open_cavern": true,
+    "shafts": true,
+    "size": 64,
+    "spread": 0.9,
+    "start": [
+      32,
+      56
+    ],
+    "template": "branch_caves",
+    "theme": "cave",
+    "width": 3
+  },
+  {
+    "background": "wall",
+    "detours": true,
+    "id": 73,
+    "name": "A linear descent punctuated by branching detours",
+    "room_rate": 0.6,
+    "size": 64,
+    "template": "linear_gauntlet",
+    "theme": "gauntlet"
+  },
+  {
+    "background": "wall",
+    "core": "chamber",
+    "core_w": 8,
+    "diagonal_rooms": true,
+    "gap": 6,
+    "id": 74,
+    "name": "A ring of rooms connected by diagonal corridors",
+    "ring_rooms": true,
+    "rings": 1,
+    "room_count": 8,
+    "size": 64,
+    "start_r": 12,
+    "template": "ring_core",
+    "th": 2,
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "extra_loops": 0.4,
+    "id": 75,
+    "name": "A network of tunnels forming overlapping loops",
+    "overlap": true,
+    "room_count": 11,
+    "size": 64,
+    "template": "loops_network",
+    "theme": "caves"
+  },
+  {
+    "background": "wall",
+    "id": 76,
+    "name": "A fortress with multiple entrances converging inward",
+    "size": 64,
+    "template": "multi_entrance_converge",
+    "theme": "fortress"
+  },
+  {
+    "background": "wall",
+    "challenge_rooms": true,
+    "id": 77,
+    "name": "A vertical gauntlet of consecutive challenge rooms",
+    "room_h": 6,
+    "room_w": 11,
+    "rooms": 7,
+    "size": 64,
+    "template": "vertical_stack",
+    "theme": "gauntlet"
+  },
+  {
+    "background": "wall",
+    "id": 78,
+    "maze": true,
+    "name": "A staggered maze with offset pathways between levels",
+    "size": 64,
+    "template": "layered_overlap",
+    "theme": "dungeon"
+  },
+  {
+    "background": "wall",
+    "hidden_radials": true,
+    "hub_r": 8,
+    "id": 79,
+    "name": "A central chamber with hidden radial exits",
+    "size": 64,
+    "spoke_len": 14,
+    "spokes": 4,
+    "template": "hub_spokes",
+    "terminal": "none",
+    "theme": "dungeon"
+  },
+  {
+    "background": "abyss",
+    "floating": true,
+    "fragments": 10,
+    "id": 80,
+    "name": "A fragmented dungeon of floating, disconnected rooms",
+    "size": 64,
+    "template": "fragmented",
+    "theme": "void"
+  },
+  {
+    "id": 81,
+    "matrix": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "name": "A 3\u00d73 grid with a solid border and a single open center tile",
+    "size": 3,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 82,
+    "name": "A 3\u00d73 checkerboard pattern alternating blocked and open tiles",
+    "pattern": "checkerboard",
+    "size": 3,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 83,
+    "matrix": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "name": "A 3\u00d73 room where all edges are open but the center tile is blocked",
+    "size": 3,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 84,
+    "matrix": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "name": "A 3\u00d73 with a diagonal path from top-left to bottom-right",
+    "size": 3,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 85,
+    "matrix": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "name": "A 3\u00d73 where only the four corner tiles are accessible",
+    "size": 3,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 86,
+    "matrix": [
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "name": "A 3\u00d73 with a plus-shaped open path (center + orthogonal tiles)",
+    "size": 3,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 87,
+    "matrix": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "name": "A 3\u00d73 spiral path starting at an outer corner and ending in the center",
+    "size": 3,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 88,
+    "matrix": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "name": "A 3\u00d73 with two parallel vertical corridors and a blocked middle column",
+    "size": 3,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 89,
+    "matrix": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "name": "A 3\u00d73 fully open except for one random obstacle tile",
+    "size": 3,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 90,
+    "matrix": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "name": "A 3\u00d73 with an L-shaped accessible path hugging two edges",
+    "size": 3,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 91,
+    "name": "A 9\u00d79 room with a hollow square border and empty interior",
+    "pattern": "hollow_border",
+    "size": 9,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 92,
+    "matrix": [
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "name": "A 9\u00d79 grid forming a spiral corridor winding inward",
+    "size": 9,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 93,
+    "name": "A 9\u00d79 with four quadrants separated by a cross-shaped wall",
+    "pattern": "quadrants",
+    "size": 9,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 94,
+    "name": "A 9\u00d79 checkerboard of alternating blocked and open tiles",
+    "pattern": "checkerboard",
+    "size": 9,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 95,
+    "name": "A 9\u00d79 with concentric square rings of alternating passability",
+    "pattern": "concentric",
+    "size": 9,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 96,
+    "matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "name": "A 9\u00d79 maze with a single winding path from one corner to the opposite",
+    "size": 9,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 97,
+    "name": "A 9\u00d79 divided into narrow vertical stripes of alternating accessibility",
+    "pattern": "stripes",
+    "size": 9,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 98,
+    "name": "A 9\u00d79 with a central 3\u00d73 chamber surrounded by a ring corridor",
+    "pattern": "center_ring",
+    "size": 9,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 99,
+    "name": "A 9\u00d79 with scattered obstacles forming irregular clusters",
+    "pattern": "clusters",
+    "seed": 99,
+    "size": 9,
+    "template": "micro_matrix",
+    "theme": "micro"
+  },
+  {
+    "id": 100,
+    "name": "A 9\u00d79 featuring diagonal barriers creating zigzag traversal paths",
+    "pattern": "zigzag_barriers",
+    "size": 9,
+    "template": "micro_matrix",
+    "theme": "micro"
+  }
+]
