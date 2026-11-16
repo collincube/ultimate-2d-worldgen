@@ -340,6 +340,55 @@ def largest_component(mask):
     return labels == int(counts.argmax())
 
 
+# ------------------------------------------------- cellular automaton (caves)
+#
+# Neighbour-count cave rule after Procedural-Cave-Generation by Sebastian Lague
+# (MIT licence, "Copyright (c) 2016 Sebastian",
+# github.com/SebLague/Procedural-Cave-Generation, MapGenerator.cs SmoothMap and
+# ProcessMap); L. Johnson, G. N. Yannakakis and J. Togelius, 'Cellular
+# automata for real-time generation of infinite cave levels', PCG workshop
+# 2010; RogueBasin, 'Cellular Automata Method for Generating Random Cave-Like
+# Levels'. Idea-level port in numpy: the update is synchronous rather than
+# in place, and no source text was carried over.
+
+def neighbour_count(mask, outside=True):
+    """How many of the 8 neighbours of every cell are True; cells beyond the
+    edge of the array count as `outside`."""
+    h, w = mask.shape
+    padded = np.pad(np.asarray(mask, dtype=np.int8), 1, constant_values=int(bool(outside)))
+    total = np.zeros((h, w), dtype=np.int8)
+    for dy in range(3):
+        for dx in range(3):
+            if dy != 1 or dx != 1:
+                total += padded[dy:dy + h, dx:dx + w]
+    return total
+
+
+def ca_smooth(walls, passes=5, threshold=4, outside=True):
+    """Cave smoothing: a cell becomes a wall when more than `threshold` of its 8
+    neighbours are walls, a floor when fewer, and keeps its state when equal.
+    Cells outside the map count as `outside` (walls), so a wall border stays."""
+    cur = np.asarray(walls, dtype=bool)
+    for _ in range(max(0, int(passes))):
+        n = neighbour_count(cur, outside)
+        nxt = cur.copy()
+        nxt[n > threshold] = True
+        nxt[n < threshold] = False
+        cur = nxt
+    return cur
+
+
+def remove_small_regions(mask, min_size):
+    """Clear the 4-connected True regions that have fewer than `min_size` cells."""
+    labels, n = connected_components(mask)
+    if n == 0 or min_size <= 1:
+        return np.asarray(mask, dtype=bool).copy()
+    counts = np.bincount(labels.ravel())
+    counts[0] = 0
+    small = np.flatnonzero((counts > 0) & (counts < min_size))
+    return np.asarray(mask, dtype=bool) & ~np.isin(labels, small)
+
+
 # ------------------------------------------------------- distance (jump flood)
 
 def nearest_seed(seed_mask):
@@ -647,6 +696,167 @@ def poisson_disc(w, h, radius, seed=0, k=24, margin=0):
     return np.array(pts, dtype=F32)
 
 
+# Clean-room implementation from R. Bridson, 'Fast Poisson disk sampling in
+# arbitrary dimensions' (SIGGRAPH 2007 sketches, final remarks on variable
+# density); D. Gamito & S. Maddock, 'Accurate multidimensional Poisson-disk
+# sampling' (ACM TOG 29(1), 2009); K. B. White, D. Cline, P. K. Egbert,
+# 'Poisson disk point sets by hierarchical dart throwing' (IEEE RT 2007).
+# Feature list informed by Sverchok (GPL-3.0); no Sverchok code was consulted.
+_SPACING_RULES = ('mean', 'max', 'min')
+
+
+def poisson_disc_field(w, h, radius, seed=0, k=24, margin=0, mask=None, rule='mean'):
+    """Blue-noise sites whose local spacing follows a radius map.
+
+    `radius` is a positive float or an (h, w) array / Field of per-pixel radii,
+    read at the pixel that contains each point. `rule` is the spacing demanded
+    between two points p and q: 'mean' |pq| >= (r_p + r_q) / 2 (default),
+    'max' |pq| >= max(r_p, r_q), 'min' |pq| >= min(r_p, r_q). `mask` is an
+    optional (h, w) bool array; candidates on False cells are rejected. Points
+    come back as (x, y) float32 pixel coordinates inside
+    [margin, w - margin) x [margin, h - margin).
+
+    A scalar radius without a mask returns exactly what `poisson_disc` returns
+    for the same arguments. Otherwise this is Bridson's dart throwing with a
+    background grid of cell r_min / sqrt(2), so a cell never holds two points
+    under any rule; each candidate is searched against the grid out to its
+    own spacing limit (cost grows with the ratio r_max / r_min). Candidates
+    are snapped to float32 before they are tested, so the returned array
+    satisfies the rule exactly as written. Draw order is fixed: the active
+    index, then angle and radius per candidate.
+    """
+    w, h, k = int(w), int(h), int(k)
+    if w < 1 or h < 1:
+        raise ValueError(f"w and h must be >= 1, got {w}x{h}")
+    if k < 1:
+        raise ValueError(f"k must be >= 1, got {k}")
+    if rule not in _SPACING_RULES:
+        raise ValueError(f"rule must be one of {_SPACING_RULES}, got {rule!r}")
+    margin = float(margin)
+    if not margin >= 0.0:
+        raise ValueError(f"margin must be >= 0, got {margin}")
+
+    if isinstance(radius, Field):
+        radius = radius.a
+    if np.ndim(radius) == 0:
+        r_const = float(radius)
+        rmap = None
+        if not (math.isfinite(r_const) and r_const > 0.0):
+            raise ValueError(f"radius must be finite and > 0, got {radius!r}")
+        r_min = r_max = r_const
+    else:
+        rmap = np.asarray(radius, dtype=np.float64)
+        if rmap.shape != (h, w):
+            raise ValueError(f"radius map shape {rmap.shape} != {(h, w)}")
+        if not np.isfinite(rmap).all() or float(rmap.min()) <= 0.0:
+            raise ValueError("radius map must be finite and > 0 everywhere")
+        r_min, r_max = float(rmap.min()), float(rmap.max())
+    if mask is not None:
+        mask = np.asarray(mask, dtype=bool)
+        if mask.shape != (h, w):
+            raise ValueError(f"mask shape {mask.shape} != {(h, w)}")
+
+    empty = np.zeros((0, 2), dtype=F32)
+    x_lo, x_hi, y_lo, y_hi = margin, w - margin, margin, h - margin
+    if not (x_lo < x_hi and y_lo < y_hi):
+        return empty
+    if rmap is None and mask is None:
+        return poisson_disc(w, h, r_const, seed=seed, k=k, margin=margin)
+
+    rng = np.random.default_rng(seed)
+
+    def inside(x, y):
+        return x_lo <= x < x_hi and y_lo <= y < y_hi and (mask is None or mask[int(y), int(x)])
+
+    # Initial point: a fixed number of uniform draws, then one draw over the
+    # cells that can hold a point, so a non-empty mask always yields a site.
+    first = None
+    for _ in range(64):
+        x = float(F32(rng.uniform(x_lo, x_hi)))
+        y = float(F32(rng.uniform(y_lo, y_hi)))
+        if inside(x, y):
+            first = (x, y)
+            break
+    if first is None:
+        usable = np.zeros((h, w), dtype=bool)
+        ix0, ix1 = int(math.floor(x_lo)), min(w, int(math.ceil(x_hi)))
+        iy0, iy1 = int(math.floor(y_lo)), min(h, int(math.ceil(y_hi)))
+        usable[iy0:iy1, ix0:ix1] = True
+        if mask is not None:
+            usable &= mask
+        cells = np.flatnonzero(usable)
+        while len(cells):
+            cy, cx = divmod(int(cells[int(rng.integers(len(cells)))]), w)
+            lo_x, hi_x = max(cx, x_lo), min(cx + 1, x_hi)
+            lo_y, hi_y = max(cy, y_lo), min(cy + 1, y_hi)
+            if lo_x < hi_x and lo_y < hi_y:
+                x = float(F32(rng.uniform(lo_x, hi_x)))
+                y = float(F32(rng.uniform(lo_y, hi_y)))
+                if inside(x, y):
+                    first = (x, y)
+                    break
+            cells = cells[cells != cy * w + cx]
+        if first is None:
+            return empty
+
+    def radius_at(x, y):
+        return r_const if rmap is None else float(rmap[int(y), int(x)])
+
+    cell = r_min / math.sqrt(2.0)
+    inv_cell = 1.0 / cell
+    gw, gh = int(math.ceil(w / cell)) + 1, int(math.ceil(h / cell)) + 1
+    grid = [-1] * (gw * gh)
+    px, py, pr, active = [], [], [], []
+    code = _SPACING_RULES.index(rule)
+
+    def emit(x, y, r):
+        grid[int(y * inv_cell) * gw + int(x * inv_cell)] = len(px)
+        active.append(len(px))
+        px.append(x); py.append(y); pr.append(r)
+
+    def blocked(x, y, rc):
+        limit = (0.5 * (rc + r_max), r_max, rc)[code]
+        reach = int(math.ceil(limit * inv_cell))
+        gx, gy = int(x * inv_cell), int(y * inv_cell)
+        for yy in range(max(0, gy - reach), min(gh - 1, gy + reach) + 1):
+            row = yy * gw
+            for xx in range(max(0, gx - reach), min(gw - 1, gx + reach) + 1):
+                j = grid[row + xx]
+                if j < 0:
+                    continue
+                rq = pr[j]
+                need = (0.5 * (rc + rq), max(rc, rq), min(rc, rq))[code]
+                dx, dy = px[j] - x, py[j] - y
+                if dx * dx + dy * dy < need * need:
+                    return True
+        return False
+
+    emit(first[0], first[1], radius_at(*first))
+    two_pi = 2.0 * math.pi
+    while active:
+        slot = int(rng.integers(len(active)))
+        i = active[slot]
+        cx, cy, rp = px[i], py[i], pr[i]
+        placed = False
+        for _ in range(k):
+            ang = float(rng.uniform(0.0, two_pi))
+            rad = float(rng.uniform(rp, 2.0 * rp))
+            x = float(F32(cx + math.cos(ang) * rad))
+            y = float(F32(cy + math.sin(ang) * rad))
+            if not inside(x, y):
+                continue
+            rc = radius_at(x, y)
+            if blocked(x, y, rc):
+                continue
+            emit(x, y, rc)
+            placed = True
+            break
+        if not placed:
+            active[slot] = active[-1]
+            active.pop()
+    return np.array(list(zip(px, py)), dtype=F32)
+
+
 def phyllotaxis(w, h, count=200, spread=None, cx=None, cy=None):
     """Golden-angle spiral point set - sunflower and nautilus arrangements."""
     cx = w / 2 if cx is None else cx
@@ -743,6 +953,155 @@ def voronoi(w, h, sites, relax=0):
             cell = np.where(closer, i + j, cell)
             d1 = np.where(closer, dj, d1)
     return VoronoiResult(cell, d1, d2, sites)
+
+
+# ------------------------------------------------ random-order frontier regions
+#
+# Random-order frontier fill after Red Blob Games, 'Procedural map generation
+# on a sphere' (redblobgames.com/x/1843-planet-generation): generatePlates and
+# assignDistanceField, planet-generation.js, origin
+# github.com/redblobgames/1843-planet-generation@7441e099a297333d7925554452005beeed285806
+#
+#   From https://www.redblobgames.com/x/1843-planet-generation/
+#   Copyright 2018 Red Blob Games <redblobgames@gmail.com>
+#   License: Apache v2.0 <http://www.apache.org/licenses/LICENSE-2.0.html>
+#
+#   Licensed under the Apache License, Version 2.0 (the "License"); you may not
+#   use this file except in compliance with the License. You may obtain a copy
+#   of the License at http://www.apache.org/licenses/LICENSE-2.0. Unless
+#   required by applicable law or agreed to in writing, software distributed
+#   under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+#   CONDITIONS OF ANY KIND, either express or implied. See the License for the
+#   specific language governing permissions and limitations under the License.
+#
+# Changes (Apache-2.0 section 4b): this file is a modified work. Only the fill
+# is ported: the open list, the swap-with-the-front random pop and the
+# 'neighbour gets the popped cell's plate and depth + 1' rule. The sphere mesh
+# is replaced by the 4-connected pixel grid (so every region is 4-connected,
+# as the rest of this package requires), the draws come from a numpy Generator
+# seeded by the caller (one draw per pop, taken up front), cells can be blocked
+# by a mask, and the plate vectors and boundary typing of the original are not
+# used.
+
+class FrontierResult:
+    """Regions grown by `random_frontier_regions`.
+
+    cell     (h, w) int32: index of the site whose region owns the pixel, -1 for
+             pixels the fill never reached (blocked, or cut off from every site)
+    depth    Field (h, w): steps from the region's site along the fill's parent
+             chain, +inf where `cell` is -1. This is the distance field of the
+             original: always at least the Manhattan distance to the site
+             (equal only when the random order happens to take a shortest path),
+             so it is a deliberately noisy distance.
+    sites    (n, 2) float32 site positions as given
+
+    `border_mask` and `adjacency` are the `VoronoiResult` methods of the same
+    name, so code written for a Voronoi partition (`cell`, `adjacency()`,
+    `border_mask()`) takes a frontier partition unchanged.
+    """
+
+    __slots__ = ('cell', 'depth', 'sites')
+
+    border_mask = VoronoiResult.border_mask
+    adjacency = VoronoiResult.adjacency
+
+    def __init__(self, cell, depth, sites):
+        self.cell = cell
+        self.depth = Field(depth, 'random_frontier.depth')
+        self.sites = sites
+
+    def centroids(self):
+        """(n, 2) float64 mean (x, y) of every region's pixels; NaN for a region
+        that owns none."""
+        h, w = self.cell.shape
+        n = len(self.sites)
+        yy, xx = np.mgrid[0:h, 0:w]
+        owned = self.cell >= 0
+        label = self.cell[owned]
+        count = np.bincount(label, minlength=n)
+        out = np.stack([np.bincount(label, weights=xx[owned], minlength=n),
+                        np.bincount(label, weights=yy[owned], minlength=n)], axis=1)
+        out = out / np.maximum(count, 1)[:, None]
+        out[count == 0] = np.nan
+        return out
+
+
+def random_frontier_regions(w, h, sites, seed=0, mask=None):
+    """Grow one region per site by a random-order flood fill of the pixel grid.
+
+    Every site claims its (rounded, clipped to the grid) pixel and puts it on
+    the open list. Then, until the list is empty, one element is popped *at
+    random* instead of the oldest or the nearest: its unclaimed 4-neighbours
+    (north, east, south, west) take its region and its depth + 1 and join the
+    list. With a first-in-first-out list this would be a breadth-first search;
+    the random pop makes borders jagged but keeps every region contiguous,
+    where `voronoi` gives straight bisector seams.
+
+    `mask` is an optional (h, w) bool array of cells the fill may enter (True =
+    open); a site on a blocked cell raises ValueError. When two sites round to
+    the same pixel the lower index keeps it and the other region stays empty.
+    The draws are one uniform number per pop from `np.random.default_rng(seed)`,
+    so equal arguments give equal regions; pass a named stream
+    (`seed_stream(world_seed, name)`) from a grammar.
+
+    Returns a `FrontierResult`. Its `depth` field is also the noisy distance
+    field of Red Blob Games' `assignDistanceField`: seed the sites from a mask
+    (`np.argwhere(seeds)[:, ::-1]`), block the cells to stop at with `mask`,
+    and read `.depth`.
+    """
+    w, h = int(w), int(h)
+    if w < 1 or h < 1:
+        raise ValueError(f"w and h must be >= 1, got {w}x{h}")
+    pts = np.asarray(sites, dtype=np.float64).reshape(-1, 2)
+    if not np.isfinite(pts).all():
+        raise ValueError("sites must be finite")
+    pad = np.full((h + 2, w + 2), -2, dtype=np.int64)       # -2 blocked, -1 open
+    if mask is None:
+        pad[1:-1, 1:-1] = -1
+    else:
+        mask = np.asarray(mask, dtype=bool)
+        if mask.shape != (h, w):
+            raise ValueError(f"mask shape {mask.shape} != {(h, w)}")
+        pad[1:-1, 1:-1] = np.where(mask, -1, -2)
+    open_cells = int((pad == -1).sum())
+    stride = w + 2
+    label = pad.ravel().tolist()
+    depth = [0] * len(label)
+
+    ix = np.clip(np.floor(pts[:, 0] + 0.5), 0, w - 1).astype(np.int64)
+    iy = np.clip(np.floor(pts[:, 1] + 0.5), 0, h - 1).astype(np.int64)
+    queue = []
+    for i in range(len(pts)):
+        cell = int(iy[i] + 1) * stride + int(ix[i]) + 1
+        if label[cell] == -2:
+            raise ValueError(f"site {i} at pixel ({int(ix[i])}, {int(iy[i])}) is on a blocked cell")
+        if label[cell] == -1:
+            label[cell] = i
+            queue.append(cell)
+
+    draws = np.random.default_rng(seed).random(open_cells).tolist()
+    steps = (-stride, 1, stride, -1)                        # north, east, south, west
+    head = 0
+    while head < len(queue):
+        span = len(queue) - head
+        pos = head + min(int(draws[head] * span), span - 1)
+        cur = queue[pos]
+        queue[pos] = queue[head]
+        head += 1
+        owner, deeper = label[cur], depth[cur] + 1
+        for step in steps:
+            nxt = cur + step
+            if label[nxt] == -1:
+                label[nxt] = owner
+                depth[nxt] = deeper
+                queue.append(nxt)
+
+    cell = np.array(label, dtype=np.int64).reshape(h + 2, w + 2)[1:-1, 1:-1]
+    steps_from_site = np.array(depth, dtype=np.float64).reshape(h + 2, w + 2)[1:-1, 1:-1]
+    reached = cell >= 0
+    return FrontierResult(np.where(reached, cell, -1).astype(np.int32),
+                          np.where(reached, steps_from_site, np.inf),
+                          pts.astype(F32))
 
 
 # --------------------------------------------------------- reaction diffusion
@@ -1168,3 +1527,151 @@ def dla(w, h, particles=3000, seed=0, stick=1.0, start_mask=None, max_steps=3000
                     radius = max(radius, math.hypot(x - cx, y - cy) + 2.0)
                     break
     return grid
+
+
+# ------------------------------------------------------------------ erosion
+# Stream-power incision E = k * A^m * S^n along D8 flow (Howard 1994), and
+# thermal creep above a talus angle. Built on fill_depressions/flow_accumulation
+# above; deterministic and RNG-free, so equal inputs give equal fields.
+
+def field_from_png16(path, normalise=True):
+    """Heightmap PNG (16-bit grey 'I;16'/'I', or 8-bit) -> Field in [0,1]."""
+    from PIL import Image
+    im = Image.open(path)
+    a = np.asarray(im, dtype=np.float64)
+    if a.ndim == 3:
+        a = a[..., :3].mean(axis=2)
+    if normalise:
+        a = a / (65535.0 if im.mode.startswith('I') or a.max() > 255 else 255.0)
+    return Field(a.astype(F32), f"png16({getattr(path, 'name', path)})")
+
+
+def stream_power_erode(height, iterations=12, k=20.0, m=2.0, n=0.5, dt=1.0, fill_eps=2e-3):
+    """Stream-power erosion. Each pass fills pits, routes D8 flow, then lowers
+    every cell by k * (area/max_area)^m * slope^n * dt, never below its receiver.
+    Pits are filled with a `fill_eps` slope per cell (not flat), so filled basins keep
+    draining and get incised instead of becoming plateaus. Returns a new Field."""
+    a = np.asarray(height.a if isinstance(height, Field) else height, dtype=np.float64).copy()
+    hh, ww = a.shape
+    for _ in range(iterations):
+        a = np.asarray(fill_depressions(a, fill_eps).a, dtype=np.float64)
+        acc, rec = flow_accumulation(a)
+        flat = a.ravel()
+        dist = np.hypot((rec % ww) - (np.arange(a.size) % ww), (rec // ww) - (np.arange(a.size) // ww))
+        slope = np.where(dist > 0, (flat - flat[rec]) / np.maximum(dist, 1e-9), 0.0)
+        cut = k * (acc.a.ravel().astype(np.float64) / max(float(acc.a.max()), 1.0)) ** m * np.maximum(slope, 0.0) ** n * dt
+        flat = np.maximum(flat - cut, np.minimum(flat, flat[rec]))
+        a = flat.reshape(hh, ww)
+    return Field(a.astype(F32), f"stream_power({iterations},{k},{m},{n})")
+
+
+def thermal_erode(height, talus=0.02, iterations=20, rate=0.5):
+    """Thermal creep: material above `talus` (height drop per cell) over the
+    lowest-differences 4-neighbours slides down. Conserves mass; returns a Field."""
+    a = np.asarray(height.a if isinstance(height, Field) else height, dtype=np.float64).copy()
+    for _ in range(iterations):
+        moved = np.zeros_like(a)
+        for dy, dx in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+            nb = np.roll(a, (dy, dx), axis=(0, 1))
+            if dy:
+                nb[0 if dy > 0 else -1, :] = a[0 if dy > 0 else -1, :]
+            if dx:
+                nb[:, 0 if dx > 0 else -1] = a[:, 0 if dx > 0 else -1]
+            excess = np.maximum(a - nb - talus, 0.0) * rate * 0.25
+            moved -= excess
+            # deposit in the neighbour that received it: shift `excess` back by (-dy, -dx)
+            dep = np.roll(excess, (-dy, -dx), axis=(0, 1))
+            if dy:
+                dep[-1 if dy > 0 else 0, :] = 0.0
+            if dx:
+                dep[:, -1 if dx > 0 else 0] = 0.0
+            moved += dep
+        a += moved
+    return Field(a.astype(F32), f"thermal({talus},{iterations})")
+
+
+def erosion_lakes(height, min_depth=0.01, fill_eps=2e-3):
+    """Boolean mask of cells a pit fill would raise by more than `min_depth`: basins that hold
+    water. Use as the water field instead of painting the filled area as land."""
+    a = np.asarray(height.a if isinstance(height, Field) else height, dtype=np.float64)
+    return (np.asarray(fill_depressions(a, fill_eps).a, dtype=np.float64) - a) > min_depth
+
+
+_ERODE_CACHE = {}
+
+
+def channel_map(height, fill_eps=2e-3):
+    """Drainage channels in [0,1]: log flow accumulation of the pit-filled surface, rescaled so
+    trunk rivers read 1 and hillslopes 0 (a smoothstep above the median cell's accumulation)."""
+    a = np.asarray(height.a if isinstance(height, Field) else height, dtype=np.float64)
+    acc = flow_accumulation(np.asarray(fill_depressions(a, fill_eps).a, dtype=np.float64))[0].a.astype(np.float64)
+    t = np.log1p(acc) / max(float(np.log1p(acc.max())), 1e-9)
+    lo = float(np.quantile(t, 0.55)); t = np.clip((t - lo) / max(1.0 - lo, 1e-9), 0.0, 1.0)
+    return (t * t * (3.0 - 2.0 * t)).astype(F32)
+
+
+def smooth_lakes(mask, passes=4, cutoff=0.5):
+    """Round a basin mask's jagged shore: box blur + threshold; returns (bool mask, soft 0..1 coverage)."""
+    soft = np.asarray(mask, dtype=np.float64)
+    for _ in range(passes):
+        soft = (soft * 4 + np.roll(soft, 1, 0) + np.roll(soft, -1, 0) + np.roll(soft, 1, 1) + np.roll(soft, -1, 1)
+                + 0.5 * (np.roll(np.roll(soft, 1, 0), 1, 1) + np.roll(np.roll(soft, 1, 0), -1, 1)
+                         + np.roll(np.roll(soft, -1, 0), 1, 1) + np.roll(np.roll(soft, -1, 0), -1, 1))) / 10.0
+    return soft > cutoff, np.clip((soft - cutoff) * 6.0 + 0.5, 0.0, 1.0).astype(F32)
+
+
+def relief_rgb(height, lakes=None, channels=0.0, upscale=4, light=(-0.6, -0.7), exag=40.0):
+    """Opt-in terrain picture, (h*up, w*up, 3) uint8. Bilinear upsample, hillshade, height ramp.
+    channels > 0 darkens/incises drainage channels (strength 0..1) and draws them as damp valley floors;
+    lakes (bool mask) get a round shore, depth tint and a lit rim instead of flat paint. channels=0 and
+    lakes=None is the plain hillshade."""
+    f = height if isinstance(height, Field) else Field(height)
+    h, w = f.shape
+    ys, xs = np.mgrid[0:h * upscale, 0:w * upscale]
+    sx, sy = (xs + 0.5) / upscale - 0.5, (ys + 0.5) / upscale - 0.5
+    z = f.sample(sx, sy).astype(np.float64)
+    ch = Field(channel_map(f)).sample(sx, sy).astype(np.float64) if channels > 0 else None
+    if ch is not None:
+        z = z - channels * 0.12 * ch
+    gy, gx = np.gradient(z * exag)
+    nz = 1.0 / np.sqrt(gx * gx + gy * gy + 1.0)
+    lx, ly = light; ln = math.sqrt(lx * lx + ly * ly + 0.8)
+    sh = np.clip((-gx * lx - gy * ly) * nz / ln + 0.8 * nz / ln, 0.0, 1.0)
+    zn = (z - z.min()) / max(float(z.max() - z.min()), 1e-9)
+    low, mid, high = np.array([58, 96, 48.]), np.array([128, 150, 78.]), np.array([196, 184, 150.])
+    t = zn[..., None]
+    col = np.where(t < 0.5, low + (mid - low) * (t / 0.5), mid + (high - mid) * np.clip((t - 0.5) / 0.5, 0, 1))
+    col = col * (0.35 + 0.9 * sh[..., None])
+    if ch is not None:
+        wet = (ch * min(channels, 1.0))[..., None]
+        col = col * (1 - 0.6 * wet) + np.array([25, 60, 85.]) * 0.6 * wet
+    if lakes is not None:
+        m, soft = smooth_lakes(lakes)
+        sm = Field(soft).sample(sx, sy).astype(np.float64)
+        depth = Field(Field(m.astype(F32)).blur(6).a).sample(sx, sy).astype(np.float64)
+        water = np.array([38, 92, 150.]) * (0.7 + 0.5 * (1 - depth[..., None]))
+        rim = np.clip(1.0 - np.abs(sm - 0.5) * 4.0, 0, 1)[..., None]
+        col = col * (1 - sm[..., None]) + water * sm[..., None]
+        col = col * (1 - 0.35 * rim) + np.array([210, 220, 190.]) * 0.35 * rim * (sm[..., None] < 0.98)
+    return np.clip(col, 0, 255).astype(np.uint8)
+
+
+def eroded(height, stream=12, thermal=8, lakes=False, cache=True, **kw):
+    """Convenience: stream-power then thermal relaxation, renormalised to [0,1].
+    lakes=True returns (field, lake_mask) with the mask taken from the input's basins.
+    Results are cached per (input bytes, parameters): erosion is offline O(cells x iters)."""
+    a = np.asarray(height.a if isinstance(height, Field) else height)
+    key = (a.shape, hash(a.tobytes()), stream, thermal, tuple(sorted(kw.items())))
+    f = _ERODE_CACHE.get(key) if cache else None
+    if f is None:
+        f = stream_power_erode(height, iterations=stream, **kw) if stream else height
+        if thermal:
+            f = thermal_erode(f, iterations=thermal)
+        f = f.normalized()
+        if cache:
+            if len(_ERODE_CACHE) >= 16:
+                _ERODE_CACHE.pop(next(iter(_ERODE_CACHE)))
+            _ERODE_CACHE[key] = f
+    if lakes:
+        return f, erosion_lakes(height, fill_eps=kw.get('fill_eps', 2e-3))
+    return f

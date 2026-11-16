@@ -18,6 +18,7 @@ import tilegen_system as ts
 import tilegen_fields as tf
 import tilegen_grammars as tg
 import tilegen_grammars2  # noqa: F401  (registers the remaining grammars)
+import tilegen_overworld  # noqa: F401  (registers grammar 22, the overworld)
 import tilegen_world as tw
 import tilegen_layers  # noqa: F401  (registers features 21-39)
 import tilegen_society  # noqa: F401  (registers features 41-60)

@@ -1,10 +1,36 @@
 # Ultimate 2D Worldgen — demonstration
 
-A visual tour of the maps, Turtle Explorer routes, assembled dungeons, and
-Roguelike Depth Layers. Every image below is included locally; no image host,
+A visual tour of the overworlds, maps, autotiles, Turtle Explorer routes,
+assembled dungeons, and Roguelike Depth Layers. Every image below is included locally; no image host,
 account, or running server is needed. Open any image for a closer look.
 
 [Back to the README](../README.md)
+
+## Climate overworlds
+
+A whole world from one seed. The landmass is raised from warped noise and
+eroded; temperature falls with latitude and altitude; the prevailing wind
+drops its rain on windward slopes and leaves the lee dry; biomes follow
+temperature and moisture; rivers run to the sea; towns take the best sites
+and roads link them, sharing trunks and bridging rivers.
+
+![A temperate continent with lakes, rivers, settlements and roads](overworld.webp)
+
+Change the shape, the climate band or the wind and the same rules give very
+different worlds. In the highlands the range casts a rain shadow over the
+plains behind it; on the pole-to-pole peninsula an east wind leaves the
+western coast a desert.
+
+![Four overworlds: tropical archipelago, highlands, pole-to-pole peninsula, polar realm](overworlds.webp)
+
+## Autotiles
+
+Tile sheets drawn by code: four skins (dungeon, cave, shore, tech), each in
+four palettes. Every tile shares one seamless ground and one rim texture, so
+any arrangement joins cleanly; the 47-case blob scheme adds inner corners.
+Below the sheets, one cave map is tiled three ways.
+
+![Generated autotile sheets and a cave rendered with blob autotiles](autotiles.webp)
 
 ## Start with the shapes
 
@@ -171,6 +197,7 @@ From the repository root:
 python tilegen_full_stack_bundle/tilegen_atlas.py --size 96
 python tilegen_full_stack_bundle/tilegen_atlas.py --worlds-only
 python scripts/build_runtime.py
+python scripts/build_docs_images.py
 ```
 
 The builds create local browser viewers alongside their output. The images in

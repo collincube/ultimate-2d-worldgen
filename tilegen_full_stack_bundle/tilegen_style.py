@@ -128,6 +128,7 @@ class StyleProfile:
     contour: dict = None                 # {'field','levels','color'}
     field_shade: dict = None             # {'field','amount','warm'}
     span_shadow: tuple = None            # shadow under bridges over void
+    palette_mix: float = 0.0             # honour a map's own field palette (0 = ignore)
     overlay_color: tuple = (235, 235, 240)
     use_native_overlays: bool = False
     label_color: tuple = (220, 220, 225)
@@ -191,6 +192,7 @@ register(StyleProfile(
         'liquid': (156, 182, 186), 'molten': (198, 132, 92), 'void': (150, 134, 108),
     },
     texture_noise=7,
+    palette_mix=0.45,
     outline=(74, 56, 38), outline_px=1,
     hatch={'color': (150, 126, 92), 'spacing': 3, 'angle': 45},
     shoreline=(120, 146, 152), shoreline_px=1,
@@ -242,6 +244,7 @@ register(StyleProfile(
         'liquid': (46, 94, 140), 'molten': (176, 88, 40), 'void': (28, 30, 34),
     },
     texture_noise=9,
+    palette_mix=0.85,
     shoreline=(206, 198, 154), shoreline_px=1,
     contour={'field': 'elevation', 'levels': 12, 'color': (60, 56, 44)},
     field_shade={'field': 'elevation', 'amount': 0.55, 'warm': True},
@@ -289,6 +292,33 @@ def _shade(rgb, arr, amount):
     return np.clip(rgb.astype(np.float32) * f, 0, 255).astype(np.uint8)
 
 
+def _apply_map_palette(tm, fields, st, cell_rgb):
+    """Blend a map-supplied palette over the role colours.
+
+    A map may carry `field_palettes` ({field name: {integer value: rgb}}), as
+    overworlds do for their biome cover. Styles that set `palette_mix` honour
+    it; every other style, and every map without one, renders exactly as
+    before.
+    """
+    palettes = getattr(tm, 'field_palettes', None)
+    if not st.palette_mix or not palettes:
+        return cell_rgb
+    for name, colours in palettes.items():
+        if name not in fields or not colours:
+            continue
+        ids = np.rint(np.asarray(fields[name], dtype=np.float64)).astype(np.int64)
+        lut = np.zeros((max(colours) + 1, 3), dtype=np.float32)
+        known = np.zeros(max(colours) + 1, dtype=bool)
+        for k, rgb in colours.items():
+            lut[k] = rgb
+            known[k] = True
+        ok = (ids >= 0) & (ids < len(lut))
+        ok[ok] = known[ids[ok]]
+        mix = float(st.palette_mix)
+        cell_rgb[ok] = cell_rgb[ok] * (1.0 - mix) + lut[ids[ok]] * mix
+    return cell_rgb
+
+
 def render_map(tm, spec=None, style='procedural_dark_tiles', tile_px=None,
                max_map_px=360, label=None, show_label=True):
     """Render a TileMap through a style profile, with neighbourhood context."""
@@ -325,6 +355,7 @@ def render_map(tm, spec=None, style='procedural_dark_tiles', tile_px=None,
                 for cx in range(w):
                     jitter[cy, cx] = ts.noise(seed, cx, cy) - 0.5
             cell_rgb += (jitter * 2.0 * st.texture_noise)[..., None]
+        cell_rgb = _apply_map_palette(tm, fields, st, cell_rgb)
         cell_rgb = np.clip(cell_rgb, 0, 255).astype(np.uint8)
         rgb = _upscale(cell_rgb, t)
 
@@ -507,3 +538,87 @@ def contact_sheet(images, labels, cols=5, cell_w=240, cell_h=262, bg=(12, 13, 16
         d.text((c * cell_w + 8, r * cell_h + cell_h - 22), lab[:38],
                font=DEFAULT_FONT, fill=fg)
     return sheet
+
+
+# ------------------------------------------------- engine-ready autotile atlas
+# Autotile atlases: a Wang-16 edge sheet (PNG, 4x4) plus its atlas JSON, scheme
+# 'wang-edge-16', bits N=1 E=2 S=4 W=8 (bit set = same-terrain neighbour).
+# tilegen_autotile generates such sheets; this reads them, from there or from
+# any other tool that writes the same contract.
+
+def load_tile_atlas(atlas_json, sheet_png):
+    """Read a Wang-16 edge atlas (atlas JSON + sheet PNG): {'tiles': {mask: RGBA Image}, 'tile': px}."""
+    import json
+    from PIL import Image
+    from pathlib import Path
+    meta = json.loads(Path(atlas_json).read_text(encoding='utf-8'))
+    at = meta.get('autotile') or {}
+    if at.get('scheme') != 'wang-edge-16':
+        raise ValueError(f"unsupported autotile scheme {at.get('scheme')!r}")
+    bits = {int(k): v for k, v in at.get('bits', {}).items()}
+    if bits != {1: 'north', 2: 'east', 4: 'south', 8: 'west'}:
+        raise ValueError(f"unexpected Wang-16 bit layout {bits}")
+    sheet = Image.open(sheet_png).convert('RGBA')
+    tiles = {}
+    for name, f in meta['frames'].items():
+        if not name.startswith('wang_'):
+            continue
+        mask = int(name.split('_')[1])
+        tiles[mask] = sheet.crop((f['x'], f['y'], f['x'] + f['w'], f['y'] + f['h']))
+    if sorted(tiles) != list(range(16)):
+        raise ValueError(f"atlas has masks {sorted(tiles)}, need 0..15")
+    return {'tiles': tiles, 'tile': int(at.get('tileSize', next(iter(tiles.values())).width))}
+
+
+def edge_masks(open_mask):
+    """4-bit Wang edge mask per cell of a boolean grid (True = terrain): bit set = that
+    neighbour is terrain too (out-of-bounds counts as not terrain). Non-terrain cells get -1."""
+    a = np.asarray(open_mask, dtype=bool)
+    p = np.pad(a, 1)
+    m = (p[:-2, 1:-1] * 1 + p[1:-1, 2:] * 2 + p[2:, 1:-1] * 4 + p[1:-1, :-2] * 8).astype(int)
+    return np.where(a, m, -1)
+
+
+def render_tiles(tm, atlas, open_mask=None, mode='raw', spec=None, style='procedural_dark_tiles', relief=1.0):
+    """Render a TileMap with an autotile atlas. Walkable cells (or `open_mask`) take the tile for
+    their neighbour mask; other cells are filled with the colour of the sheet's solid rim.
+    mode='styled': the procedural renderer (`style`) supplies colour, walls, moss, zone tint and
+    overlays; the atlas contributes only its per-mask luminance relief (edges, cracks) on open cells,
+    scaled by `relief`. mode='raw' (default) is the atlas's own colours."""
+    from PIL import Image
+    if mode == 'styled':
+        return _render_tiles_styled(tm, atlas, open_mask, spec, style, relief)
+    if mode != 'raw':
+        raise ValueError(f"unknown render_tiles mode {mode!r}")
+    if open_mask is None:
+        import tilegen_grammars as tg
+        open_mask = tg.passable_mask(tm)
+    t = atlas['tile']
+    masks = edge_masks(open_mask)
+    rim = atlas['tiles'][0].convert('RGB').getpixel((0, 0))
+    img = Image.new('RGB', (tm.w * t, tm.h * t), rim)
+    for y in range(tm.h):
+        for x in range(tm.w):
+            if masks[y][x] >= 0:
+                img.paste(atlas['tiles'][int(masks[y][x])], (x * t, y * t))
+    return img
+
+
+def _render_tiles_styled(tm, atlas, open_mask, spec, style, relief):
+    """Procedural colour + atlas relief. See render_tiles(mode='styled')."""
+    if open_mask is None:
+        import tilegen_grammars as tg
+        open_mask = tg.passable_mask(tm)
+    t = atlas['tile']
+    base = np.array(render_map(tm, spec, style, tile_px=t, show_label=False), dtype=np.float32)
+    lum = {m: np.asarray(im.convert('L'), dtype=np.float32) for m, im in atlas['tiles'].items()}
+    ref = float(np.median(np.concatenate([v.ravel() for v in lum.values()])))
+    masks = edge_masks(open_mask)
+    for y in range(tm.h):
+        for x in range(tm.w):
+            m = masks[y][x]
+            if m >= 0:
+                detail = np.clip((lum[int(m)] - ref) / 255.0 * relief, -0.5, 0.5)
+                blk = base[y * t:(y + 1) * t, x * t:(x + 1) * t]
+                blk *= (1.0 + detail)[..., None]
+    return Image.fromarray(np.clip(base, 0, 255).astype(np.uint8), 'RGB')

@@ -1,4 +1,5 @@
-"""The remaining mathematical grammars: features 05, 06, 08, 11, 14, 15, 16, 18, 19.
+"""The remaining mathematical grammars: features 05, 06, 08, 11, 14, 15, 16, 18, 19,
+and the 21st family, cellular caves.
 
 Same contract as tilegen_grammars: synthesise curves, fields or graphs first,
 interpret to tiles last. Importing this module extends GRAMMARS in place.
@@ -377,13 +378,30 @@ def gen_lsystem_roots(spec, rng):
 
 def gen_tectonic(spec, rng):
     """Plates with motion vectors. Convergent boundaries raise mountains,
-    divergent ones open rifts, transform ones shear into faults."""
+    divergent ones open rifts, transform ones shear into faults.
+
+    'plate_shape' picks how the plates are cut from the same sites: 'voronoi'
+    (default) gives straight crystalline seams; 'frontier' grows them with a
+    random-order flood fill (`tf.random_frontier_regions`, after Red Blob
+    Games), which gives jagged but contiguous seams. Boundary typing is the same
+    either way; with 'frontier' a plate's position is the centroid of its
+    pixels, because its site can sit far off-centre. The fill draws from its own
+    named stream, so plate motions do not change with the shape."""
     w, h = dims(spec)
     seed = grammar_seed(spec, 'env.tectonic')
     nrng = np.random.default_rng(seed)
+    shape = spec.get('plate_shape', 'voronoi')
+    if shape not in ('voronoi', 'frontier'):
+        raise ValueError(f"plate_shape must be 'voronoi' or 'frontier', got {shape!r}")
     sites = tf.poisson_disc(w, h, spec.get('plate_size', max(10, min(w, h) // 5)),
                             seed=seed, margin=1)
-    vor = tf.voronoi(w, h, sites, relax=spec.get('relax', 2))
+    if shape == 'voronoi':
+        vor = tf.voronoi(w, h, sites, relax=spec.get('relax', 2))
+        centres = sites
+    else:
+        vor = tf.random_frontier_regions(w, h, tf.lloyd_relax(sites, w, h, spec.get('relax', 2)),
+                                         seed=tf.seed_stream(seed, 'tectonic.frontier'))
+        centres = vor.centroids()
     nplates = int(vor.cell.max()) + 1
     motion = nrng.normal(0, 1, size=(nplates, 2))
     motion /= np.maximum(np.linalg.norm(motion, axis=1, keepdims=True), 1e-6)
@@ -398,7 +416,7 @@ def gen_tectonic(spec, rng):
         seam = tg.border_between(vor.cell, a, b) | tg.border_between(vor.cell, b, a)
         if not seam.any():
             continue
-        normal = sites[b] - sites[a]
+        normal = centres[b] - centres[a]
         nrm = np.linalg.norm(normal)
         if nrm < 1e-6:
             continue
@@ -897,6 +915,96 @@ def _bsp_rooms(mask, seed, min_size, splits):
     return regions
 
 
+# ----------------------------------------------- 21 Cellular Cave Systems
+#
+# Neighbour-count cave automaton after Procedural-Cave-Generation by Sebastian
+# Lague (MIT licence, "Copyright (c) 2016 Sebastian",
+# github.com/SebLague/Procedural-Cave-Generation, MapGenerator.cs RandomFillMap,
+# SmoothMap, ProcessMap); Johnson, Yannakakis and Togelius, PCG workshop 2010.
+# Idea-level port: seeded through a named stream, the initial fill is tuned to
+# a target open ratio, rooms are joined with Prim-ordered 4-connected L
+# carves, and no source text was carried over.
+
+def ca_cave_mask(u, target=0.5, tolerance=0.02, fill=None, passes=5, min_wall=50,
+                  min_room=50):
+    """Open-cell mask from a field of uniform draws `u` (h, w).
+
+    Border walls are forced, `passes` smoothing passes run, wall islands under
+    `min_wall` cells turn to floor and rooms under `min_room` cells turn to
+    wall. With `fill` (the initial wall fraction) that is all; without it the
+    fill is bisected until the open ratio lands within `tolerance` of `target`,
+    which is the 'thresholds by target ratio' rule: the same draws are
+    re-thresholded, so the family of walls is nested and the ratio is monotone
+    enough to converge in a dozen steps.
+    """
+    h, w = u.shape
+
+    def run(wall_fraction):
+        walls = u <= np.quantile(u, float(np.clip(wall_fraction, 0.01, 0.99)))
+        walls[0, :] = walls[-1, :] = True
+        walls[:, 0] = walls[:, -1] = True
+        walls = tf.remove_small_regions(tf.ca_smooth(walls, passes), min_wall)
+        opened = tf.remove_small_regions(~walls, min_room)
+        opened[0, :] = opened[-1, :] = False
+        opened[:, 0] = opened[:, -1] = False
+        return opened
+
+    if fill is not None:
+        return run(fill)
+    lo, hi = 0.30, 0.62
+    best = None
+    for _ in range(12):
+        mid = 0.5 * (lo + hi)
+        cand = run(mid)
+        ratio = float(cand.mean())
+        if best is None or abs(ratio - target) < best[0]:
+            best = (abs(ratio - target), cand)
+        if abs(ratio - target) <= tolerance:
+            break
+        if ratio > target:
+            lo = mid
+        else:
+            hi = mid
+    return best[1]
+
+
+def gen_ca_caves(spec, rng):
+    """Cellular-automaton caverns: random fill, neighbour-count smoothing, small
+    pockets and specks removed, the surviving rooms joined by short corridors.
+
+    Spec knobs: 'open_ratio' (target open share, default 0.5) and
+    'open_tolerance'; or 'fill' (initial wall fraction, skips the tuning);
+    'passes', 'min_wall_region', 'min_room' (cell counts) and 'join'
+    ('prim' default, or 'star').
+    """
+    w, h = dims(spec)
+    seed = grammar_seed(spec, 'geo.ca_caves')
+    u = np.random.default_rng(seed).random((h, w))
+    opened = ca_cave_mask(u, spec.get('open_ratio', 0.5), spec.get('open_tolerance', 0.02),
+                           spec.get('fill'), spec.get('passes', 5),
+                           spec.get('min_wall_region', 50), spec.get('min_room', 50))
+    if not opened.any():                    # degenerate knobs: keep one chamber
+        yy, xx = np.mgrid[0:h, 0:w]
+        opened = (xx - w / 2.0) ** 2 + (yy - h / 2.0) ** 2 <= (min(w, h) / 4.0) ** 2
+        opened[0, :] = opened[-1, :] = opened[:, 0] = opened[:, -1] = False
+    depth = tf.distance_to_mask(~opened)
+    chamber = opened & (depth.a >= spec.get('chamber_depth', 3.0))
+    clutter = (opened & (depth.a <= 1.5) &
+               (tf.fbm(w, h, 6.0, 3, seed=seed + 7).a > spec.get('rubble_level', 0.62)))
+    tm = build(w, h, [(opened, FLOOR), (chamber, COURT), (clutter, RUBBLE)], default=WALL)
+    connect_components(tm, passable_mask(tm), FLOOR, width=1,
+                       strategy=spec.get('join', 'prim'))
+    attach(tm, depth=depth.normalized(), elevation=depth.normalized())
+    return tm
+
+
+def _ca_cave_field(w, h, seed, params):
+    """Hybrid Morph source: distance from the walls of a cave automaton."""
+    u = np.random.default_rng(seed).random((h, w))
+    opened = ca_cave_mask(u, params.get('cave_ratio', 0.5))
+    return tf.distance_to_mask(~opened).normalized().blur(1)
+
+
 GRAMMARS2 = {
     'space_filling':   gen_space_filling,
     'quasicrystal':    gen_quasicrystal,
@@ -907,6 +1015,8 @@ GRAMMARS2 = {
     'portal_maps':     gen_portal_maps,
     'mandala':         gen_mandala,
     'silhouette':      gen_silhouette,
+    'ca_caves':        gen_ca_caves,
 }
 
 tg.GRAMMARS.update(GRAMMARS2)
+tg.FIELD_SOURCES['ca_caves'] = _ca_cave_field
