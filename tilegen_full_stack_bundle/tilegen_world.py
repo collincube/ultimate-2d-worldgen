@@ -575,3 +575,85 @@ def run_features(world, feature_ids=None, verbose=False):
                           f"{type(exc).__name__}: {exc}")
     world.artifacts['features_run'] = ran
     return ran
+
+
+# ------------------------------------------------------------- edit overlay
+
+class EditOverlay:
+    """Sparse cell edits kept apart from a generated base, so a hand-edited
+    world survives regeneration (cell keys plus atomic edits).
+
+    Each edit is keyed by 'x,y' and stores what the base held when it was first
+    touched ('was') and what the editor wants ('base'/'overlay', either may be
+    None = untouched). Re-painting a cell merges into its edit; painting a cell
+    back to its original value removes the edit. `apply` re-applies every edit to
+    a freshly generated TileMap and reports edits whose 'was' no longer matches
+    (the base moved under the edit) as stale; `skip_stale=True` leaves those cells
+    as generated. Pure data, JSON round-trips, no RNG."""
+
+    VERSION = 1
+
+    def __init__(self, w, h, edits=None):
+        self.w, self.h = int(w), int(h)
+        self.edits = dict(edits or {})
+
+    @staticmethod
+    def key(x, y):
+        return f"{int(x)},{int(y)}"
+
+    def paint(self, tilemap, x, y, base=None, overlay=None):
+        """Edit one cell of `tilemap` (the live map) and record it. Returns True if it changed."""
+        if not tilemap.inb(x, y):
+            return False
+        k = self.key(x, y)
+        e = self.edits.get(k) or {'was': list(tilemap.get(x, y)), 'base': None, 'overlay': None}
+        if base is not None:
+            e['base'] = base
+        if overlay is not None:
+            e['overlay'] = overlay
+        tilemap.set(x, y, base, overlay)
+        was = e['was']
+        if (e['base'] in (None, was[0])) and (e['overlay'] in (None, was[1])):
+            self.edits.pop(k, None)
+        else:
+            self.edits[k] = e
+        return True
+
+    def apply(self, tilemap, skip_stale=False):
+        """Re-apply onto a regenerated map. Returns {'applied','stale':[keys],'oob':[keys]}."""
+        rep = {'applied': 0, 'stale': [], 'oob': []}
+        for k in sorted(self.edits, key=lambda s: tuple(map(int, s.split(',')))[::-1]):
+            x, y = map(int, k.split(','))
+            e = self.edits[k]
+            if not tilemap.inb(x, y):
+                rep['oob'].append(k)
+                continue
+            if list(tilemap.get(x, y)) != e['was']:
+                rep['stale'].append(k)
+                if skip_stale:
+                    continue
+            tilemap.set(x, y, e['base'], e['overlay'])
+            rep['applied'] += 1
+        return rep
+
+    @classmethod
+    def diff(cls, base_map, edited_map):
+        """Derive the overlay that turns `base_map` into `edited_map` (same size)."""
+        ov = cls(base_map.w, base_map.h)
+        for y in range(base_map.h):
+            for x in range(base_map.w):
+                a, b = base_map.get(x, y), edited_map.get(x, y)
+                if a != b:
+                    ov.edits[cls.key(x, y)] = {'was': list(a), 'base': b[0] if b[0] != a[0] else None,
+                                               'overlay': b[1] if b[1] != a[1] else None}
+        return ov
+
+    def to_json(self):
+        return json.dumps({'version': self.VERSION, 'w': self.w, 'h': self.h, 'edits': self.edits}, sort_keys=True)
+
+    @classmethod
+    def from_json(cls, text):
+        d = json.loads(text)
+        if d.get('version') != cls.VERSION:
+            raise ValueError(f"unsupported edit overlay version {d.get('version')}")
+        return cls(d['w'], d['h'], d['edits'])

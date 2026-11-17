@@ -18,7 +18,8 @@ from pathlib import Path
 
 import tilegen_system as ts
 import tilegen_grammars as tg
-import tilegen_grammars2  # noqa: F401  (registers grammars 05,06,08,11,14-16,18,19)
+import tilegen_grammars2  # noqa: F401  (registers grammars 05,06,08,11,14-16,18,19,21)
+import tilegen_overworld  # noqa: F401  (registers grammar 22, the overworld)
 import tilegen_style as tsy
 
 MACRO = 96
@@ -165,6 +166,27 @@ def _build_specs():
     add('A level in the shape of a skull', 'silhouette', shape='skull')
     add('A level in the shape of a crown', 'silhouette', shape='crown')
     add('A level in the shape of a bound sigil', 'silhouette', shape='sigil')
+
+    # 21 Cellular Cave Systems
+    add('Limestone caverns grown by a cellular automaton', 'ca_caves')
+    add('A tight warren of narrow cave passages', 'ca_caves', open_ratio=0.38)
+    add('Broad flooded halls under a low cave roof', 'ca_caves', open_ratio=0.62)
+
+    # 22 Climate Overworlds
+    add('A temperate continent of rivers, roads and market towns', 'overworld')
+    add('A tropical archipelago of harbours and jungle', 'overworld',
+        shape='archipelago', climate='tropical')
+    add('Highlands casting a rain shadow across the plains', 'overworld',
+        shape='highlands', wind='west')
+    add('A frozen northern realm of taiga and ice', 'overworld', climate='polar',
+        wind='east')
+    add('A peninsula from pole to equator under an east wind', 'overworld',
+        shape='peninsula', climate='pole_to_pole', wind='east')
+
+    # more of 11, 15 and 17
+    add('Jagged plates cut by a random frontier', 'tectonic', plate_shape='frontier')
+    add('A sprawling metro of many lines and stations', 'transit_network', stations=22, lines=6)
+    add('A drowned coast of fjords and islets', 'archipelago', sea_level=0.56, scale=2.6)
     return s
 
 
@@ -247,17 +269,33 @@ def build_atlas(root, styles=None, size=None, tile_px=6, specs=None, verbose=Tru
                       root / f'contact_{st}.png')
 
     # one map through every style, to show geometry and style are independent
-    demo = specs[len(specs) // 2]
+    demo = next((sp for sp in specs if sp['id'] == 128), specs[len(specs) // 2])
     tm = ts.make_layout(demo)
     imgs = [tsy.render_map(tm, demo, style=st, tile_px=8, label=st) for st in styles]
     _save_compact(tsy.contact_sheet(imgs, styles, cols=3, cell_w=320, cell_h=340),
                   root / 'style_matrix.png')
 
+    if {sp['id'] for sp in specs} == {sp['id'] for sp in ATLAS_SPECS}:
+        _prune(root, catalog, styles)
     (root / 'catalog.json').write_text(json.dumps(catalog, indent=2), encoding='utf-8')
     (root / 'source_specs.json').write_text(json.dumps(specs, indent=2), encoding='utf-8')
     _write_viewer(catalog, styles, root / 'viewer.html')
     return catalog
 
+
+
+def _prune(root, catalog, styles):
+    """After a full build, remove layouts and renders no spec produced any more
+    (a renamed or renumbered spec would otherwise leave its old file behind)."""
+    keep = {Path(r['tile_json']).name for r in catalog}
+    for f in (root / 'layouts').glob('*.json'):
+        if f.name not in keep:
+            f.unlink()
+    for st in styles:
+        keep = {Path(r['renders'][st]).name for r in catalog}
+        for f in (root / 'renders' / st).glob('*.png'):
+            if f.name not in keep:
+                f.unlink()
 
 
 def build_worlds(root, recipes=None, size=None, tile_px=5, verbose=True,

@@ -537,5 +537,109 @@
     "theme": "atlas",
     "background": "wall",
     "shape": "sigil"
+  },
+  {
+    "id": 156,
+    "name": "Limestone caverns grown by a cellular automaton",
+    "template": "ca_caves",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 157,
+    "name": "A tight warren of narrow cave passages",
+    "template": "ca_caves",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "open_ratio": 0.38
+  },
+  {
+    "id": 158,
+    "name": "Broad flooded halls under a low cave roof",
+    "template": "ca_caves",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "open_ratio": 0.62
+  },
+  {
+    "id": 159,
+    "name": "A temperate continent of rivers, roads and market towns",
+    "template": "overworld",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall"
+  },
+  {
+    "id": 160,
+    "name": "A tropical archipelago of harbours and jungle",
+    "template": "overworld",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "shape": "archipelago",
+    "climate": "tropical"
+  },
+  {
+    "id": 161,
+    "name": "Highlands casting a rain shadow across the plains",
+    "template": "overworld",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "shape": "highlands",
+    "wind": "west"
+  },
+  {
+    "id": 162,
+    "name": "A frozen northern realm of taiga and ice",
+    "template": "overworld",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "climate": "polar",
+    "wind": "east"
+  },
+  {
+    "id": 163,
+    "name": "A peninsula from pole to equator under an east wind",
+    "template": "overworld",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "shape": "peninsula",
+    "climate": "pole_to_pole",
+    "wind": "east"
+  },
+  {
+    "id": 164,
+    "name": "Jagged plates cut by a random frontier",
+    "template": "tectonic",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "plate_shape": "frontier"
+  },
+  {
+    "id": 165,
+    "name": "A sprawling metro of many lines and stations",
+    "template": "transit_network",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "stations": 22,
+    "lines": 6
+  },
+  {
+    "id": 166,
+    "name": "A drowned coast of fjords and islets",
+    "template": "archipelago",
+    "size": 96,
+    "theme": "atlas",
+    "background": "wall",
+    "sea_level": 0.56,
+    "scale": 2.6
   }
 ]

@@ -136,13 +136,94 @@ def _l_mask(h, w, x0, y0, x1, y1, width=1, flip=False):
     return m
 
 
+# Join order after Procedural-Cave-Generation by Sebastian Lague (MIT licence,
+# "Copyright (c) 2016 Sebastian", github.com/SebLague/Procedural-Cave-Generation,
+# MapGenerator.cs ConnectClosestRooms; R. C. Prim, Bell Syst. Tech. J. 36(6),
+# 1957): grow outward from the main room, always joining the closest
+# (accessible, not-yet-accessible) pair. Idea-level port: the pair search is a
+# city-block distance transform and corridors are this module's 4-connected L
+# carves; no source text was carried over.
+def _l1_nearest_source(sources):
+    """City-block distance from every cell to the nearest source cell, and which
+    one. Returns (distance, flat index of that source); cells with no source
+    anywhere get distance -1. Two chamfer passes over rows, vectorised along
+    each row; ties go to the lower flat index that the sweep reaches first."""
+    h, w = sources.shape
+    step = h * w
+    far = np.int64(1) << 60
+    key = np.where(sources, np.arange(step, dtype=np.int64).reshape(h, w), far)
+    xs = np.arange(w, dtype=np.int64) * step
+    for y in range(h):
+        if y:
+            key[y] = np.minimum(key[y], key[y - 1] + step)
+        key[y] = np.minimum.accumulate(key[y] - xs) + xs
+    for y in range(h - 1, -1, -1):
+        if y < h - 1:
+            key[y] = np.minimum(key[y], key[y + 1] + step)
+        key[y] = (np.minimum.accumulate((key[y] + xs)[::-1])[::-1]) - xs
+    dist = np.where(key >= far, -1, key // step)
+    return dist, key % step
+
+
+def prim_join_plan(labels, main, width=1, eligible=None):
+    """Order in which to join the components of a label image, Prim style.
+
+    Starting from component `main`, repeatedly take the pair (accessible cell,
+    not-yet-accessible cell) that is closest in city-block distance and join
+    them with an L, so corridors are short and chain through neighbours
+    instead of every component running back to the main one. A corridor that
+    crosses another component absorbs it. `eligible` is an optional set of
+    labels that may be joined (default: all). Returns a list of
+    (cx, cy, tx, ty, flip): carve an L from the component cell (cx, cy) to the
+    accessible cell (tx, ty), as `carve_l(..., flip=flip)` does.
+    """
+    h, w = labels.shape
+    flat = labels.ravel()
+    cells = {int(l): np.flatnonzero(flat == l) for l in np.unique(flat) if l > 0}
+    todo = sorted(l for l in cells if l != main and (eligible is None or l in eligible))
+    accessible = labels == main
+    plan = []
+    while todo:
+        dist, source = _l1_nearest_source(accessible)
+        dist, source = dist.ravel(), source.ravel()
+        best = None
+        for l in todo:
+            d = dist[cells[l]]
+            d = np.where(d < 0, 1 << 40, d)
+            j = int(np.argmin(d))
+            if best is None or d[j] < best[0]:
+                best = (int(d[j]), l, int(cells[l][j]))
+        _, l, cell = best
+        if best[0] >= 1 << 40:
+            break
+        cy, cx = divmod(cell, w)
+        ty, tx = divmod(int(source[cell]), w)
+        flip = ((cx + cy) % 2) == 0
+        plan.append((cx, cy, tx, ty, flip))
+        corridor = _l_mask(h, w, cx, cy, tx, ty, width, flip)
+        absorbed = {l} | {int(v) for v in np.unique(labels[corridor]) if v > 0}
+        for v in absorbed:
+            if v in cells:
+                accessible.flat[cells[v]] = True
+        accessible |= corridor
+        todo = [v for v in todo if v not in absorbed]
+    return plan
+
+
 def connect_components(tm, open_mask, tile=FLOOR, width=1, overlay=None, passes=2,
-                       min_component=4, seal_tile=WALL):
+                       min_component=4, seal_tile=WALL, strategy='star'):
     """Carve minimal corridors so every open region reaches the largest one.
 
     Thin L-shaped corridors preserve the generator's pattern while joining
     regions. Pockets smaller than `min_component` are sealed.
+
+    `strategy` orders the joins. 'star' (default) runs every region to the
+    largest one. 'prim' grows outward from the largest region, always joining
+    the closest remaining region to anything already joined, which carves far
+    fewer cells when regions are scattered (see `prim_join_plan`).
     """
+    if strategy not in ('star', 'prim'):
+        raise ValueError(f"strategy must be 'star' or 'prim', got {strategy!r}")
     for _ in range(max(1, passes)):
         labels, n = tf.connected_components(open_mask)
         if n <= 1:
@@ -166,6 +247,12 @@ def connect_components(tm, open_mask, tile=FLOOR, width=1, overlay=None, passes=
                 counts = np.bincount(labels.ravel())
                 counts[0] = 0
                 main = int(counts.argmax())
+        if strategy == 'prim':
+            h, w = open_mask.shape
+            for cx, cy, tx, ty, flip in prim_join_plan(labels, main, width):
+                carve_l(tm, cx, cy, tx, ty, tile, width, overlay, flip)
+                open_mask = open_mask | _l_mask(h, w, cx, cy, tx, ty, width, flip)
+            continue
         main_mask = labels == main
         sy, sx = tf.nearest_seed(main_mask)
         h, w = open_mask.shape
@@ -632,27 +719,37 @@ def gen_archipelago(spec, rng):
     layers = [(land, FLOOR), (grove, COURT), (hills, WALL), (shore, RUBBLE)]
     tm = build(w, h, layers, default=WATER)
 
-    # bridge the islands so the archipelago is traversable
+    # bridge the islands so the archipelago is traversable. 'bridge_strategy'
+    # 'prim' hops from island to nearby island instead of running every bridge
+    # back to the main island (default 'star').
+    bridge_strategy = spec.get('bridge_strategy', 'star')
     if spec.get('bridges', True):
         labels, n = tf.connected_components(land)
         if n > 1:
             counts = np.bincount(labels.ravel()); counts[0] = 0
             main = int(counts.argmax())
-            sy, sx = tf.nearest_seed(labels == main)
-            yy, xx = np.mgrid[0:h, 0:w]
-            dist = np.hypot(xx - sx, yy - sy)
-            for lab in range(1, n + 1):
-                if lab == main:
-                    continue
-                comp = labels == lab
-                if comp.sum() < spec.get('min_island', 12):
-                    continue
-                d = np.where(comp, dist, np.inf)
-                i = int(np.argmin(d)); cy, cx = divmod(i, w)
-                tx, ty = int(sx[cy, cx]), int(sy[cy, cx])
-                if tx >= 0:
-                    carve_l(tm, cx, cy, tx, ty, BRIDGE, 1, None, ((cx + cy) % 2) == 0)
-    connect_components(tm, passable_mask(tm), BRIDGE, width=1, seal_tile=WALL)
+            if bridge_strategy == 'prim':
+                big = {lab for lab in range(1, n + 1)
+                       if counts[lab] >= spec.get('min_island', 12)}
+                for cx, cy, tx, ty, flip in prim_join_plan(labels, main, 1, big):
+                    carve_l(tm, cx, cy, tx, ty, BRIDGE, 1, None, flip)
+            else:
+                sy, sx = tf.nearest_seed(labels == main)
+                yy, xx = np.mgrid[0:h, 0:w]
+                dist = np.hypot(xx - sx, yy - sy)
+                for lab in range(1, n + 1):
+                    if lab == main:
+                        continue
+                    comp = labels == lab
+                    if comp.sum() < spec.get('min_island', 12):
+                        continue
+                    d = np.where(comp, dist, np.inf)
+                    i = int(np.argmin(d)); cy, cx = divmod(i, w)
+                    tx, ty = int(sx[cy, cx]), int(sy[cy, cx])
+                    if tx >= 0:
+                        carve_l(tm, cx, cy, tx, ty, BRIDGE, 1, None, ((cx + cy) % 2) == 0)
+    connect_components(tm, passable_mask(tm), BRIDGE, width=1, seal_tile=WALL,
+                       strategy=bridge_strategy)
     attach(tm, elevation=e, moisture=tf.fbm(w, h, 4.0, 4, seed=seed + 21).normalized())
     return tm
 

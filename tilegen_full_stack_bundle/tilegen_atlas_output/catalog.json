@@ -1864,5 +1864,423 @@
       "neon_circuit": "renders/neon_circuit/155_a_level_in_the_shape_of_a_bound_sigil.png",
       "satellite_topographic": "renders/satellite_topographic/155_a_level_in_the_shape_of_a_bound_sigil.png"
     }
+  },
+  {
+    "id": 156,
+    "slug": "limestone_caverns_grown_by_a_cellular_automaton",
+    "name": "Limestone caverns grown by a cellular automaton",
+    "template": "ca_caves",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "depth",
+      "elevation"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 4732,
+      "floor": 3395,
+      "rubble": 144,
+      "courtyard": 945
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/156_limestone_caverns_grown_by_a_cellular_automaton.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/156_limestone_caverns_grown_by_a_cellular_automaton.png",
+      "architectural_blueprint": "renders/architectural_blueprint/156_limestone_caverns_grown_by_a_cellular_automaton.png",
+      "parchment_ink": "renders/parchment_ink/156_limestone_caverns_grown_by_a_cellular_automaton.png",
+      "obsidian_gold": "renders/obsidian_gold/156_limestone_caverns_grown_by_a_cellular_automaton.png",
+      "neon_circuit": "renders/neon_circuit/156_limestone_caverns_grown_by_a_cellular_automaton.png",
+      "satellite_topographic": "renders/satellite_topographic/156_limestone_caverns_grown_by_a_cellular_automaton.png"
+    }
+  },
+  {
+    "id": 157,
+    "slug": "a_tight_warren_of_narrow_cave_passages",
+    "name": "A tight warren of narrow cave passages",
+    "template": "ca_caves",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "depth",
+      "elevation"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 5781,
+      "floor": 2812,
+      "rubble": 144,
+      "courtyard": 479
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/157_a_tight_warren_of_narrow_cave_passages.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/157_a_tight_warren_of_narrow_cave_passages.png",
+      "architectural_blueprint": "renders/architectural_blueprint/157_a_tight_warren_of_narrow_cave_passages.png",
+      "parchment_ink": "renders/parchment_ink/157_a_tight_warren_of_narrow_cave_passages.png",
+      "obsidian_gold": "renders/obsidian_gold/157_a_tight_warren_of_narrow_cave_passages.png",
+      "neon_circuit": "renders/neon_circuit/157_a_tight_warren_of_narrow_cave_passages.png",
+      "satellite_topographic": "renders/satellite_topographic/157_a_tight_warren_of_narrow_cave_passages.png"
+    }
+  },
+  {
+    "id": 158,
+    "slug": "broad_flooded_halls_under_a_low_cave_roof",
+    "name": "Broad flooded halls under a low cave roof",
+    "template": "ca_caves",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "depth",
+      "elevation"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 3682,
+      "floor": 2953,
+      "rubble": 125,
+      "courtyard": 2456
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/158_broad_flooded_halls_under_a_low_cave_roof.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/158_broad_flooded_halls_under_a_low_cave_roof.png",
+      "architectural_blueprint": "renders/architectural_blueprint/158_broad_flooded_halls_under_a_low_cave_roof.png",
+      "parchment_ink": "renders/parchment_ink/158_broad_flooded_halls_under_a_low_cave_roof.png",
+      "obsidian_gold": "renders/obsidian_gold/158_broad_flooded_halls_under_a_low_cave_roof.png",
+      "neon_circuit": "renders/neon_circuit/158_broad_flooded_halls_under_a_low_cave_roof.png",
+      "satellite_topographic": "renders/satellite_topographic/158_broad_flooded_halls_under_a_low_cave_roof.png"
+    }
+  },
+  {
+    "id": 159,
+    "slug": "a_temperate_continent_of_rivers_roads_and_market_towns",
+    "name": "A temperate continent of rivers, roads and market towns",
+    "template": "overworld",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "accumulation",
+      "biome",
+      "cover",
+      "elevation",
+      "moisture",
+      "precipitation",
+      "slope",
+      "temperature"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "water": 5152,
+      "rubble": 514,
+      "floor": 1731,
+      "courtyard": 1137,
+      "wall": 414,
+      "platform": 263,
+      "bridge": 5
+    },
+    "overlay_counts": {
+      "district": 17
+    },
+    "tile_json": "layouts/159_a_temperate_continent_of_rivers_roads_and_market_towns.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/159_a_temperate_continent_of_rivers_roads_and_market_towns.png",
+      "architectural_blueprint": "renders/architectural_blueprint/159_a_temperate_continent_of_rivers_roads_and_market_towns.png",
+      "parchment_ink": "renders/parchment_ink/159_a_temperate_continent_of_rivers_roads_and_market_towns.png",
+      "obsidian_gold": "renders/obsidian_gold/159_a_temperate_continent_of_rivers_roads_and_market_towns.png",
+      "neon_circuit": "renders/neon_circuit/159_a_temperate_continent_of_rivers_roads_and_market_towns.png",
+      "satellite_topographic": "renders/satellite_topographic/159_a_temperate_continent_of_rivers_roads_and_market_towns.png"
+    }
+  },
+  {
+    "id": 160,
+    "slug": "a_tropical_archipelago_of_harbours_and_jungle",
+    "name": "A tropical archipelago of harbours and jungle",
+    "template": "overworld",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "accumulation",
+      "biome",
+      "cover",
+      "elevation",
+      "moisture",
+      "precipitation",
+      "slope",
+      "temperature"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "water": 6152,
+      "rubble": 1039,
+      "floor": 804,
+      "courtyard": 731,
+      "platform": 203,
+      "wall": 282,
+      "bridge": 5
+    },
+    "overlay_counts": {
+      "district": 17
+    },
+    "tile_json": "layouts/160_a_tropical_archipelago_of_harbours_and_jungle.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/160_a_tropical_archipelago_of_harbours_and_jungle.png",
+      "architectural_blueprint": "renders/architectural_blueprint/160_a_tropical_archipelago_of_harbours_and_jungle.png",
+      "parchment_ink": "renders/parchment_ink/160_a_tropical_archipelago_of_harbours_and_jungle.png",
+      "obsidian_gold": "renders/obsidian_gold/160_a_tropical_archipelago_of_harbours_and_jungle.png",
+      "neon_circuit": "renders/neon_circuit/160_a_tropical_archipelago_of_harbours_and_jungle.png",
+      "satellite_topographic": "renders/satellite_topographic/160_a_tropical_archipelago_of_harbours_and_jungle.png"
+    }
+  },
+  {
+    "id": 161,
+    "slug": "highlands_casting_a_rain_shadow_across_the_plains",
+    "name": "Highlands casting a rain shadow across the plains",
+    "template": "overworld",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "accumulation",
+      "biome",
+      "cover",
+      "elevation",
+      "moisture",
+      "precipitation",
+      "slope",
+      "temperature"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "water": 4386,
+      "courtyard": 1468,
+      "floor": 2077,
+      "rubble": 478,
+      "platform": 343,
+      "bridge": 9,
+      "wall": 455
+    },
+    "overlay_counts": {
+      "district": 17
+    },
+    "tile_json": "layouts/161_highlands_casting_a_rain_shadow_across_the_plains.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/161_highlands_casting_a_rain_shadow_across_the_plains.png",
+      "architectural_blueprint": "renders/architectural_blueprint/161_highlands_casting_a_rain_shadow_across_the_plains.png",
+      "parchment_ink": "renders/parchment_ink/161_highlands_casting_a_rain_shadow_across_the_plains.png",
+      "obsidian_gold": "renders/obsidian_gold/161_highlands_casting_a_rain_shadow_across_the_plains.png",
+      "neon_circuit": "renders/neon_circuit/161_highlands_casting_a_rain_shadow_across_the_plains.png",
+      "satellite_topographic": "renders/satellite_topographic/161_highlands_casting_a_rain_shadow_across_the_plains.png"
+    }
+  },
+  {
+    "id": 162,
+    "slug": "a_frozen_northern_realm_of_taiga_and_ice",
+    "name": "A frozen northern realm of taiga and ice",
+    "template": "overworld",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "accumulation",
+      "biome",
+      "cover",
+      "elevation",
+      "moisture",
+      "precipitation",
+      "slope",
+      "temperature"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "water": 5190,
+      "floor": 1155,
+      "courtyard": 1085,
+      "wall": 1328,
+      "rubble": 161,
+      "platform": 289,
+      "bridge": 8
+    },
+    "overlay_counts": {
+      "district": 17
+    },
+    "tile_json": "layouts/162_a_frozen_northern_realm_of_taiga_and_ice.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/162_a_frozen_northern_realm_of_taiga_and_ice.png",
+      "architectural_blueprint": "renders/architectural_blueprint/162_a_frozen_northern_realm_of_taiga_and_ice.png",
+      "parchment_ink": "renders/parchment_ink/162_a_frozen_northern_realm_of_taiga_and_ice.png",
+      "obsidian_gold": "renders/obsidian_gold/162_a_frozen_northern_realm_of_taiga_and_ice.png",
+      "neon_circuit": "renders/neon_circuit/162_a_frozen_northern_realm_of_taiga_and_ice.png",
+      "satellite_topographic": "renders/satellite_topographic/162_a_frozen_northern_realm_of_taiga_and_ice.png"
+    }
+  },
+  {
+    "id": 163,
+    "slug": "a_peninsula_from_pole_to_equator_under_an_east_wind",
+    "name": "A peninsula from pole to equator under an east wind",
+    "template": "overworld",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "accumulation",
+      "biome",
+      "cover",
+      "elevation",
+      "moisture",
+      "precipitation",
+      "slope",
+      "temperature"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "water": 5517,
+      "rubble": 743,
+      "floor": 1080,
+      "courtyard": 1224,
+      "platform": 294,
+      "bridge": 9,
+      "wall": 349
+    },
+    "overlay_counts": {
+      "district": 17
+    },
+    "tile_json": "layouts/163_a_peninsula_from_pole_to_equator_under_an_east_wind.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/163_a_peninsula_from_pole_to_equator_under_an_east_wind.png",
+      "architectural_blueprint": "renders/architectural_blueprint/163_a_peninsula_from_pole_to_equator_under_an_east_wind.png",
+      "parchment_ink": "renders/parchment_ink/163_a_peninsula_from_pole_to_equator_under_an_east_wind.png",
+      "obsidian_gold": "renders/obsidian_gold/163_a_peninsula_from_pole_to_equator_under_an_east_wind.png",
+      "neon_circuit": "renders/neon_circuit/163_a_peninsula_from_pole_to_equator_under_an_east_wind.png",
+      "satellite_topographic": "renders/satellite_topographic/163_a_peninsula_from_pole_to_equator_under_an_east_wind.png"
+    }
+  },
+  {
+    "id": 164,
+    "slug": "jagged_plates_cut_by_a_random_frontier",
+    "name": "Jagged plates cut by a random frontier",
+    "template": "tectonic",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation",
+      "plate",
+      "slope",
+      "tectonic_stress"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "floor": 4243,
+      "courtyard": 1596,
+      "wall": 707,
+      "water": 2044,
+      "abyss": 412,
+      "bridge": 54,
+      "rubble": 160
+    },
+    "overlay_counts": {
+      "door": 1
+    },
+    "tile_json": "layouts/164_jagged_plates_cut_by_a_random_frontier.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/164_jagged_plates_cut_by_a_random_frontier.png",
+      "architectural_blueprint": "renders/architectural_blueprint/164_jagged_plates_cut_by_a_random_frontier.png",
+      "parchment_ink": "renders/parchment_ink/164_jagged_plates_cut_by_a_random_frontier.png",
+      "obsidian_gold": "renders/obsidian_gold/164_jagged_plates_cut_by_a_random_frontier.png",
+      "neon_circuit": "renders/neon_circuit/164_jagged_plates_cut_by_a_random_frontier.png",
+      "satellite_topographic": "renders/satellite_topographic/164_jagged_plates_cut_by_a_random_frontier.png"
+    }
+  },
+  {
+    "id": 165,
+    "slug": "a_sprawling_metro_of_many_lines_and_stations",
+    "name": "A sprawling metro of many lines and stations",
+    "template": "transit_network",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "transit_access"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "wall": 5271,
+      "courtyard": 1989,
+      "floor": 1140,
+      "platform": 816
+    },
+    "overlay_counts": {
+      "district": 13,
+      "door": 9
+    },
+    "tile_json": "layouts/165_a_sprawling_metro_of_many_lines_and_stations.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/165_a_sprawling_metro_of_many_lines_and_stations.png",
+      "architectural_blueprint": "renders/architectural_blueprint/165_a_sprawling_metro_of_many_lines_and_stations.png",
+      "parchment_ink": "renders/parchment_ink/165_a_sprawling_metro_of_many_lines_and_stations.png",
+      "obsidian_gold": "renders/obsidian_gold/165_a_sprawling_metro_of_many_lines_and_stations.png",
+      "neon_circuit": "renders/neon_circuit/165_a_sprawling_metro_of_many_lines_and_stations.png",
+      "satellite_topographic": "renders/satellite_topographic/165_a_sprawling_metro_of_many_lines_and_stations.png"
+    }
+  },
+  {
+    "id": 166,
+    "slug": "a_drowned_coast_of_fjords_and_islets",
+    "name": "A drowned coast of fjords and islets",
+    "template": "archipelago",
+    "theme": "atlas",
+    "width": 96,
+    "height": 96,
+    "fields": [
+      "elevation",
+      "moisture"
+    ],
+    "recipe": null,
+    "loops": null,
+    "regions": null,
+    "base_counts": {
+      "water": 3892,
+      "rubble": 405,
+      "floor": 2121,
+      "courtyard": 328,
+      "wall": 2452,
+      "bridge": 18
+    },
+    "overlay_counts": {},
+    "tile_json": "layouts/166_a_drowned_coast_of_fjords_and_islets.json",
+    "renders": {
+      "procedural_dark_tiles": "renders/procedural_dark_tiles/166_a_drowned_coast_of_fjords_and_islets.png",
+      "architectural_blueprint": "renders/architectural_blueprint/166_a_drowned_coast_of_fjords_and_islets.png",
+      "parchment_ink": "renders/parchment_ink/166_a_drowned_coast_of_fjords_and_islets.png",
+      "obsidian_gold": "renders/obsidian_gold/166_a_drowned_coast_of_fjords_and_islets.png",
+      "neon_circuit": "renders/neon_circuit/166_a_drowned_coast_of_fjords_and_islets.png",
+      "satellite_topographic": "renders/satellite_topographic/166_a_drowned_coast_of_fjords_and_islets.png"
+    }
   }
 ]
